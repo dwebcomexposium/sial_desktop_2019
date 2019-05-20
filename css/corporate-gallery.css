@@ -1,0 +1,72 @@
+/*
+
+	== Corporate
+	== Gallery
+	.gallery --> .gal-##
+
+*/
+.gal-main-content {
+  margin-top: 1em;
+  margin-left: -1em;
+}
+.gal-item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 3px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  background-clip: padding-box;
+  box-shadow: 0 0 0 3px #e3e9ea inset;
+}
+.gal-item.gal-item-simple {
+  width: calc(30.83333333%);
+}
+.gal-item-link {
+  display: block;
+}
+.gal-item-img {
+  width: 100%;
+}
+.gal-item-content {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  padding: 0 0.5em 0.5em;
+  background: rgba(42, 42, 45, 0.8) none repeat scroll 0% 0%;
+  color: #FFF;
+}
+.gal-item-title {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 5px;
+  font-size: 1.8rem;
+  text-transform: none;
+  color: #FFF;
+  line-height: 1.5;
+  -webkit-transition: color 0.2s ease 0s;
+  transition: color 0.2s ease 0s;
+}
+.gal-modal {
+  display: none;
+  width: 889px;
+  height: 592px;
+  min-height: 592px;
+  border: none;
+}
+/*
+ * Block
+ */
+.block-small .gal-main-content {
+  margin-top: 1em;
+  margin-left: 0;
+}
+.block-small .gal-item {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+}
+
+/*# sourceMappingURL=maps/corporate-gallery.css.map */

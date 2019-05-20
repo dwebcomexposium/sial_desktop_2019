@@ -1,0 +1,77 @@
+/*
+
+		== Corporate / Catalogue
+		== Affix menu
+		.catal-nav-affix --> ¤
+*/
+.mod-catal {
+  /*
+ * == Fixed navigation once user has scrolled down to its original position (we named it "affix" like Bootstrap does)
+ * Provided script adds and removes a class .current on item corresponding to which section user has scrolled, it's already styled in LESS/CSS below (same style as :focus/:hover)
+ */
+}
+.mod-catal.catal-nav-affix {
+  border: 4px solid #e3e9ea;
+  background-color: #f6f9f9;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-list {
+  padding: 1.8rem 0;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-item {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link {
+  color: #0c8192;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-link {
+  position: relative;
+  display: block;
+  padding: 0.5em 2.2rem 0.5em 2rem;
+  text-decoration: none;
+  color: #474d4e;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus,
+.mod-catal.catal-nav-affix .catal-nav-affix-link:hover,
+.mod-catal.catal-nav-affix .current .catal-nav-affix-link,
+.mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link {
+  color: #0c8192;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus .qty-round,
+.mod-catal.catal-nav-affix .catal-nav-affix-link:hover .qty-round,
+.mod-catal.catal-nav-affix .current .catal-nav-affix-link .qty-round,
+.mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link .qty-round {
+  background-color: #0c8192;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus:before,
+.mod-catal.catal-nav-affix .catal-nav-affix-link:hover:before,
+.mod-catal.catal-nav-affix .current .catal-nav-affix-link:before,
+.mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:before,
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus:after,
+.mod-catal.catal-nav-affix .catal-nav-affix-link:hover:after,
+.mod-catal.catal-nav-affix .current .catal-nav-affix-link:after,
+.mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: block;
+  border: 13px solid transparent;
+  margin-top: -13px;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus:before,
+.mod-catal.catal-nav-affix .catal-nav-affix-link:hover:before,
+.mod-catal.catal-nav-affix .current .catal-nav-affix-link:before,
+.mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:before {
+  left: 0;
+  border-left-color: #e3e9ea;
+}
+.mod-catal.catal-nav-affix .catal-nav-affix-link:focus:after,
+.mod-catal.catal-nav-affix .catal-nav-affix-link:hover:after,
+.mod-catal.catal-nav-affix .current .catal-nav-affix-link:after,
+.mod-catal.catal-nav-affix .catal-nav-affix-item.is-active .catal-nav-affix-link:after {
+  right: 0;
+  border-right-color: #e3e9ea;
+}
+
+/*# sourceMappingURL=maps/corporate-catalogue-nav-affix.css.map */

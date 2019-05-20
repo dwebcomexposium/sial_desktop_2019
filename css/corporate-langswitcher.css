@@ -1,0 +1,44 @@
+/*
+
+	== Corporate
+	== Lang Switcher common styles
+	
+*/
+.lang-switcher {
+  font-size: 1.2rem;
+  background: #FFF;
+}
+.lang-switcher abbr {
+  border-bottom: 0;
+}
+.ls-trigger {
+  position: relative;
+  z-index: 5;
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+  font-family: Gudea, Helvetica, Arial, sans-serif;
+  color: #474d4e;
+}
+.ls-trigger::after {
+  top: 2px;
+  border-color: #003239 transparent transparent transparent;
+}
+.ls-trigger:focus {
+  outline: 2px dotted #aaa;
+}
+.js .ls-lang-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #f4f4f4;
+}
+.ls-lang-link {
+  padding: 0.5em 1em;
+}
+.ls-lang-link:hover,
+.ls-lang-link:focus {
+  background: #fff;
+}
+
+/*# sourceMappingURL=maps/corporate-langswitcher.css.map */

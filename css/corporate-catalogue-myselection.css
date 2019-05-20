@@ -1,0 +1,315 @@
+/*
+
+		== Corporate / Catalogue
+		== 3 components: My selection and History / Vus récemment (sidebar) and Recently seen (bottom of content)
+		.myselection --> .mysel-###
+		.history --> .hist-###
+		.recently
+
+*/
+.mod-catal {
+  /*
+ * ==My selection (in sidebar: foldable, redish background, lists of EPM)
+ */
+}
+.mod-catal.myselection,
+.mod-catal.history {
+  padding: 0 1rem 1rem;
+  color: #ffffff;
+}
+.mod-catal.myselection {
+  background-color: #910f4f;
+}
+.mod-catal.history {
+  margin-bottom: 2em;
+  background-color: #0c8192;
+}
+.mod-catal.myselection:not(.is-open) .mysel-close-btn,
+.mod-catal.history:not(.is-open) .mysel-close-btn,
+.mod-catal.myselection:not(.is-open) .hist-close-btn,
+.mod-catal.history:not(.is-open) .hist-close-btn {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.mod-catal.myselection:not(.is-open) > .mysel-container,
+.mod-catal.history:not(.is-open) > .mysel-container,
+.mod-catal.myselection:not(.is-open) > .hist-container,
+.mod-catal.history:not(.is-open) > .hist-container {
+  display: none;
+}
+.mod-catal .mysel-title,
+.mod-catal .hist-title {
+  position: relative;
+  margin-bottom: 0;
+  padding: .8rem 0 0 3.5rem;
+  border-bottom: 0;
+  color: inherit;
+}
+.mod-catal .mysel-title .icon-catal-star-full,
+.mod-catal .hist-title .icon-catal-clock {
+  position: absolute;
+  top: 1rem;
+  left: 0rem;
+  font-size: 2.3rem;
+}
+.mod-catal .mysel-title .mysel-close-btn,
+.mod-catal .hist-title .hist-close-btn {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+.mod-catal.myselection .qty-round,
+.mod-catal.history .qty-round {
+  position: absolute;
+  top: .7rem;
+  left: 1.3rem;
+  background-color: #ffffff;
+  box-sizing: content-box;
+  border: 1px solid;
+}
+.mod-catal.myselection .qty-round {
+  color: #910f4f;
+}
+.mod-catal.history .qty-round {
+  color: #0c8192;
+}
+.mod-catal .mysel-container,
+.mod-catal .hist-container {
+  margin-top: 0.8em;
+  border-top: 4px solid #ffffff;
+}
+.mod-catal .mysel-type,
+.mod-catal .hist-type {
+  position: relative;
+  padding: 0.5rem 0 0 2.2rem;
+}
+.mod-catal .mysel-type .qty-round-small,
+.mod-catal .hist-type .qty-round-small {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
+.mod-catal .hist-type {
+  padding-left: 0;
+}
+.mod-catal .mysel-type-title,
+.mod-catal .mysel-item-link,
+.mod-catal .mysel-item-remove .hist-type-title,
+.mod-catal .hist-item-link,
+.mod-catal .hist-item-remove {
+  text-decoration: none;
+  color: inherit;
+}
+.mod-catal .mysel-type-title:focus,
+.mod-catal .mysel-item-link:focus,
+.mod-catal .hist-type-title:focus,
+.mod-catal .hist-item-link:focus,
+.mod-catal .mysel-type-title:hover,
+.mod-catal .mysel-item-link:hover,
+.mod-catal .hist-type-title:hover,
+.mod-catal .hist-item-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.mod-catal .mysel-type-title,
+.mod-catal .hist-type-title {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.mod-catal .mysel-type-title:hover,
+.mod-catal .hist-type-title:hover {
+  text-decoration: underline;
+}
+.mod-catal .mysel-item,
+.mod-catal .hist-item {
+  display: block;
+  position: relative;
+  padding: .8rem 3rem .8rem 0;
+  width: 100%;
+}
+.mod-catal .mysel-item:not(:last-child),
+.mod-catal .hist-item:not(:last-child),
+.mod-catal .mysel-item:first-child,
+.mod-catal .hist-item:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.mod-catal.myselection .mysel-item {
+  display: none;
+}
+.mod-catal.myselection .mysel-item.js-visible {
+  display: block;
+}
+.mod-catal.myselection .mysel-item.js-visible.js-no-border {
+  border: none;
+}
+.mod-catal .mysel-item-link,
+.mod-catal .hist-item-link {
+  width: 100%;
+}
+.mod-catal .mysel-item-txt,
+.mod-catal .hist-item-txt {
+  padding-right: 3em;
+  font-size: 1.2rem;
+}
+.mod-catal .mysel-item-remove,
+.mod-catal .hist-item-remove {
+  position: absolute;
+  top: 1.2rem;
+  right: .8rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.mod-catal .mysel-item-remove:hover,
+.mod-catal .hist-item-remove:hover {
+  color: #51082c;
+}
+.mod-catal .mysel-footer,
+.mod-catal .hist-footer {
+  padding-top: 2rem;
+  text-align: center;
+}
+.mod-catal .mysel-footer .btn-primary,
+.mod-catal .hist-footer .btn-primary,
+.mod-catal .mysel-footer .btn-invert,
+.mod-catal .hist-footer .btn-invert {
+  display: inline-block;
+  margin: 0 auto 1rem;
+  padding: .4em 1em;
+  width: auto;
+  background-color: #51082c;
+  border-bottom-color: #51082c;
+  font-size: 1.4rem;
+  text-transform: none;
+}
+.mod-catal .mysel-footer .btn-primary:hover,
+.mod-catal .hist-footer .btn-primary:hover,
+.mod-catal .mysel-footer .btn-invert:hover,
+.mod-catal .hist-footer .btn-invert:hover {
+  background: #ffffff;
+  color: #51082c;
+  border-bottom-color: #ffffff;
+}
+.mod-catal .mysel-footer .btn-primary .icon-catal,
+.mod-catal .hist-footer .btn-primary .icon-catal,
+.mod-catal .mysel-footer .btn-invert .icon-catal,
+.mod-catal .hist-footer .btn-invert .icon-catal {
+  margin: 0 0 0 .5rem;
+  font-size: 1.3rem;
+  vertical-align: -0.2rem;
+}
+.mod-catal .hist-footer {
+  padding-top: 1rem;
+}
+.mod-catal .hist-footer .btn-invert {
+  background: #f6f9f9;
+  border-bottom-color: #f6f9f9;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.mod-catal .hist-footer .btn-invert:hover {
+  background: #00525e;
+  border-bottom-color: #00525e;
+  color: #ffffff;
+}
+.mod-catal .hist-footer .btn-invert:hover .icon-catal {
+  color: #ffffff;
+}
+.mod-catal .hist-footer .btn-invert .icon-catal {
+  color: #909b9d;
+  font-size: 1.1rem;
+  vertical-align: -0.2rem;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.mod-catal.mysel-cata-title-container {
+  position: relative;
+}
+.mod-catal.mysel-cata-title-container .btn-primary {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.mod-catal.mysel-cata-title-container .btn-primary .icon-catal {
+  margin-left: 1em;
+  margin-right: 0;
+}
+.mod-catal .mysel-cata-title {
+  position: relative;
+}
+.mod-catal .mysel-cata-title .icon-catal {
+  display: inline-block;
+  padding: 0 1.5rem 0 1rem;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+.mod-catal .mysel-cata-title .qty-round {
+  position: absolute;
+  top: .2rem;
+  left: 2.5rem;
+  background: #00525e;
+  border: 1px solid #ffffff;
+  line-height: 2.3rem;
+}
+.mod-catal .mysel-cata-title .qty-round-nb {
+  font-size: 1.4rem;
+}
+.mod-catal.recently {
+  position: relative;
+}
+.mod-catal.recently .catal-other-ex .catal-other-ex-item {
+  width: 100%;
+}
+.mod-catal.recently .catal-other-ex .catal-other-ex-link {
+  width: auto;
+}
+.mod-catal.recently .slider-item {
+  box-sizing: border-box;
+  margin-bottom: 0;
+  margin-right: .6rem;
+  width: calc(20% - .5rem);
+  border-bottom: 0;
+}
+.mod-catal.recently .catal-other-ex-cat {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: .3rem .8rem .4rem;
+  background: #0c8192;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mod-catal.recently .slider-pagin {
+  margin-top: 0;
+}
+.mod-catal.recently .hist-footer {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+.mod-catal .recently-title {
+  border-bottom: 1px solid #e3e9ea;
+  color: #00525e;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+.mod-catal .recently-title .qty-round {
+  background: #00525e;
+}
+.mod-catal.history .js-toggle-trigger,
+.mod-catal.myselection .js-toggle-trigger {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=maps/corporate-catalogue-myselection.css.map */

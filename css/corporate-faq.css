@@ -1,0 +1,146 @@
+/*
+	
+	== Corporate 
+	== FAQ
+	.faq-##
+	.faq-summary --> .fs-##
+	.faq-content --> .fc-##
+
+*/
+.faq-main-title {
+  color: #00525e;
+  font-weight: bold;
+  margin: 1em 0;
+  padding-bottom: .15em;
+  border-bottom: 1px solid #e3e9ea;
+}
+.faq-sub-title {
+  color: #474d4e;
+  font-weight: bold;
+  margin: 1em 0;
+  font-size: 2.4rem;
+}
+.fc-item-nb,
+.fs-item-nb {
+  display: inline-block;
+  margin-right: 0.5em;
+  line-height: 1;
+  background: #474d4e;
+  color: #FFF;
+  font-weight: bold;
+}
+/* 
+ * FAQ summary 
+ */
+.faq-summary {
+  padding-left: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 4em;
+  list-style: none;
+  border-bottom: 1px solid #e3e9ea;
+}
+.fs-item + .fs-item {
+  margin-top: 0.5em;
+}
+.fs-item-link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #474d4e;
+}
+.fs-item-link .icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5em;
+  color: #7ea203;
+  font-size: 1.2rem;
+}
+.fs-item-link:focus,
+.fs-item-link:hover {
+  color: #00525e;
+  text-decoration: underline;
+}
+.fs-item-link:focus::before,
+.fs-item-link:hover::before {
+  background: #00525e;
+}
+.fs-item-link:focus .icon,
+.fs-item-link:hover .icon {
+  color: #00525e;
+}
+.fs-item-nb {
+  padding: .1em .2em;
+}
+/*
+ * FAQ main content
+ */
+.faq-content {
+  padding-left: 1em;
+}
+.faq-content + .faq-content {
+  margin-top: 4em;
+}
+.fc-item {
+  padding: 1em;
+  border-bottom: 1px solid #e3e9ea;
+}
+.fc-item:nth-child(odd) {
+  background: #f6f9f9;
+}
+.fc-title {
+  font-size: 1.9rem;
+  padding-bottom: 0.5em;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e3e9ea;
+}
+.fc-item-nb {
+  padding: .25em .35em;
+  font-weight: bold;
+}
+.fc-item-title {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+.fc-item-title-btn {
+  display: none;
+}
+.fc-item-link {
+  display: block;
+  text-decoration: none;
+}
+.fc-item-link .icon {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  color: #909b9d;
+}
+.fc-item-link.is-active {
+  font-weight: bold;
+}
+.fc-item-link:focus,
+.fc-item-link:hover {
+  text-decoration: underline;
+}
+.fc-item-link:focus .icon,
+.fc-item-link:hover .icon {
+  color: #00525e;
+}
+.fc-item-content {
+  padding: 1em 2em;
+}
+.js .fc-item-content {
+  display: none;
+}
+.js .fc-item-content.is-open {
+  display: block;
+}
+/*
+ * List of questions
+ */
+.fc-list {
+  display: none;
+}
+
+/*# sourceMappingURL=maps/corporate-faq.css.map */

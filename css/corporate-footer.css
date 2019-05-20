@@ -1,0 +1,39 @@
+/*
+	
+	== Corporate 
+	== Footer
+
+*/
+.site-footer {
+  position: relative;
+  z-index: 1;
+  background: #003239;
+  color: #ffffff;
+}
+.site-footer .inside {
+  position: relative;
+  z-index: 5;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 6.25em 0 2.5em;
+}
+.site-footer .inside > * {
+  display: table-cell;
+  vertical-align: top;
+}
+.site-footer a {
+  color: #ffffff;
+}
+.site-footer a:focus,
+.site-footer a:hover {
+  text-decoration: none;
+}
+.sf-branding {
+  width: 33%;
+}
+.sf-resume {
+  padding-top: 1em;
+}
+
+/*# sourceMappingURL=maps/corporate-footer.css.map */

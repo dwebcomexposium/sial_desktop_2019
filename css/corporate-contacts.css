@@ -1,0 +1,115 @@
+/*
+	
+	== Corporate
+	== Contact
+	.contacts-list --> .cl-##
+
+*/
+.cl-content + h2,
+.cl-content + h3 {
+  margin-top: 3em;
+}
+.cl-item {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e3e9ea;
+}
+.cl-item > * {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0 2em;
+}
+.cl-item-illust {
+  width: 200px;
+}
+.cl-item-content {
+  color: #474d4e;
+}
+.cl-item-content p {
+  margin-top: 0.5em;
+}
+.cl-item-title {
+  margin-bottom: 0;
+  font-size: 2.2rem;
+}
+.cl-item-subtitle {
+  margin-top: .25em;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cl-item-address [class^="flag-icon"] {
+  margin-top: .3em;
+  margin-right: .5em;
+}
+.cl-item-country {
+  text-transform: uppercase;
+}
+.cl-item-country .icon,
+.cl-item-email .icon,
+.cl-item-phone .icon,
+.cl-item-web .icon {
+  display: none;
+}
+.cl-item-social [class^="social"] {
+  display: inline-block;
+  margin-right: 1.5em;
+  text-decoration: none;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+.cl-item-social [class^="social"]:focus,
+.cl-item-social [class^="social"]:hover {
+  opacity: .8;
+}
+.cl-item-social .social-fb {
+  color: #36589b;
+}
+.cl-item-social .social-twitter {
+  color: #31aae1;
+}
+/*
+ * Block
+ */
+.block-small .cl-item {
+  display: block;
+  width: auto;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+.block-small .cl-item::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.block-small .cl-item > * {
+  display: block;
+  padding: 0;
+}
+.block-small .cl-item-illust {
+  float: left;
+  width: 85px;
+  padding-left: 0.5em;
+}
+.block-small .cl-item-illust img {
+  width: 52px;
+}
+.block-small .cl-item-content {
+  font-size: 1.4rem;
+}
+.block-small .cl-item-title {
+  font-size: 1.8rem;
+}
+.block-small .cl-item-subtitle {
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+.block-small .cl-item-address {
+  margin-left: 85px;
+}
+
+/*# sourceMappingURL=maps/corporate-contacts.css.map */

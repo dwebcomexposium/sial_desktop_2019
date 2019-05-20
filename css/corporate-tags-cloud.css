@@ -1,0 +1,41 @@
+/*
+	
+	== Corporate
+	== Tags cloud
+	.tags-cloud --> .tc-##
+
+	not-popular 
+	not-very-popular
+	popular
+	somewhat-popular
+	very-popular
+	ultra-popular
+
+*/
+.tc-list {
+  text-align: center;
+}
+.tc-item {
+  display: inline;
+}
+.tc-item-link {
+  color: #0c8192;
+  text-decoration: none;
+}
+.not-very-popular {
+  font-size: 1.8rem;
+}
+.popular {
+  font-size: 2.2rem;
+}
+.somewhat-popular {
+  font-size: 2.6rem;
+}
+.very-popular {
+  font-size: 3rem;
+}
+.ultra-popular {
+  font-size: 3.4rem;
+}
+
+/*# sourceMappingURL=maps/corporate-tags-cloud.css.map */
