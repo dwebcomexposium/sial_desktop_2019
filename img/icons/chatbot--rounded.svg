@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="89px" viewBox="0 0 89 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>1691D49B-D80C-4615-B534-5B43464168A8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="40.5" cy="40.5" r="40.5"></circle>
+        <filter x="-8.6%" y="-6.2%" width="117.3%" height="117.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.132457386 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="LOT-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOMEPAGE-T1_V1" transform="translate(-1316.000000, -723.000000)">
+            <g id="HEADER" transform="translate(-1.000000, -2.000000)">
+                <g id="01-Electrons/Chatbot" transform="translate(1321.000000, 727.000000)">
+                    <g id="BOT">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#303237" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="messenger-(1)" transform="translate(26.000000, 26.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M14.9872863,0 C6.71432783,0 0.00792306604,6.25737028 0.00792306604,13.9760834 C0.00792306604,18.3468455 2.15820311,22.2494104 5.52550118,24.8120578 L5.52550118,30.1886792 L10.552587,27.3306677 C11.9542306,27.734375 13.4435805,27.9525354 14.9872863,27.9525354 C23.2606132,27.9525354 29.9664652,21.6946123 29.9664652,13.9762677 C29.9664652,6.25737028 23.2606132,0 14.9872863,0 Z M16.5026165,18.7013561 L12.661225,14.6677845 L5.30936764,18.7013561 L13.3873821,10.1481427 L17.2647037,14.1113281 L24.5349351,10.1481427 L16.5026165,18.7013561 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
