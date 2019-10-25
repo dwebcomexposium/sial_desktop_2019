@@ -176,8 +176,8 @@
  */
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?516980551");
-  src: url("../fonts/icomoon//icomoon.eot?516980551#iefix") format("embedded-opentype"), url("../fonts/icomoon//icomoon.ttf?516980551") format("truetype"), url("../fonts/icomoon//icomoon.woff?516980551") format("woff"), url("../fonts/icomoon//icomoon.svg?516980551#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?1590765541");
+  src: url("../fonts/icomoon//icomoon.eot?1590765541#iefix") format("embedded-opentype"), url("../fonts/icomoon//icomoon.ttf?1590765541") format("truetype"), url("../fonts/icomoon//icomoon.woff?1590765541") format("woff"), url("../fonts/icomoon//icomoon.svg?1590765541#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -2434,7 +2434,32 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-sectors .ql-item:not(.linkid794935) {
+  position: relative;
   margin: 1rem;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+.home-sectors .ql-item:not(.linkid794935)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: center center / cover no-repeat;
+  -webkit-transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.home-sectors .ql-item:not(.linkid794935):hover::before {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .home-sectors .ql-item:not(.linkid794935) .btn-primary {
@@ -2452,7 +2477,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   color: #fff;
   border: 0;
   border-radius: 0.6rem;
-  background: center center / contain  no-repeat;
+  background: center center / contain no-repeat;
   background-size: 100%;
   -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
   box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
@@ -2517,39 +2542,39 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   height: auto;
 }
 
-.home-sectors .ql-item.linkid794934 .btn-primary {
+.home-sectors .ql-item.linkid794934::before {
   background-image: url("../img/sectors/food-processing.png");
 }
 
-.home-sectors .ql-item.linkid794933 .btn-primary {
+.home-sectors .ql-item.linkid794933::before {
   background-image: url("../img/sectors/traiteur-snacking.png");
 }
 
-.home-sectors .ql-item.linkid794932 .btn-primary {
+.home-sectors .ql-item.linkid794932::before {
   background-image: url("../img/sectors/produits-surgeles.png");
 }
 
-.home-sectors .ql-item.linkid794931 .btn-primary {
+.home-sectors .ql-item.linkid794931::before {
   background-image: url("../img/sectors/produits-laitiers.png");
 }
 
-.home-sectors .ql-item.linkid794930 .btn-primary {
+.home-sectors .ql-item.linkid794930::before {
   background-image: url("../img/sectors/produits-mer.png");
 }
 
-.home-sectors .ql-item.linkid794929 .btn-primary {
+.home-sectors .ql-item.linkid794929::before {
   background-image: url("../img/sectors/boissons.png");
 }
 
-.home-sectors .ql-item.linkid794928 .btn-primary {
+.home-sectors .ql-item.linkid794928::before {
   background-image: url("../img/sectors/bio-bien-etre.png");
 }
 
-.home-sectors .ql-item.linkid794927 .btn-primary {
+.home-sectors .ql-item.linkid794927::before {
   background-image: url("../img/sectors/fruits-legumes.png");
 }
 
-.home-sectors .ql-item.linkid794926 .btn-primary {
+.home-sectors .ql-item.linkid794926::before {
   background-image: url("../img/sectors/epicerie.png");
 }
 
