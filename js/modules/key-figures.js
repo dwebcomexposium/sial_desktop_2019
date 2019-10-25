@@ -1,0 +1,1 @@
+jQuery(function(){inView(".key-figures").on("enter",function(i){i.classList.add("is-in-viewport")}).on("exit",function(i){i.classList.remove("is-in-viewport")})});

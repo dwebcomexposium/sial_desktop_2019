@@ -176,11 +176,63 @@
  */
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?1590765541");
-  src: url("../fonts/icomoon//icomoon.eot?1590765541#iefix") format("embedded-opentype"), url("../fonts/icomoon//icomoon.ttf?1590765541") format("truetype"), url("../fonts/icomoon//icomoon.woff?1590765541") format("woff"), url("../fonts/icomoon//icomoon.svg?1590765541#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?3935766425");
+  src: url("../fonts/icomoon//icomoon.eot?3935766425#iefix") format("embedded-opentype"), url("../fonts/icomoon//icomoon.ttf?3935766425") format("truetype"), url("../fonts/icomoon//icomoon.woff?3935766425") format("woff"), url("../fonts/icomoon//icomoon.svg?3935766425#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
+}
+
+@-webkit-keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideRightFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRightFadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 }
 
 /* stylelint-disable order/properties-alphabetical-order */
@@ -540,6 +592,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "📌";
+}
+
+.icon.icon-plus::before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
 }
 
 .icon.icon-produits-laitiers::before {
@@ -1072,16 +1138,19 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   z-index: -1;
 }
 
-.hero__img img {
+.hero__img > * {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   right: 0;
   display: block;
   max-width: none;
   min-width: 100%;
   min-height: 100%;
   margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .hero__counter {
@@ -1190,9 +1259,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-social-networks__item:hover {
   color: #c8ccd7;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .home-social-networks__item + .home-social-networks__item {
@@ -1253,6 +1322,45 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   flex-shrink: 0;
 }
 
+.js .insta-slider__item {
+  opacity: 0;
+}
+
+.js .is-in-viewport .insta-slider__item {
+  -webkit-animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.js .is-in-viewport .insta-slider__item:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.js .is-in-viewport .insta-slider__item:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.js .is-in-viewport .insta-slider__item:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.js .is-in-viewport .insta-slider__item:nth-child(4) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.js .is-in-viewport .insta-slider__item:nth-child(5) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.js .is-in-viewport .insta-slider__item:nth-child(6) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
 .insta-slider__image {
   position: absolute;
   top: 50%;
@@ -1266,6 +1374,17 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   pointer-events: none;
+  -webkit-transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.insta-slider__item:hover .insta-slider__image {
+  -webkit-transform: translate(-50%, -50%) scale(1.2);
+  -ms-transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 .insta-slider__image__wrapper {
@@ -1308,6 +1427,35 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   .key-figures__item {
     width: 25%;
   }
+}
+
+.js .key-figures__item {
+  opacity: 0;
+}
+
+.js .is-in-viewport .key-figures__item {
+  -webkit-animation: slideUpFadeIn 1.2s forwards;
+  animation: slideUpFadeIn 1.2s forwards;
+}
+
+.js .is-in-viewport .key-figures__item:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.js .is-in-viewport .key-figures__item:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.js .is-in-viewport .key-figures__item:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.js .is-in-viewport .key-figures__item:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .key-figures__item__icon {
@@ -1500,6 +1648,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   font-weight: 500;
   line-height: 2.6rem;
   color: #C8CCD7;
+}
+
+.why-visit__item:hover .why-visit__item__link::after {
+  width: 100%;
 }
 
 .exhibitors-slider {
@@ -1758,11 +1910,20 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .site-banner .gsf-trigger:hover .icon, .site-banner .gsf-trigger:focus .icon, .site-banner
 .global-search-form.is-visible .gsf-trigger .icon {
   color: currentColor;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .site-banner .gsf-trigger .icon {
+  display: inline-block;
   vertical-align: middle;
   color: currentColor;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .site-banner .gsf-fields {
@@ -1931,13 +2092,35 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-events .gla-item-title::after {
-  content: '+';
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
   float: right;
-  font-size: 3rem;
-  line-height: 3.3rem;
+  font-size: 1.6rem;
+  line-height: 3.7rem;
   font-weight: 400;
   vertical-align: middle;
   color: #F85C29;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.gla-item > a:hover .gla-item-title::after,
+.gla-item > a:focus .gla-item-title::after {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .home-events .gla-item-desc {
@@ -1963,6 +2146,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   color: currentColor;
   background: none;
   border: 0;
+}
+
+.gla-item > a:hover .gla-btn-read-more::after,
+.gla-item > a:focus .gla-btn-read-more::after {
+  width: 100%;
 }
 
 .home-events {
@@ -2269,25 +2457,24 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
 }
 
-.home-quicklinks .btn-primary:hover .icon::before {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+.home-quicklinks .btn-primary:hover .icon {
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .home-quicklinks .btn-primary .icon {
-  margin: 0;
+  margin: 0 1.5rem 0 0;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .home-quicklinks .btn-primary .icon::before {
-  display: inline-block;
-  margin-right: 1.5rem;
   color: #F85C29;
-  -webkit-transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  -o-transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .home-quicklinks .btn-primary .icon.icon-speaker::before {
@@ -2356,10 +2543,21 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   background: none;
 }
 
-.home-search .gsf-submit-btn i {
+.home-search .gsf-submit-btn .icon {
   display: block;
   font-size: 2.4rem;
   color: currentColor;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.home-search .gsf-submit-btn:hover .icon {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .home-search .quicklinks {
@@ -2375,6 +2573,65 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-search .ql-list .btn-primary {
   margin-right: 3rem;
+}
+
+.js .home-search .ql-item {
+  opacity: 0;
+}
+
+.js .home-search .ql-item.is-in-viewport {
+  -webkit-animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(8) {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+.js .home-search .ql-item.is-in-viewport:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
 }
 
 .home-sectors {
@@ -2457,9 +2714,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-sectors .ql-item:not(.linkid794935):hover::before {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .home-sectors .ql-item:not(.linkid794935) .btn-primary {
@@ -2830,6 +3087,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .pg-item-link {
+  display: block;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   -webkit-transition: -webkit-filter 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2856,6 +3114,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .site-banner {
   position: fixed;
+  z-index: 20;
   top: 0;
   right: 0;
   left: 0;

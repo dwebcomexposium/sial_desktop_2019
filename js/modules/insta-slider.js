@@ -1,0 +1,1 @@
+!function(e){e(function(){e(".insta-slider").cxpSwiper({itemsPerSlide:3,loop:!1,isAutoplay:!1,useActiveClasses:!1,wrapperSelector:".insta-slider__list",itemSelector:".insta-slider__item"}),inView(".insta-slider").on("enter",function(i){e(i).addClass("is-in-viewport")}).on("exit",function(i){e(i).removeClass("is-in-viewport")})})}(jQuery);
