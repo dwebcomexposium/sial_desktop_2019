@@ -4,5 +4,7 @@ vendor/hammerjs/hammer.min.js
 vendor/mustache.js/jquery.mustache.js
 vendor/masonry/dist/masonry.pkgd.min.js
 vendor/imagesloaded/imagesloaded.pkgd.min.js
+vendor/rellax/rellax.min.js
+vendor/countdownjs/countdownjs.min.js
 cookies-warning.min.js
 modules/*
