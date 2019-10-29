@@ -6,5 +6,6 @@ vendor/masonry/dist/masonry.pkgd.min.js
 vendor/imagesloaded/imagesloaded.pkgd.min.js
 vendor/rellax/rellax.min.js
 vendor/countdownjs/countdownjs.min.js
+vendor/swiper/swiper.min.js
 cookies-warning.min.js
 modules/*
