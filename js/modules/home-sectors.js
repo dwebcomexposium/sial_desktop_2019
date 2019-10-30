@@ -1,1 +1,32 @@
-!function(s){s(function(){s(".home-sectors .linkid794935").appendTo(".home-sectors");s('<div class="home-sectors__progressbar" />').appendTo(".home-sectors");var e=new Swiper(".home-sectors .quicklinks",{loop:!0,slidesPerView:"auto",spaceBetween:20,wrapperClass:"ql-list",slideClass:"ql-item:not(.linkid794935)",centeredSlides:!0,centerInsufficientSlides:!0,pagination:{el:".home-sectors__progressbar",type:"progressbar"}});768<=s(window).width()?e.destroy():e.update()})}(jQuery);
+/**
+ * Home sector Block
+ * @requires Swiper
+ */
+(function($) {
+    $(function() {
+        // Move read more link outside container
+        $('.home-sectors .linkid794935').appendTo('.home-sectors');
+        // Add carrousel progressbar
+                var progressBar = $('<div class="home-sectors__progressbar" />').appendTo('.home-sectors');
+        // init carrousel slider
+                var homeSectors = new Swiper('.home-sectors .quicklinks', {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            wrapperClass: 'ql-list',
+            slideClass: 'ql-item:not(.linkid794935)',
+            centeredSlides: true,
+            centerInsufficientSlides: true,
+            pagination: {
+                el: '.home-sectors__progressbar',
+                type: 'progressbar'
+            }
+        });
+        if ($(window).width() >= 768) {
+            homeSectors.destroy();
+        } else {
+            homeSectors.update();
+        }
+    });
+})(jQuery);
+//# sourceMappingURL=home-sectors.js.map
