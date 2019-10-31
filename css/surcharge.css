@@ -5,80 +5,80 @@
  */
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-Light.eot");
-  src: url("fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Light.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-LightOblique.eot");
-  src: url("fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-Roman.eot");
-  src: url("fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Roman.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-Oblique.eot");
-  src: url("fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Oblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-Medium.eot");
-  src: url("fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Medium.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-MediumOblique.eot");
-  src: url("fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/Avenir-Heavy.eot");
-  src: url("fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/Avenir-Heavy.woff") format("woff"), url("fonts/avenir/Avenir-Heavy.woff2") format("woff2");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-HeavyOblique.eot");
-  src: url("fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-Black.eot");
-  src: url("fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Black.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("fonts/avenir/AvenirLT-BlackOblique.eot");
-  src: url("fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -89,16 +89,16 @@
  */
 @font-face {
   font-family: 'Avenir Book';
-  src: url("fonts/avenir/AvenirLT-Book.eot");
-  src: url("fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Book.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir Book';
-  src: url("fonts/avenir/AvenirLT-BookOblique.eot");
-  src: url("fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -109,32 +109,32 @@
  */
 @font-face {
   font-family: 'Futura PT';
-  src: url("fonts/futura/FuturaPT-Medium.eot");
-  src: url("fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Medium.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("fonts/futura/FuturaPT-MediumObl.eot");
-  src: url("fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-MediumObl.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("fonts/futura/FuturaPT-Demi.eot");
-  src: url("fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Demi.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("fonts/futura/FuturaPT-Bold.eot");
-  src: url("fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Bold.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -145,8 +145,8 @@
  */
 @font-face {
   font-family: 'Futura PT Book';
-  src: url("fonts/futura/FuturaPT-Book.eot");
-  src: url("fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Book.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -157,16 +157,16 @@
  */
 @font-face {
   font-family: 'Futura Cond';
-  src: url("fonts/futura/Futura-CondensedMedium.eot");
-  src: url("fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura Cond';
-  src: url("fonts/futura/Futura-CondensedExtraBold.eot");
-  src: url("fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
@@ -176,8 +176,8 @@
  */
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon/icomoon.eot?3273728725");
-  src: url("fonts/icomoon//icomoon.eot?3273728725#iefix") format("embedded-opentype"), url("fonts/icomoon//icomoon.ttf?3273728725") format("truetype"), url("fonts/icomoon//icomoon.woff?3273728725") format("woff"), url("fonts/icomoon//icomoon.svg?3273728725#icomoon") format("svg");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?1788681555");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.eot?1788681555#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.ttf?1788681555") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.woff?1788681555") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.svg?1788681555#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -355,7 +355,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-  background: url("img/icons/check.svg") center center no-repeat;
+  background: url("/theme/sial_2019_desktop_git/img/icons/check.svg") center center no-repeat;
   background-size: 75%;
 }
 
@@ -1239,7 +1239,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   height: 2.6rem;
   margin-top: 0.5rem;
   margin-right: 0.9rem;
-  background: url("img/logo-sial.svg") center center/contain no-repeat;
+  background: url("/theme/sial_2019_desktop_git/img/logo-sial.svg") center center/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -1365,7 +1365,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   top: 50%;
   left: 50%;
   right: 0;
-  display: none;
+  display: block;
   max-width: none;
   min-width: 100%;
   min-height: 100%;
@@ -1373,6 +1373,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.is-ready .hero__img > * {
+  display: none;
 }
 
 .hero__counter {
@@ -1603,41 +1607,41 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   }
 }
 
-.js .insta-slider__item {
+.is-ready .insta-slider__item {
   opacity: 0;
 }
 
-.js .is-in-viewport .insta-slider__item {
+.is-ready .is-in-viewport .insta-slider__item {
   -webkit-animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
-.js .is-in-viewport .insta-slider__item:nth-child(1) {
+.is-ready .is-in-viewport .insta-slider__item:nth-child(1) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.js .is-in-viewport .insta-slider__item:nth-child(2) {
+.is-ready .is-in-viewport .insta-slider__item:nth-child(2) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.js .is-in-viewport .insta-slider__item:nth-child(3) {
+.is-ready .is-in-viewport .insta-slider__item:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.is-ready .is-in-viewport .insta-slider__item:nth-child(4) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.js .is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+.is-ready .is-in-viewport .insta-slider__item:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
-.js .is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.js .is-in-viewport .insta-slider__item:nth-child(6) {
+.is-ready .is-in-viewport .insta-slider__item:nth-child(6) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
@@ -1724,31 +1728,31 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   }
 }
 
-.js .key-figures__item {
+.is-ready .key-figures__item {
   opacity: 0;
 }
 
-.js .is-in-viewport .key-figures__item {
+.is-ready .is-in-viewport .key-figures__item {
   -webkit-animation: slideUpFadeIn 1.2s forwards;
   animation: slideUpFadeIn 1.2s forwards;
 }
 
-.js .is-in-viewport .key-figures__item:nth-child(1) {
+.is-ready .is-in-viewport .key-figures__item:nth-child(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-.js .is-in-viewport .key-figures__item:nth-child(2) {
+.is-ready .is-in-viewport .key-figures__item:nth-child(2) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.js .is-in-viewport .key-figures__item:nth-child(3) {
+.is-ready .is-in-viewport .key-figures__item:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.js .is-in-viewport .key-figures__item:nth-child(4) {
+.is-ready .is-in-viewport .key-figures__item:nth-child(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
@@ -1819,7 +1823,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   right: -2.5rem;
   display: block;
   width: 100vw;
-  background: #FFDB38 url("img/visual/round-add-bg.svg") right bottom no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/round-add-bg.svg") right bottom no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -1928,7 +1932,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #00050A url("img/visual/sial-network-bg.png") center left/cover no-repeat;
+  background: #00050A url("/theme/sial_2019_desktop_git/img/visual/sial-network-bg.png") center left/cover no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
@@ -2154,7 +2158,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   justify-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background: #FFDB38 url("img/visual/idea-bg.svg") right bottom/contain no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/idea-bg.svg") right bottom/contain no-repeat;
 }
 
 .subheader__article__title {
@@ -2638,11 +2642,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .exhibitors-slider__btn--prev {
-  background-image: url("img/icons/arrow-left--rounded.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-left--rounded.svg");
 }
 
 .exhibitors-slider__btn--next {
-  background-image: url("img/icons/arrow-right--rounded.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-right--rounded.svg");
 }
 
 .exhibitors-slider__btn__container {
@@ -3217,7 +3221,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   margin: 0 auto !important;
   padding: 9rem 0 0 3rem;
   color: #fff;
-  background: rgba(48, 50, 55, 0.5) url("img/visual/conferences-bg.png") center center/cover no-repeat;
+  background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_desktop_git/img/visual/conferences-bg.png") center center/cover no-repeat;
   border-radius: 0.6rem;
   overflow: hidden;
 }
@@ -3717,61 +3721,61 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   margin-right: 3rem;
 }
 
-.js .home-search .ql-item {
+.is-ready .home-search .ql-item {
   opacity: 0;
 }
 
-.js .home-search .ql-item.is-in-viewport {
+.is-ready .home-search .ql-item.is-in-viewport {
   -webkit-animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(1) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(2) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(2) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(3) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(4) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(5) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(5) {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(6) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(6) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(7) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(7) {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(8) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(8) {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(9) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(9) {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
 
-.js .home-search .ql-item.is-in-viewport:nth-child(10) {
+.is-ready .home-search .ql-item.is-in-viewport:nth-child(10) {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
 }
@@ -4016,43 +4020,43 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-sectors .ql-item.linkid999999::before {
-  background-image: url("img/sectors/viandes.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid794934::before {
-  background-image: url("img/sectors/food-processing.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/food-processing.png");
 }
 
 .home-sectors .ql-item.linkid794933::before {
-  background-image: url("img/sectors/traiteur-snacking.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/traiteur-snacking.png");
 }
 
 .home-sectors .ql-item.linkid794932::before {
-  background-image: url("img/sectors/produits-surgeles.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-surgeles.png");
 }
 
 .home-sectors .ql-item.linkid794931::before {
-  background-image: url("img/sectors/produits-laitiers.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-laitiers.png");
 }
 
 .home-sectors .ql-item.linkid794930::before {
-  background-image: url("img/sectors/produits-mer.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-mer.png");
 }
 
 .home-sectors .ql-item.linkid794929::before {
-  background-image: url("img/sectors/boissons.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/boissons.png");
 }
 
 .home-sectors .ql-item.linkid794928::before {
-  background-image: url("img/sectors/bio-bien-etre.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/bio-bien-etre.png");
 }
 
 .home-sectors .ql-item.linkid794927::before {
-  background-image: url("img/sectors/fruits-legumes.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/fruits-legumes.png");
 }
 
 .home-sectors .ql-item.linkid794926::before {
-  background-image: url("img/sectors/epicerie.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/epicerie.png");
 }
 
 .lang-switcher {
@@ -4247,7 +4251,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   align-items: center;
   text-align: center;
   color: #383838;
-  background: #FFDB38 url("img/visual/newsletter-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
 }
@@ -4662,19 +4666,23 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   background: none;
 }
 
+.subheader-navigation .block.quicklink-cta,
 .subheader-navigation .block.quicklinks-cta {
   float: right;
   margin: 0 0 0 auto;
 }
 
+.subheader-navigation .block.quicklink-cta .ql-item,
 .subheader-navigation .block.quicklinks-cta .ql-item {
   float: left;
 }
 
+.subheader-navigation .block.quicklink-cta .ql-item + .ql-item,
 .subheader-navigation .block.quicklinks-cta .ql-item + .ql-item {
   margin-left: 2rem;
 }
 
+.subheader-navigation .block.quicklink-cta .btn-primary,
 .subheader-navigation .block.quicklinks-cta .btn-primary {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.6rem;
@@ -4759,3 +4767,4 @@ body {
   color: #383838;
   background-color: #fff;
 }
+/*# sourceMappingURL=surcharge.css.map */
