@@ -5,80 +5,80 @@
  */
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Light.eot");
-  src: url("../fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Light.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-Light.eot");
+  src: url("fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-LightOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-LightOblique.eot");
+  src: url("fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Roman.eot");
-  src: url("../fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Roman.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-Roman.eot");
+  src: url("fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Oblique.eot");
-  src: url("../fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Oblique.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-Oblique.eot");
+  src: url("fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Oblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Medium.eot");
-  src: url("../fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Medium.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-Medium.eot");
+  src: url("fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-MediumOblique.eot");
+  src: url("fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/Avenir-Heavy.eot");
-  src: url("../fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/Avenir-Heavy.woff") format("woff"), url("../fonts/avenir/Avenir-Heavy.woff2") format("woff2");
+  src: url("fonts/avenir/Avenir-Heavy.eot");
+  src: url("fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/Avenir-Heavy.woff") format("woff"), url("fonts/avenir/Avenir-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-HeavyOblique.eot");
+  src: url("fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Black.eot");
-  src: url("../fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Black.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-Black.eot");
+  src: url("fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Black.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-BlackOblique.eot");
+  src: url("fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -89,16 +89,16 @@
  */
 @font-face {
   font-family: 'Avenir Book';
-  src: url("../fonts/avenir/AvenirLT-Book.eot");
-  src: url("../fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Book.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-Book.eot");
+  src: url("fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir Book';
-  src: url("../fonts/avenir/AvenirLT-BookOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
+  src: url("fonts/avenir/AvenirLT-BookOblique.eot");
+  src: url("fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -109,32 +109,32 @@
  */
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-Medium.eot");
-  src: url("../fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Medium.woff") format("woff");
+  src: url("fonts/futura/FuturaPT-Medium.eot");
+  src: url("fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-MediumObl.eot");
-  src: url("../fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-MediumObl.woff") format("woff");
+  src: url("fonts/futura/FuturaPT-MediumObl.eot");
+  src: url("fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-MediumObl.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-Demi.eot");
-  src: url("../fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Demi.woff") format("woff");
+  src: url("fonts/futura/FuturaPT-Demi.eot");
+  src: url("fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Demi.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-Bold.eot");
-  src: url("../fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Bold.woff") format("woff");
+  src: url("fonts/futura/FuturaPT-Bold.eot");
+  src: url("fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -145,8 +145,8 @@
  */
 @font-face {
   font-family: 'Futura PT Book';
-  src: url("../fonts/futura/FuturaPT-Book.eot");
-  src: url("../fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Book.woff") format("woff");
+  src: url("fonts/futura/FuturaPT-Book.eot");
+  src: url("fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("fonts/futura/FuturaPT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -157,16 +157,16 @@
  */
 @font-face {
   font-family: 'Futura Cond';
-  src: url("../fonts/futura/Futura-CondensedMedium.eot");
-  src: url("../fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("../fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
+  src: url("fonts/futura/Futura-CondensedMedium.eot");
+  src: url("fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura Cond';
-  src: url("../fonts/futura/Futura-CondensedExtraBold.eot");
-  src: url("../fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("../fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
+  src: url("fonts/futura/Futura-CondensedExtraBold.eot");
+  src: url("fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
@@ -176,8 +176,8 @@
  */
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?626502593");
-  src: url("../fonts/icomoon//icomoon.eot?626502593#iefix") format("embedded-opentype"), url("../fonts/icomoon//icomoon.ttf?626502593") format("truetype"), url("../fonts/icomoon//icomoon.woff?626502593") format("woff"), url("../fonts/icomoon//icomoon.svg?626502593#icomoon") format("svg");
+  src: url("fonts/icomoon/icomoon.eot?1361462528");
+  src: url("fonts/icomoon//icomoon.eot?1361462528#iefix") format("embedded-opentype"), url("fonts/icomoon//icomoon.ttf?1361462528") format("truetype"), url("fonts/icomoon//icomoon.woff?1361462528") format("woff"), url("fonts/icomoon//icomoon.svg?1361462528#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -355,7 +355,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-  background: url("../img/icons/check.svg") center center no-repeat;
+  background: url("img/icons/check.svg") center center no-repeat;
   background-size: 75%;
 }
 
@@ -1239,7 +1239,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   height: 1.625rem;
   margin-top: 0.3125rem;
   margin-right: 0.5625rem;
-  background: url("../img/logo-sial.svg") center center/contain no-repeat;
+  background: url("img/logo-sial.svg") center center/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -1618,8 +1618,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .js .is-in-viewport .insta-slider__item:nth-child(2) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .js .is-in-viewport .insta-slider__item:nth-child(3) {
@@ -1628,8 +1628,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .js .is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .js .is-in-viewport .insta-slider__item:nth-child(5) {
@@ -1638,8 +1638,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .js .is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .insta-slider__image {
@@ -1819,7 +1819,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   right: -1.5625rem;
   display: block;
   width: 100vw;
-  background: #FFDB38 url("../img/visual/round-add-bg.svg") right bottom no-repeat;
+  background: #FFDB38 url("img/visual/round-add-bg.svg") right bottom no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -1928,7 +1928,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #00050A url("../img/visual/sial-network-bg.png") center left/cover no-repeat;
+  background: #00050A url("img/visual/sial-network-bg.png") center left/cover no-repeat;
   -webkit-box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
@@ -2154,7 +2154,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   justify-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background: #FFDB38 url("../img/visual/idea-bg.svg") right bottom/contain no-repeat;
+  background: #FFDB38 url("img/visual/idea-bg.svg") right bottom/contain no-repeat;
 }
 
 .subheader__article__title {
@@ -2638,11 +2638,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .exhibitors-slider__btn--prev {
-  background-image: url("../img/icons/arrow-left--rounded.svg");
+  background-image: url("img/icons/arrow-left--rounded.svg");
 }
 
 .exhibitors-slider__btn--next {
-  background-image: url("../img/icons/arrow-right--rounded.svg");
+  background-image: url("img/icons/arrow-right--rounded.svg");
 }
 
 .exhibitors-slider__btn__container {
@@ -3217,7 +3217,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   margin: 0 auto !important;
   padding: 5.625rem 0 0 1.875rem;
   color: #fff;
-  background: rgba(48, 50, 55, 0.5) url("../img/visual/conferences-bg.png") center center/cover no-repeat;
+  background: rgba(48, 50, 55, 0.5) url("img/visual/conferences-bg.png") center center/cover no-repeat;
   border-radius: 0.375rem;
   overflow: hidden;
 }
@@ -4016,43 +4016,43 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-sectors .ql-item.linkid999999::before {
-  background-image: url("../img/sectors/viandes.png");
+  background-image: url("img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid794934::before {
-  background-image: url("../img/sectors/food-processing.png");
+  background-image: url("img/sectors/food-processing.png");
 }
 
 .home-sectors .ql-item.linkid794933::before {
-  background-image: url("../img/sectors/traiteur-snacking.png");
+  background-image: url("img/sectors/traiteur-snacking.png");
 }
 
 .home-sectors .ql-item.linkid794932::before {
-  background-image: url("../img/sectors/produits-surgeles.png");
+  background-image: url("img/sectors/produits-surgeles.png");
 }
 
 .home-sectors .ql-item.linkid794931::before {
-  background-image: url("../img/sectors/produits-laitiers.png");
+  background-image: url("img/sectors/produits-laitiers.png");
 }
 
 .home-sectors .ql-item.linkid794930::before {
-  background-image: url("../img/sectors/produits-mer.png");
+  background-image: url("img/sectors/produits-mer.png");
 }
 
 .home-sectors .ql-item.linkid794929::before {
-  background-image: url("../img/sectors/boissons.png");
+  background-image: url("img/sectors/boissons.png");
 }
 
 .home-sectors .ql-item.linkid794928::before {
-  background-image: url("../img/sectors/bio-bien-etre.png");
+  background-image: url("img/sectors/bio-bien-etre.png");
 }
 
 .home-sectors .ql-item.linkid794927::before {
-  background-image: url("../img/sectors/fruits-legumes.png");
+  background-image: url("img/sectors/fruits-legumes.png");
 }
 
 .home-sectors .ql-item.linkid794926::before {
-  background-image: url("../img/sectors/epicerie.png");
+  background-image: url("img/sectors/epicerie.png");
 }
 
 .lang-switcher {
@@ -4247,7 +4247,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   align-items: center;
   text-align: center;
   color: #383838;
-  background: #FFDB38 url("../img/visual/newsletter-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
 }
