@@ -175,9 +175,9 @@
  * ICONS FONT
  */
 @font-face {
-  font-family: 'icomoon';
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?1788681555");
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.eot?1788681555#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.ttf?1788681555") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.woff?1788681555") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.svg?1788681555#icomoon") format("svg");
+  font-family: 'sial-icomoon';
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?1664733269");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.eot?1664733269#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.ttf?1664733269") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.woff?1664733269") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.svg?1664733269#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -242,6 +242,7 @@
   height: 3.2rem;
   font-size: 1.8rem;
   line-height: 3.2rem;
+  text-decoration: none;
 }
 
 .site-footer .back-to-top {
@@ -403,7 +404,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-android::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -417,7 +418,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-apple::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -431,7 +432,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-arrow-top::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -445,7 +446,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-bio-bien-etre::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -459,7 +460,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-boissons::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -473,7 +474,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-celebrity::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -487,7 +488,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-contacts::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -501,7 +502,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-distributeur::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -515,7 +516,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-epicerie::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -529,7 +530,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-exponent::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -543,7 +544,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-facebook::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -557,7 +558,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-food-processing::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -571,7 +572,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-fruits-et-legumes::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -585,7 +586,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-importateur::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -599,7 +600,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-industriel::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -613,7 +614,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-insta::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -627,7 +628,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-launch::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -641,7 +642,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-linkedin::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -655,7 +656,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-map::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -669,7 +670,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-play::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -683,7 +684,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-plus::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -697,7 +698,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-produits-laitiers::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -711,7 +712,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-produits-mer::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -725,7 +726,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-produits-surgeles::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -739,7 +740,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-restaurateur::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -753,7 +754,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-search::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -767,7 +768,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-speaker::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -781,7 +782,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-star::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -795,7 +796,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-traiteur-snacking::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -809,7 +810,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-truck::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -823,7 +824,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-twitter::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -837,7 +838,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-viandes::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -851,7 +852,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-wallet::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -865,7 +866,7 @@ input[type=checkbox]:checked {
 }
 
 .icon.icon-youtube::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -882,7 +883,7 @@ input[type=checkbox]:checked {
  * Other overrides
  */
 .cap-icon-shopping_basket::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -892,11 +893,11 @@ input[type=checkbox]:checked {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "⭐";
+  content: "⭐" !important;
 }
 
 .icon-apps::before {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -910,7 +911,7 @@ input[type=checkbox]:checked {
 }
 
 .icon-apps::after {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -935,7 +936,7 @@ a:active, a:focus, a:hover {
 .main-title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title {
   margin: auto;
   padding: 0;
-  font-family: Avenir;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 3rem;
   font-weight: 900;
   line-height: 4.5rem;
@@ -1013,7 +1014,7 @@ a:active, a:focus, a:hover {
   float: right;
   display: none;
   margin: 0.8rem 0;
-  font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
+  font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif !important;
   font-size: 1.4rem;
   font-weight: 300;
 }
@@ -1027,13 +1028,13 @@ a:active, a:focus, a:hover {
 #cxpmClientAccountWidget .widget-text {
   float: right;
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 2rem !important;
   line-height: 2rem;
   border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
 }
 
 #cxpmClientAccountWidget .widget-text span a {
-  font-size: 1.4rem;
+  font-size: 1.4rem !important;
 }
 
 #cxpmClientAccountWidget .widget-text i {
@@ -1041,30 +1042,30 @@ a:active, a:focus, a:hover {
 }
 
 #cxpmClientAccountWidget .widget-my-selection {
-  line-height: 2rem;
   float: left;
+  line-height: 2rem !important;
 }
 
-#cxpmClientAccountWidget .widget-icon {
+#cxpmClientAccountWidget .widget-my-selection .widget-icon {
   padding: 0 2rem;
   color: #F85C29;
 }
 
-#cxpmClientAccountWidget .widget-icon i {
+#cxpmClientAccountWidget .widget-my-selection .widget-icon i {
   font-size: 1.2rem;
   color: currentColor;
 }
 
-#cxpmClientAccountWidget .widget-icon::after {
+#cxpmClientAccountWidget .widget-my-selection .widget-icon::after {
   content: 'My selection';
   color: #292B2F;
 }
 
-html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
+html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::after {
   content: 'Ma sélection';
 }
 
-#cxpmClientAccountWidget .widget-icon .number {
+#cxpmClientAccountWidget .widget-my-selection .widget-icon .number {
   display: none;
 }
 
@@ -1611,39 +1612,39 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   opacity: 0;
 }
 
-.is-ready .is-in-viewport .insta-slider__item {
+.is-ready.is-in-viewport .insta-slider__item {
   -webkit-animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
-.is-ready .is-in-viewport .insta-slider__item:nth-child(1) {
+.is-ready.is-in-viewport .insta-slider__item:nth-child(1) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.is-ready .is-in-viewport .insta-slider__item:nth-child(2) {
+.is-ready.is-in-viewport .insta-slider__item:nth-child(2) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.is-ready .is-in-viewport .insta-slider__item:nth-child(3) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
-.is-ready .is-in-viewport .insta-slider__item:nth-child(4) {
+.is-ready.is-in-viewport .insta-slider__item:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.is-ready .is-in-viewport .insta-slider__item:nth-child(5) {
+.is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
-}
-
-.is-ready .is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
 }
 
 .insta-slider__image {
@@ -3106,7 +3107,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-events .gla-item-title::after {
-  font-family: 'icomoon' !important;
+  font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -4767,4 +4768,3 @@ body {
   color: #383838;
   background-color: #fff;
 }
-/*# sourceMappingURL=surcharge.css.map */
