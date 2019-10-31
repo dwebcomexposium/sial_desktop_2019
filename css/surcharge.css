@@ -176,8 +176,8 @@
  */
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?1187689706");
-  src: url("../fonts/icomoon//icomoon.eot?1187689706#iefix") format("embedded-opentype"), url("../fonts/icomoon//icomoon.ttf?1187689706") format("truetype"), url("../fonts/icomoon//icomoon.woff?1187689706") format("woff"), url("../fonts/icomoon//icomoon.svg?1187689706#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?626502593");
+  src: url("../fonts/icomoon//icomoon.eot?626502593#iefix") format("embedded-opentype"), url("../fonts/icomoon//icomoon.ttf?626502593") format("truetype"), url("../fonts/icomoon//icomoon.woff?626502593") format("woff"), url("../fonts/icomoon//icomoon.svg?626502593#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -239,14 +239,14 @@
 /* stylelint-enable */
 .back-to-top {
   display: block;
-  height: 3.2rem;
-  font-size: 1.8rem;
-  line-height: 3.2rem;
+  height: 2rem;
+  font-size: 1.125rem;
+  line-height: 2rem;
 }
 
 .site-footer .back-to-top {
   float: right;
-  padding-left: 1.5rem;
+  padding-left: 0.9375rem;
   color: #C8CCD7;
 }
 
@@ -270,18 +270,18 @@
 
 .subheader__btn, #cxpmClientAccountWidget .see-all-selection a, .sial-network__link, .subheader__article__btn, .video-list__link, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors .linkid794935 [class^='btn'], .nf-form-submit [class^='btn'], .partner [class^='link-'] {
   display: inline-block;
-  padding: 0.9rem 2.6rem 1rem;
+  padding: 0.5625rem 1.625rem 0.625rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 2.6rem;
+  line-height: 1.625rem;
   text-align: center;
   text-transform: none;
   text-decoration: none;
   color: #fff;
   background: #383838;
   border: 0;
-  border-radius: 2.3rem;
+  border-radius: 1.4375rem;
 }
 
 .subheader__btn:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .sial-network__link:hover, .subheader__article__btn:hover, .video-list__link:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors .linkid794935 :hover[class^='btn'], .nf-form-submit :hover[class^='btn'], .partner :hover[class^='link-'] {
@@ -301,11 +301,11 @@
 .why-visit__item__link, .gla-btn-read-more, .home-search .ql-list .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link {
   position: relative;
   display: inline-block;
-  padding: 0.2rem 0;
+  padding: 0.125rem 0;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 2.6rem;
+  line-height: 1.625rem;
   text-align: left;
   text-transform: none;
   text-decoration: none;
@@ -323,11 +323,11 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 3.5rem;
+  width: 2.1875rem;
   max-width: 100%;
   height: 0;
   display: block;
-  border-bottom: 0.1rem solid #F85C29;
+  border-bottom: 0.0625rem solid #F85C29;
   -webkit-transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -340,11 +340,11 @@
 input[type=checkbox] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  height: 1.8rem;
-  width: 1.8rem;
-  margin-right: 1.3rem;
-  border: 0.1rem solid #585858;
-  border-radius: 0.2rem;
+  height: 1.125rem;
+  width: 1.125rem;
+  margin-right: 0.8125rem;
+  border: 0.0625rem solid #585858;
+  border-radius: 0.125rem;
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -361,9 +361,9 @@ input[type=checkbox]:checked {
 
 .form-txt {
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 300;
-  line-height: 2.9rem;
+  line-height: 1.8125rem;
   color: #292B2F;
 }
 
@@ -668,6 +668,20 @@ input[type=checkbox]:checked {
   content: "📌";
 }
 
+.icon.icon-play::before {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "▷";
+}
+
 .icon.icon-plus::before {
   font-family: 'icomoon' !important;
   speak: none;
@@ -918,26 +932,26 @@ a:active, a:focus, a:hover {
   color: currentColor;
 }
 
-.main-title, .subheader__title, .home-news .block-title {
+.main-title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title {
   margin: auto;
   padding: 0;
   font-family: Avenir;
-  font-size: 3rem;
+  font-size: 1.875rem;
   font-weight: 900;
-  line-height: 4.5rem;
+  line-height: 2.8125rem;
   color: #585858;
   border: 0;
   text-transform: none;
 }
 
 @media screen and (min-width: 768px) {
-  .main-title, .subheader__title, .home-news .block-title {
-    font-size: 4.2rem;
-    line-height: 6rem;
+  .main-title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title {
+    font-size: 2.625rem;
+    line-height: 3.75rem;
   }
 }
 
-.main-title > a, .subheader__title > a, .home-news .block-title > a {
+.main-title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a {
   text-decoration: none;
 }
 
@@ -945,61 +959,23 @@ a:active, a:focus, a:hover {
   border: 0;
 }
 
-.home-events .main-title-with-link > .main-title, .home-events .main-title-with-link > .subheader__title, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title {
+.home-events .main-title-with-link > .main-title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 4.2rem;
+  font-size: 2.625rem;
   font-weight: 900;
-  line-height: 6rem;
+  line-height: 3.75rem;
   color: #585858;
   text-transform: none;
 }
 
-.article-intro {
-  content: '';
-}
-
-.article-title {
-  margin: 3rem auto 0;
-  outline: none;
-}
-
-.front .article-title {
-  max-width: 110rem;
-}
-
-.at {
-  outline: none;
-}
-
-.at-main-title {
-  display: block;
-  margin-bottom: 2rem;
-}
-
-.at-content {
-  display: block;
-}
-
-.at-tag, .at-publication {
-  display: none;
-}
-
-.at-illust, .article-title .cx-lazy-load {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .at-illust, .article-title .cx-lazy-load {
-    display: block;
-    float: left;
-    width: 45.72727%;
-    margin-top: -3rem;
-    margin-right: 5.45455%;
-  }
-}
-
 .breadcrumb-nav {
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.375rem;
+}
+
+.breadcrumb-nav::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .breadcrumb-nav .inside {
@@ -1013,9 +989,9 @@ a:active, a:focus, a:hover {
 .bn-item {
   float: left;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 2.6rem;
+  line-height: 1.625rem;
   color: #8C909E;
 }
 
@@ -1036,9 +1012,9 @@ a:active, a:focus, a:hover {
 #cxpmClientAccountWidget {
   float: right;
   display: none;
-  margin: 0.8rem 0;
+  margin: 0.5rem 0;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: 300;
 }
 
@@ -1051,13 +1027,13 @@ a:active, a:focus, a:hover {
 #cxpmClientAccountWidget .widget-text {
   float: right;
   margin: 0;
-  padding: 0 2rem;
-  line-height: 2rem;
-  border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
+  padding: 0 1.25rem;
+  line-height: 1.25rem;
+  border-left: 0.0625rem solid rgba(200, 204, 215, 0.3);
 }
 
 #cxpmClientAccountWidget .widget-text span a {
-  font-size: 1.4rem;
+  font-size: 0.875rem;
 }
 
 #cxpmClientAccountWidget .widget-text i {
@@ -1065,17 +1041,17 @@ a:active, a:focus, a:hover {
 }
 
 #cxpmClientAccountWidget .widget-my-selection {
-  line-height: 2rem;
+  line-height: 1.25rem;
   float: left;
 }
 
 #cxpmClientAccountWidget .widget-icon {
-  padding: 0 2rem;
+  padding: 0 1.25rem;
   color: #F85C29;
 }
 
 #cxpmClientAccountWidget .widget-icon i {
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   color: currentColor;
 }
 
@@ -1102,9 +1078,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   z-index: 0;
   display: block;
   width: 100%;
-  margin-top: 1rem;
-  margin-bottom: -1rem;
-  padding: 4rem 0;
+  margin-top: 0.625rem;
+  margin-bottom: -0.625rem;
+  padding: 2.5rem 0;
   background-color: #3A3D46;
 }
 
@@ -1116,7 +1092,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .footer-bottom {
-    padding: 2rem 0;
+    padding: 1.25rem 0;
   }
 }
 
@@ -1137,7 +1113,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .footer-bottom__menu {
   display: block;
-  margin-bottom: 3rem;
+  margin-bottom: 1.875rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1150,24 +1126,24 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .footer-bottom__menu__item {
   position: relative;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: 300;
-  line-height: 3.3rem;
+  line-height: 2.0625rem;
   color: #fff;
-  text-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 768px) {
   .footer-bottom__menu__item {
     float: left;
-    line-height: 2.8rem;
+    line-height: 1.75rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer-bottom__menu__item + .footer-bottom__menu__item {
-    margin-left: 1.5rem;
-    padding-left: 1.8rem;
+    margin-left: 0.9375rem;
+    padding-left: 1.125rem;
   }
 }
 
@@ -1202,7 +1178,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
     -ms-flex-direction: column;
     flex-direction: column;
     display: block;
-    max-width: 14.7rem;
+    max-width: 9.1875rem;
     margin-right: 10.4%;
   }
 }
@@ -1210,8 +1186,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .footer-logo__event {
   float: left;
   display: block;
-  max-width: 9.3rem;
-  margin-bottom: 2.5rem;
+  max-width: 5.8125rem;
+  margin-bottom: 1.5625rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1224,8 +1200,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .footer-logo__company {
   float: left;
   display: block;
-  max-width: 14.6rem;
-  margin-left: 3rem;
+  max-width: 9.125rem;
+  margin-left: 1.875rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1242,7 +1218,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .site-logo {
   float: left;
-  padding: 1.3rem 2.5rem;
+  padding: 0.8125rem 1.5625rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   color: #383838;
   background: #fff;
@@ -1250,69 +1226,69 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .site-logo {
-    min-width: 38.75rem;
-    padding: 2.6rem 3rem;
-    border-right: 0.1rem solid rgba(200, 204, 215, 0.3);
+    min-width: 24.21875rem;
+    padding: 1.625rem 1.875rem;
+    border-right: 0.0625rem solid rgba(200, 204, 215, 0.3);
   }
 }
 
 .site-logo__img {
   float: left;
   display: block;
-  width: 5.9rem;
-  height: 2.6rem;
-  margin-top: 0.5rem;
-  margin-right: 0.9rem;
+  width: 3.6875rem;
+  height: 1.625rem;
+  margin-top: 0.3125rem;
+  margin-right: 0.5625rem;
   background: url("../img/logo-sial.svg") center center/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
   .site-logo__img {
-    width: 10.5rem;
-    height: 4.6rem;
+    width: 6.5625rem;
+    height: 2.875rem;
     margin-top: 0;
-    margin-right: 1.8rem;
+    margin-right: 1.125rem;
   }
 }
 
 .site-logo__img > * {
   position: absolute !important;
-  height: 0.1rem;
-  width: 0.1rem;
+  height: 0.0625rem;
+  width: 0.0625rem;
   overflow: hidden;
-  clip: rect(0.1rem 0.1rem 0.1rem 0.1rem);
+  clip: rect(0.0625rem 0.0625rem 0.0625rem 0.0625rem);
   /* IE6, IE7 */
-  clip: rect(0.1rem, 0.1rem, 0.1rem, 0.1rem);
+  clip: rect(0.0625rem, 0.0625rem, 0.0625rem, 0.0625rem);
   white-space: nowrap;
   /* added line */
 }
 
 .site-logo__date {
-  font-size: 1.2rem;
+  font-size: 0.75rem;
   font-weight: 900;
-  letter-spacing: -0.013rem;
+  letter-spacing: -0.00813rem;
   white-space: nowrap;
 }
 
 @media screen and (min-width: 768px) {
   .site-logo__date {
-    font-size: 1.9rem;
-    letter-spacing: -0.02rem;
+    font-size: 1.1875rem;
+    letter-spacing: -0.0125rem;
   }
 }
 
 .site-logo__location {
-  font-size: 0.9rem;
+  font-size: 0.5625rem;
   font-weight: 300;
-  letter-spacing: 0.076rem;
+  letter-spacing: 0.0475rem;
   white-space: nowrap;
   text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
   .site-logo__location {
-    font-size: 1.4rem;
-    letter-spacing: 0.118rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.07375rem;
   }
 }
 
@@ -1321,8 +1297,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 33.5rem;
-  padding-bottom: 4.5rem;
+  height: 20.9375rem;
+  padding-bottom: 2.8125rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -1337,7 +1313,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .hero {
-    height: 66rem;
+    height: 41.25rem;
   }
 }
 
@@ -1347,11 +1323,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .hero__title {
   display: block;
-  margin: 0 0 2rem;
+  margin: 0 0 1.25rem;
   font-family: Avenir, sans-serif;
-  font-size: 2.7rem;
+  font-size: 1.6875rem;
   font-weight: 300;
-  line-height: 3.6rem;
+  line-height: 2.25rem;
   text-align: center;
   text-transform: uppercase;
   color: #383838;
@@ -1359,8 +1335,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .hero__title {
-    font-size: 5rem;
-    line-height: 6.3rem;
+    font-size: 3.125rem;
+    line-height: 3.9375rem;
   }
 }
 
@@ -1403,7 +1379,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 15.2rem;
+  width: 9.5rem;
   margin: auto;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -1414,36 +1390,36 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .hero__counter {
-    width: 25.5rem;
+    width: 15.9375rem;
   }
 }
 
 .hero__counter__item {
   float: left;
-  width: 3.1rem;
+  width: 1.9375rem;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .hero__counter__item {
-    width: 5.2rem;
+    width: 3.25rem;
   }
 }
 
 .hero__counter__item + .hero__counter__item {
-  margin-left: 0.9rem;
+  margin-left: 0.5625rem;
 }
 
 @media screen and (min-width: 768px) {
   .hero__counter__item + .hero__counter__item {
-    margin-left: 1.5rem;
+    margin-left: 0.9375rem;
   }
 }
 
 .hero__counter__name {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3125rem;
   font-family: Avenir;
-  font-size: 0.75rem;
+  font-size: 0.46875rem;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
@@ -1452,41 +1428,41 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .hero__counter__name {
-    font-size: 1.3rem;
+    font-size: 0.8125rem;
   }
 }
 
 .hero__counter__number {
-  height: 3.1rem;
+  height: 1.9375rem;
   font-family: Avenir, sans-serif;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   font-weight: 900;
-  line-height: 3.1rem;
+  line-height: 1.9375rem;
   text-align: center;
   color: #C8CCD7;
   background-color: #fff;
-  border-radius: 0.4rem;
+  border-radius: 0.25rem;
 }
 
 @media screen and (min-width: 768px) {
   .hero__counter__number {
-    height: 5.2rem;
-    font-size: 2.6rem;
-    line-height: 5.2rem;
+    height: 3.25rem;
+    font-size: 1.625rem;
+    line-height: 3.25rem;
   }
 }
 
 .hero__counter__progressbar {
   position: relative;
   width: 100%;
-  height: 0.2rem;
-  margin-top: 3rem;
+  height: 0.125rem;
+  margin-top: 1.875rem;
   background: #fff;
 }
 
 @media screen and (min-width: 768px) {
   .hero__counter__progressbar {
-    margin-top: 5rem;
+    margin-top: 3.125rem;
   }
 }
 
@@ -1504,23 +1480,23 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-social-networks {
   text-align: center;
-  margin-top: 9rem;
-  margin-bottom: 7rem;
+  margin-top: 5.625rem;
+  margin-bottom: 4.375rem;
 }
 
 .home-social-networks__title {
-  font-size: 4.2rem;
+  font-size: 2.625rem;
 }
 
 .home-social-networks__description {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 .home-social-networks__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 1.9rem;
+  margin-top: 1.1875rem;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -1528,10 +1504,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-social-networks__item {
   display: block;
-  height: 4.9rem;
-  width: 4.9rem;
-  font-size: 4.9rem;
-  line-height: 4.9rem;
+  height: 3.0625rem;
+  width: 3.0625rem;
+  font-size: 3.0625rem;
+  line-height: 3.0625rem;
   text-align: center;
   text-decoration: none;
   color: #c8ccd7;
@@ -1549,30 +1525,30 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-social-networks__item + .home-social-networks__item {
-  margin-left: 1.1rem;
+  margin-left: 0.6875rem;
 }
 
 .insta-slider {
-  margin-top: 7rem;
-  margin-bottom: 4rem;
+  margin-top: 4.375rem;
+  margin-bottom: 2.5rem;
 }
 
 @media screen and (min-width: 768px) {
   .insta-slider {
-    margin-bottom: 9rem;
+    margin-bottom: 5.625rem;
   }
 }
 
 .insta-slider__wrapper {
   position: relative;
   display: block;
-  margin: 0 -1.5rem;
-  padding-bottom: 5rem;
+  margin: 0 -0.9375rem;
+  padding-bottom: 3.125rem;
 }
 
 @media screen and (min-width: 768px) {
   .insta-slider__wrapper {
-    padding-bottom: 7.9rem;
+    padding-bottom: 4.9375rem;
   }
 }
 
@@ -1582,7 +1558,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   bottom: 0;
   left: 50%;
   display: block;
-  height: 0.1rem;
+  height: 0.0625rem;
   width: 100vw;
   background: #C8CCD7;
   -webkit-transform: translateX(-50%);
@@ -1613,7 +1589,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: flex;
   width: 25%;
   margin: 0;
-  padding: 0 0.5rem;
+  padding: 0 0.3125rem;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   -webkit-box-flex: 0;
@@ -1623,7 +1599,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .insta-slider__item {
-    padding: 0 1.5rem;
+    padding: 0 0.9375rem;
   }
 }
 
@@ -1642,18 +1618,18 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .js .is-in-viewport .insta-slider__item:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.js .is-in-viewport .insta-slider__item:nth-child(3) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.js .is-in-viewport .insta-slider__item:nth-child(4) {
+.js .is-in-viewport .insta-slider__item:nth-child(3) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
+}
+
+.js .is-in-viewport .insta-slider__item:nth-child(4) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .js .is-in-viewport .insta-slider__item:nth-child(5) {
@@ -1697,9 +1673,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   width: 100%;
   height: 0;
   padding-bottom: 100%;
-  border-radius: 0.6rem;
-  -webkit-box-shadow: 0 0.2rem 1.1rem 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 0.2rem 1.1rem 0 rgba(0, 0, 0, 0.16);
+  border-radius: 0.375rem;
+  -webkit-box-shadow: 0 0.125rem 0.6875rem 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 0.125rem 0.6875rem 0 rgba(0, 0, 0, 0.16);
   overflow: hidden;
 }
 
@@ -1709,14 +1685,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .key-figures {
   clear: both;
-  max-width: 110rem;
-  margin: 5rem auto 4.5rem;
+  max-width: 68.75rem;
+  margin: 3.125rem auto 2.8125rem;
 }
 
 @media screen and (min-width: 768px) {
   .key-figures {
-    margin-top: 9rem;
-    margin-bottom: 8rem;
+    margin-top: 5.625rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -1731,8 +1707,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .key-figures__item {
   position: relative;
   width: 100%;
-  padding-left: 9.1rem;
-  margin-bottom: 1.7rem;
+  padding-left: 5.6875rem;
+  margin-bottom: 1.0625rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1744,7 +1720,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 @media screen and (min-width: 1024px) {
   .key-figures__item {
     width: 25%;
-    padding-left: 8.5rem;
+    padding-left: 5.3125rem;
   }
 }
 
@@ -1783,9 +1759,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   top: 0;
   float: left;
   display: block;
-  width: 7rem;
-  height: 7rem !important;
-  margin-right: 2.1rem;
+  width: 4.375rem;
+  height: 4.375rem !important;
+  margin-right: 1.3125rem;
   color: #fff;
   background: #FFDB38;
   border-radius: 50%;
@@ -1793,31 +1769,31 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .key-figures__item__icon {
-    margin-right: 1.5rem;
+    margin-right: 0.9375rem;
   }
 }
 
 .key-figures__item__title {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5625rem;
   font-weight: 900;
-  line-height: 4rem;
+  line-height: 2.5rem;
   color: #1E1E1E;
 }
 
 .key-figures__item__text {
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 300;
-  line-height: 3.1rem;
+  line-height: 1.9375rem;
   color: #1E1E1E;
 }
 
 .meet-buyers {
   position: relative;
   z-index: 1;
-  padding-top: 5rem;
-  padding-bottom: 13.6rem;
+  padding-top: 3.125rem;
+  padding-bottom: 8.5rem;
 }
 
 .meet-buyers::after {
@@ -1828,9 +1804,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .meet-buyers {
-    margin: 8rem 0;
-    padding-top: 7rem;
-    padding-bottom: 8rem;
+    margin: 5rem 0;
+    padding-top: 4.375rem;
+    padding-bottom: 5rem;
   }
 }
 
@@ -1840,7 +1816,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   z-index: -1;
   top: 0;
   bottom: 0;
-  right: -2.5rem;
+  right: -1.5625rem;
   display: block;
   width: 100vw;
   background: #FFDB38 url("../img/visual/round-add-bg.svg") right bottom no-repeat;
@@ -1853,47 +1829,59 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .meet-buyers__wrapper {
-  display: block;
+  border: 0;
 }
 
 .meet-buyers__title {
-  margin-bottom: 3.9rem;
+  margin-bottom: 2.4375rem;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .meet-buyers__title {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }
 
 .meet-buyers__list {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .meet-buyers__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 }
 
 .meet-buyers__item {
-  width: 22.1rem;
+  width: 14.6875rem;
+  padding: 0 0.625rem;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   text-align: center;
 }
 
-.meet-buyers__item + .meet-buyers__item {
-  margin-left: 6rem;
+@media screen and (min-width: 768px) {
+  .meet-buyers__item {
+    width: 17.5625rem;
+    padding: 0 1.875rem;
+  }
 }
 
 .meet-buyers__item__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 7.4rem;
-  height: 7.4rem;
-  margin: 0 auto 2.2rem;
-  font-size: 3rem;
-  line-height: 7.4rem;
+  width: 4.625rem;
+  height: 4.625rem;
+  margin: 0 auto 1.375rem;
+  font-size: 1.875rem;
+  line-height: 4.625rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1906,25 +1894,25 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .meet-buyers__item__icon.icon-launch {
-  font-size: 3.6rem;
+  font-size: 2.25rem;
 }
 
 .meet-buyers__item__icon.icon-contacts {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .meet-buyers__item__icon.icon-truck {
-  font-size: 2.9rem;
+  font-size: 1.8125rem;
 }
 
 .meet-buyers__item__icon.icon-celebrity {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .meet-buyers__item__text {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 300;
-  line-height: 3.1rem;
+  line-height: 1.9375rem;
   color: #383838;
 }
 
@@ -1933,16 +1921,16 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -2.5rem 3rem;
-  padding: 4rem;
+  margin: 0 -1.5625rem 1.875rem;
+  padding: 2.5rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
   color: #fff;
   background: #00050A url("../img/visual/sial-network-bg.png") center left/cover no-repeat;
-  -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
-  box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
+  -webkit-box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
+  box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
 }
 
@@ -1950,10 +1938,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   .sial-network {
     float: left;
     width: 48.8%;
-    min-height: 44rem;
+    min-height: 27.5rem;
     margin: 0;
     background-size: contain;
-    border-radius: 0.8rem;
+    border-radius: 0.5rem;
   }
 }
 
@@ -1989,22 +1977,22 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .sial-network__title {
   display: block;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.1875rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5625rem;
   font-weight: 900;
-  line-height: 4rem;
+  line-height: 2.5rem;
   text-align: center;
   color: #fff;
 }
 
 .sial-network__subtitle {
   display: block;
-  margin-bottom: 2.8rem;
+  margin-bottom: 1.75rem;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 300;
-  line-height: 3.1rem;
+  line-height: 1.9375rem;
   text-align: center;
   color: #fff;
 }
@@ -2021,33 +2009,33 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 0 -4rem;
+  margin: 0 -2.5rem;
 }
 
 @media screen and (min-width: 768px) {
   .sial-network__list {
-    margin: 0 -1.5rem;
+    margin: 0 -0.9375rem;
   }
 }
 
 .sial-network__item {
   display: block;
-  margin: 0 1.5rem 1.5rem;
+  margin: 0 0.9375rem 0.9375rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 2.1rem;
+  line-height: 1.3125rem;
 }
 
 .sial-network__city {
   position: relative;
   z-index: 0;
   display: inline-block;
-  padding: 0 0.5rem;
+  padding: 0 0.3125rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 1.5625rem;
   color: #fff;
 }
 
@@ -2074,7 +2062,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .sial-network__link {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 .subheader {
@@ -2106,21 +2094,21 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 51.2rem;
+  height: 32rem;
   width: 100%;
   margin: auto;
-  max-height: calc(100vh - 10.4rem);
+  max-height: calc(100vh - 6.5rem);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
 .subheader__content {
-  padding: 1.5rem;
+  padding: 0.9375rem;
 }
 
 .subheader__title {
-  line-height: 6.3rem;
+  line-height: 3.9375rem;
   color: #fff;
 }
 
@@ -2156,13 +2144,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .subheader__btn {
-  margin-top: 3.2rem;
+  margin-top: 2rem;
 }
 
 .subheader__article {
-  width: 28rem;
+  width: 17.5rem;
   margin-left: auto;
-  padding: 4rem 1rem 4rem 4rem;
+  padding: 2.5rem 0.625rem 2.5rem 2.5rem;
   justify-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
@@ -2170,15 +2158,15 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .subheader__article__title {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.25rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5625rem;
   font-weight: 900;
-  line-height: 4rem;
+  line-height: 2.5rem;
 }
 
 .subheader__article__content {
-  line-height: 2.2rem;
+  line-height: 1.375rem;
 }
 
 .subheader__article__content > p {
@@ -2194,26 +2182,33 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .subheader__article__btn {
-  margin-top: 2.2rem;
+  margin-top: 1.375rem;
 }
 
 .video-list {
   position: relative;
   z-index: 0;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-  padding-bottom: 8rem;
-  background: #F3F6FB;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  padding-bottom: 5.375rem;
+}
+
+@media screen and (min-width: 768px) {
+  .video-list {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 .video-list::before {
   content: '';
   position: absolute;
   z-index: -1;
-  top: -36rem;
-  bottom: 0;
+  top: -3.125rem;
+  bottom: -3.125rem;
   left: 50%;
-  display: block;
+  display: none;
   width: 100vw;
   background: #F3F6FB;
   -webkit-transform: translateX(-50%);
@@ -2221,15 +2216,54 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   transform: translateX(-50%);
 }
 
+@media screen and (min-width: 768px) {
+  .video-list::before {
+    top: -22.5rem;
+    bottom: 0;
+  }
+}
+
+.meet-buyers + .video-list::before {
+  display: block;
+}
+
+.video-list__wrapper {
+  display: block;
+}
+
 .video-list__title {
-  margin-bottom: 6rem;
+  margin-bottom: 1.6875rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .video-list__title {
+    margin-right: 11.25rem;
+    margin-bottom: 3.75rem;
+    text-align: left;
+  }
 }
 
 .video-list__link {
   position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 0.7rem;
+  bottom: 0;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .video-list__link {
+    top: 0;
+    right: 0;
+    bottom: auto;
+    margin-top: 0.4375rem;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
 }
 
 .video-list__list {
@@ -2238,21 +2272,40 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: flex;
 }
 
+.video-list__list__wrapper {
+  display: block;
+}
+
 .video-list__item {
   position: relative;
   z-index: 0;
   display: block;
-  width: 39.6rem;
-  padding: 16.4rem 4rem 4rem;
+  width: 16.125rem;
+  padding: 6.3125rem 1.625rem 1.375rem;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
   text-decoration: none;
-  border-radius: 0.6rem;
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  border-radius: 0.375rem;
+  -webkit-box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
   overflow: hidden;
 }
 
+@media screen and (min-width: 768px) {
+  .video-list__item {
+    width: 24.75rem;
+    padding: 10.25rem 2.5rem 2.5rem;
+  }
+}
+
 .video-list__item + .video-list__item {
-  margin-left: 3rem;
+  margin-left: 0.625rem;
+}
+
+@media screen and (min-width: 768px) {
+  .video-list__item + .video-list__item {
+    margin-left: 1.875rem;
+  }
 }
 
 .video-list__item::after {
@@ -2270,56 +2323,114 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .video-list__item__title {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.25rem;
   font-weight: 900;
-  line-height: 3.5rem;
+  line-height: 1.875rem;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .video-list__item__title {
+    font-size: 1.5625rem;
+    line-height: 2.1875rem;
+  }
 }
 
 .video-list__item__icon {
   position: absolute;
-  top: 8rem;
-  display: block;
-  width: 5rem;
-  height: 5rem;
-  font-size: 1.9rem;
-  line-height: 5rem;
+  top: 3.1875rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.75rem;
+  line-height: 2rem;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #fff;
   background-color: #F85C29;
   border-radius: 50%;
 }
 
+@media screen and (min-width: 768px) {
+  .video-list__item__icon {
+    top: 5rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    font-size: 1.1875rem;
+    line-height: 3.125rem;
+  }
+}
+
+.video-list__item__icon::before {
+  margin-left: 0.1875rem;
+}
+
 .video-list__item__img {
   position: absolute;
   z-index: -2;
+  top: 0;
+  left: 0;
   display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-list__item__img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  max-width: none;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.video-list__item:hover .video-list__item__img img {
+  -webkit-transform: translate(-50%, -50%) scale(1.2);
+  -ms-transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -50%) scale(1.2);
 }
 
 .why-visit {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
   overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
   .why-visit {
-    margin-top: 10rem;
+    margin-top: 6.25rem;
   }
 }
 
 .why-visit__title {
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 900;
-  line-height: 4rem;
+  line-height: 2.5rem;
   color: #383838;
 }
 
 @media screen and (min-width: 768px) {
   .why-visit__title {
-    margin-bottom: 3.5rem;
-    font-size: 2.5rem;
+    margin-bottom: 2.1875rem;
+    font-size: 1.5625rem;
   }
 }
 
@@ -2335,8 +2446,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   position: relative;
   display: block;
   width: 100%;
-  margin-bottom: 2.5rem;
-  padding-left: 7rem;
+  margin-bottom: 1.5625rem;
+  padding-left: 4.375rem;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   text-decoration: none;
@@ -2353,17 +2464,17 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   top: 0;
   left: 0;
   float: left;
-  width: 7rem;
-  height: 5rem;
-  font-size: 3.7rem;
+  width: 4.375rem;
+  height: 3.125rem;
+  font-size: 2.3125rem;
   color: #C8CCD7;
 }
 
 .why-visit__item__title {
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 2.6rem;
+  line-height: 1.625rem;
   color: #C8CCD7;
 }
 
@@ -2371,18 +2482,79 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   width: 100%;
 }
 
+.block.edito-custom, .block.article-title {
+  margin: 1.875rem auto 0;
+  outline: none;
+}
+
+.block.edito-custom::after, .block.article-title::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .block.edito-custom:not(:first-child), .block.article-title:not(:first-child) {
+    margin-top: 6.25rem;
+  }
+}
+
+.front .block.edito-custom, .front .block.article-title {
+  margin-top: 1.875rem;
+  max-width: 68.75rem;
+}
+
+.front .block.edito-custom::after, .front .block.article-title::after {
+  display: none;
+}
+
+.block.edito-custom .inside > *, .block.article-title .inside > * {
+  margin-left: 51.18182%;
+}
+
+.block.edito-custom .cx-lazy-load, .block.article-title .cx-lazy-load {
+  margin-left: 0;
+}
+
+.block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2 {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.block.edito-custom .at-content, .block.article-title .at-content {
+  display: block;
+}
+
+.block.edito-custom .at-tag, .block.article-title .at-tag, .block.edito-custom .at-publication, .block.article-title .at-publication {
+  display: none;
+}
+
+.block.edito-custom .at-illust, .block.article-title .at-illust, .block.edito-custom .cx-lazy-load, .block.article-title .cx-lazy-load {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .block.edito-custom .at-illust, .block.article-title .at-illust, .block.edito-custom .cx-lazy-load, .block.article-title .cx-lazy-load {
+    display: block;
+    float: left;
+    width: 45.72727%;
+    margin-top: -1.875rem;
+    margin-right: 5.45455%;
+  }
+}
+
 .exhibitors-slider {
   position: relative;
-  margin-top: 10rem;
-  margin-bottom: 6rem;
-  padding-bottom: 12rem;
+  margin-top: 6.25rem;
+  margin-bottom: 3.75rem;
+  padding-bottom: 7.5rem;
 }
 
 @media screen and (min-width: 768px) {
   .exhibitors-slider {
-    margin-bottom: 2rem;
-    padding-top: 7rem;
-    padding-bottom: 8rem;
+    margin-bottom: 1.25rem;
+    padding-top: 4.375rem;
+    padding-bottom: 5rem;
   }
 }
 
@@ -2398,7 +2570,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   z-index: -1;
   top: 0;
   bottom: 0;
-  right: -2.5rem;
+  right: -1.5625rem;
   display: block;
   width: 100vw;
   background-color: #F3F6FB;
@@ -2415,40 +2587,40 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .exhibitors-slider__header {
-  margin-bottom: 3rem;
+  margin-bottom: 1.875rem;
   overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
   .exhibitors-slider__header {
-    padding-bottom: 2rem;
-    border-bottom: 0.1rem solid #E3E3E3;
+    padding-bottom: 1.25rem;
+    border-bottom: 0.0625rem solid #E3E3E3;
   }
 }
 
-.exhibitors-slider__header .main-title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
-  margin-bottom: 0.8rem;
+.exhibitors-slider__header .main-title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
+  margin-bottom: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
-  .exhibitors-slider__header .main-title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
-    margin-right: 39rem;
+  .exhibitors-slider__header .main-title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
+    margin-right: 24.375rem;
   }
 }
 
 .exhibitors-slider__header p {
-  margin: 0.8rem 0 0;
+  margin: 0.5rem 0 0;
   color: #383838;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 300;
-  line-height: 3.1rem;
+  line-height: 1.9375rem;
 }
 
 .exhibitors-slider__btn {
   float: left;
   display: block;
-  width: 4.9rem;
-  height: 4.9rem;
+  width: 3.0625rem;
+  height: 3.0625rem;
   background: center center / contain no-repeat;
   border: 0;
   border-radius: 50%;
@@ -2462,7 +2634,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .exhibitors-slider__btn + .exhibitors-slider__btn {
-  margin-left: 2.8rem;
+  margin-left: 1.75rem;
 }
 
 .exhibitors-slider__btn--prev {
@@ -2481,8 +2653,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   .exhibitors-slider__btn__container {
     display: block;
     float: right;
-    margin-top: -6.5rem;
-    margin-right: 4.3rem;
+    margin-top: -4.0625rem;
+    margin-right: 2.6875rem;
   }
 }
 
@@ -2494,10 +2666,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .exhibitors-slider__progressbar {
   position: absolute;
-  bottom: 7.6rem;
+  bottom: 4.75rem;
   display: block;
   width: 100%;
-  height: 0.2rem;
+  height: 0.125rem;
   background: #F0F3F7;
 }
 
@@ -2530,7 +2702,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -1.5rem;
+  margin: 0 -0.9375rem;
 }
 
 .exhibitors-slider .catal-ex-item {
@@ -2538,16 +2710,16 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 26.2rem;
-  margin: 0 1.5rem;
+  width: 16.375rem;
+  margin: 0 0.9375rem;
   padding: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   background-color: #fff;
   border: 0;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
   overflow: hidden;
 }
 
@@ -2555,7 +2727,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 2rem;
+  padding: 1.25rem;
 }
 
 .exhibitors-slider .catal-ex-item-group-title {
@@ -2568,9 +2740,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .exhibitors-slider .catal-ex-item-title {
   color: #383838;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 900;
-  line-height: 2.6rem;
+  line-height: 1.625rem;
 }
 
 .exhibitors-slider .catal-ex-item-title a:hover, .exhibitors-slider .catal-ex-item-title a:focus {
@@ -2584,7 +2756,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .exhibitors-slider .catal-ex-item-img {
   width: 100%;
-  height: 13rem;
+  height: 8.125rem;
   min-height: auto;
   margin: 0;
   background-color: #F3F6FB;
@@ -2604,9 +2776,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   margin: 0;
   color: #383838;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 300;
-  line-height: 2.6rem;
+  line-height: 1.625rem;
 }
 
 .exhibitors-slider .catal-ex-item-cat-link {
@@ -2628,7 +2800,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .footer-menu {
   display: block;
-  margin-bottom: 3rem;
+  margin-bottom: 1.875rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -2653,19 +2825,19 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .footer-menu .ql-list {
-    max-height: 24rem;
+    max-height: 15rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer-menu .ql-item.linkid794991 {
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer-menu .ql-item.linkid794994 {
-    margin-bottom: 12rem;
+    margin-bottom: 7.5rem;
   }
 }
 
@@ -2682,16 +2854,16 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -webkit-box-ordinal-group: 100;
   -ms-flex-order: 99;
   order: 99;
-  margin-left: 1.5rem;
+  margin-left: 0.9375rem;
 }
 
 .footer-menu .btn-primary {
   display: block;
   padding: 0;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: 4rem;
+  line-height: 2.5rem;
   text-align: left;
   text-transform: none;
   color: #C8CCD7;
@@ -2708,16 +2880,16 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   float: right;
   right: auto;
   bottom: auto;
-  margin: 0.8rem 0;
+  margin: 0.5rem 0;
 }
 
 .site-banner .gsf-trigger {
-  height: 2rem;
-  padding: 0 2rem;
-  font-size: 1.7rem;
-  line-height: 2rem;
+  height: 1.25rem;
+  padding: 0 1.25rem;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
   color: #F85C29;
-  border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
+  border-left: 0.0625rem solid rgba(200, 204, 215, 0.3);
 }
 
 @media screen and (min-width: 1400px) {
@@ -2755,14 +2927,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .site-banner .gsf-input-line {
-  border-bottom-left-radius: 0.6rem;
-  border-top-left-radius: 0.6rem;
+  border-bottom-left-radius: 0.375rem;
+  border-top-left-radius: 0.375rem;
   overflow: hidden;
 }
 
 .site-banner .gsf-submit-line {
-  border-bottom-right-radius: 0.6rem;
-  border-top-right-radius: 0.6rem;
+  border-bottom-right-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
   overflow: hidden;
 }
 
@@ -2783,30 +2955,30 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-events .grid-la-list {
-    margin-left: -3rem;
+    margin-left: -1.875rem;
   }
 }
 
 .gla-item {
   padding: 0;
   overflow: hidden;
-  border-radius: 1rem;
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  border-radius: 0.625rem;
+  -webkit-box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
 }
 
 .home-events .gla-item {
   position: relative;
-  height: 44rem;
-  width: 27rem;
-  margin: 6.5rem auto 3.9rem;
+  height: 27.5rem;
+  width: 16.875rem;
+  margin: 4.0625rem auto 2.4375rem;
   overflow: visible;
 }
 
 @media screen and (min-width: 1024px) {
   .home-events .gla-item {
-    width: calc(100% * 1 / 3 - 3rem - 0.001rem);
-    margin-left: 3rem;
+    width: calc(100% * 1 / 3 - 1.875rem - 0.00063rem);
+    margin-left: 1.875rem;
     margin-bottom: 0;
   }
 }
@@ -2821,7 +2993,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -ms-flex-direction: column;
   flex-direction: column;
   text-decoration: none;
-  border-radius: 1rem;
+  border-radius: 0.625rem;
   overflow: hidden;
 }
 
@@ -2847,16 +3019,16 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
-  min-height: 20rem;
-  padding: 2rem;
+  min-height: 12.5rem;
+  padding: 1.25rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: left;
   background-color: #fff;
-  border-bottom-left-radius: 0.6rem;
-  border-bottom-right-radius: 0.6rem;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
 }
 
 .gla-item > a:hover .gla-item-content,
@@ -2868,11 +3040,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .gla-item-img,
 .gla-item .cx-lazy-load {
   z-index: 0;
-  min-height: 16rem;
+  min-height: 10rem;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-top-left-radius: 0.6rem;
-  border-top-right-radius: 0.6rem;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
   -o-object-fit: cover;
   object-fit: cover;
   -webkit-transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2884,7 +3056,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-events .gla-item-img, .home-events
 .gla-item .cx-lazy-load {
-  height: 20rem;
+  height: 12.5rem;
 }
 
 .gla-item > a:hover .gla-item-img,
@@ -2904,24 +3076,24 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .gla-item-title {
   margin: 0;
-  font-size: 1.8rem;
-  line-height: 2.6rem;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
   color: #292B2F;
 }
 
 .home-events .gla-item-title {
   position: absolute;
-  top: -6.5rem;
+  top: -4.0625rem;
   left: 0;
   width: 100%;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.3125rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   font-weight: 500;
-  letter-spacing: 0.13rem;
-  line-height: 3.7rem;
+  letter-spacing: 0.08125rem;
+  line-height: 2.3125rem;
   color: #1E1E1E;
-  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.15);
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.15);
 }
 
 .gla-item > a:hover .gla-item-title,
@@ -2942,8 +3114,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -moz-osx-font-smoothing: grayscale;
   content: "✚";
   float: right;
-  font-size: 1.6rem;
-  line-height: 3.7rem;
+  font-size: 1rem;
+  line-height: 2.3125rem;
   font-weight: 400;
   vertical-align: middle;
   color: #F85C29;
@@ -2964,9 +3136,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .home-events .gla-item-desc {
   margin: 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 900;
-  line-height: 2.8rem;
+  line-height: 1.75rem;
   color: #1E1E1E;
 }
 
@@ -2994,8 +3166,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .home-events {
   position: relative;
   display: block;
-  padding-top: 4.8rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3.75rem;
 }
 
 .home-events::after {
@@ -3006,8 +3178,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-events {
-    padding-top: 7rem;
-    padding-bottom: 8rem;
+    padding-top: 4.375rem;
+    padding-bottom: 5rem;
   }
 }
 
@@ -3016,7 +3188,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   position: absolute;
   z-index: -1;
   top: 0;
-  right: -2.5rem;
+  right: -1.5625rem;
   width: 100vw;
   height: 100%;
   background-color: #F3F6FB;
@@ -3024,7 +3196,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-events::before {
-    right: 10.7rem;
+    right: 6.6875rem;
   }
 }
 
@@ -3040,13 +3212,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-events .edito {
-  height: 44rem;
-  max-width: 27rem;
+  height: 27.5rem;
+  max-width: 16.875rem;
   margin: 0 auto !important;
-  padding: 9rem 0 0 3rem;
+  padding: 5.625rem 0 0 1.875rem;
   color: #fff;
   background: rgba(48, 50, 55, 0.5) url("../img/visual/conferences-bg.png") center center/cover no-repeat;
-  border-radius: 0.6rem;
+  border-radius: 0.375rem;
   overflow: hidden;
 }
 
@@ -3054,9 +3226,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   .home-events .edito {
     float: right;
     width: 23.2%;
-    height: 50rem;
-    margin-top: 9rem !important;
-    padding-top: 12rem;
+    height: 31.25rem;
+    margin-top: 5.625rem !important;
+    padding-top: 7.5rem;
   }
 }
 
@@ -3067,19 +3239,19 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .home-events .edito p {
   margin: 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.25rem;
   font-weight: 900;
-  line-height: 4.5rem;
+  line-height: 2.8125rem;
 }
 
 .home-events .edito .lien2 {
-  margin-top: 3.3rem;
+  margin-top: 2.0625rem;
 }
 
 .home-news {
   position: relative;
-  padding-top: 5rem;
-  padding-bottom: 13.6rem;
+  padding-top: 3.125rem;
+  padding-bottom: 8.5rem;
 }
 
 .home-news::after {
@@ -3090,8 +3262,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-news {
-    padding-top: 7rem;
-    padding-bottom: 8rem;
+    padding-top: 4.375rem;
+    padding-bottom: 5rem;
   }
 }
 
@@ -3101,7 +3273,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   z-index: -1;
   top: 0;
   bottom: 0;
-  right: -2.5rem;
+  right: -1.5625rem;
   display: block;
   width: 100vw;
   background: #F3F6FB;
@@ -3122,7 +3294,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 @media screen and (min-width: 768px) {
   .home-news .inside {
     position: relative;
-    max-width: 114.5rem;
+    max-width: 71.5625rem;
   }
 }
 
@@ -3132,7 +3304,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-news .block-title {
-  margin-bottom: 3rem;
+  margin-bottom: 1.875rem;
   text-align: center;
 }
 
@@ -3145,7 +3317,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .home-news .link-view-all {
   position: absolute;
   left: 50%;
-  bottom: 6rem;
+  bottom: 3.75rem;
   margin: 0;
   white-space: nowrap;
   -webkit-transform: translateX(-50%);
@@ -3174,23 +3346,23 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-news .grid-la-list {
-    margin: 0 -3rem;
+    margin: 0 -1.875rem;
   }
 }
 
 .home-news .gla-item {
   width: 100%;
-  max-width: 26.9rem;
-  height: 22.8rem;
-  margin: 0 auto 2rem;
+  max-width: 16.8125rem;
+  height: 14.25rem;
+  margin: 0 auto 1.25rem;
 }
 
 @media screen and (min-width: 768px) {
   .home-news .gla-item {
     float: left;
     width: 40.4%;
-    max-width: 50.5rem;
-    height: 16.6rem;
+    max-width: 31.5625rem;
+    height: 10.375rem;
     margin-right: 2.4%;
   }
 }
@@ -3203,7 +3375,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-news .gla-item-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3125rem;
   color: currentColor;
 }
 
@@ -3229,14 +3401,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-news .gla-item-img,
 .home-news .gla-item .cx-lazy-load {
-  width: 8.3rem;
+  width: 5.1875rem;
   border-radius: 0;
 }
 
 @media screen and (min-width: 768px) {
   .home-news .gla-item-img,
   .home-news .gla-item .cx-lazy-load {
-    width: 12.3rem;
+    width: 7.6875rem;
   }
 }
 
@@ -3247,16 +3419,16 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -ms-flex-order: -1;
   order: -1;
   display: inline-block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.9375rem;
   letter-spacing: -.4em;
   color: transparent;
 }
 
 .home-news .gla-item .la-item-date {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 0.625rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0;
@@ -3279,24 +3451,24 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-news .gla-item:first-child {
-  max-width: 26.9rem;
-  height: 43.7rem;
-  margin-bottom: 2rem;
+  max-width: 16.8125rem;
+  height: 27.3125rem;
+  margin-bottom: 1.25rem;
 }
 
 @media screen and (min-width: 768px) {
   .home-news .gla-item:first-child {
     width: 48.8%;
-    max-width: 61rem;
+    max-width: 38.125rem;
     margin-bottom: 0;
   }
 }
 
 .home-news .gla-item:first-child .gla-item-title {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   font-weight: 900;
-  line-height: 2.8rem;
+  line-height: 1.75rem;
 }
 
 .home-news .gla-item:first-child .gla-item-content {
@@ -3313,9 +3485,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-news .gla-item:first-child .gla-item-desc {
   display: block;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 300;
-  line-height: 2.8rem;
+  line-height: 1.75rem;
 }
 
 .home-news .gla-item:first-child .gla-item-img,
@@ -3329,24 +3501,24 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-news .gla-item:first-child .gla-item-author {
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.375rem;
 }
 
 .home-quicklinks {
   position: relative;
   z-index: 3;
-  max-width: 110rem;
-  margin: 0 auto 4rem;
+  max-width: 68.75rem;
+  margin: 0 auto 2.5rem;
 }
 
 @media screen and (min-width: 768px) {
   .home-quicklinks {
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
   }
 }
 
 .hero + .home-quicklinks, .home-quicklinks.block {
-  margin-top: -4.5rem !important;
+  margin-top: -2.8125rem !important;
 }
 
 .home-quicklinks .ql-list {
@@ -3365,7 +3537,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-quicklinks .ql-item {
   width: 47.77778%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -3379,8 +3551,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 12rem;
-  padding: 2rem;
+  height: 7.5rem;
+  padding: 1.25rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -3392,28 +3564,28 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -ms-flex-pack: center;
   justify-content: center;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   font-weight: 900;
-  line-height: 2.2rem;
+  line-height: 1.375rem;
   text-align: center;
   text-transform: none;
   text-decoration: none;
   color: #383838;
   background-color: #fff;
   border: 0;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
 }
 
 @media screen and (min-width: 768px) {
   .home-quicklinks .btn-primary {
-    height: 9.5rem;
+    height: 5.9375rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    font-size: 1.8rem;
+    font-size: 1.125rem;
     line-height: 1;
     text-align: left;
   }
@@ -3427,7 +3599,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-quicklinks .btn-primary .icon {
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.9375rem;
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -3437,13 +3609,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-quicklinks .btn-primary .icon {
-    margin-right: 1.5rem;
+    margin-right: 0.9375rem;
     margin-bottom: 0;
   }
 }
 
 .home-quicklinks .btn-primary .icon::before {
-  font-size: 2.7rem;
+  font-size: 1.6875rem;
   color: #F85C29;
 }
 
@@ -3453,7 +3625,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-quicklinks .btn-primary .icon.icon-wallet::before {
-    font-size: 3.7rem;
+    font-size: 2.3125rem;
   }
 }
 
@@ -3464,8 +3636,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-search {
   clear: both;
-  margin-top: 4.9rem;
-  margin-bottom: 4.9rem;
+  margin-top: 3.0625rem;
+  margin-bottom: 3.0625rem;
   overflow: hidden;
 }
 
@@ -3473,13 +3645,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   .home-search {
     float: left;
     width: 68%;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
   }
 }
 
-.home-search .main-title, .home-search .subheader__title, .home-search .home-news .block-title, .home-news .home-search .block-title {
-  margin-bottom: 4rem;
+.home-search .main-title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title {
+  margin-bottom: 2.5rem;
 }
 
 .home-search .global-search-form {
@@ -3489,7 +3661,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .home-search .gsf-fields {
   position: relative;
   padding: 0;
-  border-radius: 0.5rem;
+  border-radius: 0.3125rem;
   background-color: #F3F6FB;
   overflow: hidden;
 }
@@ -3497,7 +3669,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .home-search .gsf-input {
   width: 100%;
   height: 100%;
-  padding: 0 2.5rem;
+  padding: 0 1.5625rem;
   background: none;
   border: 0;
 }
@@ -3507,15 +3679,15 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-search .gsf-submit-btn {
-  min-height: 6.4rem;
-  padding: 0 3rem;
+  min-height: 4rem;
+  padding: 0 1.875rem;
   color: #F85C29;
   background: none;
 }
 
 .home-search .gsf-submit-btn .icon {
   display: block;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   color: currentColor;
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -3531,7 +3703,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-search .quicklinks {
-  margin-top: 2rem !important;
+  margin-top: 1.25rem !important;
 }
 
 .home-search .ql-list {
@@ -3542,7 +3714,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .home-search .ql-list .btn-primary {
-  margin-right: 3rem;
+  margin-right: 1.875rem;
 }
 
 .js .home-search .ql-item {
@@ -3607,9 +3779,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .home-sectors {
   clear: both;
   position: relative;
-  margin-top: 4.9rem;
-  margin-bottom: 4.9rem;
-  padding: 5rem 0 19.6rem;
+  margin-top: 3.0625rem;
+  margin-bottom: 3.0625rem;
+  padding: 3.125rem 0 12.25rem;
   background-color: #F3F6FB;
   /**
    * background images
@@ -3622,10 +3794,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-sectors {
-    margin-top: 8.5rem;
-    margin-bottom: 10rem;
-    padding-top: 7rem;
-    padding-bottom: 17.5rem;
+    margin-top: 5.3125rem;
+    margin-bottom: 6.25rem;
+    padding-top: 4.375rem;
+    padding-bottom: 10.9375rem;
   }
 }
 
@@ -3634,7 +3806,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   position: absolute;
   z-index: -1;
   top: 0;
-  left: -2.5rem;
+  left: -1.5625rem;
   display: block;
   height: 100%;
   width: 100vw;
@@ -3653,33 +3825,33 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-sectors__title {
   text-align: center;
-  line-height: 6rem;
-  margin-bottom: 2rem;
+  line-height: 3.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .home-sectors__description {
-  max-width: 92rem;
-  margin: 0 auto 4rem;
+  max-width: 57.5rem;
+  margin: 0 auto 2.5rem;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.125rem;
   font-weight: 300;
-  line-height: 3rem;
+  line-height: 1.875rem;
   color: #383838;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
   .home-sectors__description {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 }
 
 .home-sectors__progressbar {
   position: absolute;
-  bottom: 15.4rem;
+  bottom: 9.625rem;
   display: block;
   width: 100%;
-  height: 0.2rem;
+  height: 0.125rem;
   background: #fff;
 }
 
@@ -3710,7 +3882,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-sectors .ql-list {
-    margin: -1rem;
+    margin: -0.625rem;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -3721,16 +3893,16 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .home-sectors .ql-item:not(.linkid794935) {
   position: relative;
-  width: 21.3rem;
+  width: 13.3125rem;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-radius: 0.6rem;
+  border-radius: 0.375rem;
   overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
   .home-sectors .ql-item:not(.linkid794935) {
-    margin: 1rem;
+    margin: 0.625rem;
   }
 }
 
@@ -3760,28 +3932,28 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   position: relative;
   display: block;
   width: 100%;
-  height: 18.5rem;
-  padding: 4.5rem 2rem 2rem;
+  height: 11.5625rem;
+  padding: 2.8125rem 1.25rem 1.25rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5625rem;
   font-weight: 900;
-  line-height: 3.5rem;
+  line-height: 2.1875rem;
   text-align: left;
   text-transform: none;
   color: #fff;
   border: 0;
-  border-radius: 0.6rem;
+  border-radius: 0.375rem;
   background: center center / contain no-repeat;
   background-size: 100%;
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
   overflow: hidden;
 }
 
 .home-sectors .ql-item:not(.linkid794935) .btn-primary .icon {
   position: relative;
   display: block;
-  height: 3rem;
+  height: 1.875rem;
   z-index: 1;
 }
 
@@ -3809,21 +3981,21 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   bottom: 0;
   right: 0;
   display: block;
-  width: 2.6rem;
-  height: 2.5rem;
-  font-size: 2.5rem;
+  width: 1.625rem;
+  height: 1.5625rem;
+  font-size: 1.5625rem;
   font-weight: 400;
-  line-height: 2.4rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #F85C29;
   background: #fff;
-  border-top-left-radius: 0.6rem;
+  border-top-left-radius: 0.375rem;
 }
 
 .home-sectors .linkid794935 {
   list-style: none;
   position: absolute;
-  bottom: 6rem;
+  bottom: 3.75rem;
   width: 100%;
   text-align: center;
   -webkit-box-ordinal-group: 100;
@@ -3833,13 +4005,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .home-sectors .linkid794935 {
-    bottom: 8rem;
+    bottom: 5rem;
   }
 }
 
 .home-sectors .linkid794935 [class^='btn'] {
   width: auto;
-  min-width: 19rem;
+  min-width: 11.875rem;
   height: auto;
 }
 
@@ -3887,10 +4059,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   position: relative;
   z-index: 1;
   float: right;
-  margin: 0.9rem 0;
-  font-size: 1.4rem;
+  margin: 0.5625rem 0;
+  font-size: 0.875rem;
   background: none;
-  border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
+  border-left: 0.0625rem solid rgba(200, 204, 215, 0.3);
 }
 
 .is-stuck .lang-switcher {
@@ -3903,11 +4075,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .ls-trigger {
-  padding: 0 2rem;
+  padding: 0 1.25rem;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: 300;
-  line-height: 2rem;
+  line-height: 1.25rem;
   color: #292B2F;
 }
 
@@ -3941,7 +4113,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: none;
   clear: right;
   float: left;
-  padding: 0 0 0 1.8rem;
+  padding: 0 0 0 1.125rem;
   -webkit-box-shadow: none;
   box-shadow: none;
   background: #fff;
@@ -3968,37 +4140,37 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .mn-item-lvl-1 > .mn-link {
   position: relative;
-  padding: 1.9rem 1.2rem;
+  padding: 1.1875rem 0.75rem;
   color: #585858;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: 600;
-  letter-spacing: -0.01rem;
-  line-height: 2.6rem;
+  letter-spacing: -0.00625rem;
+  line-height: 1.625rem;
 }
 
 .is-stuck .mn-item-lvl-1 > .mn-link {
-  padding: 1.9rem 1.2rem;
+  padding: 1.1875rem 0.75rem;
 }
 
 .mn-item-lvl-1 > .mn-link::after {
   position: absolute;
   content: '';
-  left: 1.2rem;
+  left: 0.75rem;
   right: 100%;
-  bottom: 1.9rem;
-  border-bottom: 0.1rem solid #F85C29;
+  bottom: 1.1875rem;
+  border-bottom: 0.0625rem solid #F85C29;
   -webkit-transition: right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: right 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .mn-menu-submenu .mn-link {
-  padding: 0.7rem 3rem;
+  padding: 0.4375rem 1.875rem;
 }
 
 .mn-menu-submenu .mn-link:last-child {
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.9375rem;
 }
 
 .mn-link-text::before {
@@ -4013,12 +4185,12 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .mn-link.mn-link:hover::after, .mn-link.mn-link:focus::after, .mn-link.mn-link.is-active::after,
 .is-open .mn-link.mn-link::after {
-  right: 1.2rem;
+  right: 0.75rem;
 }
 
 .mn-menu-submenu .mn-link.mn-link:hover, .mn-menu-submenu .mn-link.mn-link:focus, .mn-menu-submenu .mn-link.mn-link.is-active, .mn-menu-submenu
 .is-open .mn-link.mn-link {
-  padding-left: 3rem;
+  padding-left: 1.875rem;
   color: #F85C29;
 }
 
@@ -4037,15 +4209,15 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .newsletter-form .optin-container {
   float: none;
   width: auto;
-  max-width: 38.8rem;
-  margin: 1.9rem auto 0;
+  max-width: 24.25rem;
+  margin: 1.1875rem auto 0;
   text-align: left;
 }
 
 .nf-title {
   padding: 0;
   font-family: 'Avenir', sans-serif;
-  font-size: 3rem;
+  font-size: 1.875rem;
   font-weight: 900;
   text-align: center;
   color: #383838;
@@ -4053,9 +4225,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .nf-subtitle {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 300;
-  line-height: 3.1rem;
+  line-height: 1.9375rem;
 }
 
 .nf-subtitle > p {
@@ -4068,23 +4240,23 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -2.5rem;
-  padding: 4rem;
+  margin: 0 -1.5625rem;
+  padding: 2.5rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
   color: #383838;
   background: #FFDB38 url("../img/visual/newsletter-bg.svg") bottom right no-repeat;
-  -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
-  box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
+  -webkit-box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
+  box-shadow: 0 0.125rem 2.125rem 0 rgba(130, 130, 130, 0.26);
 }
 
 @media screen and (min-width: 768px) {
   .nf-main-content {
-    min-height: 44rem;
+    min-height: 27.5rem;
     margin: 0;
-    border-radius: 0.8rem;
+    border-radius: 0.5rem;
   }
 }
 
@@ -4095,14 +4267,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .nf-form-input {
   float: none;
   width: auto;
-  max-width: 38.8rem;
-  margin: 4rem auto 0;
+  max-width: 24.25rem;
+  margin: 2.5rem auto 0;
 }
 
 .nf-form-txt {
   width: 100%;
-  height: 5.8rem;
-  border-radius: 0.7rem;
+  height: 3.625rem;
+  border-radius: 0.4375rem;
   border: 0;
 }
 
@@ -4111,7 +4283,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .nf-form-submit {
-  margin-top: 4.2rem;
+  margin-top: 2.625rem;
 }
 
 .nf-form-submit .icon {
@@ -4120,15 +4292,15 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .partner {
   position: relative;
-  margin-top: 4rem;
-  margin-bottom: 6rem;
-  padding-bottom: 7.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3.75rem;
+  padding-bottom: 4.6875rem;
 }
 
 @media screen and (min-width: 768px) {
   .partner {
-    margin-top: 9rem;
-    margin-bottom: 10rem;
+    margin-top: 5.625rem;
+    margin-bottom: 6.25rem;
   }
 }
 
@@ -4137,12 +4309,12 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   text-align: center;
 }
 
-.partner .main-title-with-link > .main-title, .partner .main-title-with-link > .subheader__title, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title {
+.partner .main-title-with-link > .main-title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title {
   float: none;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 4.2rem;
+  font-size: 2.625rem;
   font-weight: 900;
-  line-height: 6rem;
+  line-height: 3.75rem;
   text-align: center;
   text-transform: none;
   color: #585858;
@@ -4168,7 +4340,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .pg-item {
-  height: 12rem;
+  height: 7.5rem;
 }
 
 .pg-item-title {
@@ -4221,8 +4393,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 .site-banner::after {
   content: '';
   display: none;
-  height: 3.7rem;
-  width: calc(100vw - 38.7rem);
+  height: 2.3125rem;
+  width: calc(100vw - 24.1875rem);
   position: absolute;
   top: 0;
   right: 0;
@@ -4243,7 +4415,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .site-banner .inside {
-  max-width: 136rem;
+  max-width: 85rem;
   padding-top: 0;
 }
 
@@ -4294,8 +4466,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   flex-direction: column;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  max-width: 128rem;
-  padding: 6rem 2.5rem 1rem;
+  max-width: 80rem;
+  padding: 3.75rem 1.5625rem 0.625rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -4304,8 +4476,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
   }
 }
 
@@ -4316,12 +4488,12 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .wrapper, .subheader__wrapper,
 .site-wrapper {
-  max-width: 128rem;
+  max-width: 80rem;
 }
 
 .site-wrapper {
   margin-bottom: 0;
-  padding: 0 2.5rem;
+  padding: 0 1.5625rem;
   background: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -4329,27 +4501,27 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .site-wrapper {
-    padding: 0 1.5rem;
+    padding: 0 0.9375rem;
   }
 }
 
 .global-wrapper {
-  padding-top: 6.3rem;
-  padding-bottom: 4rem;
+  padding-top: 3.9375rem;
+  padding-bottom: 2.5rem;
   overflow-x: hidden;
 }
 
 @media screen and (min-width: 768px) {
   .global-wrapper {
-    padding-top: 10.4rem;
-    padding-bottom: 5rem;
+    padding-top: 6.5rem;
+    padding-bottom: 3.125rem;
   }
 }
 
 .site-footer .social-networks {
   display: block;
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -4382,17 +4554,17 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .social-networks .ql-item + .ql-item {
-  margin-left: 1.5rem;
+  margin-left: 0.9375rem;
 }
 
 @media screen and (min-width: 768px) {
   .social-networks .ql-item + .ql-item {
-    margin-left: 0.7rem;
+    margin-left: 0.4375rem;
   }
 }
 
 .social-networks .btn-primary {
-  font-size: 4rem;
+  font-size: 2.5rem;
   padding: 0;
   color: currentColor;
   background: none;
@@ -4401,7 +4573,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 @media screen and (min-width: 768px) {
   .social-networks .btn-primary {
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
 }
 
@@ -4464,7 +4636,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .subheader-navigation .block.quicklinks-navigation .ql-item + .ql-item {
-  margin-left: 4.4rem;
+  margin-left: 2.75rem;
 }
 
 .subheader-navigation .block.quicklinks-navigation .ql-item-link {
@@ -4474,7 +4646,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 8.4rem;
+  height: 5.25rem;
 }
 
 .subheader-navigation .block.quicklinks-navigation .ql-item-link::after {
@@ -4500,21 +4672,21 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .subheader-navigation .block.quicklinks-cta .ql-item + .ql-item {
-  margin-left: 2rem;
+  margin-left: 1.25rem;
 }
 
 .subheader-navigation .block.quicklinks-cta .btn-primary {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 900;
-  line-height: 3.5rem;
+  line-height: 2.1875rem;
   text-transform: none;
   color: #383838;
   background-color: #FFFFFF;
   border: 0;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.25rem 0.5625rem 0 rgba(0, 0, 0, 0.13);
 }
 
 .top-header {
@@ -4526,7 +4698,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 
 @media screen and (max-width: 1330px) {
@@ -4537,23 +4709,23 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 
 .top-quicklinks > span {
   float: left;
-  margin-right: 0.7rem;
-  font-size: 1.4rem;
+  margin-right: 0.4375rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 2.6rem;
+  line-height: 1.625rem;
 }
 
 .top-quicklinks .btn-primary {
   display: block;
-  padding: 0 1rem;
+  padding: 0 0.625rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 1.4rem;
-  line-height: 2.4rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
   text-transform: none;
   color: currentColor;
   background: none;
-  border: 0.1rem solid #C8CCD7;
-  border-radius: 0.7rem;
+  border: 0.0625rem solid #C8CCD7;
+  border-radius: 0.4375rem;
   -webkit-transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -4574,7 +4746,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-icon::after {
 }
 
 .site-banner .ql-item + .ql-item {
-  margin-left: 1rem;
+  margin-left: 0.625rem;
 }
 
 * {
@@ -4587,4 +4759,3 @@ body {
   color: #383838;
   background-color: #fff;
 }
-/*# sourceMappingURL=surcharge.css.map */

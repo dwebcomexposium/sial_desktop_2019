@@ -262,14 +262,22 @@
           "prevSize": 16,
           "code": 10010,
           "tempChar": ""
+        },
+        {
+          "order": 37,
+          "id": 34,
+          "name": "play",
+          "prevSize": 16,
+          "code": 9655,
+          "tempChar": ""
         }
       ],
       "id": 0,
       "metadata": {
         "name": "sial-2019",
         "importSize": {
-          "width": 43,
-          "height": 44
+          "width": 16,
+          "height": 20
         }
       },
       "height": 1024,
@@ -802,6 +810,21 @@
           "grid": 0,
           "tags": [
             "plus"
+          ],
+          "colorPermutations": {}
+        },
+        {
+          "id": 34,
+          "paths": [
+            "M788.591 469.596l-671.847-453.259c-20.886-15.207-76.584-15.207-81.059 42.186v906.518c4.973 57.393 61.665 58.374 81.059 42.186l671.847-453.259c17.405-10.301 41.276-52.488 0-84.373zM139.62 868.405v-713.245l527.631 356.623-527.631 356.623z"
+          ],
+          "attrs": [],
+          "width": 819,
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "play"
           ],
           "colorPermutations": {}
         }
