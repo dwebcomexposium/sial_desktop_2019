@@ -1,0 +1,70 @@
+/*
+	
+	== Corporate
+	== List of partners
+	.partner-list --> .pl-##
+
+*/
+.pl-item-illust {
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  text-align: center;
+}
+.pl-item {
+  padding: 1em 0;
+  border-bottom: 1px solid #e3e9ea;
+}
+.pl-item-content {
+  display: inline-block;
+  width: 64%;
+}
+.pl-item-title {
+  margin-bottom: 0;
+  font-size: 2.2rem;
+}
+.pl-trigger-wrap {
+  position: relative;
+  text-align: right;
+}
+.pl-trigger-wrap::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -111px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  height: 110px;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 80%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 80%);
+}
+.pl-trigger {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-transform: none;
+  font-weight: bold;
+  background: #f6f9f9;
+  color: #566e02;
+}
+.pl-trigger .icon {
+  color: #909b9d;
+  line-height: 1;
+}
+.pl-trigger:focus,
+.pl-trigger:hover {
+  color: #7ea203;
+}
+.js .js-pl {
+  display: none;
+}
+.js .js-pl.is-visible {
+  display: block;
+}
+.js .js-pl.is-visible + .pl-trigger-wrap:before {
+  display: none;
+}
+
+/*# sourceMappingURL=maps/corporate-partner-list.css.map */

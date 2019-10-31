@@ -1,0 +1,59 @@
+/*
+
+	== Corporate
+	== Research or events
+
+	.search-events --> .se-###
+
+*/
+.search-events {
+  min-height: 323px;
+  padding: 0.65em 1em;
+  background: #f6f9f9;
+  border: 4px solid #e3e9ea;
+}
+.search-events fieldset {
+  margin-top: 0;
+}
+.search-events .form-txt,
+.search-events .form-select {
+  width: 100%;
+}
+.search-events .form-select {
+  background: #FFF;
+}
+.search-events .form-datepicker .btn-datepiker {
+  left: 88%;
+}
+.se-title {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 2.2rem;
+  border-bottom: 0;
+}
+.se-title .icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: .5em;
+  font-size: 2.5rem;
+}
+.se-title + .form-item {
+  margin-top: 0;
+}
+.se-title + .form-item label {
+  margin-top: 0;
+}
+.se-btn-submit {
+  margin: 0.5em 0;
+  background: #0c8192;
+  border-color: #00525e;
+}
+.se-view-all {
+  font-size: 1.4rem;
+  color: #00525e;
+}
+/*
+ * Events
+ */
+
+/*# sourceMappingURL=maps/corporate-search-events-exhibitors.css.map */

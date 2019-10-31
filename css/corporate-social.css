@@ -1,0 +1,136 @@
+/*
+	
+	== Corporate
+	== Social links
+	.social-links --> .sl-## 
+	==> social links (@sidebar, homepage...)
+
+	.social-sharing --> .ss-##
+	==> to share an article (@article)
+
+
+*/
+.social-sharing.social-sharing .ss-list,
+.sl-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.social-sharing.social-sharing .ss-item,
+.sl-item {
+  display: inline;
+}
+.social-sharing.social-sharing [class*="ss-link"],
+[class*="sl-link"] {
+  width: 180px;
+  padding: 0.6em 1em;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #FFF;
+}
+.social-sharing.social-sharing [class*="ss-link"]:focus,
+[class*="sl-link"]:focus,
+.social-sharing.social-sharing [class*="ss-link"]:hover,
+[class*="sl-link"]:hover {
+  color: #FFF;
+}
+.social-sharing.social-sharing [class*="ss-link"] .icon,
+[class*="sl-link"] .icon {
+  margin-right: 2em;
+}
+.social-sharing.social-sharing .ss-item-txt,
+.sl-item-txt {
+  text-transform: none;
+  font-weight: bold;
+}
+.social-sharing.social-sharing .ss-link-facebook,
+.sl-link-facebook {
+  background: #36589b;
+  border-bottom-color: #263e6e;
+}
+.social-sharing.social-sharing .ss-link-facebook:focus,
+.sl-link-facebook:focus,
+.social-sharing.social-sharing .ss-link-facebook:hover,
+.sl-link-facebook:hover {
+  background: #294375;
+  border-bottom-color: #1c2d4f;
+}
+.social-sharing.social-sharing .ss-link-twitter,
+.sl-link-twitter {
+  background: #31aae1;
+  border-bottom-color: #1b88ba;
+}
+.social-sharing.social-sharing .ss-link-twitter:focus,
+.sl-link-twitter:focus,
+.social-sharing.social-sharing .ss-link-twitter:hover,
+.sl-link-twitter:hover {
+  background: #1c8fc3;
+  border-bottom-color: #166e96;
+}
+.social-sharing.social-sharing .ss-link-pinterest,
+.sl-link-pinterest {
+  background: #cb2027;
+  border-bottom-color: #96181d;
+}
+.social-sharing.social-sharing .ss-link-pinterest:focus,
+.sl-link-pinterest:focus,
+.social-sharing.social-sharing .ss-link-pinterest:hover,
+.sl-link-pinterest:hover {
+  background: #9f191f;
+  border-bottom-color: #731216;
+}
+.social-sharing.social-sharing .ss-link-mail,
+.sl-link-mail {
+  background: #0c8192;
+  border-bottom-color: #074f59;
+}
+.social-sharing.social-sharing .ss-link-mail:focus,
+.sl-link-mail:focus,
+.social-sharing.social-sharing .ss-link-mail:hover,
+.sl-link-mail:hover {
+  background: #085763;
+  border-bottom-color: #042e34;
+}
+/*
+ * Social sharing only
+ */
+.social-sharing {
+  margin: 1em 0;
+  padding: 1em 0;
+  border: 1px solid #e3e9ea;
+  border-width: 1px 0;
+}
+.social-sharing .ss-title {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #474d4e;
+}
+/*
+ * Social links only
+ */
+[class*="sl-link"] {
+  width: 70px;
+  padding-left: .5em;
+  padding-right: .5em;
+  text-align: center;
+}
+[class*="sl-link"] .icon {
+  font-size: 1.8rem;
+  margin-right: 0;
+}
+.sl-item-txt {
+  position: absolute !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+
+/*# sourceMappingURL=maps/corporate-social.css.map */

@@ -1,0 +1,1 @@
+jQuery(function(){new Swiper(".meet-buyers__list__wrapper",{slidesPerView:"auto",wrapperClass:"meet-buyers__list",slideClass:"meet-buyers__item",watchOverflow:!0,centeredSlides:!0,breakpoints:{480:{centeredSlides:!1,spaceBetween:0}}})});

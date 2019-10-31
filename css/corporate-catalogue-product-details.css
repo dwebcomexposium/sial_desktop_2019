@@ -1,0 +1,492 @@
+/*
+
+		== Corporate / Catalogue
+		== Details of a product
+		.catal-pr-details ==> .catal-prd-###
+*/
+.mod-catal {
+  /*
+ * == Details of an exhibitor (FR: fiche exposant)
+ */
+}
+.mod-catal .catal-prd-group-title {
+  border-bottom: 1px solid #e3e9ea;
+  padding: 0.5rem 0;
+}
+.mod-catal .catal-prd-group-title [class$="-view-all"],
+.mod-catal .catal-prd-group-footer [class$="-view-all"] {
+  margin-top: 0.2rem;
+  font-size: 1.4rem;
+}
+.mod-catal .catal-prd-main-title {
+  display: inline-block;
+  border-bottom: none;
+  margin: 0;
+  font-size: 2.4rem;
+  color: #0c8192;
+}
+.mod-catal .catal-prd-main-title .qty-round-big {
+  background-color: #0c8192;
+}
+.mod-catal .catal-prd-title {
+  border-bottom: none;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #474d4e;
+}
+.mod-catal.catal-pr-details .edito .catal-pr-item-buttons {
+  float: right;
+}
+.mod-catal.catal-pr-details .edito .catal-pr-item-buttons + h1 {
+  overflow: hidden;
+  border-bottom: none;
+  line-height: 1.3;
+}
+.mod-catal.catal-pr-details .edito .btn-primary {
+  margin-left: 0.8rem;
+  padding: 0.6rem 1.2rem 0.4rem 1.2rem;
+  font-size: 1.3rem;
+}
+.mod-catal.catal-pr-details .edito .btn-primary .icon-catal {
+  margin-right: 0;
+  vertical-align: 0;
+  font-size: 1.1rem;
+}
+.mod-catal.catal-pr-details .edito .btn-primary .icon-catal-star-delete,
+.mod-catal.catal-pr-details .edito .btn-primary .icon-catal-star-empty {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+}
+.mod-catal.catal-pr-details .edito .btn-primary .animation-txt {
+  position: absolute !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+}
+.mod-catal.catal-pr-details .edito .catal-pr-ex-name {
+  margin: -1.4rem 0 1.7rem 0;
+  font-size: 1.8rem;
+}
+.mod-catal.catal-pr-details .edito .catal-pr-ex-link {
+  text-decoration: none;
+}
+.mod-catal.catal-pr-details .edito .catal-pr-ex-link .icon-catal {
+  margin-right: 0.5em;
+  text-decoration: none;
+  color: #0c8192;
+}
+.mod-catal.catal-pr-details .edito .catal-pr-ex-link span {
+  text-decoration: underline;
+  color: #2b2f2f;
+}
+.mod-catal .catal-prd-main {
+  border: 4px solid #e3e9ea;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #f6f9f9;
+}
+.mod-catal .catal-prd-main .catal-prd-main-media {
+  float: left;
+  max-width: 350px;
+  margin: 0 1em 1em 0;
+}
+.mod-catal .catal-prd-main abbr[title] {
+  border-bottom: none;
+  text-decoration: none;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price {
+  overflow: hidden;
+  padding-bottom: 1.4rem;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price-current {
+  float: right;
+  margin-top: 0.8rem;
+  line-height: 1.2;
+  text-align: right;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #910f4f;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price-current small {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #474d4e;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price-rebate {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0 0.4rem 0.1rem 0.4rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #003239;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price-old {
+  margin-top: 0;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  text-decoration: line-through;
+  color: #474d4e;
+}
+.mod-catal .catal-prd-main .catal-prd-main-price-old-small {
+  margin: 0;
+  line-height: 1;
+  font-size: 1.2rem;
+  color: #2b2f2f;
+}
+.mod-catal .catal-prd-main .catal-prd-main-desc {
+  border-top: 1px solid #e3e9ea;
+  padding: 0.8rem 0 0.2rem 0;
+}
+.mod-catal .catal-prd-main .catal-prd-main-desc-content {
+  margin-top: 0.3rem;
+  line-height: 1.43;
+  font-size: 1.4rem;
+}
+.mod-catal .catal-prd-main .catal-prd-main-desc-content p {
+  line-height: inherit;
+}
+.mod-catal .catal-prd-main .catal-prd-main-brand {
+  border-top: 1px solid #e3e9ea;
+  padding: 0.8rem 0 0.2rem 0;
+}
+.mod-catal .catal-prd-main .catal-prd-main-brand .catal-prd-main-brand-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #2b2f2f;
+}
+.mod-catal .catal-prd-main .catal-prd-main-brand .catal-prd-main-brand-link .icon-catal {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  font-size: 1.7rem;
+  color: #cc327e;
+}
+.mod-catal .catal-prd-main .catal-prd-main-brand .catal-prd-main-brand-link span {
+  text-decoration: underline;
+}
+.mod-catal .catal-prd-main .catal-prd-stand {
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+.mod-catal .catal-prd-main .catal-prd-stand::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-title {
+  float: left;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-list {
+  float: left;
+  margin-top: 0.5rem;
+  padding-left: 0;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-item {
+  list-style-type: none;
+  float: left;
+  margin-left: 0.7rem;
+  font-size: ;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-item:not(:first-child) {
+  border-left: 1px solid #e3e9ea;
+  padding-left: 0.5rem;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-item .icon-catal {
+  color: #566e02;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-link,
+.mod-catal .catal-prd-main .catal-prd-stand-nolink {
+  border-right: 0;
+  color: #2b2f2f;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-more {
+  float: left;
+  margin-top: 0.5rem;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-more-link {
+  margin-left: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00525e;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-more-link .icon-catal {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.mod-catal .catal-prd-main .catal-prd-stand-more-link span {
+  text-decoration: underline;
+}
+.mod-catal .catal-prd-main .catal-prd-main-footer {
+  clear: left;
+  border-top: 1px solid #e3e9ea;
+  padding: 1.2rem 0 0.2rem 0;
+}
+.mod-catal .catal-prd-main .catal-prd-main-footer::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.mod-catal .catal-prd-main .catal-prd-main-ext,
+.mod-catal .catal-prd-main .catal-prd-main-facts {
+  float: left;
+  width: 50%;
+}
+.mod-catal .catal-prd-main .catal-prd-main-link-video {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #910f4f;
+}
+.mod-catal .catal-prd-main .catal-prd-main-link-video .icon-catal {
+  margin-right: 0.4rem;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: #910f4f;
+}
+.mod-catal .catal-prd-main .catal-prd-main-link-video span {
+  text-transform: uppercase;
+}
+.mod-catal .catal-prd-main .catal-prd-main-url {
+  margin-top: 0;
+}
+.mod-catal .catal-prd-main .catal-prd-main-facts-list {
+  font-size: 1.4rem;
+}
+.mod-catal .catal-prd-main .catal-prd-main-facts-term {
+  float: left;
+  clear: left;
+}
+.mod-catal .catal-prd-main .catal-prd-main-facts-term:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px solid #7ea203;
+  margin-right: 0.5em;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.mod-catal .catal-prd-main .catal-prd-main-facts-def {
+  overflow: hidden;
+  padding-left: 0.4rem;
+  font-weight: bold;
+}
+.mod-catal .catal-prd-group {
+  border-top: 4px solid #0c8192;
+  border-bottom: 1px solid #e3e9ea;
+  margin-bottom: 1em;
+}
+.mod-catal .catal-prd-orgs .catal-prd-orgs-type:before,
+.mod-catal .catal-prd-agents .catal-prd-agents-title:before {
+  content: '';
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  border: 4px solid #0c8192;
+  margin-right: 0.5em;
+}
+.mod-catal .catal-prd-url {
+  font-size: 1.4rem;
+}
+.mod-catal .catal-prd-url .catal-prd-url-link {
+  text-decoration: none;
+}
+.mod-catal .catal-prd-url .icon-catal {
+  margin-left: 6px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #909b9d;
+}
+.mod-catal .catal-prd-url span {
+  text-decoration: underline;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-group {
+  border-bottom: 1px solid #e3e9ea;
+  padding: 1em 1em 1em 0;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-title {
+  float: left;
+  width: 25%;
+  margin-top: 0;
+  line-height: 1.4;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-list {
+  overflow: hidden;
+  margin: 0 0 0 25%;
+  padding-left: 0;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-type-list {
+  padding-left: 0;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-type-list .catal-prd-infos-item {
+  display: inline-block;
+  margin-right: 1.2rem;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-type-list .catal-prd-infos-item .icon-catal {
+  margin-right: 0.6rem;
+  color: #0c8192;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-type-list .catal-prd-infos-item span {
+  color: #474d4e;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-item {
+  display: inline-block;
+  margin: 0 0.25em 0.5em 0;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link {
+  display: inline-block;
+  line-height: 1;
+  padding: 0.5rem 0.8rem 0.7rem 0.8rem;
+  text-decoration: none;
+  color: #474d4e;
+  background-color: #f6f9f9;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:focus,
+.mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:active,
+.mod-catal .catal-prd-infos .catal-prd-infos-cat-list .catal-prd-infos-link:hover {
+  color: #910f4f;
+  background-color: #e3e9ea;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-public-list,
+.mod-catal .catal-prd-infos .catal-prd-infos-trend-list,
+.mod-catal .catal-prd-infos .catal-prd-infos-innov-list {
+  padding-left: 0;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-public-list .catal-prd-infos-item,
+.mod-catal .catal-prd-infos .catal-prd-infos-trend-list .catal-prd-infos-item,
+.mod-catal .catal-prd-infos .catal-prd-infos-innov-list .catal-prd-infos-item {
+  display: inline-block;
+  margin-right: 0.5em;
+  color: #474d4e;
+}
+.mod-catal .catal-prd-infos .catal-prd-infos-public-list .catal-prd-infos-item:before,
+.mod-catal .catal-prd-infos .catal-prd-infos-trend-list .catal-prd-infos-item:before,
+.mod-catal .catal-prd-infos .catal-prd-infos-innov-list .catal-prd-infos-item:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px solid #7ea203;
+  margin-right: 0.5em;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.mod-catal .catal-prd-char .catal-prd-char-content {
+  margin: 1em 0;
+}
+.mod-catal .catal-prd-board .catal-prd-board-content {
+  margin: 1em 0;
+}
+.mod-catal .catal-prd-board .catal-prd-board-content {
+  margin: 1em 0;
+}
+.mod-catal .catal-prd-exhibitor::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-group-title {
+  margin-bottom: 2rem;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-img {
+  float: left;
+  margin: 0 1em 0 0.5em;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-content {
+  float: right;
+  width: 65%;
+  margin-bottom: 1em;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link {
+  text-decoration: none;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view .icon-catal {
+  margin-right: 0.5em;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #910f4f;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view span {
+  color: #474d4e;
+}
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view span:focus,
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view span:active,
+.mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view span:hover {
+  text-decoration: underline;
+}
+.mod-catal .catal-prd-brand::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.mod-catal .catal-prd-brand .catal-prd-group-title {
+  margin-bottom: 2rem;
+}
+.mod-catal .catal-prd-brand .catal-prd-brand-img {
+  float: left;
+  margin: 0 1em 0 0.5em;
+  max-width: 30%;
+}
+.mod-catal .catal-prd-brand .catal-prd-brand-content {
+  float: right;
+  width: 65%;
+  margin-bottom: 1em;
+}
+.mod-catal .catal-prd-brand .catal-prd-brand-view {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+.mod-catal .catal-prd-brand .catal-prd-brand-view .catal-prd-brand-view-link {
+  text-decoration: none;
+}
+.mod-catal .catal-prd-brand .catal-prd-brand-view .icon-catal {
+  margin-right: 0.5em;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #910f4f;
+}
+.mod-catal .catal-prd-brand .catal-prd-brand-view span {
+  color: #474d4e;
+}
+.mod-catal .catal-prd-brand .catal-prd-brand-view span:focus,
+.mod-catal .catal-prd-brand .catal-prd-brand-view span:active,
+.mod-catal .catal-prd-brand .catal-prd-brand-view span:hover {
+  text-decoration: underline;
+}
+.mod-catal .catal-prd-brand .catal-prd-exhibitor-view-all {
+  margin-top: 2em;
+  text-align: right;
+}
+.mod-catal .catal-prd-brand .catal-prd-exhibitor-view-all .icon-catal {
+  margin-left: 1rem;
+}
+.mod-catal .catal-prd-stand .catal-ex-item-stand-more {
+  display: inline-block;
+  padding-left: 1.5rem;
+  padding-top: .4rem;
+}
+
+/*# sourceMappingURL=maps/corporate-catalogue-product-details.css.map */

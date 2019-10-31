@@ -1,0 +1,106 @@
+/*
+	
+	== Corporate
+	== Gallery of partners
+	== Slider of partners
+	== Tabs & sliders of partners
+	.partner-gallery --> .pg-##
+
+*/
+.block-page.partner .pg-read-more {
+  display: none;
+}
+.pg-item {
+  display: inline-block;
+  width: 152px;
+  text-align: center;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid #f6f9f9;
+}
+.pg-item a {
+  text-decoration: none;
+}
+.pg-item-illust {
+  display: inline-block;
+  vertical-align: middle;
+  height: 90px;
+  margin-bottom: 0.5em;
+}
+.pg-item-illust img {
+  max-height: 90px;
+  width: auto;
+}
+.pg-item-title {
+  display: block;
+  font-size: 1.4rem;
+  color: #2b2f2f;
+}
+.pg-item-link:focus,
+.pg-item-link:hover {
+  text-decoration: underline;
+}
+/*
+ * Slider
+ */
+.partner-gallery.slider {
+  overflow: hidden;
+  width: 100%;
+}
+.partner-gallery.slider .pg-item {
+  width: 150px;
+  display: block;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  border: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.partner-gallery.slider .slider-pagin-nb {
+  display: none;
+}
+.pg-pagin.slider-pagin {
+  margin-top: 1em;
+  padding-top: 1em;
+  text-align: center;
+  border-top: 2px solid #f6f9f9;
+  background: none;
+}
+.pg-pagin-nb {
+  display: inline-block;
+  margin: 0 1em;
+  font-size: 1.4rem;
+  color: #474d4e;
+}
+.pg-pagin-nb .active {
+  color: #910f4f;
+}
+/* slider @sidebar */
+.block-small.partner .inside {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.block-small.partner .pg-read-more {
+  -webkit-box-ordinal-group: 21;
+  -webkit-order: 20;
+      -ms-flex-order: 20;
+          order: 20;
+  margin-top: 0;
+  text-align: center;
+}
+.block-small.partner .slider {
+  margin-top: 1em;
+}
+.block-small.partner .pg-item {
+  width: 122px;
+}
+
+/*# sourceMappingURL=maps/corporate-partner-slider.css.map */

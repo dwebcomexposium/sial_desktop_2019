@@ -1,0 +1,42 @@
+/*
+	
+		== Corporate / Catalogue
+		== Round number (e.g. number on a disc of a set size)
+		.qty-round
+
+*/
+.mod-catal {
+  /* 
+ * ==Round number
+ * 3 different sizes: 30x30 (next to a heading), 21x21 (affix menu) or 15x15 (sidebar)
+ */
+}
+.mod-catal .qty-round {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  line-height: 21px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #474d4e;
+  border-radius: 50%;
+}
+.mod-catal .qty-round-big {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 1.6rem;
+}
+.mod-catal .qty-round-small {
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+}
+.mod-catal .qty-nb {
+  background-color: inherit;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=maps/corporate-catalogue-round-number.css.map */

@@ -1,0 +1,1 @@
+!function(r){r(function(){r(".subheader__img").each(function(n,c){var i=r(c).find("img").attr("src");r(c).css("background-image","url("+i+")")})})}(jQuery);

@@ -1,0 +1,120 @@
+/*
+
+	== Corporate
+	== Header
+*/
+.site-banner {
+  position: relative;
+  color: #FFF;
+  background: #003239;
+}
+.site-banner .inside {
+  position: relative;
+  padding: 3em 0 0;
+}
+.site-banner .inside::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+.sb-branding,
+.sb-place-date {
+  float: left;
+  font-family: "League Gothic", Impact, Arial, sans-serif;
+}
+.sb-branding {
+  width: 32%;
+  padding-left: 1.5em;
+}
+.sb-branding-img.sticky {
+  display: none;
+}
+.sb-place-date {
+  position: relative;
+  width: 68%;
+  padding-left: 5.8em;
+  margin-bottom: 3em;
+}
+/* date */
+.sb-date {
+  font-size: 5.5em;
+  line-height: 1;
+  margin-top: 0;
+}
+.sb-date-period,
+.sb-date-days,
+.sb-date,
+.sb-place {
+  display: inline-block;
+  vertical-align: top;
+}
+.sb-date-label {
+  position: absolute;
+  left: 98px;
+  top: -7px;
+}
+.sb-date-days {
+  margin-top: -0.1em;
+  padding: .05em .3em 0;
+  line-height: 1;
+  background: #7ea203;
+}
+.sb-date-period {
+  padding: .25em .45em .2em;
+  margin-left: -0.5em;
+  margin-top: .275em;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: #003239;
+  background: #0c8192;
+}
+/* place */
+.sb-place {
+  margin: -0.75em 0 0 0.75em;
+  padding: .6em 0 0.75em 0.75em;
+  font-family: Gudea, Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  border-left: 2px solid #FFF;
+}
+.sb-place span {
+  line-height: 1.2;
+  display: block;
+}
+.sb-place-city {
+  font-size: 1.15em;
+}
+/*
+ * Sticky 
+ * When the header is stuck
+ */
+.is-stuck.site-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 20;
+  padding: .35em 0 0;
+  background: #FFF;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid #e3e9ea;
+}
+.is-stuck .inside {
+  padding: 0;
+}
+.is-stuck .lang-switcher,
+.is-stuck .sb-place-date,
+.is-stuck .sb-branding-img.normal {
+  display: none;
+}
+.is-stuck .sb-branding-img.sticky {
+  display: block;
+}
+.is-stuck .sb-branding {
+  position: relative;
+  z-index: 4;
+  width: auto;
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=maps/corporate-header.css.map */

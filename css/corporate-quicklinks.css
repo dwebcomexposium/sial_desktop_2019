@@ -1,0 +1,166 @@
+/*
+	
+	== Corporate
+	== Quicklinks
+	.quicklinks --> .ql-##
+
+*/
+/* 
+ * ==Quicklinks for "second navigation"
+ */
+.quicklinks-navigation .ql-item {
+  border-bottom: 1px solid #e3e9ea;
+}
+.quicklinks-navigation .ql-item-link {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #2b2f2f;
+}
+.quicklinks-navigation .ql-item-link:focus,
+.quicklinks-navigation .ql-item-link:hover {
+  background: #0c8192;
+  color: #ffffff;
+}
+.quicklinks-navigation .ql-item-link:focus .icon,
+.quicklinks-navigation .ql-item-link:hover .icon {
+  color: #ffffff;
+}
+.quicklinks-navigation .ql-item-link.is-active {
+  background: #0c8192;
+  color: #ffffff;
+}
+.quicklinks-navigation .ql-item-link.is-active .icon {
+  display: none;
+}
+.quicklinks-navigation .ql-item-link .icon {
+  float: right;
+  margin-top: 0.5em;
+  font-size: 1.1rem;
+  color: #0c8192;
+}
+/* 
+ * ==Quicklinks with icon/button 
+ */
+.quicklinks-icon .ql-item {
+  margin-bottom: 1em;
+}
+.quicklinks-icon .ql-item:first-child {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e3e9ea;
+}
+.quicklinks-icon .ql-item-link {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.25;
+  color: #2b2f2f;
+  background: none;
+  border: 4px solid transparent;
+  border-width: 0 0 4px;
+  padding: 0.4em 2em;
+  text-align: center;
+  font-family: Gudea, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+}
+.quicklinks-icon .ql-item-link .icon,
+.quicklinks-icon .ql-item-link .icon-catal {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  line-height: 1;
+}
+.quicklinks-icon .ql-item-link.after .icon {
+  margin-left: 0.5em;
+  margin-right: -0.25em;
+}
+.quicklinks-icon .ql-item-link .txt-btn {
+  vertical-align: middle;
+}
+.quicklinks-icon .ql-item-link .icon {
+  width: 48px;
+  font-size: 2.5rem;
+  margin-right: 0;
+}
+.quicklinks-icon .ql-buy-ticket {
+  color: #ffffff;
+  background: #7ea203;
+  border-color: #4d6302;
+  padding: 1.7em 1em;
+}
+.quicklinks-icon .ql-buy-ticket:focus,
+.quicklinks-icon .ql-buy-ticket:hover,
+.quicklinks-icon .ql-buy-ticket:active {
+  color: #ffffff;
+  background-color: #566e02;
+  border-color: #252f01;
+}
+.quicklinks-icon .ql-buy-ticket .icon {
+  margin-left: 0;
+  font-size: 1.8rem;
+}
+.quicklinks-icon .ql-booking,
+.quicklinks-icon .ql-estimate {
+  color: #ffffff;
+  background-color: #910f4f;
+  border-color: #570930;
+  padding: 1.12em 1em;
+  font-size: 1.4rem;
+}
+.quicklinks-icon .ql-booking:focus,
+.quicklinks-icon .ql-estimate:focus,
+.quicklinks-icon .ql-booking:hover,
+.quicklinks-icon .ql-estimate:hover,
+.quicklinks-icon .ql-booking:active,
+.quicklinks-icon .ql-estimate:active {
+  color: #ffffff;
+  background-color: #cc327e;
+  border-color: #99255e;
+}
+.quicklinks-icon .ql-exponent,
+.quicklinks-icon .ql-transport {
+  color: #ffffff;
+  background-color: #cc327e;
+  border-color: #99255e;
+  padding: 1.12em 1em;
+  font-size: 1.4rem;
+}
+.quicklinks-icon .ql-exponent:focus,
+.quicklinks-icon .ql-transport:focus,
+.quicklinks-icon .ql-exponent:hover,
+.quicklinks-icon .ql-transport:hover,
+.quicklinks-icon .ql-exponent:active,
+.quicklinks-icon .ql-transport:active {
+  color: #ffffff;
+  background-color: #d9639d;
+  border-color: #cc327e;
+}
+/*
+ * ==Quicklinks in footer
+ */
+.quicklinks-footer {
+  width: 45%;
+  margin-top: 0;
+  padding-top: 1em;
+}
+.quicklinks-footer .ql-item {
+  display: inline;
+}
+.quicklinks-footer .ql-item + .ql-item {
+  margin-left: .25em;
+}
+.quicklinks-footer .ql-item + .ql-item::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 4px;
+  height: 4px;
+  background: #FFF;
+  margin-right: .5em;
+}
+
+/*# sourceMappingURL=maps/corporate-quicklinks.css.map */

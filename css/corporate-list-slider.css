@@ -1,0 +1,131 @@
+/*
+	
+	== Corporate 
+	== Slider "List of items/articles"
+	.list-articles.slider
+	.block-list-articles.slider
+
+*/
+.la-slider .la-item-title {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.la-slider .la-item-title a {
+  color: #ffffff;
+}
+.la-slider .la-item-title a:focus,
+.la-slider .la-item-title a:hover {
+  text-decoration: none;
+  color: #cccccc;
+}
+.la-slider .la-item-author {
+  font-size: 1.6rem;
+}
+.la-slider .la-item-author a {
+  color: #a3c434;
+}
+.la-slider .la-item-img {
+  float: none;
+  margin-right: 0;
+}
+.la-slider .la-item-content {
+  padding: 1em;
+  color: #ffffff;
+}
+.la-slider .la-item-content p {
+  margin-top: 0.25em;
+}
+.la-slider .slider-item {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+  background: #2b2f2f;
+}
+.la-slider .slider-play-btn {
+  position: absolute;
+  bottom: 14.5em;
+  right: 1.5em;
+}
+.la-slider [class*="slider-btn"] {
+  padding-left: 1.15em;
+  padding-right: 1.15em;
+  border: 0;
+}
+.la-slider .slider-pagin-btn {
+  position: absolute;
+  top: .85em;
+  right: 1em;
+}
+/* Slider in a block @sidebar */
+.block-small.list-articles {
+  position: relative;
+  margin-bottom: 1em;
+}
+.block-small.list-articles [class*="slider-btn"] {
+  font-size: 1rem;
+}
+.block-small.list-articles .slider-play-btn {
+  bottom: 0.5em;
+  left: 0.5em;
+  width: 24px;
+  height: 24px;
+  font-size: .9rem;
+}
+.block-small.list-articles .slider-pagin {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: .25em;
+  background: none;
+  text-align: center;
+}
+.block-small.list-articles .slider-pagin-item {
+  height: 11px;
+  width: 11px;
+}
+.block-small.list-articles .slider-pagin-nb {
+  padding-top: .25em;
+}
+.block-small.list-articles .slider-pagin-btn {
+  position: absolute;
+  right: .5em;
+}
+.block-small.list-articles .la-slider .la-item-title {
+  font-size: 1.6rem;
+}
+.block-small.list-articles .la-slider .la-item-title a:focus,
+.block-small.list-articles .la-slider .la-item-title a:hover {
+  color: #ffffff;
+}
+.block-small.list-articles .la-slider .la-item-tag {
+  position: static;
+  display: inline-block;
+  float: left;
+  margin-right: .5em;
+  font-size: 1.2rem;
+}
+.block-small.list-articles .la-slider .la-item-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0.5em 0.5em 0.25em;
+  overflow: visible;
+  color: #FFF;
+  background: rgba(42, 42, 45, 0.8);
+}
+.block-small.list-articles .la-slider .la-item-content p {
+  font-size: 1rem;
+}
+.block-small.list-articles .la-slider .la-item-btn {
+  text-align: center;
+  margin-bottom: -1.75em;
+}
+.block-small.list-articles .la-slider .la-item-btn [class^="btn"] {
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=maps/corporate-list-slider.css.map */

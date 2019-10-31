@@ -1,0 +1,101 @@
+/*
+
+	== Corporate pagination
+
+*/
+.pagination {
+  list-style: none;
+  padding: 0.5em;
+  margin: 1em 0;
+  border: 1px solid #e3e9ea;
+  border-width: 1px 0;
+  text-align: center;
+  color: #474d4e;
+}
+.pagination a {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  color: #474d4e;
+}
+.pagination a:focus,
+.pagination a:hover {
+  color: #910f4f;
+}
+.pagination .icon {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #910f4f;
+}
+.pagin-item {
+  display: inline-block;
+  margin: 0 0.25em;
+}
+.pagin-item.pagin-prev a,
+.pagin-item.pagin-next a,
+.pagin-item.is-active a {
+  text-decoration: none;
+}
+.pagin-item.pagin-prev a:focus,
+.pagin-item.pagin-next a:focus,
+.pagin-item.pagin-prev a:hover,
+.pagin-item.pagin-next a:hover {
+  background: #f4f4f4;
+}
+.pagin-item.pagin-prev {
+  margin-right: 2em;
+}
+.pagin-item.pagin-prev .icon {
+  margin-right: 1em;
+}
+.pagin-item.pagin-next {
+  margin-left: 2em;
+}
+.pagin-item.pagin-next .icon {
+  margin-left: 1em;
+}
+.pagin-item.is-active a {
+  background: #910f4f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pagin-item.is-inactive .icon {
+  color: #909b9d;
+}
+/* Paginnation Ajax*/
+.pagination-grid {
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pagination-grid .grid-list-articles {
+  position: relative;
+  left: 0;
+  -webkit-transition: left 0.5s ease-in;
+  transition: left 0.5s ease-in;
+}
+.pagination-grid .grid-list-articles.pagination-grid-prev {
+  left: -100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  -webkit-transition: left 0.5s ease-out;
+  transition: left 0.5s ease-out;
+}
+.pagination-grid .grid-list-articles.pagination-grid-move {
+  opacity: 0;
+}
+.pagination-grid .grid-list-articles.pagination-grid-next {
+  left: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  -webkit-transition: left 0.5s ease-out;
+  transition: left 0.5s ease-out;
+}
+
+/*# sourceMappingURL=maps/corporate-pagination.css.map */

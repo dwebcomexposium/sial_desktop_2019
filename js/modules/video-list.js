@@ -1,0 +1,1 @@
+jQuery(function(){new Swiper(".video-list__list__wrapper",{slidesPerView:"auto",wrapperClass:"video-list__list",slideClass:"video-list__item",watchOverflow:!0})});

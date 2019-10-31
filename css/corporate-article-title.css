@@ -1,0 +1,69 @@
+/*
+	
+	== Corporate
+	== Article title (with main titre, intro, tags & image)
+	.article-title --> .at-##
+
+*/
+.article-title {
+  position: relative;
+  margin-bottom: 1em;
+}
+.at-main-title {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.at-theme {
+  display: inline-block;
+  margin-top: .25em;
+  float: left;
+  margin-right: 1em;
+  padding: .5em 1em;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  background: #0c8192;
+  color: #FFF;
+}
+.at-illust + .at-content > .at-theme {
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: none;
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+/* Publication (date, author) */
+.at-publication {
+  padding: 0.5em 0;
+  font-size: 1.4rem;
+  border: 1px solid #e3e9ea;
+  border-width: 1px 0;
+}
+.at-publication-date {
+  font-style: italic;
+}
+.at-publication-author {
+  text-decoration: none;
+  color: inherit;
+}
+.at-publication-author:focus,
+.at-publication-author:hover {
+  text-decoration: underline;
+}
+/* Tags */
+.at-tag {
+  padding-top: 0.5em;
+  font-size: 1.4rem;
+  border-top: 1px solid #e3e9ea;
+}
+.at-tag-item {
+  display: inline;
+  padding: 0 .5em 0 .25em;
+  border-left: 7px solid #0c8192;
+}
+.at-tag-link {
+  color: #474d4e;
+}
+
+/*# sourceMappingURL=maps/corporate-article-title.css.map */

@@ -1,0 +1,163 @@
+/*
+
+	== Corporate
+	== Newsletter
+	.newsletter-form --> .nf-##
+
+*/
+.nf-main-content {
+  padding: 1em 1.5em 1.5em;
+  margin: 1em 0;
+  background: #00525e;
+  color: #FFF;
+}
+.nf-title {
+  color: #FFF;
+  margin-bottom: 0.5em;
+}
+.with-results .nf-title {
+  color: #474d4e;
+}
+.nf-subtitle {
+  font-size: 2rem;
+}
+.nf-required {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+.nf-form-input {
+  width: 300px;
+  float: left;
+}
+.nf-form-txt {
+  width: 100%;
+  border-radius: 2px 0 0 2px;
+}
+/*
+ * Loading
+ */
+.nf-main-content.is-loading {
+  position: relative;
+}
+.nf-main-content.is-loading .nf-loading {
+  display: block;
+}
+.nf-loading {
+  display: none;
+  z-index: 20;
+  padding-top: 2em;
+  color: #FFF;
+}
+.nf-loading .spinner {
+  margin: auto;
+}
+.nf-loading-txt {
+  font-size: 1.8rem;
+  text-align: center;
+}
+/*
+ * Success/Error
+ */
+.nf-success-msg {
+  margin: 2em 0;
+  font-size: 1.8rem;
+}
+.nf-success-msg p {
+  display: inline-block;
+  max-width: 500px;
+  vertical-align: middle;
+  margin-top: .25em;
+}
+.nf-success-msg .icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 82px;
+  height: 82px;
+  padding-top: .25em;
+  margin: 0 1em 0 2em;
+  text-align: center;
+  font-size: 3.8rem;
+  border: 4px solid;
+  border-radius: 50%;
+}
+.nf-main-content.with-results {
+  background: #f6f9f9;
+  color: #2b2f2f;
+}
+.nf-main-content .nf-success-msg.has-success .icon {
+  color: #7ea203;
+}
+.nf-main-content .nf-success-msg.has-error .icon {
+  color: #910f4f;
+}
+.nf-form-submit [class^="btn"] {
+  color: #FFF;
+  background: #2b2b2e;
+  border-color: #1b1b1d;
+}
+.nf-form-submit [class^="btn"]:focus,
+.nf-form-submit [class^="btn"]:hover,
+.nf-form-submit [class^="btn"]:active {
+  color: #FFF;
+  background-color: #434347;
+}
+.nf-form-submit [class^="btn"] .icon-checkdisk {
+  display: none;
+}
+.nf-form-submit [class^="btn"]:focus,
+.nf-form-submit [class^="btn"]:hover {
+  border-color: #1b1b1d;
+}
+/*
+ * Small Block
+ */
+.block-small .nf-main-content {
+  padding: .75em;
+}
+.block-small .nf-title {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #e3e9ea;
+}
+.block-small .nf-subtitle {
+  font-size: 1.4rem;
+}
+.block-small .nf-form-input {
+  width: auto;
+  float: none;
+}
+.block-small .nf-form-txt {
+  border-radius: 2px;
+}
+.block-small .nf-loading {
+  top: 3em;
+  right: .75em;
+  left: .75em;
+  bottom: .75em;
+  padding-top: 3em;
+}
+.block-small .nf-loading-txt {
+  padding: 0 1em;
+  font-size: 1.6rem;
+}
+.block-small .nf-form-submit {
+  text-align: center;
+}
+.block-small .nf-success-msg {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 1em 0;
+}
+.block-small .nf-success-msg .icon {
+  margin: 0 0 .5em;
+  width: 60px;
+  height: 60px;
+  font-size: 2.7rem;
+}
+.newsletter-form.block-small label {
+  font-size: 1.6rem;
+}
+.newsletter-form.block-small [class^="btn-"] {
+  margin: 1em 0 0.5em;
+}
+
+/*# sourceMappingURL=maps/corporate-newsletter.css.map */

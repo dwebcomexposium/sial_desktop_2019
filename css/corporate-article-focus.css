@@ -1,0 +1,20 @@
+/*
+	
+	== Corporate
+	== Article focus
+	.article-focus --> .af-##
+
+*/
+.article-focus {
+  margin: 2em 0;
+  padding: 2em;
+  border: 4px solid #e3e9ea;
+  background: #f6f9f9;
+}
+.af-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #474d4e;
+}
+
+/*# sourceMappingURL=maps/corporate-article-focus.css.map */

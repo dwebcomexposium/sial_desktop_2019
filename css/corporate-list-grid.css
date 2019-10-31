@@ -1,0 +1,198 @@
+/*
+	
+	== Corporate 
+	== Grid of items/articles
+
+*/
+.list-grids-with-pagin .pagin-grids {
+  display: none;
+}
+.grid-la-list {
+  margin: 1em 0 1em -1em;
+}
+.grid-la-list > * {
+  width: calc(100% * 1 / 3 - 1em - .01px);
+}
+.grid-la-list > .flex-item-double {
+  width: calc(100% * 2 / 3 - 1em - .01px);
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .grid-la-list > * {
+    width: calc(100% * 1 / 2 - 1em - .01px);
+  }
+  .grid-la-list > .flex-item-double {
+    width: calc(100% - 1em - .01px);
+  }
+}
+@media (max-width: 480px) {
+  .grid-la-list > * {
+    width: calc(100% - 1em - .01px);
+  }
+  .grid-la-list > .flex-item-double {
+    width: calc(100% - 1em - .01px);
+  }
+}
+.grid-la-list > * {
+  width: calc(100% * 1 / 3 - 1em - .01px);
+}
+.gla-item {
+  position: relative;
+  padding: 3px;
+  margin-bottom: 1em;
+  background-clip: padding-box;
+  box-shadow: inset 0px 0px 0px 3px #e3e9ea;
+}
+.gla-item.no-image {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+}
+.gla-item.no-image .gla-item-content {
+  top: 3px;
+  padding-top: 110px;
+}
+.gla-item > a {
+  display: block;
+  color: #2b2f2f;
+}
+.gla-item > a:hover .gla-item-content,
+.gla-item > a:focus .gla-item-content {
+  background: rgba(42, 42, 45, 0.8);
+  color: #ffffff;
+}
+.gla-item > a:hover .gla-item-title,
+.gla-item > a:focus .gla-item-title {
+  color: #ffffff;
+}
+.gla-item-title {
+  border-bottom: 0;
+  margin-bottom: 0;
+  margin-top: .65em;
+  padding-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: none;
+  color: #474d4e;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+.gla-item-tag {
+  position: absolute;
+  top: -195px;
+  left: 0;
+  z-index: 10;
+  padding: 0.5em 1em;
+  background: #0c8192;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.no-image .gla-item-tag {
+  top: 0;
+}
+.gla-item-img {
+  width: 100%;
+}
+.gla-item-btn [class^="btn"] {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.gla-item-content .gla-item-btn {
+  margin-top: -1.25em;
+}
+.no-image .gla-item-btn {
+  margin-top: 1em;
+  -webkit-box-ordinal-group: 21;
+  -webkit-order: 20;
+      -ms-flex-order: 20;
+          order: 20;
+}
+.gla-btn-read-more {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.25;
+  color: #2b2f2f;
+  background: none;
+  border: 4px solid transparent;
+  border-width: 0 0 4px;
+  padding: 0.4em 2em;
+  text-align: center;
+  font-family: Gudea, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: #910f4f;
+  border-color: #570930;
+}
+.gla-btn-read-more .icon,
+.gla-btn-read-more .icon-catal {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  line-height: 1;
+}
+.gla-btn-read-more.after .icon {
+  margin-left: 0.5em;
+  margin-right: -0.25em;
+}
+.gla-btn-read-more .txt-btn {
+  vertical-align: middle;
+}
+.gla-btn-read-more:focus,
+.gla-btn-read-more:hover,
+.gla-btn-read-more:active {
+  color: #ffffff;
+  background-color: #cc327e;
+  border-color: #99255e;
+}
+.gla-btn-read-more .icon {
+  display: none;
+}
+.gla-item-content {
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  min-height: 130px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 0.5em 0.5em;
+  text-align: center;
+  background: #fff;
+  -webkit-transition: background .2s, color .2s;
+  transition: background .2s, color .2s;
+}
+.gla-item-content p:not(.gla-item-btn) {
+  margin-top: 0.25em;
+  font-size: 1.2rem;
+}
+.gla-item-author {
+  -webkit-box-ordinal-group: 11;
+  -webkit-order: 10;
+      -ms-flex-order: 10;
+          order: 10;
+}
+/*
+ * Minimalist grid
+ */
+.list-minimalist .la-main-title {
+  text-transform: none;
+}
+.list-minimalist .gla-item-content {
+  min-height: 70px;
+  padding: 0.5em 1em 1em;
+}
+
+/*# sourceMappingURL=maps/corporate-list-grid.css.map */
