@@ -176,8 +176,8 @@
  */
 @font-face {
   font-family: 'sial-icomoon';
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?727369273");
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?727369273#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.ttf?727369273") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.woff?727369273") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.svg?727369273#icomoon") format("svg");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?4269109100");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?4269109100#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.ttf?4269109100") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.woff?4269109100") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.svg?4269109100#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1773,8 +1773,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(2) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(3) {
@@ -1783,18 +1783,18 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .insta-slider__image {
@@ -2381,6 +2381,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   background-color: #FFDB38;
 }
 
+.node1303947 .tiles-list::after {
+  left: auto;
+  right: -2.5rem;
+}
+
 @media screen and (min-width: 768px) {
   .tiles-list::after {
     left: 0;
@@ -2514,21 +2519,39 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .tiles-list__item::after {
-  content: '+';
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "✚";
   position: absolute;
   bottom: 0;
   right: 0;
   display: block;
-  width: 2.6rem;
+  width: 2.5rem;
   height: 2.5rem;
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 2.4rem;
+  line-height: 2.5rem;
   text-align: center;
   color: #F85C29;
   background: #fff;
-  border-top-left-radius: 0.6rem;
+  border-top-left-radius: 1.6rem;
   pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list__item::after {
+    width: 3.2rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
+  }
 }
 
 .tiles-list__item__img {
@@ -2590,9 +2613,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 
 .tiles-list__item__icon {
   position: relative;
-  display: block;
-  height: 3rem;
   z-index: 1;
+  display: block;
+  height: 3.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 3.5rem;
 }
 
 .video-list {
@@ -4431,7 +4456,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   height: auto;
 }
 
-.home-sectors .ql-item.linkid999999::before {
+.home-sectors .ql-item.linkid794925::before {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
 }
 
