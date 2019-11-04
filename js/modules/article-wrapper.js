@@ -1,0 +1,1 @@
+!function(i){i(function(){i(".article-wrapper").each(function(n,t){var a=i(t);a.addClass("is-ready");var e=a.find(".article-content");a.find(".article-title .at-content").eq(0).append(e)})})}(jQuery);
