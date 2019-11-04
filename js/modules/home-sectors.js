@@ -1,1 +1,42 @@
-!function(s){s(function(){s(".home-sectors .linkid794935").appendTo(".home-sectors");s('<div class="home-sectors__progressbar" />').appendTo(".home-sectors");var e=new Swiper(".home-sectors .quicklinks",{loop:!0,slidesPerView:"auto",spaceBetween:20,wrapperClass:"ql-list",slideClass:"ql-item:not(.linkid794935)",centeredSlides:!0,centerInsufficientSlides:!0,watchOverflow:!0,pagination:{el:".home-sectors__progressbar",type:"progressbar"},on:{init:function(){s(".home-sectors").addClass("is-ready")}}});768<=s(window).width()?e.destroy():e.update()})}(jQuery);
+/**
+ * Home sector Block
+ * @requires Swiper
+ */
+(function($) {
+    $(function() {
+        $('.home-sectors').each(function(i, item) {
+            var block = $(item);
+            var container = block.find('.quicklinks');
+            // Move read more link outside container
+                        block.find('.linkid794935').appendTo(block);
+            // Add carrousel progressbar
+                        var progressBar = $('<div class="home-sectors__progressbar" />').appendTo(block);
+            // init carrousel slider
+                        var homeSectors = new Swiper(container[0], {
+                loop: true,
+                slidesPerView: 'auto',
+                spaceBetween: 20,
+                wrapperClass: 'ql-list',
+                slideClass: 'ql-item:not(.linkid794935)',
+                centeredSlides: true,
+                centerInsufficientSlides: true,
+                watchOverflow: true,
+                pagination: {
+                    el: '.home-sectors__progressbar',
+                    type: 'progressbar'
+                },
+                on: {
+                    init: function() {
+                        block.addClass('is-ready');
+                    }
+                }
+            });
+            if ($(window).width() >= 768) {
+                homeSectors.destroy();
+            } else {
+                homeSectors.update();
+            }
+        });
+    });
+})(jQuery);
+//# sourceMappingURL=home-sectors.js.map

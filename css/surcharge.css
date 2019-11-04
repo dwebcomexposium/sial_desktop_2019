@@ -5,80 +5,80 @@
  */
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Light.eot");
+  src: url("../fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-LightOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Roman.eot");
+  src: url("../fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Oblique.eot");
+  src: url("../fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Oblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Medium.eot");
+  src: url("../fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff2") format("woff2");
+  src: url("../fonts/avenir/Avenir-Heavy.eot");
+  src: url("../fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/Avenir-Heavy.woff") format("woff"), url("../fonts/avenir/Avenir-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Black.eot");
+  src: url("../fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Black.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -89,16 +89,16 @@
  */
 @font-face {
   font-family: 'Avenir Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Book.eot");
+  src: url("../fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-BookOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -109,32 +109,32 @@
  */
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Medium.eot");
+  src: url("../fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-MediumObl.eot");
+  src: url("../fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-MediumObl.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Demi.eot");
+  src: url("../fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Demi.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Bold.eot");
+  src: url("../fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -145,8 +145,8 @@
  */
 @font-face {
   font-family: 'Futura PT Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Book.eot");
+  src: url("../fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -157,16 +157,16 @@
  */
 @font-face {
   font-family: 'Futura Cond';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
+  src: url("../fonts/futura/Futura-CondensedMedium.eot");
+  src: url("../fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("../fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura Cond';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
+  src: url("../fonts/futura/Futura-CondensedExtraBold.eot");
+  src: url("../fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("../fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
@@ -176,8 +176,8 @@
  */
 @font-face {
   font-family: 'sial-icomoon';
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?1664733269");
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.eot?1664733269#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.ttf?1664733269") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.woff?1664733269") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon//icomoon.svg?1664733269#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?1063639944");
+  src: url("../fonts/icomoon/icomoon.eot?1063639944#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?1063639944") format("truetype"), url("../fonts/icomoon/icomoon.woff?1063639944") format("woff"), url("../fonts/icomoon/icomoon.svg?1063639944#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -269,7 +269,7 @@
   vertical-align: initial;
 }
 
-.subheader__btn, #cxpmClientAccountWidget .see-all-selection a, .sial-network__link, .subheader__article__btn, .video-list__link, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors .linkid794935 [class^='btn'], .nf-form-submit [class^='btn'], .partner [class^='link-'] {
+.subheader__btn, #cxpmClientAccountWidget .see-all-selection a, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors .linkid794935 [class^='btn'], .nf-form-submit [class^='btn'], .partner [class^='link-'] {
   display: inline-block;
   padding: 0.9rem 2.6rem 1rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -285,7 +285,7 @@
   border-radius: 2.3rem;
 }
 
-.subheader__btn:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .sial-network__link:hover, .subheader__article__btn:hover, .video-list__link:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors .linkid794935 :hover[class^='btn'], .nf-form-submit :hover[class^='btn'], .partner :hover[class^='link-'] {
+.subheader__btn:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors .linkid794935 :hover[class^='btn'], .nf-form-submit :hover[class^='btn'], .partner :hover[class^='link-'] {
   background: #292B2F;
 }
 
@@ -356,7 +356,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-  background: url("/theme/sial_2019_desktop_git/img/icons/check.svg") center center no-repeat;
+  background: url("../img/icons/check.svg") center center no-repeat;
   background-size: 75%;
 }
 
@@ -485,6 +485,48 @@ input[type=checkbox]:checked {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🏆";
+}
+
+.icon.icon-concierge::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🛅";
+}
+
+.icon.icon-conference::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🎤";
+}
+
+.icon.icon-contact::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "💬";
 }
 
 .icon.icon-contacts::before {
@@ -655,6 +697,20 @@ input[type=checkbox]:checked {
   content: "";
 }
 
+.icon.icon-luggage::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "👜";
+}
+
 .icon.icon-map::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -795,6 +851,34 @@ input[type=checkbox]:checked {
   content: "⭐";
 }
 
+.icon.icon-stock::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "📦";
+}
+
+.icon.icon-store::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🏪";
+}
+
 .icon.icon-traiteur-snacking::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -849,6 +933,20 @@ input[type=checkbox]:checked {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "🍖";
+}
+
+.icon.icon-visite-guidee::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🚏";
 }
 
 .icon.icon-wallet::before {
@@ -969,7 +1067,31 @@ a:active, a:focus, a:hover {
   text-transform: none;
 }
 
+.article-wrapper .article-content {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+
+.article-wrapper .article-content > p {
+  margin-bottom: 2.8rem;
+}
+
+.article-wrapper .article-content > p:first-child {
+  margin-top: 0;
+}
+
+.article-wrapper .article-content > p:last-child {
+  margin-bottom: 0;
+}
+
+.article-wrapper .social-sharing {
+  display: none;
+}
+
 .breadcrumb-nav {
+  clear: both;
+  width: 100%;
   margin-bottom: 2.2rem;
 }
 
@@ -1240,7 +1362,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   height: 2.6rem;
   margin-top: 0.5rem;
   margin-right: 0.9rem;
-  background: url("/theme/sial_2019_desktop_git/img/logo-sial.svg") center center/contain no-repeat;
+  background: url("../img/logo-sial.svg") center center/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -1638,13 +1760,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .insta-slider__image {
@@ -1733,27 +1855,27 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   opacity: 0;
 }
 
-.is-ready .is-in-viewport .key-figures__item {
+.is-ready.is-in-viewport .key-figures__item {
   -webkit-animation: slideUpFadeIn 1.2s forwards;
   animation: slideUpFadeIn 1.2s forwards;
 }
 
-.is-ready .is-in-viewport .key-figures__item:nth-child(1) {
+.is-ready.is-in-viewport .key-figures__item:nth-child(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-.is-ready .is-in-viewport .key-figures__item:nth-child(2) {
+.is-ready.is-in-viewport .key-figures__item:nth-child(2) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.is-ready .is-in-viewport .key-figures__item:nth-child(3) {
+.is-ready.is-in-viewport .key-figures__item:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.is-ready .is-in-viewport .key-figures__item:nth-child(4) {
+.is-ready.is-in-viewport .key-figures__item:nth-child(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
@@ -1824,7 +1946,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   right: -2.5rem;
   display: block;
   width: 100vw;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/round-add-bg.svg") right bottom no-repeat;
+  background: #FFDB38 url("../img/visual/round-add-bg.svg") right bottom no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -1933,7 +2055,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #00050A url("/theme/sial_2019_desktop_git/img/visual/sial-network-bg.png") center left/cover no-repeat;
+  background: #00050A url("../img/visual/sial-network-bg.png") center left/cover no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
@@ -2159,7 +2281,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   justify-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/idea-bg.svg") right bottom/contain no-repeat;
+  background: #FFDB38 url("../img/visual/idea-bg.svg") right bottom/contain no-repeat;
 }
 
 .subheader__article__title {
@@ -2188,6 +2310,261 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 
 .subheader__article__btn {
   margin-top: 2.2rem;
+}
+
+.tiles-list {
+  clear: both;
+  position: relative;
+  margin-top: 4.9rem;
+  margin-bottom: 4.9rem;
+  padding: 5rem 0 19.6rem;
+  text-align: center;
+  background-color: #F3F6FB;
+}
+
+.front .tiles-list,
+.node1303947 .tiles-list {
+  background-color: #FFDB38;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list {
+    margin-top: 8.5rem;
+    margin-bottom: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+  }
+}
+
+.tiles-list::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -2.5rem;
+  display: block;
+  height: 100%;
+  width: 100vw;
+  background-color: #F3F6FB;
+}
+
+.front .tiles-list::after,
+.node1303947 .tiles-list::after {
+  background-color: #FFDB38;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list::after {
+    left: 0;
+  }
+}
+
+.tiles-list__wrapper {
+  display: block;
+}
+
+.tiles-list__title {
+  text-align: center;
+  line-height: 6rem;
+  margin-bottom: 2rem;
+}
+
+.tiles-list__description {
+  max-width: 92rem;
+  margin: 0 auto 4rem;
+  font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 3rem;
+  color: #383838;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list__description {
+    font-size: 2rem;
+  }
+}
+
+.tiles-list__link {
+  width: auto;
+  min-width: 19rem;
+  height: auto;
+  margin-top: 4.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list__link {
+    margin-top: 5rem;
+  }
+}
+
+.tiles-list__progressbar {
+  position: absolute;
+  bottom: 15.4rem;
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  background: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list__progressbar {
+    display: none;
+  }
+}
+
+.tiles-list__progressbar__btn,
+.tiles-list__progressbar > span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  background: #F85C29;
+}
+
+.tiles-list__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list__list {
+    margin: -1.5rem -1.7rem;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+.tiles-list__list__wrapper {
+  display: block;
+}
+
+.tiles-list__item {
+  position: relative;
+  z-index: 0;
+  width: 21.3rem;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .tiles-list__item {
+    width: 36.2rem;
+    margin: 1.5rem 1.7rem;
+  }
+}
+
+.tiles-list__item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(36, 34, 29, 0)), color-stop(12.23%, rgba(36, 34, 29, 0.01)), to(rgba(35, 31, 27, 0.74)));
+  background: -o-linear-gradient(right, rgba(36, 34, 29, 0) 0%, rgba(36, 34, 29, 0.01) 12.23%, rgba(35, 31, 27, 0.74) 100%);
+  background: linear-gradient(270deg, rgba(36, 34, 29, 0) 0%, rgba(36, 34, 29, 0.01) 12.23%, rgba(35, 31, 27, 0.74) 100%);
+  pointer-events: none;
+}
+
+.front .tiles-list__item::before {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
+  background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+  background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+}
+
+.tiles-list__item::after {
+  content: '+';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: block;
+  width: 2.6rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: center;
+  color: #F85C29;
+  background: #fff;
+  border-top-left-radius: 0.6rem;
+  pointer-events: none;
+}
+
+.tiles-list__item__img {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+  background: center center / cover no-repeat;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.tiles-list__item:hover .tiles-list__item__img {
+  -webkit-transform: translate(-50%, -50%) scale(1.1);
+  -ms-transform: translate(-50%, -50%) scale(1.1);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.tiles-list__item__title {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+.tiles-list__item__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 18.5rem;
+  padding: 4.5rem 2rem 2rem;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  text-align: left;
+  text-transform: none;
+  color: #fff;
+  border: 0;
+  border-radius: 0.6rem;
+  background: center center / contain no-repeat;
+  background-size: 100%;
+  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  overflow: hidden;
+}
+
+.tiles-list__item__link:active, .tiles-list__item__link:focus, .tiles-list__item__link:hover {
+  background: none;
+}
+
+.tiles-list__item__icon {
+  position: relative;
+  display: block;
+  height: 3rem;
+  z-index: 1;
 }
 
 .video-list {
@@ -2413,7 +2790,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .why-visit {
-  margin-top: 4rem;
+  max-width: 110rem;
+  margin: 4rem auto 0;
   overflow: hidden;
 }
 
@@ -2515,6 +2893,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 
 .block.edito-custom .inside > *, .block.article-title .inside > * {
   margin-left: 51.18182%;
+}
+
+.block.edito-custom .inside > .at-content:first-child, .block.article-title .inside > .at-content:first-child {
+  margin-left: 0;
 }
 
 .block.edito-custom .cx-lazy-load, .block.article-title .cx-lazy-load {
@@ -2643,11 +3025,11 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .exhibitors-slider__btn--prev {
-  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-left--rounded.svg");
+  background-image: url("../img/icons/arrow-left--rounded.svg");
 }
 
 .exhibitors-slider__btn--next {
-  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-right--rounded.svg");
+  background-image: url("../img/icons/arrow-right--rounded.svg");
 }
 
 .exhibitors-slider__btn__container {
@@ -3222,7 +3604,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   margin: 0 auto !important;
   padding: 9rem 0 0 3rem;
   color: #fff;
-  background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_desktop_git/img/visual/conferences-bg.png") center center/cover no-repeat;
+  background: rgba(48, 50, 55, 0.5) url("../img/visual/conferences-bg.png") center center/cover no-repeat;
   border-radius: 0.6rem;
   overflow: hidden;
 }
@@ -3722,61 +4104,61 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   margin-right: 3rem;
 }
 
-.is-ready .home-search .ql-item {
+.home-search.is-ready .ql-item {
   opacity: 0;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport {
+.home-search.is-ready .ql-item.is-in-viewport {
   -webkit-animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(1) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(2) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(2) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(3) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(4) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(5) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(5) {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(6) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(6) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(7) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(7) {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(8) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(8) {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(9) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(9) {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
 
-.is-ready .home-search .ql-item.is-in-viewport:nth-child(10) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(10) {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
 }
@@ -3793,7 +4175,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
    */
 }
 
-.front .home-sectors {
+.front .home-sectors,
+.node1303947 .home-sectors {
   background-color: #FFDB38;
 }
 
@@ -4021,43 +4404,43 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .home-sectors .ql-item.linkid999999::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
+  background-image: url("../img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid794934::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/food-processing.png");
+  background-image: url("../img/sectors/food-processing.png");
 }
 
 .home-sectors .ql-item.linkid794933::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/traiteur-snacking.png");
+  background-image: url("../img/sectors/traiteur-snacking.png");
 }
 
 .home-sectors .ql-item.linkid794932::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-surgeles.png");
+  background-image: url("../img/sectors/produits-surgeles.png");
 }
 
 .home-sectors .ql-item.linkid794931::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-laitiers.png");
+  background-image: url("../img/sectors/produits-laitiers.png");
 }
 
 .home-sectors .ql-item.linkid794930::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-mer.png");
+  background-image: url("../img/sectors/produits-mer.png");
 }
 
 .home-sectors .ql-item.linkid794929::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/boissons.png");
+  background-image: url("../img/sectors/boissons.png");
 }
 
 .home-sectors .ql-item.linkid794928::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/bio-bien-etre.png");
+  background-image: url("../img/sectors/bio-bien-etre.png");
 }
 
 .home-sectors .ql-item.linkid794927::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/fruits-legumes.png");
+  background-image: url("../img/sectors/fruits-legumes.png");
 }
 
 .home-sectors .ql-item.linkid794926::before {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/epicerie.png");
+  background-image: url("../img/sectors/epicerie.png");
 }
 
 .lang-switcher {
@@ -4252,7 +4635,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   align-items: center;
   text-align: center;
   color: #383838;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/newsletter-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("../img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
 }
@@ -4376,6 +4759,93 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 
 .pg-pagin {
   display: none;
+}
+
+.subheader-navigation .block.quicklink-cta, .subheader-navigation
+.block.quicklinks-cta {
+  float: right;
+  margin: 0 0 0 auto;
+}
+
+.block.quicklink-cta .ql-item,
+.block.quicklinks-cta .ql-item {
+  float: left;
+}
+
+.block.quicklink-cta .ql-item + .ql-item,
+.block.quicklinks-cta .ql-item + .ql-item {
+  margin-left: 2rem;
+}
+
+.block.quicklink-cta .ql-item.linkid801347 .btn-primary::before,
+.block.quicklink-cta .ql-item.linkid801346 .btn-primary::before,
+.block.quicklinks-cta .ql-item.linkid801347 .btn-primary::before,
+.block.quicklinks-cta .ql-item.linkid801346 .btn-primary::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 2.7rem;
+  color: #F85C29;
+}
+
+.block.quicklink-cta .ql-item.linkid801347 .btn-primary::before,
+.block.quicklinks-cta .ql-item.linkid801347 .btn-primary::before {
+  content: "📢";
+}
+
+.block.quicklink-cta .ql-item.linkid801346 .btn-primary::before,
+.block.quicklinks-cta .ql-item.linkid801346 .btn-primary::before {
+  content: "💬";
+}
+
+.block.quicklink-cta .btn-primary,
+.block.quicklinks-cta .btn-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.3rem 1.5rem;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.7rem;
+  text-transform: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #383838;
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+}
+
+.block.quicklink-cta .btn-primary::before,
+.block.quicklinks-cta .btn-primary::before {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.block.quicklink-cta .btn-primary:hover:before,
+.block.quicklinks-cta .btn-primary:hover:before {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .site-banner {
@@ -4600,6 +5070,9 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 4.2rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -4665,37 +5138,6 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover {
   color: currentColor;
   background: none;
-}
-
-.subheader-navigation .block.quicklink-cta,
-.subheader-navigation .block.quicklinks-cta {
-  float: right;
-  margin: 0 0 0 auto;
-}
-
-.subheader-navigation .block.quicklink-cta .ql-item,
-.subheader-navigation .block.quicklinks-cta .ql-item {
-  float: left;
-}
-
-.subheader-navigation .block.quicklink-cta .ql-item + .ql-item,
-.subheader-navigation .block.quicklinks-cta .ql-item + .ql-item {
-  margin-left: 2rem;
-}
-
-.subheader-navigation .block.quicklink-cta .btn-primary,
-.subheader-navigation .block.quicklinks-cta .btn-primary {
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.6rem;
-  font-weight: 900;
-  line-height: 3.5rem;
-  text-transform: none;
-  color: #383838;
-  background-color: #FFFFFF;
-  border: 0;
-  border-radius: 0.5rem;
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
 }
 
 .top-header {
@@ -4768,3 +5210,4 @@ body {
   color: #383838;
   background-color: #fff;
 }
+/*# sourceMappingURL=surcharge.css.map */
