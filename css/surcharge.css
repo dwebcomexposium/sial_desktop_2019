@@ -2183,28 +2183,28 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.is-ready.is-in-viewport .insta-slider__item:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.is-ready.is-in-viewport .insta-slider__item:nth-child(3) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
 .is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .insta-slider__image {
@@ -2635,10 +2635,17 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   z-index: 0;
   width: 100vw;
   left: 50%;
-  overflow: hidden;
+  margin-bottom: 13.4rem;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+@media screen and (min-width: 768px) {
+  .subheader {
+    margin-bottom: 0;
+    overflow: hidden;
+  }
 }
 
 .subheader::after {
@@ -2659,17 +2666,40 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 51.2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
+  height: 38.5rem;
   margin: auto;
-  max-height: calc(100vh - 10.4rem);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .subheader__wrapper {
+    height: 51.2rem;
+    max-height: calc(100vh - 10.4rem);
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
 .subheader__content {
+  margin-top: 7.5rem;
   padding: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .subheader__content {
+    margin-top: 0;
+    text-align: left;
+  }
 }
 
 .subheader__title {
@@ -2713,13 +2743,27 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .subheader__article {
+  position: absolute;
+  bottom: -11.4rem;
   width: 28rem;
   margin-left: auto;
-  padding: 4rem 1rem 4rem 4rem;
+  margin-right: auto;
+  padding: 4rem 3rem;
+  text-align: center;
   justify-self: flex-end;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
   background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/idea-bg.svg") right bottom/contain no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .subheader__article {
+    position: relative;
+    bottom: 0;
+    margin-right: 0;
+    padding: 4rem 1rem 4rem 4rem;
+    text-align: left;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+  }
 }
 
 .subheader__article__title {
@@ -2735,7 +2779,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .subheader__article__content > p {
+  display: none;
   line-height: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  .subheader__article__content > p {
+    display: block;
+  }
 }
 
 .subheader__article__content > p:first-child {
@@ -2753,6 +2804,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 .tiles-list {
   clear: both;
   position: relative;
+  z-index: 0;
   margin-top: 4.9rem;
   margin-bottom: 4.9rem;
   padding: 5rem 0 19.6rem;
@@ -5163,9 +5215,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   z-index: -1;
   top: 0;
   left: 50%;
+  bottom: -64.9rem;
   display: none;
   width: 100vw;
-  height: 100%;
+  min-height: 100%;
   background-color: #F3F6FB;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -5346,18 +5399,36 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 
 .subheader-navigation .block.quicklink-cta, .subheader-navigation
 .block.quicklinks-cta {
-  float: right;
-  margin: 0 0 0 auto;
+  margin: 0 auto;
 }
 
-.block.quicklink-cta .ql-item,
-.block.quicklinks-cta .ql-item {
-  float: left;
+@media screen and (min-width: 1024px) {
+  .subheader-navigation .block.quicklink-cta, .subheader-navigation
+  .block.quicklinks-cta {
+    float: right;
+    width: auto;
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .block.quicklink-cta .ql-item,
+  .block.quicklinks-cta .ql-item {
+    float: left;
+  }
 }
 
 .block.quicklink-cta .ql-item + .ql-item,
 .block.quicklinks-cta .ql-item + .ql-item {
-  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .block.quicklink-cta .ql-item + .ql-item,
+  .block.quicklinks-cta .ql-item + .ql-item {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
 }
 
 .block.quicklink-cta .ql-item.linkid801347 .btn-primary::before,
@@ -5727,7 +5798,6 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background: #F3F6FB;
 }
 
 .subheader-navigation::after {
@@ -5736,13 +5806,19 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   display: block;
 }
 
+@media screen and (min-width: 768px) {
+  .subheader-navigation {
+    background: #F3F6FB;
+  }
+}
+
 .subheader-navigation::before {
   content: '';
   position: absolute;
   z-index: -1;
   top: 0;
   left: 50%;
-  display: block;
+  display: none;
   width: 100vw;
   height: 100%;
   background: #F3F6FB;
@@ -5751,18 +5827,31 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   transform: translateX(-50%);
 }
 
+@media screen and (min-width: 768px) {
+  .subheader-navigation::before {
+    display: block;
+  }
+}
+
 .subheader-navigation .block.quicklinks-navigation {
-  float: left;
-  margin: 0;
+  margin: 1.2rem auto 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .subheader-navigation .block.quicklinks-navigation {
+    float: left;
+    margin: 0;
+  }
 }
 
 .subheader-navigation .block.quicklinks-navigation .ql-item {
   float: left;
+  margin-right: 4.4rem;
   border: 0;
 }
 
-.subheader-navigation .block.quicklinks-navigation .ql-item + .ql-item {
-  margin-left: 4.4rem;
+.subheader-navigation .block.quicklinks-navigation .ql-item:last-child {
+  margin-right: 0;
 }
 
 .subheader-navigation .block.quicklinks-navigation .ql-item-link {
@@ -5772,7 +5861,12 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 8.4rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .subheader-navigation .block.quicklinks-navigation .ql-item-link {
+    height: 8.4rem;
+  }
 }
 
 .subheader-navigation .block.quicklinks-navigation .ql-item-link::after {
