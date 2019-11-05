@@ -1059,7 +1059,7 @@ a:active, a:focus, a:hover {
   color: currentColor;
 }
 
-.main-title, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title {
+.main-title, .catalog-order .block-title, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title {
   margin: auto;
   padding: 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
@@ -1072,13 +1072,13 @@ a:active, a:focus, a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .main-title, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title {
+  .main-title, .catalog-order .block-title, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title {
     font-size: 4.2rem;
     line-height: 6rem;
   }
 }
 
-.main-title > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a {
+.main-title > a, .catalog-order .block-title > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a {
   text-decoration: none;
 }
 
@@ -1086,7 +1086,7 @@ a:active, a:focus, a:hover {
   border: 0;
 }
 
-.home-events .main-title-with-link > .main-title, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title {
+.home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 4.2rem;
   font-weight: 900;
@@ -1162,6 +1162,99 @@ a:active, a:focus, a:hover {
 
 .bn-item:last-child .bn-item-link {
   color: #F85C29;
+}
+
+.catalog-order {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.catalog-order .inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-order .inside {
+    display: block;
+  }
+}
+
+.catalog-order .inside > *:not(img) {
+  margin-left: 48.8%;
+}
+
+.catalog-order .cx-lazy-load,
+.catalog-order .at-illust,
+.catalog-order .block.edito-custom .cx-lazy-load,
+.block.edito-custom .catalog-order .cx-lazy-load,
+.catalog-order .block.article-title .cx-lazy-load,
+.block.article-title .catalog-order .cx-lazy-load {
+  margin-top: 4rem;
+  -webkit-box-ordinal-group: 100;
+  -ms-flex-order: 99;
+  order: 99;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-order .cx-lazy-load,
+  .catalog-order .at-illust,
+  .catalog-order .block.edito-custom .cx-lazy-load,
+  .block.edito-custom .catalog-order .cx-lazy-load,
+  .catalog-order .block.article-title .cx-lazy-load,
+  .block.article-title .catalog-order .cx-lazy-load {
+    float: left;
+    width: 40.24%;
+    margin-top: 0;
+    margin-right: 8.56%;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+}
+
+.catalog-order .block-title {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-order .block-title {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+}
+
+.catalog-order .block-title + p {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-order .block-title + p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+.catalog-order p {
+  margin-top: 0;
+  font-size: 1.6rem;
+  line-height: 3.1rem;
+}
+
+.catalog-order strong {
+  font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
+  font-weight: 700;
 }
 
 #cxpmClientAccountWidget {
@@ -2095,8 +2188,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(3) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
@@ -2105,13 +2198,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .insta-slider__image {
@@ -3355,12 +3448,12 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   }
 }
 
-.exhibitors-slider__header .main-title, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
+.exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
   margin-bottom: 0.8rem;
 }
 
 @media screen and (min-width: 768px) {
-  .exhibitors-slider__header .main-title, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
+  .exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title {
     margin-right: 39rem;
   }
 }
@@ -4407,7 +4500,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   }
 }
 
-.home-search .main-title, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title {
+.home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title {
   margin-bottom: 4rem;
 }
 
@@ -5067,7 +5160,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   text-align: center;
 }
 
-.partner .main-title-with-link > .main-title, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title {
+.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title {
   float: none;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 4.2rem;
