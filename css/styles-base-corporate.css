@@ -2110,7 +2110,7 @@ body link {
 @font-face {
   font-family: 'League Gothic';
   src: url('fonts/league-gothic/LeagueGothic-Regular-webfont.eot');
-  src: url('fonts/league-gothic/LeagueGothic-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.woff2') format('woff2'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.woff') format('woff'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.ttf') format('truetype'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.svg#gudearegular') format('svg');
+  src: url('fonts/league-gothic/LeagueGothic-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.woff2') format('woff2'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.woff') format('woff'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.ttf') format('truetype'), url('fonts/league-gothic/LeagueGothic-Regular-webfont.svg#league_gothicregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -2118,14 +2118,14 @@ body link {
 @font-face {
   font-family: 'Droid Sans';
   src: url('fonts/droidsans/DroidSans-webfont.eot');
-  src: url('fonts/droidsans/DroidSans-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/droidsans/DroidSans-webfont.woff2') format('woff2'), url('fonts/droidsans/DroidSans-webfont.woff') format('woff'), url('fonts/droidsans/DroidSans-webfont.ttf') format('truetype'), url('fonts/droidsans/DroidSans-webfont.svg#gudearegular') format('svg');
+  src: url('fonts/droidsans/DroidSans-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/droidsans/DroidSans-webfont.woff2') format('woff2'), url('fonts/droidsans/DroidSans-webfont.woff') format('woff'), url('fonts/droidsans/DroidSans-webfont.ttf') format('truetype'), url('fonts/droidsans/DroidSans-webfont.svg#droid_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Droid Sans';
   src: url('fonts/droidsans/DroidSans-Bold-webfont.eot');
-  src: url('fonts/droidsans/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/droidsans/DroidSans-Bold-webfont.woff2') format('woff2'), url('fonts/droidsans/DroidSans-Bold-webfont.woff') format('woff'), url('fonts/droidsans/DroidSans-Bold-webfont.ttf') format('truetype'), url('fonts/droidsans/DroidSans-Bold-webfont.svg#gudearegular') format('svg');
+  src: url('fonts/droidsans/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/droidsans/DroidSans-Bold-webfont.woff2') format('woff2'), url('fonts/droidsans/DroidSans-Bold-webfont.woff') format('woff'), url('fonts/droidsans/DroidSans-Bold-webfont.ttf') format('truetype'), url('fonts/droidsans/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -2133,14 +2133,14 @@ body link {
 @font-face {
   font-family: 'Montserrat';
   src: url('fonts/montserrat/Montserrat-Regular-webfont.eot');
-  src: url('fonts/montserrat/Montserrat-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat/Montserrat-Regular-webfont.woff2') format('woff2'), url('fonts/montserrat/Montserrat-Regular-webfont.woff') format('woff'), url('fonts/montserrat/Montserrat-Regular-webfont.ttf') format('truetype'), url('fonts/montserrat/Montserrat-Regular-webfont.svg#gudearegular') format('svg');
+  src: url('fonts/montserrat/Montserrat-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat/Montserrat-Regular-webfont.woff2') format('woff2'), url('fonts/montserrat/Montserrat-Regular-webfont.woff') format('woff'), url('fonts/montserrat/Montserrat-Regular-webfont.ttf') format('truetype'), url('fonts/montserrat/Montserrat-Regular-webfont.svg#montserratregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Montserrat';
   src: url('fonts/montserrat/Montserrat-Bold-webfont.eot');
-  src: url('fonts/montserrat/Montserrat-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat/Montserrat-Bold-webfont.woff2') format('woff2'), url('fonts/montserrat/Montserrat-Bold-webfont.woff') format('woff'), url('fonts/montserrat/Montserrat-Bold-webfont.ttf') format('truetype'), url('fonts/montserrat/Montserrat-Bold-webfont.svg#gudearegular') format('svg');
+  src: url('fonts/montserrat/Montserrat-Bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/montserrat/Montserrat-Bold-webfont.woff2') format('woff2'), url('fonts/montserrat/Montserrat-Bold-webfont.woff') format('woff'), url('fonts/montserrat/Montserrat-Bold-webfont.ttf') format('truetype'), url('fonts/montserrat/Montserrat-Bold-webfont.svg#montserratbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
