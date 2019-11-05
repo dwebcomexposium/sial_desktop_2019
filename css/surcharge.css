@@ -176,8 +176,8 @@
  */
 @font-face {
   font-family: 'sial-icomoon';
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?961672165");
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?961672165#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.ttf?961672165") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.woff?961672165") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.svg?961672165#icomoon") format("svg");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?1855015798");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot?1855015798#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.ttf?1855015798") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.woff?1855015798") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.svg?1855015798#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1787,8 +1787,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
@@ -1797,8 +1797,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .insta-slider__image {
