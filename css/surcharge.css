@@ -2193,13 +2193,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
@@ -4119,7 +4119,7 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   margin: 0 auto !important;
   padding: 9rem 0 0 3rem;
   color: #fff;
-  background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_desktop_git/img/visual/conferences-bg.png") center center/cover no-repeat;
+  background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_desktop_git/img/visual/conferences-bg.jpg") center center/cover no-repeat;
   border-radius: 0.6rem;
   overflow: hidden;
 }
