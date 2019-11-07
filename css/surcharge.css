@@ -2285,23 +2285,23 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(3) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .insta-slider__image {
@@ -5119,12 +5119,20 @@ body.article .home-sectors,
   background-color: #FFDB38;
 }
 
+body.page-rubric .home-sectors {
+  background: transparent;
+}
+
 @media screen and (min-width: 768px) {
   .home-sectors {
     margin-top: 8.5rem;
     margin-bottom: 10rem;
     padding-top: 8rem;
     padding-bottom: 9rem;
+  }
+  body.page-rubric .home-sectors {
+    margin: 2rem 0 7rem;
+    padding: 0;
   }
 }
 
@@ -5149,11 +5157,16 @@ body.article .home-sectors::after,
   .home-sectors::after {
     left: 0;
   }
+  body.page-rubric .home-sectors::after,
   body.article .home-sectors::after {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+  }
+  body.page-rubric .home-sectors::after {
+    bottom: 10.9rem;
+    top: auto;
   }
 }
 
@@ -5161,6 +5174,10 @@ body.article .home-sectors::after,
   text-align: center;
   line-height: 6rem;
   margin-bottom: 2rem;
+}
+
+body.page-rubric .home-sectors__title {
+  text-align: left;
 }
 
 .home-sectors__description {
@@ -5172,6 +5189,11 @@ body.article .home-sectors::after,
   line-height: 3rem;
   color: #383838;
   text-align: center;
+}
+
+body.page-rubric .home-sectors__description {
+  max-width: none;
+  text-align: left;
 }
 
 @media screen and (min-width: 768px) {
@@ -5227,6 +5249,11 @@ body.article .home-sectors::after,
     -ms-flex-pack: center;
     justify-content: center;
   }
+  body.page-rubric .home-sectors .quicklinks .ql-list {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
 }
 
 .home-sectors .quicklinks .ql-item {
@@ -5238,29 +5265,18 @@ body.article .home-sectors::after,
   overflow: hidden;
 }
 
+body.page-rubric .home-sectors .quicklinks .ql-item {
+  width: 23.2rem;
+}
+
 @media screen and (min-width: 768px) {
   .home-sectors .quicklinks .ql-item {
     margin: 1rem;
+    overflow: visible;
   }
 }
 
-.home-sectors .quicklinks .ql-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: center center / cover no-repeat;
-  -webkit-transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  -o-transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-.home-sectors .quicklinks .ql-item:hover::before {
+.home-sectors .quicklinks .ql-item:hover .btn-primary:after {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -5271,7 +5287,7 @@ body.article .home-sectors::after,
   display: block;
   width: 100%;
   height: 18.5rem;
-  padding: 4.5rem 2rem 2rem;
+  padding: 3.7rem 2.3rem 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
@@ -5281,23 +5297,46 @@ body.article .home-sectors::after,
   color: #fff;
   border: 0;
   border-radius: 0.6rem;
-  background: center center / contain no-repeat;
-  background-size: 100%;
+  background: transparent;
   -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
   box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
   overflow: hidden;
+}
+
+.home-sectors .quicklinks .ql-item .btn-primary:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background: center center / cover no-repeat;
+  -webkit-transition: -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .home-sectors .quicklinks .ql-item .btn-primary .icon {
   position: relative;
   display: block;
   height: 3rem;
-  z-index: 1;
+  z-index: 2;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.home-sectors .quicklinks .ql-item .btn-primary .icon.icon-produits-surgeles {
+  font-size: 4rem;
 }
 
 .home-sectors .quicklinks .ql-item .btn-primary .txt-btn {
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  max-width: 16rem;
+  display: block;
 }
 
 .home-sectors .quicklinks .ql-item .btn-primary::before {
@@ -5307,13 +5346,13 @@ body.article .home-sectors::after,
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 0;
+  z-index: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
 }
 
-.home-sectors .quicklinks .ql-item .btn-primary::after {
+.home-sectors .quicklinks .ql-item::after {
   content: '+';
   position: absolute;
   bottom: 0;
@@ -5328,6 +5367,8 @@ body.article .home-sectors::after,
   color: #F85C29;
   background: #fff;
   border-top-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  z-index: 1;
 }
 
 .home-sectors > .ql-item {
@@ -5346,43 +5387,43 @@ body.article .home-sectors::after,
   height: auto;
 }
 
-.home-sectors .ql-item.linkid794925::before {
+.home-sectors .ql-item.linkid794925 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
 }
 
-.home-sectors .ql-item.linkid794934::before {
+.home-sectors .ql-item.linkid794934 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/food-processing.png");
 }
 
-.home-sectors .ql-item.linkid794933::before {
+.home-sectors .ql-item.linkid794933 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/traiteur-snacking.png");
 }
 
-.home-sectors .ql-item.linkid794932::before {
+.home-sectors .ql-item.linkid794932 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-surgeles.png");
 }
 
-.home-sectors .ql-item.linkid794931::before {
+.home-sectors .ql-item.linkid794931 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-laitiers.png");
 }
 
-.home-sectors .ql-item.linkid794930::before {
+.home-sectors .ql-item.linkid794930 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-mer.png");
 }
 
-.home-sectors .ql-item.linkid794929::before {
+.home-sectors .ql-item.linkid794929 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/boissons.png");
 }
 
-.home-sectors .ql-item.linkid794928::before {
+.home-sectors .ql-item.linkid794928 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/bio-bien-etre.png");
 }
 
-.home-sectors .ql-item.linkid794927::before {
+.home-sectors .ql-item.linkid794927 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/fruits-legumes.png");
 }
 
-.home-sectors .ql-item.linkid794926::before {
+.home-sectors .ql-item.linkid794926 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/epicerie.png");
 }
 
