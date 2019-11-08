@@ -1,0 +1,60 @@
+{
+  "name": "jquery.resizeend",
+  "title": "jQuery resizeend",
+  "description": "A jQuery plugin that allows for window resize-end event handling.",
+  "version": "1.1.1",
+  "homepage": "https://nielse63.github.io/jquery.resizeend/",
+  "author": {
+    "name": "Erik Nielsen",
+    "email": "erik@312development.com",
+    "url": "http://312development.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nielse63/jquery.resizeend.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jquery-plugin",
+    "resizeend",
+    "jQuery",
+    "events",
+    "scroll"
+  ],
+  "main": "lib/jquery.resizeend.js",
+  "bugs": "https://github.com/nielse63/jquery.resizeend/issues",
+  "scripts": {
+    "lint": "eslint src ./*.js --ignore-pattern '!.eslintrc.js'",
+    "lint-fix": "npm run lint -- --fix",
+    "rollup": "rollup -c --environment BABEL_ENV:production,NODE_ENV:production",
+    "minify": "uglifyjs -mco lib/jquery.resizeend.min.js --  lib/jquery.resizeend.js",
+    "prebuild": "npm run lint && rm -rf lib/ && mkdir lib",
+    "build": "npm run rollup",
+    "postbuild": "npm run minify",
+    "pretest": "npm run build",
+    "test": "node test/e2e/runner.js",
+    "prepublishOnly": "npm run build",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "chromedriver": "^2.31.0",
+    "cross-spawn": "^6.0.5",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "express": "^4.15.4",
+    "nightwatch": "^0.9.16",
+    "release-it": "^7.6.1",
+    "rollup": "^0.64.1",
+    "rollup-plugin-babel": "^3.0.2",
+    "selenium-server": "^3.5.0",
+    "uglify-js": "^3.0.28"
+  },
+  "engines": {
+    "node": ">= 8.x",
+    "npm": ">= 5.x"
+  }
+}
