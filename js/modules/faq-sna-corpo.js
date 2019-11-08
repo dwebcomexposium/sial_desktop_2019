@@ -47,10 +47,10 @@
     $(this).toggleClass('is-active');
     if ($('.icon-plus', this).length > 0) {
       $('.icon-plus', this).addClass('icon-minus').removeClass('icon-plus');
-      $(this).closest('.js-sna-item').children('.js-sna-item-content').addClass('is-open');
+      $(this).closest('.js-sna-item').addClass('is-open').children('.js-sna-item-content').addClass('is-open');
     } else if ($('.icon-minus', this).length > 0) {
       $('.icon-minus', this).removeClass('icon-minus').addClass('icon-plus');
-      $(this).closest('.js-sna-item').children('.js-sna-item-content').removeClass('is-open');
+      $(this).closest('.js-sna-item').removeClass('is-open').children('.js-sna-item-content').removeClass('is-open');
     }
   });
 

@@ -2,423 +2,446 @@
   "metadata": {
     "name": "SIAL",
     "lastOpened": 0,
-    "created": 1572973147574
+    "created": 1573049525889
   },
   "iconSets": [
     {
       "selection": [
         {
-          "order": 61,
-          "id": 44,
-          "name": "coffee",
-          "prevSize": 32,
-          "code": 9749,
+          "order": 139,
+          "id": 52,
+          "name": "minus",
+          "prevSize": 16,
+          "code": 10134,
           "tempChar": ""
         },
         {
-          "order": 62,
-          "id": 45,
-          "name": "coins",
-          "prevSize": 32,
-          "code": 128176,
+          "order": 116,
+          "id": 44,
+          "name": "coffee",
+          "prevSize": 16,
+          "code": 9749,
           "tempChar": ""
         },
         {
-          "order": 63,
-          "id": 46,
-          "name": "flower",
-          "prevSize": 32,
-          "code": 127799,
+          "order": 117,
+          "id": 45,
+          "name": "coins",
+          "prevSize": 16,
+          "code": 128176,
           "tempChar": ""
         },
         {
-          "order": 64,
-          "id": 47,
-          "name": "increase",
-          "prevSize": 32,
-          "code": 128200,
+          "order": 118,
+          "id": 46,
+          "name": "flower",
+          "prevSize": 16,
+          "code": 127799,
           "tempChar": ""
         },
         {
-          "order": 65,
-          "id": 48,
-          "name": "product",
-          "prevSize": 32,
-          "code": 59659,
+          "order": 119,
+          "id": 47,
+          "name": "increase",
+          "prevSize": 16,
+          "code": 128200,
           "tempChar": ""
         },
         {
-          "order": 66,
-          "id": 49,
-          "name": "rice",
-          "prevSize": 32,
-          "code": 59660,
+          "order": 120,
+          "id": 48,
+          "name": "product",
+          "prevSize": 16,
+          "code": 59659,
           "tempChar": ""
         },
         {
-          "order": 67,
-          "id": 50,
-          "name": "tea",
-          "prevSize": 32,
-          "code": 127861,
+          "order": 121,
+          "id": 49,
+          "name": "rice",
+          "prevSize": 16,
+          "code": 59660,
           "tempChar": ""
         },
         {
-          "order": 68,
-          "id": 51,
-          "name": "world",
-          "prevSize": 32,
-          "code": 127758,
+          "order": 122,
+          "id": 50,
+          "name": "tea",
+          "prevSize": 16,
+          "code": 127861,
           "tempChar": ""
         },
         {
-          "order": 69,
-          "id": 43,
-          "name": "marker",
-          "prevSize": 32,
-          "code": 128205,
+          "order": 123,
+          "id": 51,
+          "name": "world",
+          "prevSize": 16,
+          "code": 127758,
           "tempChar": ""
         },
         {
-          "order": 70,
-          "id": 42,
-          "name": "matchmaking",
-          "prevSize": 32,
-          "code": 128243,
+          "order": 124,
+          "id": 43,
+          "name": "marker",
+          "prevSize": 16,
+          "code": 128205,
           "tempChar": ""
         },
         {
-          "order": 71,
+          "order": 125,
+          "id": 42,
+          "name": "matchmaking",
+          "prevSize": 16,
+          "code": 128243,
+          "tempChar": ""
+        },
+        {
+          "order": 126,
           "id": 41,
           "name": "luggage",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128092,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 72,
           "id": 40,
           "name": "stock",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128230,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 73,
           "id": 39,
           "name": "store",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127978,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 74,
           "id": 38,
           "name": "visite-guidee",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 75,
           "id": 37,
           "name": "conference",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127908,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 76,
           "id": 36,
           "name": "concierge",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128709,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 77,
           "id": 33,
           "name": "celebrity",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127942,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 78,
           "id": 35,
           "name": "contact",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128172,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 79,
           "id": 32,
           "name": "contacts",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128199,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 80,
           "id": 31,
           "name": "launch",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128640,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 81,
           "id": 30,
           "name": "truck",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128667,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 82,
           "id": 27,
           "name": "android",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59653,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 83,
           "id": 25,
           "name": "apple",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59654,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 84,
           "id": 23,
           "name": "facebook",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59648,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 85,
           "id": 22,
           "name": "insta",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59649,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 86,
           "id": 21,
           "name": "linkedin",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59650,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 87,
           "id": 20,
           "name": "twitter",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59651,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 88,
           "id": 19,
           "name": "youtube",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 59652,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 89,
           "id": 12,
           "name": "wallet",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127915,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 90,
           "id": 11,
           "name": "map",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128204,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 91,
           "id": 10,
           "name": "produits-laitiers",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 129472,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 92,
           "id": 9,
           "name": "exponent",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 8505,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 93,
           "id": 8,
           "name": "fruits-et-legumes",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127828,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 94,
           "id": 7,
           "name": "star",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 11088,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 95,
           "id": 6,
           "name": "speaker",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 128226,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 96,
           "id": 5,
           "name": "epicerie",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127833,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 97,
           "id": 4,
           "name": "boissons",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127866,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 98,
           "id": 3,
           "name": "bio-bien-etre",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 127793,
-          "tempChar": ""
-        },
-        {
-          "order": 99,
-          "id": 2,
-          "name": "viandes",
-          "prevSize": 32,
-          "code": 127830,
           "tempChar": ""
         },
         {
-          "order": 100,
-          "id": 1,
-          "name": "produits-mer",
-          "prevSize": 32,
-          "code": 127844,
+          "order": 137,
+          "id": 2,
+          "name": "viandes",
+          "prevSize": 16,
+          "code": 127830,
           "tempChar": ""
         },
         {
-          "order": 101,
-          "id": 0,
-          "name": "traiteur-snacking",
-          "prevSize": 32,
-          "code": 127858,
+          "order": 136,
+          "id": 1,
+          "name": "produits-mer",
+          "prevSize": 16,
+          "code": 127844,
           "tempChar": ""
         },
         {
-          "order": 102,
-          "id": 17,
-          "name": "food-processing",
-          "prevSize": 32,
-          "code": 129302,
+          "order": 135,
+          "id": 0,
+          "name": "traiteur-snacking",
+          "prevSize": 16,
+          "code": 127858,
           "tempChar": ""
         },
         {
-          "order": 103,
-          "id": 13,
-          "name": "search",
-          "prevSize": 32,
-          "code": 128270,
+          "order": 134,
+          "id": 17,
+          "name": "food-processing",
+          "prevSize": 16,
+          "code": 129302,
           "tempChar": ""
         },
         {
-          "order": 104,
-          "id": 14,
-          "name": "distributeur",
-          "prevSize": 32,
-          "code": 128666,
+          "order": 133,
+          "id": 13,
+          "name": "search",
+          "prevSize": 16,
+          "code": 128270,
           "tempChar": ""
         },
         {
-          "order": 105,
-          "id": 15,
-          "name": "importateur",
-          "prevSize": 32,
-          "code": 128747,
+          "order": 132,
+          "id": 14,
+          "name": "distributeur",
+          "prevSize": 16,
+          "code": 128666,
           "tempChar": ""
         },
         {
-          "order": 106,
-          "id": 16,
-          "name": "restaurateur",
-          "prevSize": 32,
-          "code": 127869,
+          "order": 131,
+          "id": 15,
+          "name": "importateur",
+          "prevSize": 16,
+          "code": 128747,
           "tempChar": ""
         },
         {
-          "order": 107,
-          "id": 18,
-          "name": "industriel",
-          "prevSize": 32,
-          "code": 127981,
+          "order": 129,
+          "id": 16,
+          "name": "restaurateur",
+          "prevSize": 16,
+          "code": 127869,
           "tempChar": ""
         },
         {
-          "order": 108,
-          "id": 28,
-          "name": "arrow-top",
-          "prevSize": 32,
-          "code": 128285,
+          "order": 130,
+          "id": 18,
+          "name": "industriel",
+          "prevSize": 16,
+          "code": 127981,
           "tempChar": ""
         },
         {
-          "order": 109,
-          "id": 29,
-          "name": "plus",
-          "prevSize": 32,
-          "code": 10010,
+          "order": 128,
+          "id": 28,
+          "name": "arrow-top",
+          "prevSize": 16,
+          "code": 128285,
           "tempChar": ""
         },
         {
-          "order": 110,
+          "order": 138,
+          "id": 29,
+          "name": "plus",
+          "prevSize": 16,
+          "code": 10010,
+          "tempChar": ""
+        },
+        {
+          "order": 127,
           "id": 34,
           "name": "play",
-          "prevSize": 32,
+          "prevSize": 16,
           "code": 9655,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 0,
       "metadata": {
         "name": "sial-2019",
         "importSize": {
-          "width": 19,
-          "height": 27
+          "width": 17,
+          "height": 3
         }
       },
       "height": 1024,
       "prevSize": 16,
       "icons": [
+        {
+          "id": 52,
+          "paths": [
+            "M2495.914 475.603h811.119v67.593h-811.119v-67.593z"
+          ],
+          "attrs": [],
+          "width": 5803,
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "minus"
+          ],
+          "colorPermutations": {}
+        },
         {
           "id": 44,
           "paths": [
