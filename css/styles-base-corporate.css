@@ -3930,8 +3930,6 @@ body {
   z-index: 20;
   padding: .35em 0 0;
   background: #FFF;
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
-  border-bottom: 1px solid #e3e9ea;
 }
 .is-stuck .inside {
   padding: 0;
@@ -4318,13 +4316,13 @@ body {
   position: fixed;
   left: 0;
   right: 0;
-  top: 0;
   padding: 0.5em 5%;
   background: rgba(86, 86, 86, 0.95);
   color: #fff;
   z-index: 99999;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  bottom: 0;
 }
 .cc-cookies a:hover,
 .cc-cookies a:focus {
@@ -4382,11 +4380,6 @@ body {
     margin: 1em 0;
   }
 }
-@media screen and (max-width: 480px) {
-  .cc-cookies {
-    position: relative;
-  }
-}
 /*
 
 	== Corporate
@@ -4406,6 +4399,13 @@ body {
   margin: 0 auto;
   text-align: left;
 }
+
+@media screen and (min-width: 768px) {
+  .cc-cookies .inside {
+    padding-right: 100px;
+  }
+}
+
 .cc-cookie-link {
   color: #00525e;
 }
@@ -4419,6 +4419,17 @@ body {
   background: #e3e9ea;
   color: #474d4e;
 }
+
+@media screen and (max-width: 767px) {
+  .cc-cookie-accept {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: inline-block;
+    margin-right: 100%;
+  }
+}
+
 /* ----------------------------- *
 * ==Print CSS
 * ----------------------------- */

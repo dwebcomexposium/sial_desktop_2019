@@ -96,8 +96,6 @@
   z-index: 20;
   padding: .35em 0 0;
   background: #FFF;
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.15);
-  border-bottom: 1px solid #e3e9ea;
 }
 .is-stuck .inside {
   padding: 0;

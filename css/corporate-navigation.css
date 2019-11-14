@@ -85,6 +85,21 @@
   text-transform: uppercase;
   color: #003239;
 }
+
+@media screen and (min-width: 768px) {
+  .mn-item-lvl-1 > .mn-link {
+    min-height: 58px;
+    max-height: 58px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mn-item-lvl-1 > .mn-link {
+    min-height: 65px;
+    max-height: none;
+  }
+}
+
 .mn-link {
   display: block;
   padding: .5em;

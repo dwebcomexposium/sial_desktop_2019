@@ -2,18 +2,50 @@
   "metadata": {
     "name": "SIAL",
     "lastOpened": 0,
-    "created": 1573049525889
+    "created": 1573578645711
   },
   "iconSets": [
     {
       "selection": [
+        {
+          "order": 145,
+          "id": 56,
+          "name": "Mail",
+          "prevSize": 16,
+          "code": 9993,
+          "tempChar": ""
+        },
+        {
+          "order": 144,
+          "id": 55,
+          "name": "pedestal",
+          "prevSize": 16,
+          "code": 127942,
+          "tempChar": ""
+        },
+        {
+          "order": 143,
+          "id": 54,
+          "name": "quote-1",
+          "prevSize": 16,
+          "code": 59655,
+          "tempChar": ""
+        },
+        {
+          "order": 142,
+          "id": 53,
+          "name": "quote-2",
+          "prevSize": 16,
+          "code": 59656,
+          "tempChar": ""
+        },
         {
           "order": 139,
           "id": 52,
           "name": "minus",
           "prevSize": 16,
           "code": 10134,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 116,
@@ -21,7 +53,7 @@
           "name": "coffee",
           "prevSize": 16,
           "code": 9749,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 117,
@@ -29,7 +61,7 @@
           "name": "coins",
           "prevSize": 16,
           "code": 128176,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 118,
@@ -37,7 +69,7 @@
           "name": "flower",
           "prevSize": 16,
           "code": 127799,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 119,
@@ -45,15 +77,15 @@
           "name": "increase",
           "prevSize": 16,
           "code": 128200,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 120,
           "id": 48,
           "name": "product",
           "prevSize": 16,
-          "code": 59659,
-          "tempChar": ""
+          "code": 128717,
+          "tempChar": ""
         },
         {
           "order": 121,
@@ -61,7 +93,7 @@
           "name": "rice",
           "prevSize": 16,
           "code": 59660,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 122,
@@ -69,7 +101,7 @@
           "name": "tea",
           "prevSize": 16,
           "code": 127861,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 123,
@@ -77,7 +109,7 @@
           "name": "world",
           "prevSize": 16,
           "code": 127758,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 124,
@@ -85,7 +117,7 @@
           "name": "marker",
           "prevSize": 16,
           "code": 128205,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 125,
@@ -93,7 +125,7 @@
           "name": "matchmaking",
           "prevSize": 16,
           "code": 128243,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 126,
@@ -101,7 +133,7 @@
           "name": "luggage",
           "prevSize": 16,
           "code": 128092,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 72,
@@ -109,7 +141,7 @@
           "name": "stock",
           "prevSize": 16,
           "code": 128230,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 73,
@@ -117,7 +149,7 @@
           "name": "store",
           "prevSize": 16,
           "code": 127978,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 74,
@@ -125,7 +157,7 @@
           "name": "visite-guidee",
           "prevSize": 16,
           "code": 128655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 75,
@@ -133,7 +165,7 @@
           "name": "conference",
           "prevSize": 16,
           "code": 127908,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 76,
@@ -141,15 +173,15 @@
           "name": "concierge",
           "prevSize": 16,
           "code": 128709,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 77,
           "id": 33,
           "name": "celebrity",
           "prevSize": 16,
-          "code": 127942,
-          "tempChar": ""
+          "code": 128129,
+          "tempChar": ""
         },
         {
           "order": 78,
@@ -157,7 +189,7 @@
           "name": "contact",
           "prevSize": 16,
           "code": 128172,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 79,
@@ -165,7 +197,7 @@
           "name": "contacts",
           "prevSize": 16,
           "code": 128199,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 80,
@@ -173,7 +205,7 @@
           "name": "launch",
           "prevSize": 16,
           "code": 128640,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 81,
@@ -181,7 +213,7 @@
           "name": "truck",
           "prevSize": 16,
           "code": 128667,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 82,
@@ -189,7 +221,7 @@
           "name": "android",
           "prevSize": 16,
           "code": 59653,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 83,
@@ -197,7 +229,7 @@
           "name": "apple",
           "prevSize": 16,
           "code": 59654,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 84,
@@ -205,7 +237,7 @@
           "name": "facebook",
           "prevSize": 16,
           "code": 59648,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 85,
@@ -213,7 +245,7 @@
           "name": "insta",
           "prevSize": 16,
           "code": 59649,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 86,
@@ -221,7 +253,7 @@
           "name": "linkedin",
           "prevSize": 16,
           "code": 59650,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 87,
@@ -229,7 +261,7 @@
           "name": "twitter",
           "prevSize": 16,
           "code": 59651,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 88,
@@ -237,7 +269,7 @@
           "name": "youtube",
           "prevSize": 16,
           "code": 59652,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 89,
@@ -245,7 +277,7 @@
           "name": "wallet",
           "prevSize": 16,
           "code": 127915,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 90,
@@ -253,7 +285,7 @@
           "name": "map",
           "prevSize": 16,
           "code": 128204,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 91,
@@ -261,7 +293,7 @@
           "name": "produits-laitiers",
           "prevSize": 16,
           "code": 129472,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 92,
@@ -269,7 +301,7 @@
           "name": "exponent",
           "prevSize": 16,
           "code": 8505,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 93,
@@ -277,7 +309,7 @@
           "name": "fruits-et-legumes",
           "prevSize": 16,
           "code": 127828,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 94,
@@ -285,7 +317,7 @@
           "name": "star",
           "prevSize": 16,
           "code": 11088,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 95,
@@ -293,7 +325,7 @@
           "name": "speaker",
           "prevSize": 16,
           "code": 128226,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 96,
@@ -301,7 +333,7 @@
           "name": "epicerie",
           "prevSize": 16,
           "code": 127833,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 97,
@@ -309,7 +341,7 @@
           "name": "boissons",
           "prevSize": 16,
           "code": 127866,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 98,
@@ -317,7 +349,7 @@
           "name": "bio-bien-etre",
           "prevSize": 16,
           "code": 127793,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 137,
@@ -325,7 +357,7 @@
           "name": "viandes",
           "prevSize": 16,
           "code": 127830,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 136,
@@ -333,7 +365,7 @@
           "name": "produits-mer",
           "prevSize": 16,
           "code": 127844,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 135,
@@ -341,7 +373,7 @@
           "name": "traiteur-snacking",
           "prevSize": 16,
           "code": 127858,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 134,
@@ -349,7 +381,7 @@
           "name": "food-processing",
           "prevSize": 16,
           "code": 129302,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 133,
@@ -357,7 +389,7 @@
           "name": "search",
           "prevSize": 16,
           "code": 128270,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 132,
@@ -365,7 +397,7 @@
           "name": "distributeur",
           "prevSize": 16,
           "code": 128666,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 131,
@@ -373,7 +405,7 @@
           "name": "importateur",
           "prevSize": 16,
           "code": 128747,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 129,
@@ -381,7 +413,7 @@
           "name": "restaurateur",
           "prevSize": 16,
           "code": 127869,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 130,
@@ -389,7 +421,7 @@
           "name": "industriel",
           "prevSize": 16,
           "code": 127981,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 128,
@@ -397,7 +429,7 @@
           "name": "arrow-top",
           "prevSize": 16,
           "code": 128285,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 138,
@@ -405,7 +437,7 @@
           "name": "plus",
           "prevSize": 16,
           "code": 10010,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 127,
@@ -413,20 +445,82 @@
           "name": "play",
           "prevSize": 16,
           "code": 9655,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 0,
       "metadata": {
         "name": "sial-2019",
         "importSize": {
-          "width": 17,
-          "height": 3
+          "width": 49,
+          "height": 49
         }
       },
       "height": 1024,
       "prevSize": 16,
       "icons": [
+        {
+          "id": 56,
+          "paths": [
+            "M508.23 0c280.67 0 508.23 227.497 508.23 508.23 0 280.67-227.56 508.23-508.23 508.23s-508.23-227.56-508.23-508.23c0-280.67 227.56-508.23 508.23-508.23zM537.039 522.821l-28.801 25.485-28.801-25.485-100.878 89.263h259.358l-100.878-89.263zM654.524 418.862l-100.877 89.263 100.877 89.263v-178.527zM361.953 418.862v178.527l100.877-89.263-100.877-89.263zM637.917 404.167h-259.358l129.679 114.749 129.679-114.749z"
+          ],
+          "attrs": [],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "Mail"
+          ],
+          "colorPermutations": {}
+        },
+        {
+          "id": 55,
+          "paths": [
+            "M940.904 1044.875h-25.526v-223.731c0-13.764-11.4-24.909-25.524-24.909h-331.643v-273.413c0-13.729-11.435-24.871-25.526-24.871h-25.526v-74.577c0-13.729-11.4-24.85-25.488-24.85h-102.063v-51.507c52.061-7.283 96.906-36.487 124.336-77.691 104.756-44.844 129.459-183.872 130.469-189.917 1.234-7.211-0.859-14.566-5.719-20.138-4.858-5.554-11.959-8.777-19.472-8.777h-76.54v-24.853c0-13.729-11.4-24.853-25.526-24.853h-306.151c-14.052 0-25.488 11.124-25.488 24.853v24.853h-76.54c-7.475 0-14.609 3.223-19.431 8.777-4.858 5.572-6.951 12.927-5.755 20.138 1.048 6.045 25.71 145.073 130.428 189.917 27.506 41.204 72.354 70.408 124.374 77.691v51.509h-102.063c-14.090 0-25.526 11.121-25.526 24.85v74.577h-25.488c-14.090 0-25.526 11.142-25.526 24.871v174.007h-331.679c-14.052 0-25.488 11.142-25.488 24.834v323.212h-25.526c-14.090 0-25.526 11.107-25.526 24.834s11.435 24.834 25.526 24.834h1173.604c14.090 0 25.488-11.107 25.488-24.834s-11.4-24.836-25.488-24.836zM532.685 174.794v-74.577h44.063c-7.4 23.907-21.115 58.282-44.474 86.099 0.299-3.822 0.411-7.646 0.411-11.522zM131.568 100.217h43.95v74.577c0 3.803 0.148 7.591 0.373 11.34-23.172-27.764-36.926-62.067-44.324-85.917zM149.993 1044.875h-306.153v-298.308h306.153v298.308zM226.532 174.794v-124.301h255.14v124.301c0 68.529-57.254 124.299-127.589 124.299-70.333 0-127.551-55.767-127.551-124.299zM252.058 448.245h204.088v49.706h-204.088v-49.706zM507.159 821.144v223.731h-306.153v-497.2h306.153v273.469zM864.367 1044.875h-306.156v-198.897h306.156v198.897z",
+            "M379.609 199.645v-74.575c0-13.729-11.4-24.853-25.526-24.853-14.052 0-25.488 11.124-25.488 24.853v74.575c0 13.729 11.435 24.871 25.488 24.871 14.126 0 25.526-11.142 25.526-24.871z"
+          ],
+          "attrs": [],
+          "width": 917,
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "pedestal"
+          ],
+          "colorPermutations": {}
+        },
+        {
+          "id": 54,
+          "paths": [
+            "M997.204 503.387c-57.421 0-108.142 22.011-150.25 53.593-7.656-23.925-11.484-49.764-11.484-85.174 0-157.907 141.637-327.297 307.2-396.202l-37.323-72.733c-286.146 133.981-415.342 360.793-415.342 623.013 0 65.077 11.484 177.047 68.905 266.049 49.764 76.561 122.497 128.239 238.295 128.239 141.637 0 258.393-108.142 258.393-258.393 0-161.735-116.755-258.393-258.393-258.393z",
+            "M311.028 503.387c-57.421 0-110.056 22.011-150.25 53.593-7.656-23.925-11.484-49.764-11.484-85.174 0-157.907 141.637-327.297 307.2-396.202l-37.323-72.733c-285.189 133.981-415.342 360.793-415.342 623.013 0 65.077 11.484 177.047 68.905 266.049 49.764 76.561 120.583 128.239 238.295 128.239 139.723 0 258.393-108.142 258.393-258.393 0-161.735-118.669-258.393-258.393-258.393z"
+          ],
+          "attrs": [],
+          "width": 1254,
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "quote-1"
+          ],
+          "colorPermutations": {}
+        },
+        {
+          "id": 53,
+          "paths": [
+            "M269.838 4.151c-141.146 0-257.384 107.935-257.384 256 0 160.519 114.854 256 256 256 56.735 0 107.935-22.141 149.449-52.584 8.303 23.524 11.070 48.432 11.070 84.411 0 156.368-141.146 325.189-305.816 392.995l37.362 71.957c283.676-132.843 413.751-358.4 413.751-618.551 0-65.038-11.070-175.741-69.189-264.303-47.049-74.724-120.389-125.924-235.243-125.924z",
+            "M1187.286 131.459c-48.432-76.108-119.005-127.308-236.627-127.308-138.378 0-256 107.935-256 256 0 160.519 117.622 256 256 256 56.735 0 109.319-22.141 149.449-52.584 8.303 23.524 11.070 48.432 11.070 84.411 0 156.368-141.146 325.189-305.816 392.995l37.362 71.957c283.676-132.843 413.751-358.4 413.751-618.551 0-63.654-11.070-175.741-69.189-262.919z"
+          ],
+          "attrs": [],
+          "width": 1259,
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "quote-2"
+          ],
+          "colorPermutations": {}
+        },
         {
           "id": 52,
           "paths": [
