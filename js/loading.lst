@@ -9,7 +9,6 @@ vendor/in-view/in-view.min.js
 vendor/jquery.resizeend/lib/jquery.resizeend.min.js
 vendor/countdownjs/countdown.min.js
 vendor/swiper/swiper.min.js
-vendor/swiper/swiper.min.js
 vendor/object-fit-images/ofi.min.js
 cookies-warning.min.js
 modules/*
