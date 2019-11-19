@@ -1126,6 +1126,141 @@ a:active, a:focus, a:hover {
   text-transform: none;
 }
 
+body.article-program .social-sharing,
+body.sial-innovation .social-sharing {
+  margin: 0;
+  border: 0;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  background: #F3F6FB;
+  padding: 2.5rem 2.6rem;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+body.article-program .social-sharing .sr-title,
+body.sial-innovation .social-sharing .sr-title {
+  color: #8C909E;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.224rem;
+  text-transform: uppercase;
+  line-height: 2.2rem;
+  margin: 0.5rem 0 1.3rem;
+}
+
+body.article-program .social-sharing .sr-list,
+body.sial-innovation .social-sharing .sr-list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body.article-program .social-sharing .sr-item,
+body.sial-innovation .social-sharing .sr-item {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 4.5rem;
+  height: 4.5rem;
+  position: relative;
+}
+
+body.article-program .social-sharing .sr-item a,
+body.sial-innovation .social-sharing .sr-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body.article-program .social-sharing .sr-item a .icon,
+body.article-program .social-sharing .sr-item a .sr-item-txt,
+body.sial-innovation .social-sharing .sr-item a .icon,
+body.sial-innovation .social-sharing .sr-item a .sr-item-txt {
+  display: none;
+}
+
+body.article-program .social-sharing .sr-item a:before,
+body.sial-innovation .social-sharing .sr-item a:before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #c8ccd7;
+  font-size: 4.5rem;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+body.article-program .social-sharing .sr-item a.sr-link-mail:before,
+body.sial-innovation .social-sharing .sr-item a.sr-link-mail:before {
+  content: '\2709';
+}
+
+body.article-program .social-sharing .sr-item a.sr-link-facebook:before,
+body.sial-innovation .social-sharing .sr-item a.sr-link-facebook:before {
+  content: '\e900';
+}
+
+body.article-program .social-sharing .sr-item a.sr-link-twitter:before,
+body.sial-innovation .social-sharing .sr-item a.sr-link-twitter:before {
+  content: '\e903';
+}
+
+body.article-program .social-sharing .sr-item a.sr-link-linkedin:before,
+body.sial-innovation .social-sharing .sr-item a.sr-link-linkedin:before {
+  content: '\e902';
+}
+
+body.article-program .social-sharing .sr-item a:hover:before, body.article-program .social-sharing .sr-item a:active:before,
+body.sial-innovation .social-sharing .sr-item a:hover:before,
+body.sial-innovation .social-sharing .sr-item a:active:before {
+  color: #F85C29;
+}
+
+body.article-program .social-sharing .sr-item:not(:first-of-type),
+body.sial-innovation .social-sharing .sr-item:not(:first-of-type) {
+  margin-left: 1.2rem;
+}
+
 body.sial-innovation .article-title {
   margin: 0 0 4rem;
 }
@@ -1218,19 +1353,6 @@ body.sial-innovation .article-title > .inside .at-content .blocs-starts {
 }
 
 body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing {
-  margin: 0;
-  border: 0;
-  -webkit-box-ordinal-group: 3;
-  -ms-flex-order: 2;
-  order: 2;
-  background: #F3F6FB;
-  padding: 2.5rem 2.6rem;
-  -webkit-box-flex: 0;
-  -ms-flex-positive: 0;
-  flex-grow: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  text-align: center;
   width: 100%;
 }
 
@@ -1254,110 +1376,6 @@ body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-
   body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing + .award-ceremony {
     margin-top: 0;
   }
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-title {
-  color: #8C909E;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: 0.224rem;
-  text-transform: uppercase;
-  line-height: 2.2rem;
-  margin: 0.5rem 0 1.3rem;
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-list {
-  padding: 0;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  width: 4.5rem;
-  height: 4.5rem;
-  position: relative;
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a .icon,
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a .sr-item-txt {
-  display: none;
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a:before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #c8ccd7;
-  font-size: 4.5rem;
-  -webkit-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a.sr-link-mail:before {
-  content: '\2709';
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a.sr-link-facebook:before {
-  content: '\e900';
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a.sr-link-twitter:before {
-  content: '\e903';
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a.sr-link-linkedin:before {
-  content: '\e902';
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a:hover:before, body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item a:active:before {
-  color: #F85C29;
-}
-
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing .sr-item:not(:first-of-type) {
-  margin-left: 1.2rem;
 }
 
 body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-ceremony {
@@ -1687,10 +1705,6 @@ body.article-program .article-wrapper .article-content ul:first-of-type {
   margin: 0;
 }
 
-body.article-program .article-wrapper .article-content ul {
-  line-height: 2.312;
-}
-
 body.article-program .article-wrapper .article-content p:first-of-type {
   margin-top: 4rem;
 }
@@ -1701,6 +1715,11 @@ body.article-program .article-wrapper .article-content p:nth-of-type(3) {
 
 body.article-program .article-wrapper .article-content p:nth-of-type(6) {
   padding-top: 4rem;
+}
+
+body.article-program .article-wrapper .article-content p:nth-of-type(7) a::before {
+  content: '\A';
+  white-space: pre;
 }
 
 body.article-program .article-wrapper .article-content p:nth-of-type(n+6) {
@@ -1724,6 +1743,10 @@ body.article-program .article-wrapper .article-content p:last-of-type {
   }
 }
 
+body.article-program .article-wrapper .article-content p a {
+  text-decoration: none;
+}
+
 body.article-program .article-wrapper .article-content::before {
   background-color: #F3F6FB;
   height: 10rem;
@@ -1731,6 +1754,10 @@ body.article-program .article-wrapper .article-content::before {
   top: -10rem;
   width: 100%;
   z-index: -1;
+}
+
+body.article-program .article-wrapper .article-content ul {
+  line-height: 2.312;
 }
 
 body.article-program .article-wrapper .article-content ul li {
@@ -1745,12 +1772,12 @@ body.article-program .article-wrapper .article-content ul li::before {
 body.article-program .article-wrapper .article-content iframe {
   display: block;
   margin: 3rem auto 8rem;
-  width: 90%;
+  max-width: 90%;
 }
 
 @media screen and (min-width: 1024px) {
   body.article-program .article-wrapper .article-content iframe {
-    width: 66.6667%;
+    max-width: 66.6667%;
   }
 }
 
@@ -1811,12 +1838,15 @@ body.article-program .article-wrapper .article-navigation .an-item-content {
   z-index: 2;
   color: #fff;
   padding: 2rem 3rem;
+  min-height: 40%;
 }
 
 body.article-program .article-wrapper .article-navigation .an-item-title {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-weight: 900;
   font-size: 2.4rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
 }
 
 body.article-program .article-wrapper .article-navigation .an-item-link {
@@ -1858,6 +1888,19 @@ body.article-program .article-wrapper .article-navigation .an-item img {
   z-index: 1;
 }
 
+body.article-program .article-wrapper .article-navigation .an-item .icon {
+  display: none;
+}
+
+body.article-program .article-wrapper .article-navigation .an-item-publication {
+  display: none;
+}
+
+body.article-program .article-wrapper .social-sharing {
+  background: none;
+  padding: 0.5rem;
+}
+
 @media screen and (min-width: 1024px) {
   body.article-program .article-wrapper .social-sharing {
     display: block;
@@ -1867,62 +1910,13 @@ body.article-program .article-wrapper .article-navigation .an-item img {
   }
 }
 
-body.article-program .article-wrapper .social-sharing .btn-large,
-body.article-program .article-wrapper .social-sharing .sr-title {
-  color: #c8ccd7;
-}
-
-body.article-program .article-wrapper .social-sharing .btn-large {
-  font-size: 2rem;
-  padding: 0.6rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-@media screen and (min-width: 1280px) {
-  body.article-program .article-wrapper .social-sharing .btn-large {
-    font-size: 3.8rem;
-  }
-}
-
-body.article-program .article-wrapper .social-sharing .sr-link-mail {
-  font-size: 2rem;
-}
-
-body.article-program .article-wrapper .social-sharing .sr-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-body.article-program .article-wrapper .social-sharing .sr-title {
-  text-transform: uppercase;
-  color: #8C909E;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.1rem;
-  font-weight: 500;
-  letter-spacing: 0.2rem;
-  line-height: 3.3;
-  text-align: center;
-}
-
 body.article-program .article-wrapper .social-sharing .sr-item {
-  margin: 0;
-  border: 0;
+  width: 3.7rem;
+  height: 3.7rem;
 }
 
-body.article-program .article-wrapper .social-sharing .sr-item .icon {
-  margin: auto;
+body.article-program .article-wrapper .social-sharing .sr-item a::before {
+  font-size: 3.7rem;
 }
 
 body.article-program .article-wrapper .sr-item-txt {
