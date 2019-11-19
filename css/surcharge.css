@@ -1660,7 +1660,7 @@ body.article-program .article-wrapper .article-title .at-main-title, body.articl
 }
 
 body.article-program .article-wrapper .article-title img.cx-lazy-load {
-  width: calc(100% - 16.6667%);
+  width: calc(100% - 8.3334%);
   max-width: 82.3rem;
 }
 
@@ -1711,6 +1711,14 @@ body.article-program .article-wrapper .article-content p:first-of-type {
 
 body.article-program .article-wrapper .article-content p:nth-of-type(3) {
   padding-bottom: 4rem;
+}
+
+body.article-program .article-wrapper .article-content p:nth-of-type(4) {
+  margin: 4rem 0 0;
+}
+
+body.article-program .article-wrapper .article-content p:nth-of-type(5) {
+  margin-top: 0;
 }
 
 body.article-program .article-wrapper .article-content p:nth-of-type(6) {
@@ -1798,14 +1806,14 @@ body.article-program .article-wrapper .article-content figure.fl {
 body.article-program .article-wrapper .article-navigation {
   background-color: #F3F6FB;
   margin: 8rem -8rem;
-  padding: 8rem 0;
+  padding: 8rem 6rem;
 }
 
 @media screen and (min-width: 768px) {
   body.article-program .article-wrapper .article-navigation {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15rem;
+    padding: 15rem 0 8rem;
   }
 }
 
@@ -1819,6 +1827,12 @@ body.article-program .article-wrapper .article-navigation .an-list {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+body.article-program .article-wrapper .article-navigation .an-list::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 @media screen and (max-width: 767px) {
@@ -1857,6 +1871,12 @@ body.article-program .article-wrapper .article-navigation .an-item-link {
   max-width: 50rem;
 }
 
+body.article-program .article-wrapper .article-navigation .an-item-link::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   body.article-program .article-wrapper .article-navigation .an-item-link {
     min-height: 43.7rem;
@@ -1886,6 +1906,7 @@ body.article-program .article-wrapper .article-navigation .an-item img {
   top: 0;
   width: 100%;
   z-index: 1;
+  border-radius: 0.6rem;
 }
 
 body.article-program .article-wrapper .article-navigation .an-item .icon {
@@ -1902,20 +1923,34 @@ body.article-program .article-wrapper .social-sharing {
 }
 
 @media screen and (min-width: 1024px) {
-  body.article-program .article-wrapper .social-sharing {
+  body.article-program .article-wrapper .article-content + .social-sharing {
     display: block;
     position: absolute;
     left: 1rem;
     border: 0;
+    margin-top: 0;
   }
 }
 
-body.article-program .article-wrapper .social-sharing .sr-item {
-  width: 3.7rem;
-  height: 3.7rem;
+body.article-program .article-wrapper .article-content + .social-sharing .social-sharing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-body.article-program .article-wrapper .social-sharing .sr-item a::before {
+body.article-program .article-wrapper .article-content + .social-sharing .sr-item {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+@media screen and (min-width: 1280px) {
+  body.article-program .article-wrapper .article-content + .social-sharing .sr-item {
+    width: 3.7rem;
+    height: 3.7rem;
+  }
+}
+
+body.article-program .article-wrapper .article-content + .social-sharing .sr-item a::before {
   font-size: 3.7rem;
 }
 

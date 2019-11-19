@@ -6,8 +6,8 @@
     var calculateSocialSharingPos = function() {
       var socialSharingDiv = $('.social-sharing')[0];
       var divHeight = socialSharingDiv.getBoundingClientRect().height;
-      var titleProps = $('.article-program .article-title')[0].getBoundingClientRect();
-      var topPos = parseInt(titleProps.top, 10) + (parseInt(titleProps.height) / 4) - parseInt(divHeight, 10);
+      var titleProps = $('.article-program .article-title img').offset().top;
+      var topPos = parseInt(titleProps, 10) - parseInt(divHeight, 10);
       socialSharingDiv.style.top = topPos + 'px';
     };
 
