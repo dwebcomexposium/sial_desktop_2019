@@ -419,6 +419,6 @@
 
   };
 
-  $('.cxp-swiper').cxpSwiper();
+  $('.cxp-swiper:not(.partner-gallery)').cxpSwiper();
 
 })(jQuery);

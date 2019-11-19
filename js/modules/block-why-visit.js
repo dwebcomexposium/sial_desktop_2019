@@ -1,0 +1,1 @@
+!function(i){i(function(){i(".block-custom.why-visit").each(function(){var t=i(this).prev();t.hasClass("article-title")&&t.find("> .inside > .at-content").append(i(this))})})}(jQuery);

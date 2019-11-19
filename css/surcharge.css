@@ -276,7 +276,10 @@ img {
   vertical-align: initial;
 }
 
-.subheader__btn, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, .partner [class^='link-'], .list-articles.block.block-page.prix-secteurs .include_in_above_block, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+.subheader__btn, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
+body.front .block.article-title .article-intro .lien1,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, .partner [class^='link-'], .list-articles.block.block-page.prix-secteurs .include_in_above_block, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 0.9rem 2.6rem 1rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -296,7 +299,10 @@ img {
   user-select: none;
 }
 
-.subheader__btn:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, .partner :hover[class^='link-'], .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+.subheader__btn:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
+body.front .block.article-title .article-intro .lien1:hover,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, .partner :hover[class^='link-'], .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -495,7 +501,7 @@ input[type=checkbox]:checked {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  content: "🏆";
+  content: "💁";
 }
 
 .icon.icon-concierge::before {
@@ -958,6 +964,20 @@ input[type=checkbox]:checked {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "";
+}
+
+.icon.icon-viande::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "🍖";
 }
 
 .icon.icon-viandes::before {
@@ -2474,21 +2494,20 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   z-index: 0;
   display: block;
   width: 100%;
-  margin-top: 1rem;
-  margin-bottom: -1rem;
-  padding: 4rem 0;
-  background-color: #303237;
-}
-
-.footer-bottom::after {
-  clear: both;
-  content: "";
-  display: block;
+  margin-top: 4rem;
+  background-color: #3A3D46;
+  padding: 4rem 0 3rem;
 }
 
 @media screen and (min-width: 768px) {
   .footer-bottom {
     padding: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-bottom {
+    margin-top: 5rem;
   }
 }
 
@@ -2566,44 +2585,55 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   }
 }
 
-@media screen and (min-width: 768px) {
+.footer-logo {
+  margin-right: auto;
+  margin-bottom: 4rem;
+}
+
+@media screen and (min-width: 1024px) {
   .footer-logo {
-    float: left;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    display: block;
-    max-width: 14.7rem;
-    margin-right: 10.4%;
+    margin-top: 1.1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  .footer-logo {
+    max-width: 10%;
   }
 }
 
 .footer-logo__event {
-  float: left;
   display: block;
-  max-width: 9.3rem;
-  margin-bottom: 2.5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .footer-logo__event {
-    float: none;
-    max-width: none;
+    margin-bottom: 2.5rem;
   }
 }
 
 .footer-logo__company {
-  float: left;
   display: block;
-  max-width: 14.6rem;
   margin-left: 3rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .footer-logo__company {
-    float: none;
-    max-width: none;
     margin-left: 0;
   }
 }
@@ -2991,6 +3021,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+  -webkit-transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  opacity: 0;
+}
+
+.is-ready.is-in-viewport .insta-slider__wrapper::after {
+  opacity: 1;
 }
 
 .insta-slider__list {
@@ -3022,6 +3060,10 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   -webkit-box-flex: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
+  -webkit-transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  opacity: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -3030,43 +3072,8 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   }
 }
 
-.is-ready .insta-slider__item {
-  opacity: 0;
-}
-
 .is-ready.is-in-viewport .insta-slider__item {
-  -webkit-animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  animation: slideUpFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-}
-
-.is-ready.is-in-viewport .insta-slider__item:nth-child(1) {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-
-.is-ready.is-in-viewport .insta-slider__item:nth-child(2) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.is-ready.is-in-viewport .insta-slider__item:nth-child(3) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.is-ready.is-in-viewport .insta-slider__item:nth-child(4) {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-.is-ready.is-in-viewport .insta-slider__item:nth-child(5) {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
-.is-ready.is-in-viewport .insta-slider__item:nth-child(6) {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
+  opacity: 1;
 }
 
 .insta-slider__image {
@@ -3113,13 +3120,18 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 .key-figures {
   clear: both;
   max-width: 110rem;
-  margin: 5rem auto 4.5rem;
+  margin: 3rem auto;
 }
 
 @media screen and (min-width: 768px) {
   .key-figures {
-    margin-top: 9rem;
-    margin-bottom: 8rem;
+    margin: 4rem auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .key-figures {
+    margin: 8rem auto;
   }
 }
 
@@ -3627,7 +3639,7 @@ body.article_list .more-infos-contact {
   opacity: .5;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .sial-network::after {
     display: none;
   }
@@ -3638,7 +3650,7 @@ body.article_list .more-infos-contact {
   display: block;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .sial-network__wrapper {
     margin-left: 34.2623%;
   }
@@ -3681,7 +3693,7 @@ body.article_list .more-infos-contact {
   margin: 0 -4rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .sial-network__list {
     margin: 0 -1.5rem;
   }
@@ -4744,7 +4756,7 @@ body.article_list .more-infos-contact {
 @media screen and (min-width: 768px) {
   .video-list__item {
     width: 39.6rem;
-    padding: 16.4rem 4rem 4rem;
+    padding: 16.4rem 4rem 5.5rem;
   }
 }
 
@@ -4859,13 +4871,26 @@ body.article_list .more-infos-contact {
 
 .why-visit {
   max-width: 110rem;
-  margin: 4rem auto 0;
+  margin: 3rem auto 0;
   overflow: hidden;
 }
 
 @media screen and (min-width: 768px) {
   .why-visit {
-    margin-top: 10rem;
+    margin: 4rem 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .why-visit {
+    margin: 10rem auto 0;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .why-visit {
+    max-width: 75rem;
+    width: 100%;
   }
 }
 
@@ -5152,15 +5177,6 @@ body.faq .block-page.faq .fc-item-content {
   }
 }
 
-.front .block.edito-custom, .front .block.article-title {
-  margin-top: 3rem;
-  max-width: 110rem;
-}
-
-.front .block.edito-custom::after, .front .block.article-title::after {
-  display: none;
-}
-
 .block.edito-custom .inside > *, .block.article-title .inside > * {
   margin-left: 51.18182%;
 }
@@ -5216,6 +5232,238 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
     -ms-flex-order: 2;
     order: 2;
     margin-bottom: 0;
+  }
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title,
+body.front .block.article-title,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title,
+body.body-corpo.page-rubric #zone4 > .block.article-title {
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro,
+body.front .block.article-title .article-intro,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro p, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro p, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .p-like, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .p-like, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro ul, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro ul, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro ol, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro ol, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro dl, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro dl, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro blockquote, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro blockquote, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro pre, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro pre, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro td, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro td, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro th, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro th, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro label, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro label, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro textarea, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro textarea, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro caption, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro caption, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro details, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro details, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro figure, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro figure,
+body.front .block.article-title .article-intro p,
+body.front .block.article-title .article-intro .p-like,
+body.front .block.article-title .article-intro ul,
+body.front .block.article-title .article-intro ol,
+body.front .block.article-title .article-intro dl,
+body.front .block.article-title .article-intro blockquote,
+body.front .block.article-title .article-intro pre,
+body.front .block.article-title .article-intro td,
+body.front .block.article-title .article-intro th,
+body.front .block.article-title .article-intro label,
+body.front .block.article-title .article-intro textarea,
+body.front .block.article-title .article-intro caption,
+body.front .block.article-title .article-intro details,
+body.front .block.article-title .article-intro figure,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro p,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .p-like,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro ul,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro ol,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro dl,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro blockquote,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro pre,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro td,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro th,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro label,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro textarea,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro caption,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro details,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro figure,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro p,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .p-like,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro ul,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro ol,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro dl,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro blockquote,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro pre,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro td,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro th,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro label,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro textarea,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro caption,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro details,
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro figure {
+  line-height: 3rem;
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro p:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro p:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .p-like:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .p-like:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro ul:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro ul:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro ol:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro ol:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro dl:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro dl:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro blockquote:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro blockquote:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro pre:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro pre:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro td:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro td:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro th:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro th:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro label:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro label:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro textarea:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro textarea:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro caption:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro caption:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro details:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro details:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro figure:not(:first-child), body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro figure:not(:first-child),
+body.front .block.article-title .article-intro p:not(:first-child),
+body.front .block.article-title .article-intro .p-like:not(:first-child),
+body.front .block.article-title .article-intro ul:not(:first-child),
+body.front .block.article-title .article-intro ol:not(:first-child),
+body.front .block.article-title .article-intro dl:not(:first-child),
+body.front .block.article-title .article-intro blockquote:not(:first-child),
+body.front .block.article-title .article-intro pre:not(:first-child),
+body.front .block.article-title .article-intro td:not(:first-child),
+body.front .block.article-title .article-intro th:not(:first-child),
+body.front .block.article-title .article-intro label:not(:first-child),
+body.front .block.article-title .article-intro textarea:not(:first-child),
+body.front .block.article-title .article-intro caption:not(:first-child),
+body.front .block.article-title .article-intro details:not(:first-child),
+body.front .block.article-title .article-intro figure:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro p:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .p-like:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro ul:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro ol:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro dl:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro blockquote:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro pre:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro td:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro th:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro label:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro textarea:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro caption:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro details:not(:first-child),
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro figure:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro p:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .p-like:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro ul:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro ol:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro dl:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro blockquote:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro pre:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro td:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro th:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro label:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro textarea:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro caption:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro details:not(:first-child),
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro figure:not(:first-child) {
+  margin-top: 3rem;
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom::after, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title::after,
+body.front .block.article-title::after,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title::after,
+body.body-corpo.page-rubric #zone4 > .block.article-title::after {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title > .inside,
+  body.front .block.article-title > .inside,
+  body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside,
+  body.body-corpo.page-rubric #zone4 > .block.article-title > .inside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .cx-lazy-load, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title > .inside .cx-lazy-load,
+body.front .block.article-title > .inside .cx-lazy-load,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .cx-lazy-load,
+body.body-corpo.page-rubric #zone4 > .block.article-title > .inside .cx-lazy-load {
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+  float: none;
+}
+
+@media screen and (max-width: 1279px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .cx-lazy-load, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title > .inside .cx-lazy-load,
+  body.front .block.article-title > .inside .cx-lazy-load,
+  body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .cx-lazy-load,
+  body.body-corpo.page-rubric #zone4 > .block.article-title > .inside .cx-lazy-load {
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto 4rem;
+    max-height: 40rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .cx-lazy-load, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title > .inside .cx-lazy-load,
+  body.front .block.article-title > .inside .cx-lazy-load,
+  body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .cx-lazy-load,
+  body.body-corpo.page-rubric #zone4 > .block.article-title > .inside .cx-lazy-load {
+    margin: 0;
+    width: 50.3rem;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .at-content, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title > .inside .at-content,
+body.front .block.article-title > .inside .at-content,
+body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .at-content,
+body.body-corpo.page-rubric #zone4 > .block.article-title > .inside .at-content {
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .at-content, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title > .inside .at-content,
+  body.front .block.article-title > .inside .at-content,
+  body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .at-content,
+  body.body-corpo.page-rubric #zone4 > .block.article-title > .inside .at-content {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom > .inside .at-content, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title > .inside .at-content,
+  body.front .block.article-title > .inside .at-content,
+  body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title > .inside .at-content,
+  body.body-corpo.page-rubric #zone4 > .block.article-title > .inside .at-content {
+    margin-left: 6rem;
+    padding: 2.8rem 0;
+  }
+}
+
+.block.article-title body.front .block.article-title {
+  /* homepage */
+  max-width: 117.5rem;
+}
+
+body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 480px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
   }
 }
 
@@ -5303,6 +5551,11 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
   -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.exhibitors-slider__btn.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
 }
 
 .exhibitors-slider__btn:focus {
@@ -5474,34 +5727,13 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
   display: none;
 }
 
-.footer-menu {
-  display: block;
-  margin-bottom: 3rem;
-}
-
-@media screen and (min-width: 768px) {
-  .footer-menu {
-    float: left;
-    width: 50.4%;
-    margin-bottom: 0;
-  }
-}
-
-.footer-menu .ql-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
 @media screen and (min-width: 768px) {
   .footer-menu .ql-list {
-    max-height: 24rem;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    overflow: hidden;
+    max-height: 20.2rem;
   }
 }
 
@@ -5962,7 +6194,7 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
   background: #F3F6FB;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
   .home-news::before {
     right: 0;
   }
@@ -6011,7 +6243,7 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
 @media screen and (min-width: 768px) {
   .home-news .link-view-all {
     bottom: 0;
-    left: 53.6%;
+    left: calc(48.8% + 2.9rem);
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -6027,15 +6259,9 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
   margin: 0;
 }
 
-@media screen and (min-width: 768px) {
-  .home-news .grid-la-list {
-    margin: 0 -3rem;
-  }
-}
-
 .home-news .gla-item {
   width: 100%;
-  max-width: 26.9rem;
+  max-width: 50.4rem;
   height: 22.8rem;
   margin: 0 auto 2rem;
 }
@@ -6043,10 +6269,13 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
 @media screen and (min-width: 768px) {
   .home-news .gla-item {
     float: left;
-    width: 40.4%;
-    max-width: 50.5rem;
+    max-width: none;
     height: 16.6rem;
-    margin-right: 2.4%;
+    margin-right: 2.9rem;
+    width: calc(100% - 48.8% - 2.9rem);
+  }
+  .home-news .gla-item:not(:first-of-type) {
+    margin-right: 0;
   }
 }
 
@@ -6134,7 +6363,8 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
 }
 
 .home-news .gla-item:first-child {
-  max-width: 26.9rem;
+  max-width: 61rem;
+  width: 100%;
   height: 43.7rem;
   margin-bottom: 2rem;
 }
@@ -6152,6 +6382,18 @@ body.sial-innovation .block.edito-custom .at-illust, body.sial-innovation .block
   font-size: 2.4rem;
   font-weight: 900;
   line-height: 2.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home-news .gla-item:first-child .gla-item-title {
+    max-height: 5.42rem;
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
 }
 
 .home-news .gla-item:first-child .gla-item-content {
@@ -6477,7 +6719,7 @@ body.article .home-sectors,
   background-color: #FFDB38;
 }
 
-body.page-rubric .home-sectors {
+body.page-rubric #zone2 > .home-sectors {
   background: transparent;
   margin: 0 0 3.5rem;
 }
@@ -6489,7 +6731,7 @@ body.page-rubric .home-sectors {
     padding-top: 8rem;
     padding-bottom: 9rem;
   }
-  body.page-rubric .home-sectors {
+  body.page-rubric #zone2 > .home-sectors {
     margin: 2rem 0 7rem;
     padding: 0;
   }
@@ -6516,14 +6758,14 @@ body.article .home-sectors::after,
   .home-sectors::after {
     left: 0;
   }
-  body.page-rubric .home-sectors::after,
+  body.page-rubric #zone2 > .home-sectors::after,
   body.article .home-sectors::after {
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  body.page-rubric .home-sectors::after {
+  body.page-rubric #zone2 > .home-sectors::after {
     bottom: 10.9rem;
     top: auto;
   }
@@ -6541,7 +6783,7 @@ body.article .home-sectors::after,
   }
 }
 
-body.page-rubric .home-sectors__title {
+body.page-rubric #zone2 > .home-sectors__title {
   text-align: left;
 }
 
@@ -6556,7 +6798,7 @@ body.page-rubric .home-sectors__title {
   text-align: center;
 }
 
-body.page-rubric .home-sectors__description {
+body.page-rubric #zone2 > .home-sectors__description {
   max-width: none;
   text-align: left;
 }
@@ -6614,7 +6856,7 @@ body.page-rubric .home-sectors__description {
     -ms-flex-pack: center;
     justify-content: center;
   }
-  body.page-rubric .home-sectors .quicklinks .ql-list {
+  body.page-rubric #zone2 > .home-sectors .quicklinks .ql-list {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -6630,7 +6872,7 @@ body.page-rubric .home-sectors__description {
   overflow: hidden;
 }
 
-body.page-rubric .home-sectors .quicklinks .ql-item {
+body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   width: 23.2rem;
 }
 
@@ -6769,6 +7011,10 @@ body.page-rubric .home-sectors .quicklinks .ql-item {
 }
 
 .home-sectors .ql-item.linkid794925 .btn-primary:after {
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
+}
+
+.home-sectors .ql-item.linkid999999 .btn-primary:after {
   background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
 }
 
@@ -8853,7 +9099,7 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   max-width: 128rem;
-  padding: 6rem 2.5rem 1rem;
+  padding: 4.9rem 2.5rem 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -8870,6 +9116,20 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 .site-footer .inside > * {
   display: block;
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .site-footer .inside > div:not(.footer-bottom) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
 }
 
 .wrapper, .subheader__wrapper,
@@ -8911,18 +9171,16 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 }
 
 .site-footer .social-networks {
-  display: block;
-  width: 100%;
-  margin-bottom: 4rem;
+  margin-left: auto;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin-top: 3rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .site-footer .social-networks {
-    float: right;
-    width: auto;
-    margin-left: auto;
-    -ms-flex-item-align: end;
-    align-self: flex-end;
+    margin-top: 0;
+    margin-bottom: 1.4rem;
   }
 }
 
@@ -8935,9 +9193,22 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   align-items: center;
 }
 
+@media screen and (max-width: 1023px) {
+  .site-footer .social-networks .ql-list {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 26.8rem;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .social-networks .ql-list {
     float: right;
+  }
+  .site-footer .social-networks .ql-list {
+    float: none;
   }
 }
 
