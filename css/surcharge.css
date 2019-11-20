@@ -2516,18 +2516,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 
 @media screen and (min-width: 1024px) {
   .detail-secteur {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     padding: 7.2rem 10.65rem;
     margin: 2.8rem 0;
+    display: block;
+  }
+  .detail-secteur::after {
+    clear: both;
+    content: "";
+    display: block;
   }
 }
 
@@ -2548,12 +2544,13 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   order: 1;
 }
 
+.detail-secteur__main p {
+  text-align: justify;
+}
+
 @media screen and (min-width: 1024px) {
   .detail-secteur__main {
-    width: 48.55%;
-    -webkit-box-ordinal-group: 1;
-    -ms-flex-order: 0;
-    order: 0;
+    width: 100%;
   }
 }
 
@@ -2590,10 +2587,14 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
 @media screen and (min-width: 1024px) {
   .detail-secteur__additionnal {
     width: 45.37%;
-    -webkit-box-ordinal-group: 1;
-    -ms-flex-order: 0;
-    order: 0;
-    margin: 0;
+  }
+  .detail-secteur__additionnal.align-right {
+    float: right;
+    margin: 0 0 3rem 6rem;
+  }
+  .detail-secteur__additionnal.align-left {
+    float: left;
+    margin: 0 6rem 3rem 0;
   }
 }
 
