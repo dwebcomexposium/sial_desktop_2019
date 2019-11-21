@@ -27,6 +27,7 @@ $query = [
 ];
 $url = '//graph.instagram.com' . $endpoint . '?' . http_build_query($query);
 
+echo $url.'<br />';
 
 try {
   $curl_connection = curl_init($url);
