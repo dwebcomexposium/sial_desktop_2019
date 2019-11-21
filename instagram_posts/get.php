@@ -26,8 +26,6 @@ $query = [
 ];
 $url = 'https://graph.instagram.com' . $endpoint . '?' . http_build_query($query) . '&fields=id%2Cmedia_type%2Cmedia_url%2Cpermalink%2Cthumbnail_url';
 
-echo $url.'<br />';
-
 try {
   $curl_connection = curl_init();
   curl_setopt($curl_connection, CURLOPT_URL, $url);
@@ -37,27 +35,13 @@ try {
   curl_setopt($curl_connection, CURLOPT_DNS_CACHE_TIMEOUT, 0);
   curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
-  $data = curl_exec($curl_connection);
-//  $data = json_decode(curl_exec($curl_connection), true);
+  $data = json_decode(curl_exec($curl_connection), true);
+  curl_close($curl_connection);
+  if ($data) {
+    if (array_key_exists('data', $data)) {
 
 
-
-  var_dump($data);
-
-
-
-
-
-//  if ($data) {
-
-
-
-
-
-//    if (array_key_exists('data', $data)) {
-
-
-      //var_dump($data['data']);
+      var_dump($data['data']);
 
 
 //        $final_posts = [];
@@ -79,9 +63,12 @@ try {
 //
 //          //todo Si post pas présent dans json, le créer + download médias
 //        }
-//    }
-//  }
-  curl_close($curl_connection);
+    }
+
+
+  } else {
+    return 'error';
+  }
 } catch (Exception $e) {
-  return $e->getMessage();
+  return 'error';
 }
