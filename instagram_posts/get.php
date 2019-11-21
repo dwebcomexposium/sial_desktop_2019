@@ -24,7 +24,7 @@ $endpoint = '/me/media';
 $query = [
   'access_token' => $access_token
 ];
-$url = '//graph.instagram.com' . $endpoint . '?' . http_build_query($query) . '&fields=id,media_type,media_url,permalink,thumbnail_url';
+$url = 'https://graph.instagram.com' . $endpoint . '?' . http_build_query($query) . '&fields=id%2Cmedia_type%2Cmedia_url%2Cpermalink%2Cthumbnail_url';
 
 echo $url.'<br />';
 
