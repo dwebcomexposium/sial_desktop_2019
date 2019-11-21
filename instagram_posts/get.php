@@ -36,23 +36,23 @@ try {
   curl_setopt($curl_connection, CURLOPT_DNS_CACHE_TIMEOUT, 0);
   curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
-  $data = json_decode(curl_exec($curl_connection), true);
+//  $data = json_decode(curl_exec($curl_connection), true);
 
 
 
-  var_dump($data);
-
-
-
-
-
-  if ($data) {
+  var_dump(curl_exec($curl_connection));
 
 
 
 
 
-    if (array_key_exists('data', $data)) {
+//  if ($data) {
+
+
+
+
+
+//    if (array_key_exists('data', $data)) {
 
 
       //var_dump($data['data']);
@@ -77,8 +77,8 @@ try {
 //
 //          //todo Si post pas présent dans json, le créer + download médias
 //        }
-    }
-  }
+//    }
+//  }
   curl_close($curl_connection);
 } catch (Exception $e) {
   return $e->getMessage();
