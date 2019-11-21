@@ -22,10 +22,9 @@
 $access_token = 'IGQVJYX1k3ZAEMxeVNGQkZAKRWhkdlVOQk1wUXQyMmEzaTM5UE9wcHl1dzZAJb2JjZA1lHZAkpuSnhGUTk4cFlmUEJGekc1WkVrNjlFLV9OWkdremEyY1VUWkNDc25KaVNZAbzJYVzl1TUhUdHFJcHNVUS1XVGdhM2xrNlJZAdFln';
 $endpoint = '/me/media';
 $query = [
-  'access_token' => $access_token,
-  'fields' => 'id,media_type,media_url,permalink,thumbnail_url',
+  'access_token' => $access_token
 ];
-$url = '//graph.instagram.com' . $endpoint . '?' . http_build_query($query);
+$url = '//graph.instagram.com' . $endpoint . '?' . http_build_query($query) . '&fields=id,media_type,media_url,permalink,thumbnail_url';
 
 echo $url.'<br />';
 
