@@ -17,20 +17,23 @@ JSON;
     RecursiveIteratorIterator::SELF_FIRST);
 
   foreach ($jsonIterator as $key => $val) {
-    if (!is_array($val)) {
-      if ($key === 'post_id') {
-        $post_id = $val;
-      }
-      if ($key === 'post_link') {
-        $post_link = $val;
-      }
-      if ($key === 'post_format') {
-        $post_format = $val;
-      }
+    if (is_array($val)) {
+//      if ($key === 'post_id') {
+//        $post_id = $val;
+//      }
+//      if ($key === 'post_link') {
+//        $post_link = $val;
+//      }
+//      if ($key === 'post_format') {
+//        $post_format = $val;
+//      }
 
-
-
-      echo $post_id . ' ' . $post_link . ' ' . $post_format . '<br />';
+    } else {
+      if ($key !== 'posts') {
+        var_dump($val['post_id']);
+        var_dump($val['post_link']);
+        var_dump($val['post_format']);
+      }
     }
   }
 }
