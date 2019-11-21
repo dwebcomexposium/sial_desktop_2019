@@ -2,18 +2,34 @@
   "metadata": {
     "name": "SIAL",
     "lastOpened": 0,
-    "created": 1573578645711
+    "created": 1574330061608
   },
   "iconSets": [
     {
       "selection": [
+        {
+          "order": 147,
+          "id": 58,
+          "name": "mail-open",
+          "prevSize": 16,
+          "code": 128231,
+          "tempChar": ""
+        },
+        {
+          "order": 146,
+          "id": 57,
+          "name": "phone",
+          "prevSize": 16,
+          "code": 128222,
+          "tempChar": ""
+        },
         {
           "order": 145,
           "id": 56,
           "name": "Mail",
           "prevSize": 16,
           "code": 9993,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 144,
@@ -21,7 +37,7 @@
           "name": "pedestal",
           "prevSize": 16,
           "code": 127942,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 143,
@@ -29,7 +45,7 @@
           "name": "quote-1",
           "prevSize": 16,
           "code": 59655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 142,
@@ -37,7 +53,7 @@
           "name": "quote-2",
           "prevSize": 16,
           "code": 59656,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 139,
@@ -45,7 +61,7 @@
           "name": "minus",
           "prevSize": 16,
           "code": 10134,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 116,
@@ -53,7 +69,7 @@
           "name": "coffee",
           "prevSize": 16,
           "code": 9749,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 117,
@@ -61,7 +77,7 @@
           "name": "coins",
           "prevSize": 16,
           "code": 128176,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 118,
@@ -69,7 +85,7 @@
           "name": "flower",
           "prevSize": 16,
           "code": 127799,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 119,
@@ -77,7 +93,7 @@
           "name": "increase",
           "prevSize": 16,
           "code": 128200,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 120,
@@ -85,7 +101,7 @@
           "name": "product",
           "prevSize": 16,
           "code": 128717,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 121,
@@ -93,7 +109,7 @@
           "name": "rice",
           "prevSize": 16,
           "code": 59660,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 122,
@@ -101,7 +117,7 @@
           "name": "tea",
           "prevSize": 16,
           "code": 127861,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 123,
@@ -109,7 +125,7 @@
           "name": "world",
           "prevSize": 16,
           "code": 127758,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 124,
@@ -117,7 +133,7 @@
           "name": "marker",
           "prevSize": 16,
           "code": 128205,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 125,
@@ -125,7 +141,7 @@
           "name": "matchmaking",
           "prevSize": 16,
           "code": 128243,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 126,
@@ -133,7 +149,7 @@
           "name": "luggage",
           "prevSize": 16,
           "code": 128092,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 72,
@@ -141,7 +157,7 @@
           "name": "stock",
           "prevSize": 16,
           "code": 128230,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 73,
@@ -149,7 +165,7 @@
           "name": "store",
           "prevSize": 16,
           "code": 127978,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 74,
@@ -157,7 +173,7 @@
           "name": "visite-guidee",
           "prevSize": 16,
           "code": 128655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 75,
@@ -165,7 +181,7 @@
           "name": "conference",
           "prevSize": 16,
           "code": 127908,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 76,
@@ -173,7 +189,7 @@
           "name": "concierge",
           "prevSize": 16,
           "code": 128709,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 77,
@@ -181,7 +197,7 @@
           "name": "celebrity",
           "prevSize": 16,
           "code": 128129,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 78,
@@ -189,7 +205,7 @@
           "name": "contact",
           "prevSize": 16,
           "code": 128172,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 79,
@@ -197,7 +213,7 @@
           "name": "contacts",
           "prevSize": 16,
           "code": 128199,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 80,
@@ -205,7 +221,7 @@
           "name": "launch",
           "prevSize": 16,
           "code": 128640,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 81,
@@ -213,7 +229,7 @@
           "name": "truck",
           "prevSize": 16,
           "code": 128667,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 82,
@@ -221,7 +237,7 @@
           "name": "android",
           "prevSize": 16,
           "code": 59653,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 83,
@@ -229,7 +245,7 @@
           "name": "apple",
           "prevSize": 16,
           "code": 59654,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 84,
@@ -237,7 +253,7 @@
           "name": "facebook",
           "prevSize": 16,
           "code": 59648,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 85,
@@ -245,7 +261,7 @@
           "name": "insta",
           "prevSize": 16,
           "code": 59649,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 86,
@@ -253,7 +269,7 @@
           "name": "linkedin",
           "prevSize": 16,
           "code": 59650,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 87,
@@ -261,7 +277,7 @@
           "name": "twitter",
           "prevSize": 16,
           "code": 59651,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 88,
@@ -269,7 +285,7 @@
           "name": "youtube",
           "prevSize": 16,
           "code": 59652,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 89,
@@ -277,7 +293,7 @@
           "name": "wallet",
           "prevSize": 16,
           "code": 127915,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 90,
@@ -285,7 +301,7 @@
           "name": "map",
           "prevSize": 16,
           "code": 128204,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 91,
@@ -293,7 +309,7 @@
           "name": "produits-laitiers",
           "prevSize": 16,
           "code": 129472,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 92,
@@ -301,7 +317,7 @@
           "name": "exponent",
           "prevSize": 16,
           "code": 8505,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 93,
@@ -309,7 +325,7 @@
           "name": "fruits-et-legumes",
           "prevSize": 16,
           "code": 127828,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 94,
@@ -317,7 +333,7 @@
           "name": "star",
           "prevSize": 16,
           "code": 11088,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 95,
@@ -325,7 +341,7 @@
           "name": "speaker",
           "prevSize": 16,
           "code": 128226,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 96,
@@ -333,7 +349,7 @@
           "name": "epicerie",
           "prevSize": 16,
           "code": 127833,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 97,
@@ -341,7 +357,7 @@
           "name": "boissons",
           "prevSize": 16,
           "code": 127866,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 98,
@@ -349,7 +365,7 @@
           "name": "bio-bien-etre",
           "prevSize": 16,
           "code": 127793,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 137,
@@ -357,7 +373,7 @@
           "name": "viandes",
           "prevSize": 16,
           "code": 127830,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 136,
@@ -365,7 +381,7 @@
           "name": "produits-mer",
           "prevSize": 16,
           "code": 127844,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 135,
@@ -373,7 +389,7 @@
           "name": "traiteur-snacking",
           "prevSize": 16,
           "code": 127858,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 134,
@@ -381,7 +397,7 @@
           "name": "food-processing",
           "prevSize": 16,
           "code": 129302,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 133,
@@ -389,7 +405,7 @@
           "name": "search",
           "prevSize": 16,
           "code": 128270,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 132,
@@ -397,7 +413,7 @@
           "name": "distributeur",
           "prevSize": 16,
           "code": 128666,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 131,
@@ -405,7 +421,7 @@
           "name": "importateur",
           "prevSize": 16,
           "code": 128747,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 129,
@@ -413,7 +429,7 @@
           "name": "restaurateur",
           "prevSize": 16,
           "code": 127869,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 130,
@@ -421,7 +437,7 @@
           "name": "industriel",
           "prevSize": 16,
           "code": 127981,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 128,
@@ -429,7 +445,7 @@
           "name": "arrow-top",
           "prevSize": 16,
           "code": 128285,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 138,
@@ -437,7 +453,7 @@
           "name": "plus",
           "prevSize": 16,
           "code": 10010,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 127,
@@ -445,20 +461,50 @@
           "name": "play",
           "prevSize": 16,
           "code": 9655,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 0,
       "metadata": {
         "name": "sial-2019",
         "importSize": {
-          "width": 49,
-          "height": 49
+          "width": 15,
+          "height": 15
         }
       },
       "height": 1024,
       "prevSize": 16,
       "icons": [
+        {
+          "id": 58,
+          "paths": [
+            "M511.999 0l-511.999 320v639.999c0 35.344 28.653 64.001 64.001 64.001h895.999c35.348 0 64.001-28.657 64.001-64.001v-639.999l-512.001-320zM859.299 367.999l-347.3 217.062-347.3-217.062 347.3-217.062 347.3 217.062z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "Shape (2)"
+          ]
+        },
+        {
+          "id": 57,
+          "paths": [
+            "M952.203 735.843c-146.399-117.654-187.337-59.818-253.764 6.599-46.372 46.392-163.732-50.485-265.063-151.823-101.338-101.348-198.193-218.685-151.823-265.067 66.43-66.42 124.248-107.382 6.56-253.736-117.649-146.413-196.076-34.007-260.422 30.344-74.287 74.262-3.914 351.004 269.598 624.564 273.551 273.516 550.293 343.842 624.538 269.61 64.336-64.358 176.777-142.775 30.376-260.49z"
+          ],
+          "attrs": [
+            {}
+          ],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "Shape"
+          ]
+        },
         {
           "id": 56,
           "paths": [
