@@ -6,33 +6,10 @@
  */
 
 $strJsonFileContents = file_get_contents("posts.json");
-
 if (is_string($strJsonFileContents)) {
-  $json = <<< JSON
-  $strJsonFileContents
-JSON;
-
-  $jsonIterator = new RecursiveIteratorIterator(
-    new RecursiveArrayIterator(json_decode($json, TRUE)),
-    RecursiveIteratorIterator::SELF_FIRST);
-
-  foreach ($jsonIterator as $key => $val) {
-    if (is_array($val)) {
-//      if ($key === 'post_id') {
-//        $post_id = $val;
-//      }
-//      if ($key === 'post_link') {
-//        $post_link = $val;
-//      }
-//      if ($key === 'post_format') {
-//        $post_format = $val;
-//      }
-
-    } else {
-      if ($key !== 'posts') {
-        var_dump($val);
-      }
-    }
+  $json_datas = json_decode($strJsonFileContents, true);
+  foreach ($json_datas as $post) {
+    echo $post['post_link'];
   }
 }
 
