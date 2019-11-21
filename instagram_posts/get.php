@@ -38,11 +38,12 @@ try {
   curl_setopt($curl_connection, CURLOPT_DNS_CACHE_TIMEOUT, 0);
   curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
+  $data = curl_exec($curl_connection);
 //  $data = json_decode(curl_exec($curl_connection), true);
 
 
 
-  var_dump(curl_exec($curl_connection));
+  var_dump($data);
 
 
 
