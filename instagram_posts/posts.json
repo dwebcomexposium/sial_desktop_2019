@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "post_id": "5666666",
+      "post_link": "https://developers.facebook.com/docs/instagram-api/overview/#rate-limiting",
+      "format": "mp4"
+    },
+    {
+      "post_id": "5666661",
+      "post_link": "https://developers.facebook.com/docs/instagram-api/overview/#rate-limiting",
+      "format": "jpg"
+    }
+  ]
+}
