@@ -21,21 +21,21 @@ function __autoload($class_name)
 __autoload('Instagram');
 
 /////// CONFIG ///////
-$username = 'sial.rs@comexposium.com';
-$password = 'Comex//92058';
-$debug = true;
-$truncatedDebug = false;
+//$username = 'sial.rs@comexposium.com';
+//$password = 'Comex//92058';
+//$debug = true;
+//$truncatedDebug = false;
 //////////////////////
 
-$ig = new \InstagramAPI\Instagram($debug, $truncatedDebug);
-
-try {
-  $ig->login($username, $password);
-  echo 'OKAY';
-} catch (\Exception $e) {
-  echo 'Something went wrong: '.$e->getMessage()."\n";
-  exit(0);
-}
+//$ig = new \InstagramAPI\Instagram($debug, $truncatedDebug);
+//
+//try {
+//  $ig->login($username, $password);
+//  echo 'OKAY';
+//} catch (\Exception $e) {
+//  echo 'Something went wrong: '.$e->getMessage()."\n";
+//  exit(0);
+//}
 
 
 
