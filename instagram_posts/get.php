@@ -30,7 +30,9 @@ $url = '//graph.instagram.com' . $endpoint . '?' . http_build_query($query);
 echo $url.'<br />';
 
 try {
-  $curl_connection = curl_init($url);
+  $curl_connection = curl_init();
+  curl_setopt($curl_connection, CURLOPT_URL, $url);
+  curl_setopt($curl_connection, CURLOPT_HEADER, 0);
   curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 0);
   curl_setopt($curl_connection, CURLOPT_TIMEOUT, 0);
   curl_setopt($curl_connection, CURLOPT_DNS_CACHE_TIMEOUT, 0);
