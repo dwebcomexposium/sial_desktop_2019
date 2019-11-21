@@ -1090,7 +1090,7 @@ a:active, a:focus, a:hover {
   color: currentColor;
 }
 
-.main-title, .catalog-order .block-title, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2 {
+.main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2 {
   margin: auto;
   padding: 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
@@ -1103,13 +1103,13 @@ a:active, a:focus, a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .main-title, .catalog-order .block-title, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2 {
+  .main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2 {
     font-size: 4.2rem;
     line-height: 6rem;
   }
 }
 
-.main-title > a, .catalog-order .block-title > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a, .page-highlight .block.edito h2 > a {
+.main-title > a, .catalog-order .block-title > a, body.node1309141 .contacts-list .intro h3 > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a, .page-highlight .block.edito h2 > a {
   text-decoration: none;
 }
 
@@ -1117,7 +1117,7 @@ a:active, a:focus, a:hover {
   border: 0;
 }
 
-.home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title, .home-events .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .home-events .main-title-with-link > h2 {
+.home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .home-events .main-title-with-link > h3, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title, .home-events .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .home-events .main-title-with-link > h2 {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 4.2rem;
   font-weight: 900;
@@ -1738,6 +1738,17 @@ body.article-program .article-wrapper .article-intro .social-sharing {
   display: flex;
 }
 
+@media screen and (max-width: 1023px) {
+  body.article-program .article-wrapper .article-intro .social-sharing {
+    -webkit-transform: translateY(2rem);
+    -ms-transform: translateY(2rem);
+    transform: translateY(2rem);
+  }
+  body.article-program .article-wrapper .article-intro .social-sharing .inside {
+    margin: auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   body.article-program .article-wrapper .article-intro .social-sharing {
     display: block;
@@ -1748,13 +1759,25 @@ body.article-program .article-wrapper .article-intro .social-sharing {
   }
 }
 
+body.article-program .article-wrapper .article-intro .social-sharing .sr-list {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
 body.article-program .article-wrapper .article-intro .social-sharing .sr-title {
   font-size: 1.1rem;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  body.article-program .article-wrapper .article-intro .social-sharing .sr-title {
+    font-size: 0.8rem;
+  }
+}
+
 body.article-program .article-wrapper .article-intro .social-sharing .sr-item {
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1827,29 +1850,66 @@ body.article-program .article-wrapper .article-content p:nth-of-type(6) {
   padding-top: 4rem;
 }
 
+@media screen and (min-width: 768px) {
+  body.article-program .article-wrapper .article-content p:nth-of-type(6) {
+    padding-left: 30%;
+    padding-right: 8.3334%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body.article-program .article-wrapper .article-content p:nth-of-type(6) {
+    padding-left: 26%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.article-program .article-wrapper .article-content p:nth-of-type(6) {
+    padding-left: 22%;
+  }
+}
+
 body.article-program .article-wrapper .article-content p:nth-of-type(7) a::before {
   content: '\A';
   white-space: pre;
 }
 
 body.article-program .article-wrapper .article-content p:nth-of-type(n+6) {
-  font-size: 1.4rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  body.article-program .article-wrapper .article-content p:nth-of-type(n+6) {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
   body.article-program .article-wrapper .article-content p:nth-of-type(n+6) {
-    font-size: 2rem;
+    padding: 1rem 8.3334% 1rem 30%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body.article-program .article-wrapper .article-content p:nth-of-type(n+6) {
+    padding-left: 26%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.article-program .article-wrapper .article-content p:nth-of-type(n+6) {
+    padding-left: 22%;
   }
 }
 
 body.article-program .article-wrapper .article-content p:last-of-type {
-  padding-bottom: 5.5rem;
+  padding-bottom: 2rem;
   font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {
   body.article-program .article-wrapper .article-content p:last-of-type {
-    padding-left: 22.5%;
+    padding-bottom: 5.5rem;
   }
 }
 
@@ -1859,11 +1919,18 @@ body.article-program .article-wrapper .article-content p a {
 
 body.article-program .article-wrapper .article-content::before {
   background-color: #F3F6FB;
-  height: 10rem;
+  height: 15rem;
   position: absolute;
-  top: -10rem;
+  top: -15rem;
   width: 100%;
   z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+  body.article-program .article-wrapper .article-content::before {
+    height: 10rem;
+    top: -10rem;
+  }
 }
 
 body.article-program .article-wrapper .article-content ul {
@@ -1893,13 +1960,13 @@ body.article-program .article-wrapper .article-content iframe {
 
 body.article-program .article-wrapper .article-content figure.fl {
   border: 0;
-  padding: 2.5rem;
+  padding: 3rem 2rem 0;
   background-color: #F3F6FB;
   text-align: center;
   margin: 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   body.article-program .article-wrapper .article-content figure.fl {
     padding: 5rem;
   }
@@ -1923,12 +1990,11 @@ body.article-program .article-wrapper .article-navigation .an-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 body.article-program .article-wrapper .article-navigation .an-list::after {
@@ -1954,7 +2020,13 @@ body.article-program .article-wrapper .article-navigation .an-item-content {
   z-index: 2;
   color: #fff;
   padding: 2rem 3rem;
-  min-height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 body.article-program .article-wrapper .article-navigation .an-item-title {
@@ -1970,7 +2042,13 @@ body.article-program .article-wrapper .article-navigation .an-item-link {
   height: 100%;
   border-radius: 0.6rem;
   min-height: 20rem;
-  max-width: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  overflow: hidden;
 }
 
 body.article-program .article-wrapper .article-navigation .an-item-link::after {
@@ -1986,19 +2064,28 @@ body.article-program .article-wrapper .article-navigation .an-item-link::after {
 }
 
 body.article-program .article-wrapper .article-navigation .an-item {
-  margin: 1rem auto;
-  width: 100%;
+  border-radius: 0.6rem;
+  margin: 1.5rem auto;
   height: 100%;
   max-width: 50rem;
   -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
   box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  border-radius: 0.6rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   body.article-program .article-wrapper .article-navigation .an-item {
-    margin-left: 1.5rem;
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.article-program .article-wrapper .article-navigation .an-item:nth-child(odd) {
+    margin-left: auto;
     margin-right: 1.5rem;
+  }
+  body.article-program .article-wrapper .article-navigation .an-item:nth-child(even) {
+    margin-right: auto;
+    margin-left: 1.5rem;
   }
 }
 
@@ -2007,8 +2094,6 @@ body.article-program .article-wrapper .article-navigation .an-item img {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1;
-  border-radius: 0.6rem;
 }
 
 body.article-program .article-wrapper .article-navigation .an-item .icon {
@@ -2253,19 +2338,6 @@ html[lang='fr'] #cxpmClientAccountWidget .widget-my-selection .widget-icon::afte
   background: #383838 !important;
 }
 
-body.node1309141 main::before {
-  content: '';
-  display: block;
-  z-index: -1;
-  position: absolute;
-  top: 10rem;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 35rem;
-  background-color: #F3F6FB;
-}
-
 body.node1309141 .contacts-list h1 {
   display: none;
 }
@@ -2281,14 +2353,22 @@ body.node1309141 .contacts-list h2 {
 
 body.node1309141 .contacts-list .intro {
   padding: 0 1rem 6.4rem;
+  position: relative;
 }
 
-body.node1309141 .contacts-list .intro h3 {
-  color: #585858;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 4.2rem;
-  font-weight: 900;
-  line-height: 1.43;
+body.node1309141 .contacts-list .intro::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -2rem;
+  display: block;
+  height: 190%;
+  width: 110vw;
+  background-color: #F3F6FB;
+  -webkit-transform: translateY(-50%) translateX(-10%);
+  -ms-transform: translateY(-50%) translateX(-10%);
+  transform: translateY(-50%) translateX(-10%);
 }
 
 body.node1309141 .contacts-list .intro p {
@@ -2339,12 +2419,19 @@ body.node1309141 .contacts-list .cl-item > * {
   padding: 0;
 }
 
+@media screen and (max-width: 669px) {
+  body.node1309141 .contacts-list .cl-item {
+    margin: 1.5rem auto 0;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   body.node1309141 .contacts-list .cl-item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    max-width: 29.1rem;
   }
 }
 
@@ -2376,6 +2463,7 @@ body.node1309141 .contacts-list .cl-item-illust {
 
 body.node1309141 .contacts-list .cl-item-photo {
   height: 21.2rem;
+  overflow: hidden;
 }
 
 body.node1309141 .contacts-list .cl-item-photo > img {
@@ -2407,9 +2495,9 @@ body.node1309141 .contacts-list .cl-item-content {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   min-height: 21.2rem;
   text-align: left;
   background-color: #fff;
@@ -2419,7 +2507,6 @@ body.node1309141 .contacts-list .cl-item-content {
 
 @media screen and (max-width: 1279px) {
   body.node1309141 .contacts-list .cl-item-content {
-    min-height: 28.2rem;
     margin-top: 1rem;
   }
 }
@@ -2430,7 +2517,6 @@ body.node1309141 .contacts-list .cl-item-content {
     padding-top: 3rem;
     margin-left: auto;
     position: relative;
-    max-height: 21.2rem;
   }
 }
 
@@ -2457,7 +2543,6 @@ body.node1309141 .contacts-list .cl-item-title {
 
 body.node1309141 .contacts-list .cl-item-subtitle {
   text-transform: capitalize;
-  font-size: 2rem;
   -webkit-box-ordinal-group: 4;
   -ms-flex-order: 3;
   order: 3;
@@ -2485,6 +2570,7 @@ body.node1309141 .contacts-list .cl-item-phone, body.node1309141 .contacts-list 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 @media screen and (min-width: 1024px) {
@@ -2500,8 +2586,11 @@ body.node1309141 .contacts-list .cl-item-phone .label, body.node1309141 .contact
 }
 
 body.node1309141 .contacts-list .cl-item-phone a, body.node1309141 .contacts-list .cl-item-email a {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   text-decoration: none;
-  word-break: break-all;
 }
 
 body.node1309141 .contacts-list .cl-item-phone .icon-phone,
@@ -4333,14 +4422,14 @@ body.article_list .more-infos-contact {
   }
 }
 
-.partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2 {
+.partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2 {
   margin-bottom: 2.85rem;
   border-bottom: 0.1rem solid #c8ccd7;
   padding-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 1024px) {
-  .partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2 {
+  .partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2 {
     padding-bottom: 2.4rem;
     margin-bottom: 3.7rem;
   }
@@ -6339,12 +6428,12 @@ body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.bo
   }
 }
 
-.exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2 {
+.exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2 {
   margin-bottom: 0.8rem;
 }
 
 @media screen and (min-width: 768px) {
-  .exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2 {
+  .exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2 {
     margin-right: 39rem;
   }
 }
@@ -7683,7 +7772,7 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
   }
 }
 
-.home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title, .home-search .page-highlight .block.edito h2, .page-highlight .block.edito .home-search h2 {
+.home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .home-search h3, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title, .home-search .page-highlight .block.edito h2, .page-highlight .block.edito .home-search h2 {
   margin-bottom: 4rem;
 }
 
@@ -8251,7 +8340,7 @@ body.article_list .list-articles .main-title-with-link {
   border: 0;
 }
 
-body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2 {
+body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2 {
   float: none;
   text-transform: none;
   font-size: 3rem;
@@ -8262,7 +8351,7 @@ body.article_list .list-articles .main-title-with-link > .main-title, body.artic
 }
 
 @media screen and (min-width: 768px) {
-  body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2 {
+  body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2 {
     line-height: 6rem;
     font-size: 4.2rem;
   }
@@ -8869,7 +8958,7 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-ite
   text-align: center;
 }
 
-.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title, .partner .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .partner .main-title-with-link > h2 {
+.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .partner .main-title-with-link > h3, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title, .partner .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .partner .main-title-with-link > h2 {
   float: none;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 4.2rem;
@@ -9082,7 +9171,7 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-ite
   border: 0;
 }
 
-.list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2 {
+.list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2 {
   float: none;
   text-transform: none;
   font-weight: 900;
@@ -9092,7 +9181,7 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-ite
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2 {
+  .list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2 {
     font-size: 4rem;
     line-height: 6rem;
   }
@@ -9395,7 +9484,7 @@ html[lang='en'] .list-articles.block.block-page.prix-inno .grid-la-list .gla-ite
   }
 }
 
-.list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2 {
+.list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2 {
   float: none;
   text-transform: none;
   font-weight: 900;
@@ -9405,7 +9494,7 @@ html[lang='en'] .list-articles.block.block-page.prix-inno .grid-la-list .gla-ite
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2 {
+  .list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2 {
     font-size: 4rem;
     line-height: 6rem;
   }
@@ -10621,7 +10710,7 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   }
 }
 
-.list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2 {
+.list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2 {
   float: none;
   text-transform: none;
   font-weight: 900;
@@ -10631,7 +10720,7 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2 {
+  .list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2 {
     font-size: 4rem;
     line-height: 6rem;
   }
