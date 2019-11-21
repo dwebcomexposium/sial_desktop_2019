@@ -27,26 +27,25 @@ $query = [
 ];
 $url = '//graph.instagram.com' . $endpoint . '?' . http_build_query($query);
 
-if (filter_var($url, FILTER_VALIDATE_URL)) {
-  try {
-    $curl_connection = curl_init($url);
-    curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 0);
-    curl_setopt($curl_connection, CURLOPT_TIMEOUT, 0);
-    curl_setopt($curl_connection, CURLOPT_DNS_CACHE_TIMEOUT, 0);
-    curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
-    $data = json_decode(curl_exec($curl_connection), true);
-    if ($data) {
+
+try {
+  $curl_connection = curl_init($url);
+  curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 0);
+  curl_setopt($curl_connection, CURLOPT_TIMEOUT, 0);
+  curl_setopt($curl_connection, CURLOPT_DNS_CACHE_TIMEOUT, 0);
+  curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
+  curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
+  $data = json_decode(curl_exec($curl_connection), true);
+  if ($data) {
 
 
-      var_dump($data);
+    var_dump($data);
 
 
-      if (array_key_exists('data', $data)) {
+    if (array_key_exists('data', $data)) {
 
 
-
-        //var_dump($data['data']);
+      //var_dump($data['data']);
 
 
 //        $final_posts = [];
@@ -68,12 +67,11 @@ if (filter_var($url, FILTER_VALIDATE_URL)) {
 //
 //          //todo Si post pas présent dans json, le créer + download médias
 //        }
-      }
-    } else {
-      echo 'no data';
     }
-    curl_close($curl_connection);
-  } catch (Exception $e) {
-    return $e->getMessage();
+  } else {
+    echo 'no data';
   }
+  curl_close($curl_connection);
+} catch (Exception $e) {
+  return $e->getMessage();
 }
