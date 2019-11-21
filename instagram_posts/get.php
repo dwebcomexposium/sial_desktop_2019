@@ -8,8 +8,12 @@
 $strJsonFileContents = file_get_contents("posts.json");
 if (is_string($strJsonFileContents)) {
   $json_datas = json_decode($strJsonFileContents, true);
-  foreach ($json_datas as $post) {
-    var_dump($post);
+  foreach ($json_datas as $posts) {
+    foreach ($posts as $post) {
+      var_dump($post);
+      echo '<br />';
+      echo '<br />';
+    }
   }
 }
 
