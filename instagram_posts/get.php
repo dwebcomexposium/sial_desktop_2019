@@ -31,10 +31,14 @@ JSON;
     } else {
       if ($key !== 'posts') {
         var_dump($val['post_id']);
+        echo '<br />';
         var_dump($val['post_link']);
+        echo '<br />';
         var_dump($val['post_format']);
       }
     }
+    echo '<br />';
+    echo '<br />';
   }
 }
 
