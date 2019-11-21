@@ -5,17 +5,62 @@
  * 1 request/hour max
  */
 
-$strJsonFileContents = file_get_contents("posts.json");
-if (is_string($strJsonFileContents)) {
-  $json_datas = json_decode($strJsonFileContents, true);
-  foreach ($json_datas as $posts) {
-    foreach ($posts as $post) {
-      var_dump($post);
-      echo '<br />';
-      echo '<br />';
-    }
+date_default_timezone_set('Europe/Paris');
+
+function __autoload($class_name)
+{
+  $filename = strtolower($class_name).'.php';
+  $file = 'vendors/Instagram-API-master/src/'.$filename;
+  if (file_exists($file) == false)
+  {
+    return false;
   }
+  include ($file);
 }
+
+__autoload('Instagram');
+
+/////// CONFIG ///////
+$username = 'sial.rs@comexposium.com';
+$password = 'Comex//92058';
+$debug = true;
+$truncatedDebug = false;
+//////////////////////
+
+$ig = new \InstagramAPI\Instagram($debug, $truncatedDebug);
+
+try {
+  $ig->login($username, $password);
+  echo 'OKAY';
+} catch (\Exception $e) {
+  echo 'Something went wrong: '.$e->getMessage()."\n";
+  exit(0);
+}
+
+
+
+
+
+
+//$strJsonFileContents = file_get_contents("posts.json");
+//if (is_string($strJsonFileContents)) {
+//  $json_datas = json_decode($strJsonFileContents, true);
+//  foreach ($json_datas as $posts) {
+//    foreach ($posts as $post) {
+//      var_dump($post);
+//      echo '<br />';
+//      echo '<br />';
+//    }
+//  }
+//}
+
+
+
+
+//AQBmENfe9L-Ri08WwA3ysdzskTp6YASQiuEX_Xn2QVcFvIMuMGDMeHWHm5d2LQtayMnIEog2kp4D6ZITHX64uD0CncAHv-anUDh165_J0iIuHWpZtU59t0AcYiw8jqEjpEcMci70rdyJgNzcQlcbzj6qCQ0FQnnZ5VDzgG7MvQahjgJVBSCgyvp2hElxrbGGRSYiMd8A5EAphicWwZCLgr4plUA9ivGK5viaW-HQeFTVduFQox_crkpSka07QZDACJYv0i0XnuY-7H-qtwKKeGT7JD8FidkKmNyM-hYkQBA3SrChJ0_SB73WJ0VVBn9IuJm39eelmWxdmMPvE-qISaZ4
+
+
+
 
 //$secret = get_custom_option('remonte-des-posts-instagram-secret-code'); //todo
 //$access_token = get_custom_option('remonte-des-posts-instagram-accesstoken-code'); //todo
