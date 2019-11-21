@@ -9,7 +9,7 @@ $strJsonFileContents = file_get_contents("posts.json");
 if (is_string($strJsonFileContents)) {
   $json_datas = json_decode($strJsonFileContents, true);
   foreach ($json_datas as $post) {
-    echo $post['post_link'];
+    var_dump($post);
   }
 }
 
