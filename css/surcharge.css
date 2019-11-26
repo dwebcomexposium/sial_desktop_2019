@@ -316,7 +316,11 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:
   background: #fff;
 }
 
+<<<<<<< HEAD
 .node1315331 .contacts-list .intro a.externe, .testimonials__quote__link, .why-visit__item__link, .gla-btn-read-more, .home-search .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
+=======
+.node1315331 .contacts-list .intro a.externe, .testimonials__quote__link, .why-visit__item__link, .gla-btn-read-more, .home-search .ql-list .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link {
+>>>>>>> 34f086b705e1b1d276f563174c9bc4a72793f4a3
   position: relative;
   display: inline-block;
   padding: 0.2rem 0;
@@ -336,7 +340,11 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .node1315331 .contacts-list .intro a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
+=======
+.node1315331 .contacts-list .intro a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after {
+>>>>>>> 34f086b705e1b1d276f563174c9bc4a72793f4a3
   content: '';
   position: absolute;
   bottom: 0;
@@ -351,7 +359,11 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+<<<<<<< HEAD
 .node1315331 .contacts-list .intro a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .node1315331 .contacts-list .intro a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
+=======
+.node1315331 .contacts-list .intro a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .node1315331 .contacts-list .intro a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after {
+>>>>>>> 34f086b705e1b1d276f563174c9bc4a72793f4a3
   width: 100%;
 }
 
@@ -6340,6 +6352,105 @@ body.article_list .more-infos-contact {
 /* Page /Infos-Pratiques/Rendez-vous-a-SIAL-Paris-du-18-au-22-Octobre-2020 */
 body.node1316958 .article-wrapper .article-title img.cx-lazy-load {
   display: none;
+<<<<<<< HEAD
+=======
+}
+
+body.node1316958 .article-wrapper .article-content {
+  font-size: 1.6rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding-bottom: 5.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1316958 .article-wrapper .article-content {
+    width: 83.3334%;
+  }
+}
+
+body.node1316958 .article-wrapper .article-content h3,
+body.node1316958 .article-wrapper .article-content h4 {
+  margin-bottom: 1.2rem;
+  margin-top: 0;
+}
+
+body.node1316958 .article-wrapper .article-content > p:last-of-type {
+  margin-bottom: 2.2rem;
+}
+
+body.node1316958 .article-wrapper .article-content > p.txtcenter {
+  font-size: 2rem;
+}
+
+body.node1316958 .article-wrapper .article-content iframe {
+  width: 100%;
+  max-height: 38.6rem;
+}
+
+body.node1316958 .article-wrapper .article-content .card {
+  width: 100%;
+  max-width: 50rem;
+  min-height: 24.2rem;
+  border: 0;
+  background-color: #fff;
+  margin: 1rem auto;
+}
+
+body.node1316958 .article-wrapper .article-content .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  body.node1316958 .article-wrapper .article-content .card-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1316958 .article-wrapper .article-content .card {
+    width: 50%;
+  }
+  body.node1316958 .article-wrapper .article-content .card:first-child {
+    margin: 1rem 1.5rem 1rem auto;
+  }
+  body.node1316958 .article-wrapper .article-content .card:last-child {
+    margin: 1rem auto 1rem 1.5rem;
+  }
+}
+
+body.node1316958 .article-wrapper .article-content .card:last-child p:first-of-type {
+  font-weight: 700;
+}
+
+body.node1316958 .article-wrapper .article-content .card figcaption {
+  padding: 3.5rem 0.9rem 2.7rem 3rem;
+}
+
+body.node1316958 .article-wrapper .article-content .card ul {
+  padding: 0;
+  margin: 0;
+}
+
+body.node1316958 .article-wrapper .article-content .card ul li:nth-child(odd) {
+  font-weight: 700;
+}
+
+body.node1316958 .article-wrapper .article-content .card ul li::before {
+  content: none;
+}
+
+body.faq .block-page.faq {
+  padding: 2rem 0 5rem;
+  position: relative;
+>>>>>>> 34f086b705e1b1d276f563174c9bc4a72793f4a3
 }
 
 body.node1316958 .article-wrapper .article-content {
@@ -9482,6 +9593,7 @@ body.catalogue .form-select:after {
   top: 50% !important;
 }
 
+<<<<<<< HEAD
 body.catalogue #zone3 {
   display: none;
 }
@@ -9489,6 +9601,13 @@ body.catalogue #zone3 {
 body.catalogue .block.edito.mod-catal h1 {
   margin: 0;
   padding: 0;
+=======
+.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .partner .main-title-with-link > h3, .partner .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .partner .main-title-with-link > h1, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title, .partner .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .partner .main-title-with-link > h2, .partner body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316899 .main-title-with-link > h2, .partner .block.article-title body.node1316899 .main-title-with-link > h2,
+.partner body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316958 .main-title-with-link > h2, .partner .block.article-title body.node1316958 .main-title-with-link > h2,
+.partner body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316963 .main-title-with-link > h2, .partner .block.article-title body.node1316963 .main-title-with-link > h2,
+.partner body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316971 .main-title-with-link > h2, .partner .block.article-title body.node1316971 .main-title-with-link > h2 {
+  float: none;
+>>>>>>> 34f086b705e1b1d276f563174c9bc4a72793f4a3
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-weight: 900;
   font-size: 2.6rem;
