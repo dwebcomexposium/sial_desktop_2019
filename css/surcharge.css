@@ -9860,7 +9860,9 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-a
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters {
   border: 0.1rem solid rgba(56, 56, 56, 0.5);
-  margin-top: 2.5rem;
+  position: relative;
+  top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .esf-as-list-filters,
@@ -10301,6 +10303,7 @@ body.catalogue .catal-ex-item .catal-ex-item-img a {
 @media screen and (min-width: 1024px) {
   body.catalogue .catal-ex-item .catal-ex-item-img a {
     min-height: 0;
+    height: 19.4rem;
   }
 }
 
