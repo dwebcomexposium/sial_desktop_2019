@@ -9843,6 +9843,7 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-a
   position: relative;
   top: auto;
   height: auto;
+  outline: 0;
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header p {
@@ -9855,6 +9856,16 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-a
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:before, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:after {
   content: none;
+}
+
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters {
+  border: 0.1rem solid rgba(56, 56, 56, 0.5);
+  margin-top: 2.5rem;
+}
+
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .esf-as-filter-panel {
+  margin-top: 0;
 }
 
 body.catalogue .exhibitor-search-form #esf-results-zone {
