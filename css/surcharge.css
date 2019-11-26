@@ -9652,6 +9652,12 @@ body.catalogue .exhibitor-search-form .esf-form-zone {
   border-radius: 0;
 }
 
+body.catalogue .exhibitor-search-form .esf-form-zone .main-search::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-intro-title {
   margin: 0;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
