@@ -9644,30 +9644,12 @@ body.catalogue .block.edito.mod-catal + .exhibitor-search-form {
   margin-top: 0.25rem;
 }
 
-body.catalogue .exhibitor-search-form::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 body.catalogue .exhibitor-search-form .esf-form-zone {
   margin: 0;
   padding: 0;
   border: 0;
   background: transparent;
   border-radius: 0;
-}
-
-body.catalogue .exhibitor-search-form .esf-form-zone::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
-body.catalogue .exhibitor-search-form .esf-form-zone .main-search::after {
-  clear: both;
-  content: "";
-  display: block;
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-intro-title {
@@ -9864,12 +9846,7 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search {
   margin: 3rem 0 0;
   background: transparent;
   text-align: center;
-}
-
-body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search::after {
-  clear: both;
-  content: "";
-  display: block;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) {
@@ -9898,7 +9875,7 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-a
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters {
-  border: 0.1rem solid rgba(56, 56, 56, 0.5);
+  border: 0.1rem solid #DDE1E6;
   position: relative;
   top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -13847,8 +13824,4 @@ body {
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
   color: #383838;
   background-color: #fff;
-}
-
-thishtmlmarkupdoesnotexistandyoushouldremoveitifyouseeit {
-  color: red;
 }
