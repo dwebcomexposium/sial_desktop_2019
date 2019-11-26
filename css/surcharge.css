@@ -9833,6 +9833,12 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search {
   text-align: center;
 }
 
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media screen and (min-width: 1024px) {
   body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search {
     text-align: left;
