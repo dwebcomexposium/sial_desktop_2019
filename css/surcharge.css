@@ -279,7 +279,7 @@ img {
 .subheader__btn, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
-body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, .partner [class^='link-'], .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, .pl-trigger, .partner .main-title-with-link .link-view-all, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 0.9rem 2.6rem 1rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -302,7 +302,7 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1,
 .subheader__btn:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
-body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, .partner :hover[class^='link-'], .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -316,7 +316,8 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:
   background: #fff;
 }
 
-.node1315331 .contacts-list .intro a.externe, .testimonials__quote__link, .why-visit__item__link, .gla-btn-read-more, .home-search .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
+.node1315331 .contacts-list .intro a.externe, .testimonials__quote__link, .why-visit__item__link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
+.error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
   position: relative;
   display: inline-block;
   padding: 0.2rem 0;
@@ -336,7 +337,8 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:
   overflow: hidden;
 }
 
-.node1315331 .contacts-list .intro a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
+.node1315331 .contacts-list .intro a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
+.error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -351,7 +353,9 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.node1315331 .contacts-list .intro a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .node1315331 .contacts-list .intro a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
+.node1315331 .contacts-list .intro a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
+.error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .node1315331 .contacts-list .intro a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
+.error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
   width: 100%;
 }
 
@@ -1090,7 +1094,7 @@ a:active, a:focus, a:hover {
   color: currentColor;
 }
 
-.quicklinks-base .ql-list, .home-quicklinks .ql-list, .block.quicklinks-cta--large .ql-list, body.node1316899 .site-wrapper .quicklinks .ql-list, body.node1316958 .site-wrapper .quicklinks .ql-list, body.node1316963 .site-wrapper .quicklinks .ql-list, body.node1316971 .site-wrapper .quicklinks .ql-list, body.node1316899 .quicklinks-cta--large .ql-list {
+.quicklinks-base .ql-list, .home-quicklinks .ql-list, .block.quicklinks-cta--large .ql-list, body.node1316899 .site-wrapper .quicklinks-cta--large .ql-list, body.node1316958 .site-wrapper .quicklinks-cta--large .ql-list, body.node1316963 .site-wrapper .quicklinks-cta--large .ql-list, body.node1316971 .site-wrapper .quicklinks-cta--large .ql-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1104,18 +1108,18 @@ a:active, a:focus, a:hover {
   flex-wrap: wrap;
 }
 
-.quicklinks-base .ql-item, .home-quicklinks .ql-item, .block.quicklinks-cta--large .ql-item, body.node1316899 .site-wrapper .quicklinks .ql-item, body.node1316958 .site-wrapper .quicklinks .ql-item, body.node1316963 .site-wrapper .quicklinks .ql-item, body.node1316971 .site-wrapper .quicklinks .ql-item, body.node1316899 .quicklinks-cta--large .ql-item {
+.quicklinks-base .ql-item, .home-quicklinks .ql-item, .block.quicklinks-cta--large .ql-item, body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item, body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item, body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item, body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item {
   width: 47.77778%;
   margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-  .quicklinks-base .ql-item, .home-quicklinks .ql-item, .block.quicklinks-cta--large .ql-item, body.node1316899 .site-wrapper .quicklinks .ql-item, body.node1316958 .site-wrapper .quicklinks .ql-item, body.node1316963 .site-wrapper .quicklinks .ql-item, body.node1316971 .site-wrapper .quicklinks .ql-item, body.node1316899 .quicklinks-cta--large .ql-item {
+  .quicklinks-base .ql-item, .home-quicklinks .ql-item, .block.quicklinks-cta--large .ql-item, body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item, body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item, body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item, body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item {
     width: 22.72727%;
   }
 }
 
-.quicklinks-base .btn-primary, .home-quicklinks .btn-primary, .block.quicklinks-cta--large .btn-primary, body.node1316899 .site-wrapper .quicklinks .btn-primary, body.node1316958 .site-wrapper .quicklinks .btn-primary, body.node1316963 .site-wrapper .quicklinks .btn-primary, body.node1316971 .site-wrapper .quicklinks .btn-primary, body.node1316899 .quicklinks-cta--large .btn-primary {
+.quicklinks-base .btn-primary, .home-quicklinks .btn-primary, .block.quicklinks-cta--large .btn-primary, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1148,7 +1152,7 @@ a:active, a:focus, a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .quicklinks-base .btn-primary, .home-quicklinks .btn-primary, .block.quicklinks-cta--large .btn-primary, body.node1316899 .site-wrapper .quicklinks .btn-primary, body.node1316958 .site-wrapper .quicklinks .btn-primary, body.node1316963 .site-wrapper .quicklinks .btn-primary, body.node1316971 .site-wrapper .quicklinks .btn-primary, body.node1316899 .quicklinks-cta--large .btn-primary {
+  .quicklinks-base .btn-primary, .home-quicklinks .btn-primary, .block.quicklinks-cta--large .btn-primary, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary {
     height: 9.5rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1160,14 +1164,14 @@ a:active, a:focus, a:hover {
   }
 }
 
-.quicklinks-base .btn-primary:hover .icon, .home-quicklinks .btn-primary:hover .icon, .block.quicklinks-cta--large .btn-primary:hover .icon, body.node1316899 .site-wrapper .quicklinks .btn-primary:hover .icon, body.node1316958 .site-wrapper .quicklinks .btn-primary:hover .icon, body.node1316963 .site-wrapper .quicklinks .btn-primary:hover .icon, body.node1316971 .site-wrapper .quicklinks .btn-primary:hover .icon, body.node1316899 .quicklinks-cta--large .btn-primary:hover .icon {
+.quicklinks-base .btn-primary:hover .icon, .home-quicklinks .btn-primary:hover .icon, .block.quicklinks-cta--large .btn-primary:hover .icon, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary:hover .icon, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary:hover .icon, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary:hover .icon, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary:hover .icon {
   display: inline-block;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.quicklinks-base .btn-primary .icon, .home-quicklinks .btn-primary .icon, .block.quicklinks-cta--large .btn-primary .icon, body.node1316899 .site-wrapper .quicklinks .btn-primary .icon, body.node1316958 .site-wrapper .quicklinks .btn-primary .icon, body.node1316963 .site-wrapper .quicklinks .btn-primary .icon, body.node1316971 .site-wrapper .quicklinks .btn-primary .icon, body.node1316899 .quicklinks-cta--large .btn-primary .icon {
+.quicklinks-base .btn-primary .icon, .home-quicklinks .btn-primary .icon, .block.quicklinks-cta--large .btn-primary .icon, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary .icon, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary .icon, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary .icon, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary .icon {
   margin: 0 0 1.5rem;
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -1177,28 +1181,28 @@ a:active, a:focus, a:hover {
 }
 
 @media screen and (min-width: 768px) {
-  .quicklinks-base .btn-primary .icon, .home-quicklinks .btn-primary .icon, .block.quicklinks-cta--large .btn-primary .icon, body.node1316899 .site-wrapper .quicklinks .btn-primary .icon, body.node1316958 .site-wrapper .quicklinks .btn-primary .icon, body.node1316963 .site-wrapper .quicklinks .btn-primary .icon, body.node1316971 .site-wrapper .quicklinks .btn-primary .icon, body.node1316899 .quicklinks-cta--large .btn-primary .icon {
+  .quicklinks-base .btn-primary .icon, .home-quicklinks .btn-primary .icon, .block.quicklinks-cta--large .btn-primary .icon, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary .icon, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary .icon, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary .icon, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary .icon {
     margin-right: 1.5rem;
     margin-bottom: 0;
   }
 }
 
-.quicklinks-base .btn-primary .icon::before, .home-quicklinks .btn-primary .icon::before, .block.quicklinks-cta--large .btn-primary .icon::before, body.node1316899 .site-wrapper .quicklinks .btn-primary .icon::before, body.node1316958 .site-wrapper .quicklinks .btn-primary .icon::before, body.node1316963 .site-wrapper .quicklinks .btn-primary .icon::before, body.node1316971 .site-wrapper .quicklinks .btn-primary .icon::before, body.node1316899 .quicklinks-cta--large .btn-primary .icon::before {
+.quicklinks-base .btn-primary .icon::before, .home-quicklinks .btn-primary .icon::before, .block.quicklinks-cta--large .btn-primary .icon::before, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary .icon::before, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary .icon::before, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary .icon::before, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary .icon::before {
   font-size: 2.7rem;
   color: #F85C29;
 }
 
-.quicklinks-base .btn-primary .icon.icon-wallet::before, .home-quicklinks .btn-primary .icon.icon-wallet::before, .block.quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316899 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316958 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316963 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316971 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316899 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before {
+.quicklinks-base .btn-primary .icon.icon-wallet::before, .home-quicklinks .btn-primary .icon.icon-wallet::before, .block.quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before {
   color: currentColor;
 }
 
 @media screen and (min-width: 768px) {
-  .quicklinks-base .btn-primary .icon.icon-wallet::before, .home-quicklinks .btn-primary .icon.icon-wallet::before, .block.quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316899 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316958 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316963 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316971 .site-wrapper .quicklinks .btn-primary .icon.icon-wallet::before, body.node1316899 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before {
+  .quicklinks-base .btn-primary .icon.icon-wallet::before, .home-quicklinks .btn-primary .icon.icon-wallet::before, .block.quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316899 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316958 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316963 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316971 .site-wrapper .quicklinks-cta--large .btn-primary .icon.icon-wallet::before {
     font-size: 3.7rem;
   }
 }
 
-.main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
+.main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2, .partner-list h1, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
 body.node1316958 .at-main-title, body.node1316958 .block.edito-custom h2, .block.edito-custom body.node1316958 h2, body.node1316958 .block.article-title h2, .block.article-title body.node1316958 h2,
 body.node1316963 .at-main-title, body.node1316963 .block.edito-custom h2, .block.edito-custom body.node1316963 h2, body.node1316963 .block.article-title h2, .block.article-title body.node1316963 h2,
 body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block.edito-custom body.node1316971 h2, body.node1316971 .block.article-title h2, .block.article-title body.node1316971 h2 {
@@ -1214,7 +1218,7 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
 }
 
 @media screen and (min-width: 768px) {
-  .main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
+  .main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2, .partner-list h1, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
   body.node1316958 .at-main-title, body.node1316958 .block.edito-custom h2, .block.edito-custom body.node1316958 h2, body.node1316958 .block.article-title h2, .block.article-title body.node1316958 h2,
   body.node1316963 .at-main-title, body.node1316963 .block.edito-custom h2, .block.edito-custom body.node1316963 h2, body.node1316963 .block.article-title h2, .block.article-title body.node1316963 h2,
   body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block.edito-custom body.node1316971 h2, body.node1316971 .block.article-title h2, .block.article-title body.node1316971 h2 {
@@ -1223,7 +1227,7 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
   }
 }
 
-.main-title > a, .catalog-order .block-title > a, body.node1309141 .contacts-list .intro h3 > a, .node1315331 .contacts-list h1 > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a, .page-highlight .block.edito h2 > a, body.node1316899 .at-main-title > a, body.node1316899 .block.edito-custom h2 > a, .block.edito-custom body.node1316899 h2 > a, body.node1316899 .block.article-title h2 > a, .block.article-title body.node1316899 h2 > a, body.node1316958 .at-main-title > a, body.node1316958 .block.edito-custom h2 > a, .block.edito-custom body.node1316958 h2 > a, body.node1316958 .block.article-title h2 > a, .block.article-title body.node1316958 h2 > a, body.node1316963 .at-main-title > a, body.node1316963 .block.edito-custom h2 > a, .block.edito-custom body.node1316963 h2 > a, body.node1316963 .block.article-title h2 > a, .block.article-title body.node1316963 h2 > a, body.node1316971 .at-main-title > a, body.node1316971 .block.edito-custom h2 > a, .block.edito-custom body.node1316971 h2 > a, body.node1316971 .block.article-title h2 > a, .block.article-title body.node1316971 h2 > a {
+.main-title > a, .catalog-order .block-title > a, body.node1309141 .contacts-list .intro h3 > a, .node1315331 .contacts-list h1 > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a, .page-highlight .block.edito h2 > a, .partner-list h1 > a, body.node1316899 .at-main-title > a, body.node1316899 .block.edito-custom h2 > a, .block.edito-custom body.node1316899 h2 > a, body.node1316899 .block.article-title h2 > a, .block.article-title body.node1316899 h2 > a, body.node1316958 .at-main-title > a, body.node1316958 .block.edito-custom h2 > a, .block.edito-custom body.node1316958 h2 > a, body.node1316958 .block.article-title h2 > a, .block.article-title body.node1316958 h2 > a, body.node1316963 .at-main-title > a, body.node1316963 .block.edito-custom h2 > a, .block.edito-custom body.node1316963 h2 > a, body.node1316963 .block.article-title h2 > a, .block.article-title body.node1316963 h2 > a, body.node1316971 .at-main-title > a, body.node1316971 .block.edito-custom h2 > a, .block.edito-custom body.node1316971 h2 > a, body.node1316971 .block.article-title h2 > a, .block.article-title body.node1316971 h2 > a {
   text-decoration: none;
 }
 
@@ -1231,7 +1235,7 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
   border: 0;
 }
 
-.home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .home-events .main-title-with-link > h3, .home-events .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .home-events .main-title-with-link > h1, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title, .home-events .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .home-events .main-title-with-link > h2, .home-events body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316899 .main-title-with-link > h2, .home-events .block.article-title body.node1316899 .main-title-with-link > h2,
+.home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .home-events .main-title-with-link > h3, .home-events .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .home-events .main-title-with-link > h1, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title, .home-events .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .home-events .main-title-with-link > h2, .home-events .partner-list .main-title-with-link > h1, .partner-list .home-events .main-title-with-link > h1, .home-events body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316899 .main-title-with-link > h2, .home-events .block.article-title body.node1316899 .main-title-with-link > h2,
 .home-events body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316958 .main-title-with-link > h2, .home-events .block.article-title body.node1316958 .main-title-with-link > h2,
 .home-events body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316963 .main-title-with-link > h2, .home-events .block.article-title body.node1316963 .main-title-with-link > h2,
 .home-events body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316971 .main-title-with-link > h2, .home-events .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -1244,7 +1248,7 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
 }
 
 body.node1316963 .article-content p:nth-of-type(2), body.node1316958 .article-wrapper .article-content h3,
-body.node1316958 .article-wrapper .article-content h4, body.node1316899 .article-content h2, body.node1316899 .article-content table tr td {
+body.node1316958 .article-wrapper .article-content h4, .error-page .intro h2, body.node1316899 .article-content h2, body.node1316899 .article-content table tr td {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
@@ -1253,7 +1257,7 @@ body.node1316958 .article-wrapper .article-content h4, body.node1316899 .article
   color: #383838;
 }
 
-body.node1316971 .main-title, body.node1316971 .catalog-order .block-title, .catalog-order body.node1316971 .block-title, body.node1316971 body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro body.node1316971 h3, body.node1316971 .node1315331 .contacts-list h1, .node1315331 .contacts-list body.node1316971 h1, body.node1316971 .app-optimize-visit__title, body.node1316971 .subheader__title, body.node1316971 .block.edito-custom .at-main-title, .block.edito-custom body.node1316971 .at-main-title, body.node1316971 .block.article-title .at-main-title, .block.article-title body.node1316971 .at-main-title, body.node1316971 .home-news .block-title, .home-news body.node1316971 .block-title, body.node1316971 .page-highlight .block.edito h2, .page-highlight .block.edito body.node1316971 h2,
+body.node1316971 .main-title, body.node1316971 .catalog-order .block-title, .catalog-order body.node1316971 .block-title, body.node1316971 body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro body.node1316971 h3, body.node1316971 .node1315331 .contacts-list h1, .node1315331 .contacts-list body.node1316971 h1, body.node1316971 .app-optimize-visit__title, body.node1316971 .subheader__title, body.node1316971 .block.edito-custom .at-main-title, .block.edito-custom body.node1316971 .at-main-title, body.node1316971 .block.article-title .at-main-title, .block.article-title body.node1316971 .at-main-title, body.node1316971 .home-news .block-title, .home-news body.node1316971 .block-title, body.node1316971 .page-highlight .block.edito h2, .page-highlight .block.edito body.node1316971 h2, body.node1316971 .partner-list h1, .partner-list body.node1316971 h1,
 body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block.edito-custom body.node1316971 h2, body.node1316971 .block.article-title h2, .block.article-title body.node1316971 h2 {
   text-align: center;
 }
@@ -1277,6 +1281,42 @@ body.node1316971 .list-articles::before {
 @media screen and (min-width: 1280px) {
   body.node1316971 .list-articles::before {
     padding-bottom: 10%;
+  }
+}
+
+body.node1316971 .list-articles .grid-la-list {
+  padding-bottom: 4.2rem;
+  margin-bottom: 0;
+}
+
+body.node1316971 .list-articles .grid-la-list .gla-item-content {
+  padding: 3rem;
+}
+
+body.node1316971 .list-articles .grid-la-list .gla-item-title {
+  margin-bottom: 1.5rem;
+}
+
+body.node1316971 .list-articles .grid-la-list .gla-item-btn {
+  margin-top: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1316971 .list-articles .grid-la-list .gla-item-img,
+  body.node1316971 .list-articles .grid-la-list .gla-item .cx-lazy-load {
+    min-height: 21.7rem;
+  }
+}
+
+@media screen and (min-width: 1141px) {
+  body.node1316971 .list-articles .cxp-pagination .grid-la-list .gla-item {
+    width: calc((100% - 3 * 1.6rem) / 3);
+  }
+  body.node1316971 .list-articles .cxp-pagination .grid-la-list .gla-item:nth-child(4n + 1) {
+    margin-left: 1.6rem;
+  }
+  body.node1316971 .list-articles .cxp-pagination .grid-la-list .gla-item:nth-child(3n + 1), body.node1316971 .list-articles .cxp-pagination .grid-la-list .gla-item:nth-child(1) {
+    margin-left: 0;
   }
 }
 
@@ -2286,23 +2326,10 @@ body.node1316963 .article-content > * {
   width: 100%;
 }
 
-@media screen and (min-width: 1024px) {
-  body.node1316963 .article-content > * {
-    width: 83.3334%;
-    margin-left: 8.3334%;
-    margin-right: 8.3334%;
-  }
-}
-
 body.node1316963 .article-content iframe {
   margin-bottom: 2rem;
   margin-left: 0 !important;
-}
-
-@media screen and (min-width: 1024px) {
-  body.node1316963 .article-content iframe {
-    margin-left: 8.3334% !important;
-  }
+  width: 100%;
 }
 
 body.node1316963 .article-content .lien2 {
@@ -2348,7 +2375,7 @@ body.node1316963 .article-content p:nth-of-type(7) {
   body.node1316963 .article-content p:nth-of-type(7) {
     position: absolute;
     bottom: 12%;
-    right: 0;
+    right: 10%;
     width: auto;
   }
 }
@@ -4889,7 +4916,7 @@ body.article_list .more-infos-contact {
   }
 }
 
-.partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
+.partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event .partner-list h1, .partner-list .partner-of-the-event h1, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
 .partner-of-the-event body.node1316958 .at-main-title, body.node1316958 .partner-of-the-event .at-main-title,
 .partner-of-the-event body.node1316963 .at-main-title, body.node1316963 .partner-of-the-event .at-main-title,
 .partner-of-the-event body.node1316971 .at-main-title, body.node1316971 .partner-of-the-event .at-main-title {
@@ -4899,7 +4926,7 @@ body.article_list .more-infos-contact {
 }
 
 @media screen and (min-width: 1024px) {
-  .partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
+  .partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event .partner-list h1, .partner-list .partner-of-the-event h1, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
   .partner-of-the-event body.node1316958 .at-main-title, body.node1316958 .partner-of-the-event .at-main-title,
   .partner-of-the-event body.node1316963 .at-main-title, body.node1316963 .partner-of-the-event .at-main-title,
   .partner-of-the-event body.node1316971 .at-main-title, body.node1316971 .partner-of-the-event .at-main-title {
@@ -6338,28 +6365,32 @@ body.article_list .more-infos-contact {
 }
 
 /* Page /Infos-Pratiques/Rendez-vous-a-SIAL-Paris-du-18-au-22-Octobre-2020 */
+@media screen and (min-width: 1280px) {
+  body.node1316958 .site-wrapper .quicklinks {
+    -webkit-transform: translateY(-2rem);
+    -ms-transform: translateY(-2rem);
+    transform: translateY(-2rem);
+  }
+}
+
 body.node1316958 .article-wrapper .article-title img.cx-lazy-load {
   display: none;
 }
 
 body.node1316958 .article-wrapper .article-content {
   font-size: 1.6rem;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
-  padding-bottom: 5.2rem;
-}
-
-@media screen and (min-width: 1024px) {
-  body.node1316958 .article-wrapper .article-content {
-    width: 83.3334%;
-  }
+  padding-bottom: 9.2rem;
 }
 
 body.node1316958 .article-wrapper .article-content h3,
 body.node1316958 .article-wrapper .article-content h4 {
   margin-bottom: 1.2rem;
   margin-top: 0;
+}
+
+body.node1316958 .article-wrapper .article-content h4 {
+  text-align: left;
 }
 
 body.node1316958 .article-wrapper .article-content > p:last-of-type {
@@ -6382,6 +6413,10 @@ body.node1316958 .article-wrapper .article-content .card {
   border: 0;
   background-color: #fff;
   margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
 }
 
 body.node1316958 .article-wrapper .article-content .card-wrapper {
@@ -6398,6 +6433,19 @@ body.node1316958 .article-wrapper .article-content .card-wrapper {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+}
+
+body.node1316958 .article-wrapper .article-content .card img {
+  max-width: 20.3rem;
+}
+
+body.node1316958 .article-wrapper .article-content .card h3 {
+  text-align: left;
+  text-transform: lowercase;
+}
+
+body.node1316958 .article-wrapper .article-content .card h3:first-letter {
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1024px) {
@@ -6942,6 +6990,18 @@ body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.bo
   }
 }
 
+.error404 .error-page {
+  float: none;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.error-page .intro h2 {
+  border: 0;
+}
+
 .exhibitors-slider {
   position: relative;
   margin-top: 10rem;
@@ -6997,7 +7057,7 @@ body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.bo
   }
 }
 
-.exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
+.exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header .partner-list h1, .partner-list .exhibitors-slider__header h1, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
 .exhibitors-slider__header body.node1316958 .at-main-title, body.node1316958 .exhibitors-slider__header .at-main-title,
 .exhibitors-slider__header body.node1316963 .at-main-title, body.node1316963 .exhibitors-slider__header .at-main-title,
 .exhibitors-slider__header body.node1316971 .at-main-title, body.node1316971 .exhibitors-slider__header .at-main-title {
@@ -7005,7 +7065,7 @@ body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.bo
 }
 
 @media screen and (min-width: 768px) {
-  .exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
+  .exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header .partner-list h1, .partner-list .exhibitors-slider__header h1, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
   .exhibitors-slider__header body.node1316958 .at-main-title, body.node1316958 .exhibitors-slider__header .at-main-title,
   .exhibitors-slider__header body.node1316963 .at-main-title, body.node1316963 .exhibitors-slider__header .at-main-title,
   .exhibitors-slider__header body.node1316971 .at-main-title, body.node1316971 .exhibitors-slider__header .at-main-title {
@@ -8223,7 +8283,8 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
   background-color: #F85C29;
 }
 
-.home-search {
+.home-search,
+.error-page {
   clear: both;
   margin-top: 4.9rem;
   margin-bottom: 4.9rem;
@@ -8231,7 +8292,8 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
 }
 
 @media screen and (min-width: 768px) {
-  .home-search {
+  .home-search,
+  .error-page {
     float: left;
     width: 68%;
     margin-top: 10rem;
@@ -8239,18 +8301,51 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
   }
 }
 
-.home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .home-search h3, .home-search .node1315331 .contacts-list h1, .node1315331 .contacts-list .home-search h1, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title, .home-search .page-highlight .block.edito h2, .page-highlight .block.edito .home-search h2, .home-search body.node1316899 .at-main-title, body.node1316899 .home-search .at-main-title,
+.home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .home-search h3, .home-search .node1315331 .contacts-list h1, .node1315331 .contacts-list .home-search h1, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title, .home-search .page-highlight .block.edito h2, .page-highlight .block.edito .home-search h2, .home-search .partner-list h1, .partner-list .home-search h1, .home-search body.node1316899 .at-main-title, body.node1316899 .home-search .at-main-title,
 .home-search body.node1316958 .at-main-title, body.node1316958 .home-search .at-main-title,
 .home-search body.node1316963 .at-main-title, body.node1316963 .home-search .at-main-title,
-.home-search body.node1316971 .at-main-title, body.node1316971 .home-search .at-main-title {
+.home-search body.node1316971 .at-main-title, body.node1316971 .home-search .at-main-title,
+.error-page .main-title,
+.error-page .catalog-order .block-title,
+.catalog-order .error-page .block-title,
+.error-page body.node1309141 .contacts-list .intro h3,
+body.node1309141 .contacts-list .intro .error-page h3,
+.error-page .node1315331 .contacts-list h1,
+.node1315331 .contacts-list .error-page h1,
+.error-page .app-optimize-visit__title,
+.error-page .subheader__title,
+.error-page .block.edito-custom .at-main-title,
+.block.edito-custom .error-page .at-main-title,
+.error-page .block.article-title .at-main-title,
+.block.article-title .error-page .at-main-title,
+.error-page .block.edito-custom h2,
+.block.edito-custom .error-page h2,
+.error-page .block.article-title h2,
+.block.article-title .error-page h2,
+.error-page .home-news .block-title,
+.home-news .error-page .block-title,
+.error-page .page-highlight .block.edito h2,
+.page-highlight .block.edito .error-page h2,
+.error-page .partner-list h1,
+.partner-list .error-page h1,
+.error-page body.node1316899 .at-main-title,
+body.node1316899 .error-page .at-main-title,
+.error-page body.node1316958 .at-main-title,
+body.node1316958 .error-page .at-main-title,
+.error-page body.node1316963 .at-main-title,
+body.node1316963 .error-page .at-main-title,
+.error-page body.node1316971 .at-main-title,
+body.node1316971 .error-page .at-main-title {
   margin-bottom: 4rem;
 }
 
-.home-search .global-search-form {
+.home-search .global-search-form,
+.error-page .global-search-form {
   margin: 0 !important;
 }
 
-.home-search .gsf-fields {
+.home-search .gsf-fields,
+.error-page .gsf-fields {
   position: relative;
   padding: 0;
   border-radius: 0.5rem;
@@ -8258,7 +8353,8 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
   overflow: hidden;
 }
 
-.home-search .gsf-input {
+.home-search .gsf-input,
+.error-page .gsf-input {
   width: 100%;
   height: 100%;
   padding: 0 2.5rem;
@@ -8266,18 +8362,21 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
   border: 0;
 }
 
-.home-search .gsf-submit-text {
+.home-search .gsf-submit-text,
+.error-page .gsf-submit-text {
   display: none;
 }
 
-.home-search .gsf-submit-btn {
+.home-search .gsf-submit-btn,
+.error-page .gsf-submit-btn {
   min-height: 6.4rem;
   padding: 0 3rem;
   color: #F85C29;
   background: none;
 }
 
-.home-search .gsf-submit-btn .icon {
+.home-search .gsf-submit-btn .icon,
+.error-page .gsf-submit-btn .icon {
   display: block;
   font-size: 2.4rem;
   color: currentColor;
@@ -8288,82 +8387,98 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
   transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.home-search .gsf-submit-btn:hover .icon {
+.home-search .gsf-submit-btn:hover .icon,
+.error-page .gsf-submit-btn:hover .icon {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-.home-search .quicklinks {
+.home-search .quicklinks,
+.error-page .quicklinks {
   margin-top: 2rem !important;
 }
 
-.home-search .ql-list {
+.home-search .ql-list,
+.error-page .ql-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
 }
 
-.home-search .ql-list .btn-primary {
+.home-search .ql-list .btn-primary,
+.error-page .ql-list .btn-primary {
   margin-right: 3rem;
 }
 
-.home-search.is-ready .ql-item {
+.home-search.is-ready .ql-item,
+.error-page.is-ready .ql-item {
   opacity: 0;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport {
+.home-search.is-ready .ql-item.is-in-viewport,
+.error-page.is-ready .ql-item.is-in-viewport {
   -webkit-animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   animation: slideRightFadeIn 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(1) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(1),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(2) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(2),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(2) {
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(3) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(3),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(3) {
   -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(4) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(4),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(4) {
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(5) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(5),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(5) {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(6) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(6),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(6) {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(7) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(7),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(7) {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(8) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(8),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(8) {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(9) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(9),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(9) {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
 }
 
-.home-search.is-ready .ql-item.is-in-viewport:nth-child(10) {
+.home-search.is-ready .ql-item.is-in-viewport:nth-child(10),
+.error-page.is-ready .ql-item.is-in-viewport:nth-child(10) {
   -webkit-animation-delay: 0.9s;
   animation-delay: 0.9s;
 }
@@ -8810,7 +8925,7 @@ body.article_list .list-articles .main-title-with-link {
   border: 0;
 }
 
-body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
+body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .partner-list .main-title-with-link > h1, .partner-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
 body.article_list .list-articles body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316958 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316958 .main-title-with-link > h2,
 body.article_list .list-articles body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316963 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316963 .main-title-with-link > h2,
 body.article_list .list-articles body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316971 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -8824,7 +8939,7 @@ body.article_list .list-articles body.node1316971 .main-title-with-link > .at-ma
 }
 
 @media screen and (min-width: 768px) {
-  body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
+  body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .partner-list .main-title-with-link > h1, .partner-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
   body.article_list .list-articles body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316958 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316958 .main-title-with-link > h2,
   body.article_list .list-articles body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316963 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316963 .main-title-with-link > h2,
   body.article_list .list-articles body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316971 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -9424,6 +9539,7 @@ body.catalogue {
 body.catalogue .form-select {
   border-radius: 0.7rem !important;
   border: 0;
+  outline: 0 !important;
   background: #F0F3F7 !important;
 }
 
@@ -9486,6 +9602,10 @@ body.catalogue #zone3 {
   display: none;
 }
 
+body.catalogue .block.edito.mod-catal {
+  margin-top: 2rem;
+}
+
 body.catalogue .block.edito.mod-catal h1 {
   margin: 0;
   padding: 0;
@@ -9533,15 +9653,38 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-intro-title + .esf-sea
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line {
   margin: 0 auto;
+  width: 100%;
+  padding-bottom: 5rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  max-width: 77.32%;
-  width: 100%;
-  padding-bottom: 9.1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line {
+    max-width: 95%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-bottom: 9.1rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line {
+    max-width: 77.32%;
+  }
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line:before {
@@ -9559,13 +9702,28 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line:before {
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-select {
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-negative: 1;
-  flex-shrink: 1;
-  width: 0;
   background: #fff !important;
+  width: 100%;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  max-width: 36.5rem;
+  margin: 0 0 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-select {
+    margin: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    max-width: 100%;
+    width: 0;
+  }
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-select select {
@@ -9585,18 +9743,32 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simpl
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
   border-radius: 0.7rem;
   font-style: normal;
-  margin: 0 3rem;
   padding: 1.8rem 2.3rem 1.6rem;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 2.4rem;
   color: #585858;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-negative: 1;
-  flex-shrink: 1;
-  width: auto;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 36.5rem;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    width: auto;
+    max-width: 100%;
+    margin: 0 3rem;
+  }
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search::-webkit-input-placeholder {
@@ -9622,13 +9794,29 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simpl
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search {
   width: auto;
   outline: 0;
+  margin: 4rem 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search {
+    margin: 0;
+  }
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new {
-  position: absolute;
   display: block;
-  bottom: 5.1rem;
-  right: 0;
+  margin-top: 2.5rem;
+  bottom: auto;
+  right: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new {
+    margin-top: 0;
+    position: absolute;
+    bottom: 5.1rem;
+    right: 0;
+  }
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new .esf-search-plus-txt {
@@ -9642,6 +9830,13 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_s
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search {
   margin: 3rem 0 0;
   background: transparent;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search {
+    text-align: left;
+  }
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header {
@@ -9673,18 +9868,20 @@ body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filte
   color: #383838;
 }
 
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+@media screen and (min-width: 1280px) {
+  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
 }
 
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-filter-label {
@@ -9692,7 +9889,16 @@ body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filte
   font-size: 2rem;
   font-weight: 600;
   line-height: 3.1rem;
-  margin-right: 2rem;
+  margin: 0 0 1.5rem;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-filter-label {
+    margin: 0 2rem 0 0;
+    text-align: left;
+  }
 }
 
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list {
@@ -9700,32 +9906,57 @@ body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filte
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 0 -1rem;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+  }
 }
 
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) {
-  padding: 0;
-  margin: 0;
+  margin: 0 0 1rem;
   letter-spacing: normal;
   font-size: 1.6rem;
   font-weight: 500;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  border: 0.1rem solid #383838;
+  border: 0.1rem solid rgba(56, 56, 56, 0.5);
   border-radius: 0.8rem;
-  color: #383838;
+  color: rgba(56, 56, 56, 0.5);
   text-align: center;
+  padding: 0.5rem 0.62rem;
+  line-height: 2.4rem;
+  min-width: 2.6rem;
+  background: #fff;
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) {
+    margin: 0;
+  }
 }
 
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'] {
+  border-radius: 1rem;
+}
+
+body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'] a:before {
   border-radius: 1rem;
 }
 
@@ -9733,74 +9964,99 @@ body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filte
   margin-left: 0.8rem;
 }
 
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden).current,
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) a {
-  padding: 0.5rem 0.62rem;
-  line-height: 2.4rem;
-  min-width: 2.6rem;
-}
-
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden).current {
-  background: none;
   color: #F85C29;
   border-color: #F85C29;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current) {
-  -webkit-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -o-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover, body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active {
-  border-color: #F85C29;
-  background-color: #F85C29;
 }
 
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a, body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a {
   color: #fff;
 }
 
+body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a:before, body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a:before {
+  border-color: #F85C29;
+  background: #F85C29;
+}
+
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) a {
   display: block;
   text-decoration: none;
-  color: inherit;
+  color: #383838;
   -webkit-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+}
+
+body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) a:before {
+  content: '';
+  position: absolute;
+  -webkit-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  border: 0.1rem solid #383838;
+  border-radius: 0.8rem;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  height: calc(100% + 1rem + 0.1rem);
+  width: calc(100% + 1.24rem + 0.1rem);
+  z-index: -1;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] {
   border-radius: 2.3rem;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] a, body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'].current {
   padding: 0.5rem 1.5rem;
 }
 
+body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] a:before {
+  width: calc(100% + 3rem);
+}
+
 body.catalogue .block.catal-results {
-  margin-top: 3.2rem !important;
+  margin-top: 4rem !important;
   padding-bottom: 2.3rem;
+  padding-top: 2.3rem;
   border-bottom: 0.1rem solid rgba(200, 204, 215, 0.3);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  border-top: 0.1rem solid rgba(200, 204, 215, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+  body.catalogue .block.catal-results {
+    padding-top: 0;
+    margin-top: 3.2rem !important;
+    border-top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
 }
 
 body.catalogue .block.catal-results .catal-results-title {
-  margin: 0;
+  margin: 0 0 1.5rem;
   padding: 0;
   border: 0;
   font-weight: 300;
   line-height: 3.1rem;
   font-size: 2rem;
   color: #383838;
+}
+
+@media screen and (min-width: 768px) {
+  body.catalogue .block.catal-results .catal-results-title {
+    margin: 0;
+  }
 }
 
 body.catalogue .block.catal-results .catal-results-title .catal-results-nb {
@@ -9835,6 +10091,11 @@ body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-so
 body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-sorting label {
   padding: 0;
   margin: 0 1.2rem 0 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
 }
 
 body.catalogue .block.social-sharing {
@@ -9846,30 +10107,102 @@ body.catalogue .catal-ex-alone {
 }
 
 body.catalogue .block.catal-ex {
-  margin: 2.3rem 0 0;
+  margin: 4rem 0 -3rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .block.catal-ex {
+    margin: 2.3rem 0 0 !important;
+    display: block;
+  }
 }
 
 body.catalogue .catal-ex-item {
   margin: 0;
-  padding: 3rem 0 0;
+  padding: 0;
   border: 0;
-  border-bottom: 0.1rem solid rgba(200, 204, 215, 0.3);
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-shadow: 0 0.4rem 2.1rem 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0.4rem 2.1rem 0 rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 3rem 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 0.1rem solid rgba(200, 204, 215, 0.3);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body.catalogue .catal-ex-item:not(.is-top-premium) {
+    width: calc((100% - 3rem) / 2);
+    margin-bottom: 3rem;
+  }
+  body.catalogue .catal-ex-item:not(.is-top-premium):nth-child(2n) {
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body.catalogue .catal-ex-item:not(.is-top-premium) {
+    width: 100%;
+    margin-right: 0 !important;
+  }
 }
 
 body.catalogue .catal-ex-item.is-top-premium {
   background: #FFDB38;
   border: 0;
-  padding: 3rem 3rem 3.8rem;
 }
 
-body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-content {
-  padding-bottom: 0;
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item.is-top-premium {
+    padding: 3rem 3rem 3.8rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-content {
+    padding-top: 3.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-content {
+    padding-bottom: 0;
+  }
 }
 
 body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-tag {
@@ -9878,7 +10211,21 @@ body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-tag {
   bottom: 0;
   top: auto;
   height: 3.8rem;
-  width: calc(23.18/100 * (100% - 6rem));
+  width: calc(23.18 / 100 * (100% - 6rem));
+}
+
+@media screen and (max-width: 1023px) {
+  body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-tag {
+    left: 50%;
+    bottom: auto;
+    width: calc(100% - 3.8rem);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 23rem;
+    top: 17.5rem;
+    background: #fff;
+  }
 }
 
 body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-tag .catal-ex-item-tag-premium {
@@ -9901,17 +10248,27 @@ body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-tag .catal-ex-item-t
   letter-spacing: 0.087rem;
 }
 
-body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-img a {
-  background: #fff;
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-img a {
+    background: #fff;
+  }
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  margin-right: 4.48%;
-  min-height: 19.4rem;
-  width: 23.18%;
+  margin: 0;
+  width: 100%;
+  min-height: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .catal-ex-item-img {
+    width: 23.18%;
+    min-height: 19.4rem;
+    margin: 0 4.48% 0 0;
+  }
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-img a {
@@ -9927,6 +10284,13 @@ body.catalogue .catal-ex-item .catal-ex-item-img a {
   background: #F3F6FB;
   height: 100%;
   overflow: hidden;
+  min-height: 17.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .catal-ex-item-img a {
+    min-height: 0;
+  }
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-img a img {
@@ -9949,6 +10313,13 @@ body.catalogue .catal-ex-item .catal-ex-item-img a img {
   opacity: 1;
 }
 
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .catal-ex-item-img a img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 body.catalogue .catal-ex-item .catal-ex-item-img a:hover img, body.catalogue .catal-ex-item .catal-ex-item-img a:active img {
   -webkit-transform: scale(1.08);
   -ms-transform: scale(1.08);
@@ -9956,22 +10327,50 @@ body.catalogue .catal-ex-item .catal-ex-item-img a:hover img, body.catalogue .ca
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-content {
-  padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 1.9rem 2rem 1.6rem;
 }
 
-body.catalogue .catal-ex-item .catal-ex-item-content::after {
-  clear: both;
-  content: "";
-  display: block;
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .catal-ex-item-content {
+    padding: 0 0 3rem;
+    display: block;
+  }
+  body.catalogue .catal-ex-item .catal-ex-item-content::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title {
   margin: 0;
   min-height: 0;
-  padding: 0 3rem 0 0;
+  padding: 0;
   border: 0;
-  float: left;
-  width: 40%;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title {
+    padding: 0 3rem 0 0;
+    float: left;
+    width: 40%;
+  }
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons {
@@ -10000,9 +10399,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title 
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
-  width: 60%;
-  padding: 0 0 0 3rem;
-  border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
+  width: 100%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10017,6 +10414,33 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+  float: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
+    border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
+    padding: 0 0 0 3rem;
+    border-top: 0;
+    margin: 0;
+    width: 60%;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconlist,
+  body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-title {
+    padding-top: 2rem;
+    margin-top: 2rem !important;
+    width: 100%;
+    border-top: 0.1rem solid rgba(200, 204, 215, 0.3);
+  }
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-title {
@@ -10086,10 +10510,21 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
 
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
   margin: 0 !important;
-  padding: 0 3rem 0 0 !important;
+  padding: 0 !important;
   border: 0 !important;
-  float: left;
-  width: 40%;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  float: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
+    float: left;
+    width: 40%;
+    padding: 0 3rem 0 0 !important;
+  }
 }
 
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-country {
@@ -10182,6 +10617,7 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat 
   height: auto;
   padding: 0;
   border: 0;
+  margin: 0;
 }
 
 body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem {
@@ -10203,7 +10639,6 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
 .pagination {
   padding: 0;
   border: 0;
-  margin: 7rem 0 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10214,6 +10649,25 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
   -ms-flex-pack: center;
   justify-content: center;
   line-height: 2.6rem;
+  margin: 4rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .pagination {
+    margin: 5rem 0 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pagination {
+    margin: 6rem 0 8rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .pagination {
+    margin: 7rem 0 10rem;
+  }
 }
 
 .pagination .pagin-item {
@@ -10314,6 +10768,115 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
   transform: rotate(90deg);
 }
 
+.partner-list {
+  position: relative;
+  z-index: 0;
+  margin-bottom: 4rem;
+}
+
+.partner-list h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  color: currentColor;
+}
+
+.partner-list .box-dark::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -2.5rem;
+  height: 100%;
+  width: 100vw;
+  background-color: #c8ccd7;
+}
+
+.pl-main-content {
+  position: relative;
+}
+
+.pl-item {
+  position: relative;
+  padding: 4rem 0 4rem 21.3rem;
+  border-top: 0.1rem solid #c8ccd7;
+  border-bottom: 0;
+  min-height: 26.3rem;
+}
+
+.pl-item::before {
+  content: '';
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  display: block;
+  width: 18.3rem;
+  height: 18.3rem;
+  background-color: #F3F6FB;
+  border-radius: 50%;
+}
+
+.box-dark .pl-item::before {
+  background-color: #fff;
+}
+
+.pl-item-title {
+  margin-bottom: 1.6rem;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: currentColor;
+}
+
+.pl-item-illust,
+.pl-item .cx-lazy-load {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  max-height: 18.3rem;
+  max-width: 18.3rem;
+}
+
+.pl-item-read-more {
+  margin-top: 2rem;
+}
+
+.pl-item-content {
+  width: auto;
+}
+
+.pl-item .ezxmltext-field {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.pl-item .ezxmltext-field > p {
+  line-height: inherit;
+}
+
+.pl-item .link-read-more:focus, .pl-item .link-read-more:active, .pl-item .link-read-more:hover {
+  background: none;
+}
+
+.pl-item .link-read-more .icon {
+  display: none;
+}
+
+.pl-trigger:focus, .pl-trigger:hover {
+  color: #fff;
+  outline: 0;
+}
+
+.pl-trigger-wrap {
+  text-align: center;
+}
+
+.pl-trigger-wrap::before {
+  display: none;
+}
+
 .partner {
   position: relative;
   margin-top: 4rem;
@@ -10333,7 +10896,7 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
   text-align: center;
 }
 
-.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .partner .main-title-with-link > h3, .partner .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .partner .main-title-with-link > h1, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title, .partner .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .partner .main-title-with-link > h2, .partner body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316899 .main-title-with-link > h2, .partner .block.article-title body.node1316899 .main-title-with-link > h2,
+.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .partner .main-title-with-link > h3, .partner .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .partner .main-title-with-link > h1, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title, .partner .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .partner .main-title-with-link > h2, .partner .partner-list .main-title-with-link > h1, .partner-list .partner .main-title-with-link > h1, .partner body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316899 .main-title-with-link > h2, .partner .block.article-title body.node1316899 .main-title-with-link > h2,
 .partner body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316958 .main-title-with-link > h2, .partner .block.article-title body.node1316958 .main-title-with-link > h2,
 .partner body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316963 .main-title-with-link > h2, .partner .block.article-title body.node1316963 .main-title-with-link > h2,
 .partner body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316971 .main-title-with-link > h2, .partner .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -10347,18 +10910,19 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
   color: #585858;
 }
 
-.partner [class^='link-'] {
+.partner .main-title-with-link .link-view-all {
   float: none;
   position: absolute;
   bottom: 0;
   left: 50%;
+  margin-top: 0;
   white-space: nowrap;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
-.partner [class^='link-'] .icon {
+.partner .main-title-with-link .link-view-all .icon {
   display: none;
 }
 
@@ -10549,7 +11113,7 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
   border: 0;
 }
 
-.list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
+.list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title {
@@ -10562,7 +11126,7 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
+  .list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title {
@@ -10868,7 +11432,7 @@ html[lang='en'] .list-articles.block.block-page.prix-inno .grid-la-list .gla-ite
   }
 }
 
-.list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
+.list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title {
@@ -10881,7 +11445,7 @@ html[lang='en'] .list-articles.block.block-page.prix-inno .grid-la-list .gla-ite
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
+  .list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title {
@@ -11936,22 +12500,23 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   background: none;
 }
 
-body.node1316899 .article-content table tr td:first-child {
-  color: #585858;
-  font-size: 1.2rem;
-  letter-spacing: 0.104rem;
-  line-height: 3;
-  background: none;
-  padding-left: 5rem;
-}
-
-body.node1316899 .article-content table tr td:first-child p {
-  background: none;
-  margin-right: -1rem;
-}
-
 body.parent1293828 .site-wrapper .quicklinks {
   display: none;
+}
+
+body.node1316899 .article-wrapper .article-content,
+body.node1316958 .article-wrapper .article-content,
+body.node1316963 .article-wrapper .article-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1316899 .article-wrapper .article-content,
+  body.node1316958 .article-wrapper .article-content,
+  body.node1316963 .article-wrapper .article-content {
+    width: 83.3334%;
+  }
 }
 
 /* node1316899 = Page /Infos-Pratiques/Tarifs-SIAL-Paris-2020
@@ -12003,18 +12568,18 @@ body.node1316971 .article-navigation {
   display: none;
 }
 
-body.node1316899 .site-wrapper .quicklinks,
-body.node1316958 .site-wrapper .quicklinks,
-body.node1316963 .site-wrapper .quicklinks,
-body.node1316971 .site-wrapper .quicklinks {
+body.node1316899 .site-wrapper .quicklinks-cta--large,
+body.node1316958 .site-wrapper .quicklinks-cta--large,
+body.node1316963 .site-wrapper .quicklinks-cta--large,
+body.node1316971 .site-wrapper .quicklinks-cta--large {
   display: block;
   position: relative;
 }
 
-body.node1316899 .site-wrapper .quicklinks::before,
-body.node1316958 .site-wrapper .quicklinks::before,
-body.node1316963 .site-wrapper .quicklinks::before,
-body.node1316971 .site-wrapper .quicklinks::before {
+body.node1316899 .site-wrapper .quicklinks-cta--large::before,
+body.node1316958 .site-wrapper .quicklinks-cta--large::before,
+body.node1316963 .site-wrapper .quicklinks-cta--large::before,
+body.node1316971 .site-wrapper .quicklinks-cta--large::before {
   content: '';
   position: absolute;
   z-index: -1;
@@ -12029,80 +12594,80 @@ body.node1316971 .site-wrapper .quicklinks::before {
   background-color: #F3F6FB;
 }
 
-body.node1316899 .site-wrapper .quicklinks .ql-list,
-body.node1316958 .site-wrapper .quicklinks .ql-list,
-body.node1316963 .site-wrapper .quicklinks .ql-list,
-body.node1316971 .site-wrapper .quicklinks .ql-list {
+body.node1316899 .site-wrapper .quicklinks-cta--large .ql-list,
+body.node1316958 .site-wrapper .quicklinks-cta--large .ql-list,
+body.node1316963 .site-wrapper .quicklinks-cta--large .ql-list,
+body.node1316971 .site-wrapper .quicklinks-cta--large .ql-list {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 
-body.node1316899 .site-wrapper .quicklinks .ql-item,
-body.node1316958 .site-wrapper .quicklinks .ql-item,
-body.node1316963 .site-wrapper .quicklinks .ql-item,
-body.node1316971 .site-wrapper .quicklinks .ql-item {
+body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item,
+body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item,
+body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item,
+body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item {
   width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  body.node1316899 .site-wrapper .quicklinks .ql-item,
-  body.node1316958 .site-wrapper .quicklinks .ql-item,
-  body.node1316963 .site-wrapper .quicklinks .ql-item,
-  body.node1316971 .site-wrapper .quicklinks .ql-item {
+  body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item,
+  body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item,
+  body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item,
+  body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item {
     width: 40%;
   }
-  body.node1316899 .site-wrapper .quicklinks .ql-item:last-child,
-  body.node1316958 .site-wrapper .quicklinks .ql-item:last-child,
-  body.node1316963 .site-wrapper .quicklinks .ql-item:last-child,
-  body.node1316971 .site-wrapper .quicklinks .ql-item:last-child {
+  body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item:last-child,
+  body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item:last-child,
+  body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item:last-child,
+  body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item:last-child {
     margin-left: calc(10% - 1.5rem);
     margin-right: 1.5rem;
   }
-  body.node1316899 .site-wrapper .quicklinks .ql-item:first-child,
-  body.node1316958 .site-wrapper .quicklinks .ql-item:first-child,
-  body.node1316963 .site-wrapper .quicklinks .ql-item:first-child,
-  body.node1316971 .site-wrapper .quicklinks .ql-item:first-child {
+  body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item:first-child,
+  body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item:first-child,
+  body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item:first-child,
+  body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item:first-child {
     margin-right: calc(10% - 1.5rem);
     margin-left: 1.5rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  body.node1316899 .site-wrapper .quicklinks .ql-item,
-  body.node1316958 .site-wrapper .quicklinks .ql-item,
-  body.node1316963 .site-wrapper .quicklinks .ql-item,
-  body.node1316971 .site-wrapper .quicklinks .ql-item {
+  body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item,
+  body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item,
+  body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item,
+  body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item {
     width: 25%;
   }
-  body.node1316899 .site-wrapper .quicklinks .ql-item:last-child,
-  body.node1316958 .site-wrapper .quicklinks .ql-item:last-child,
-  body.node1316963 .site-wrapper .quicklinks .ql-item:last-child,
-  body.node1316971 .site-wrapper .quicklinks .ql-item:last-child {
+  body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item:last-child,
+  body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item:last-child,
+  body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item:last-child,
+  body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item:last-child {
     margin-left: calc(25% - 1.5rem);
     margin-right: 1.5rem;
   }
-  body.node1316899 .site-wrapper .quicklinks .ql-item:first-child,
-  body.node1316958 .site-wrapper .quicklinks .ql-item:first-child,
-  body.node1316963 .site-wrapper .quicklinks .ql-item:first-child,
-  body.node1316971 .site-wrapper .quicklinks .ql-item:first-child {
+  body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item:first-child,
+  body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item:first-child,
+  body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item:first-child,
+  body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item:first-child {
     margin-right: calc(25% - 1.5rem);
     margin-left: 1.5rem;
   }
 }
 
-body.node1316899 .site-wrapper .quicklinks .ql-item .icon-map::before,
-body.node1316958 .site-wrapper .quicklinks .ql-item .icon-map::before,
-body.node1316963 .site-wrapper .quicklinks .ql-item .icon-map::before,
-body.node1316971 .site-wrapper .quicklinks .ql-item .icon-map::before {
+body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item .icon-map::before,
+body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item .icon-map::before,
+body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item .icon-map::before,
+body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item .icon-map::before {
   content: '\e90b';
 }
 
-body.node1316899 .site-wrapper .quicklinks .ql-item .icon-home::before,
-body.node1316958 .site-wrapper .quicklinks .ql-item .icon-home::before,
-body.node1316963 .site-wrapper .quicklinks .ql-item .icon-home::before,
-body.node1316971 .site-wrapper .quicklinks .ql-item .icon-home::before {
+body.node1316899 .site-wrapper .quicklinks-cta--large .ql-item .icon-home::before,
+body.node1316958 .site-wrapper .quicklinks-cta--large .ql-item .icon-home::before,
+body.node1316963 .site-wrapper .quicklinks-cta--large .ql-item .icon-home::before,
+body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item .icon-home::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -12118,51 +12683,63 @@ body.node1316971 .site-wrapper .quicklinks .ql-item .icon-home::before {
 
 /* Page /Infos-Pratiques/Tarifs-SIAL-Paris-2020 */
 body.node1316899 .article-wrapper::after {
-  padding-bottom: 7.5rem;
+  padding-bottom: 2.5rem;
 }
 
 body.node1316899 .article-content > p:first-child {
   display: none;
 }
 
-body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-content > p:nth-of-type(8), body.node1316899 .article-content > p:nth-of-type(9), body.node1316899 .article-content > p:nth-of-type(10), body.node1316899 .article-content > p:nth-of-type(11) {
-  padding-left: 1.5rem;
+body.node1316899 .article-content > p:nth-of-type(3), body.node1316899 .article-content > p:nth-of-type(4), body.node1316899 .article-content > p:nth-of-type(5), body.node1316899 .article-content > p:nth-of-type(6), body.node1316899 .article-content > p:nth-of-type(7) {
   font-size: 1.6rem;
   margin: 0;
   display: inline-block;
 }
 
-body.node1316899 .article-content > p:nth-of-type(7) {
+body.node1316899 .article-content > p:nth-of-type(3) {
   margin-top: 1.2rem;
 }
 
-body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-content > p:nth-of-type(9) {
+body.node1316899 .article-content > p:nth-of-type(3), body.node1316899 .article-content > p:nth-of-type(5) {
   text-transform: uppercase;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.2rem;
   font-weight: 900;
   letter-spacing: 0.104rem;
   line-height: 3;
-  width: 7%;
+  width: 7.2rem;
+  margin-top: 0.8rem;
 }
 
-body.node1316899 .article-content > p:nth-of-type(8), body.node1316899 .article-content > p:nth-of-type(10), body.node1316899 .article-content > p:nth-of-type(11) {
-  width: 89%;
+body.node1316899 .article-content > p:nth-of-type(4), body.node1316899 .article-content > p:nth-of-type(6), body.node1316899 .article-content > p:nth-of-type(7) {
   margin-top: 1.2rem;
 }
 
-body.node1316899 .article-content > p:nth-of-type(8)::after, body.node1316899 .article-content > p:nth-of-type(10)::after, body.node1316899 .article-content > p:nth-of-type(11)::after {
+body.node1316899 .article-content > p:nth-of-type(4)::after, body.node1316899 .article-content > p:nth-of-type(6)::after, body.node1316899 .article-content > p:nth-of-type(7)::after {
   clear: both;
   content: "";
   display: block;
 }
 
-body.node1316899 .article-content > p:nth-of-type(11) {
+@media screen and (max-width: 1279px) {
+  body.node1316899 .article-content > p:nth-of-type(4), body.node1316899 .article-content > p:nth-of-type(6), body.node1316899 .article-content > p:nth-of-type(7) {
+    float: right;
+    width: calc(100% - 7.5rem);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.node1316899 .article-content > p:nth-of-type(4), body.node1316899 .article-content > p:nth-of-type(6), body.node1316899 .article-content > p:nth-of-type(7) {
+    width: 89%;
+  }
+}
+
+body.node1316899 .article-content > p:nth-of-type(7) {
   margin-left: 8%;
   margin-top: 0;
 }
 
-body.node1316899 .article-content > p:nth-of-type(12) {
+body.node1316899 .article-content > p:nth-of-type(8) {
   margin-top: 3.5rem;
   margin-bottom: 8rem;
 }
@@ -12181,11 +12758,30 @@ body.node1316899 .article-content h2 {
   margin-bottom: 0.8rem;
 }
 
-body.node1316899 .article-content h2 + p:not(:nth-of-type(2)) {
+body.node1316899 .article-content h2 + p {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.625;
+}
+
+body.node1316899 .article-content h2 + figure {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  margin-bottom: 5.2rem;
+}
+
+body.node1316899 .article-content h2 + figure img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1316899 .article-content h2 + figure img {
+    max-height: 18.6rem;
+  }
 }
 
 body.node1316899 .article-content h2:last-of-type {
@@ -12218,50 +12814,167 @@ body.node1316899 .article-content ul li::before {
 body.node1316899 .article-content table {
   position: relative;
   margin-bottom: 4rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  body.node1316899 .article-content table {
+    display: block;
+    border-top: 0.1rem solid rgba(140, 144, 158, 0.27);
+    border-right: 0.1rem solid rgba(140, 144, 158, 0.27);
+    -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  }
+  body.node1316899 .article-content table tbody {
+    display: block;
+    width: 100%;
+  }
 }
 
 body.node1316899 .article-content table tr {
   background: none;
 }
 
+@media screen and (max-width: 1023px) {
+  body.node1316899 .article-content table tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+  body.node1316899 .article-content table tr:not(:first-child) td::after {
+    position: absolute;
+    font-size: 1.1rem;
+    top: 0;
+    left: 0.5rem;
+    z-index: 2;
+    color: #585858;
+    font-family: "Avenir", "Nunito", Arial, sans-serif;
+    font-weight: 900;
+  }
+  body.node1316899 .article-content table tr:nth-child(2) td::after {
+    content: 'Individuel';
+  }
+  body.node1316899 .article-content table tr:nth-child(3) td::after {
+    content: 'Trio';
+  }
+  body.node1316899 .article-content table tr:nth-child(4) td::after {
+    content: 'Groupe (1)';
+  }
+  body.node1316899 .article-content table tr:nth-child(5) td::after {
+    content: 'Ecole (2)';
+  }
+}
+
 body.node1316899 .article-content table tr td {
-  height: 6.9rem;
   border: 0;
   line-height: 2;
-  width: 20%;
   margin: 0;
   padding: 0;
 }
 
+@media screen and (max-width: 1023px) {
+  body.node1316899 .article-content table tr td {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    width: 25%;
+    border-left: 0.1rem solid rgba(140, 144, 158, 0.27);
+    border-bottom: 0.1rem solid rgba(140, 144, 158, 0.27);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1316899 .article-content table tr td {
+    width: 20%;
+    height: 6.9rem;
+  }
+}
+
 body.node1316899 .article-content table tr td:not(:first-child) p {
-  height: 6.9rem;
-  width: 90%;
+  line-height: 2;
+  font-size: 1.6rem;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-weight: 900;
   background-color: #FFF;
-  padding: 1.8rem 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border-bottom: 0.1rem solid rgba(140, 144, 158, 0.27);
-  margin: auto;
+  padding: 1.5rem;
+  height: 6.9rem;
+}
+
+@media screen and (max-width: 1023px) {
+  body.node1316899 .article-content table tr td:not(:first-child) p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1316899 .article-content table tr td:not(:first-child) p {
+    font-size: 2rem;
+    width: 90%;
+    max-width: 20rem;
+    padding: 1.8rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 0.1rem solid rgba(140, 144, 158, 0.27);
+    -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+    margin-left: auto;
+    margin-right: 0;
+  }
 }
 
 body.node1316899 .article-content table tr td:first-child {
+  color: #585858;
+  font-size: 1.2rem;
+  letter-spacing: 0.104rem;
+  line-height: 3;
+  background: none;
+  text-align: left;
   vertical-align: inherit !important;
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 0;
+  padding-right: 5rem;
+  width: 8.3334%;
+}
+
+@media screen and (max-width: 1023px) {
+  body.node1316899 .article-content table tr td:first-child {
+    display: none;
+  }
+}
+
+body.node1316899 .article-content table tr td:first-child p {
+  background: none;
+  margin-right: -1rem;
 }
 
 body.node1316899 .article-content table tr td:first-child::before {
   content: '';
   display: block;
   height: 0.1rem;
-  width: calc(100% + (100% / 5));
+  width: calc(100% + (100% / 3));
   position: absolute;
   background-color: #8C909E;
   opacity: 0.27;
@@ -12269,20 +12982,17 @@ body.node1316899 .article-content table tr td:first-child::before {
   right: calc((1.5rem + (100% / 5)) * -1);
 }
 
-body.node1316899 .article-content table tr td:not(:first-child) p {
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-}
-
 body.node1316899 .article-content table tr td p {
   position: relative;
   z-index: 2;
 }
 
-body.node1316899 .article-content table tr:last-child td,
-body.node1316899 .article-content table tr:last-child td p, body.node1316899 .article-content table tr:first-child td,
-body.node1316899 .article-content table tr:first-child td p {
-  border: 0;
+@media screen and (min-width: 1024px) {
+  body.node1316899 .article-content table tr:last-child td,
+  body.node1316899 .article-content table tr:last-child td p, body.node1316899 .article-content table tr:first-child td,
+  body.node1316899 .article-content table tr:first-child td p {
+    border: 0;
+  }
 }
 
 body.node1316899 .article-content table tr:last-child td::before, body.node1316899 .article-content table tr:first-child td::before {
@@ -12302,6 +13012,7 @@ body.node1316899 .article-content table tr:first-child td:nth-of-type(2) p {
 }
 
 body.node1316899 .article-content table tr:first-child td:nth-of-type(3) p {
+  word-break: break-word;
   background-color: #FFBC38;
 }
 
@@ -12319,16 +13030,15 @@ body.node1316899 .article-content table::after {
   content: '';
   display: block;
   height: 0.1rem;
-  width: 98%;
-  left: 1%;
+  width: 100%;
+  left: 0;
   background-color: #8C909E;
   opacity: 0.27;
 }
 
-@media screen and (min-width: 768px) {
-  body.node1316899 .site-wrapper .quicklinks {
-    margin-top: 8rem;
-    margin-bottom: 4rem;
+@media screen and (max-width: 1279px) {
+  body.node1316899 .article-content .lien1 {
+    margin-top: 5rem;
   }
 }
 
@@ -12337,12 +13047,8 @@ body.node1316899 .article-navigation {
 }
 
 body.node1316899 .quicklinks-cta--large {
-  -webkit-transform: translateY(50%);
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -12515,7 +13221,7 @@ body.node1316899 .quicklinks-cta--large {
   }
 }
 
-.list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
+.list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title {
@@ -12528,7 +13234,7 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
+  .list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
   .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
   .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
   .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title {
