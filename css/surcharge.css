@@ -12918,8 +12918,10 @@ body.node1316971 .site-wrapper .quicklinks-cta--large .ql-item .icon-home::befor
 }
 
 /* Page /Infos-Pratiques/Tarifs-SIAL-Paris-2020 */
-body.node1316899 .article-wrapper::after {
-  padding-bottom: 2.5rem;
+@media screen and (max-width: 1023px) {
+  body.node1316899 .article-wrapper::after {
+    height: 105%;
+  }
 }
 
 body.node1316899 .article-content > p:first-child {
@@ -13036,6 +13038,7 @@ body.node1316899 .article-content h2:last-of-type + p {
 
 body.node1316899 .article-content ul {
   padding-left: 1rem;
+  margin-bottom: 5rem;
 }
 
 body.node1316899 .article-content ul li {
