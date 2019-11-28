@@ -285,7 +285,7 @@ img {
 .subheader__btn, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
-body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, .pl-trigger, .partner .main-title-with-link .link-view-all, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, .pl-trigger, .partner .main-title-with-link .link-view-all, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 0.9rem 2.6rem 1rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -308,7 +308,7 @@ body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1,
 .subheader__btn:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.body-corpo.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.body-corpo.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
-body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+body.body-corpo.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -1222,7 +1222,8 @@ a:active, a:focus, a:hover {
   }
 }
 
-.main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2, .partner-list h1, .sr-group-title, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
+.main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, body.matchmaking h1,
+body.matchmaking .la-main-title, .page-highlight .block.edito h2, .partner-list h1, .sr-group-title, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
 body.node1316958 .at-main-title, body.node1316958 .block.edito-custom h2, .block.edito-custom body.node1316958 h2, body.node1316958 .block.article-title h2, .block.article-title body.node1316958 h2,
 body.node1316963 .at-main-title, body.node1316963 .block.edito-custom h2, .block.edito-custom body.node1316963 h2, body.node1316963 .block.article-title h2, .block.article-title body.node1316963 h2,
 body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block.edito-custom body.node1316971 h2, body.node1316971 .block.article-title h2, .block.article-title body.node1316971 h2 {
@@ -1238,7 +1239,8 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
 }
 
 @media screen and (min-width: 768px) {
-  .main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, .page-highlight .block.edito h2, .partner-list h1, .sr-group-title, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
+  .main-title, .catalog-order .block-title, body.node1309141 .contacts-list .intro h3, .node1315331 .contacts-list h1, .app-optimize-visit__title, .subheader__title, .block.edito-custom .at-main-title, .block.article-title .at-main-title, .block.edito-custom h2, .block.edito-custom .block.article-title h2, .block.article-title .block.edito-custom h2, .block.article-title h2, .home-news .block-title, body.matchmaking h1,
+  body.matchmaking .la-main-title, .page-highlight .block.edito h2, .partner-list h1, .sr-group-title, body.node1316899 .at-main-title, body.node1316899 .block.edito-custom h2, .block.edito-custom body.node1316899 h2, body.node1316899 .block.article-title h2, .block.article-title body.node1316899 h2,
   body.node1316958 .at-main-title, body.node1316958 .block.edito-custom h2, .block.edito-custom body.node1316958 h2, body.node1316958 .block.article-title h2, .block.article-title body.node1316958 h2,
   body.node1316963 .at-main-title, body.node1316963 .block.edito-custom h2, .block.edito-custom body.node1316963 h2, body.node1316963 .block.article-title h2, .block.article-title body.node1316963 h2,
   body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block.edito-custom body.node1316971 h2, body.node1316971 .block.article-title h2, .block.article-title body.node1316971 h2 {
@@ -1247,7 +1249,7 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
   }
 }
 
-.main-title > a, .catalog-order .block-title > a, body.node1309141 .contacts-list .intro h3 > a, .node1315331 .contacts-list h1 > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a, .page-highlight .block.edito h2 > a, .partner-list h1 > a, .sr-group-title > a, body.node1316899 .at-main-title > a, body.node1316899 .block.edito-custom h2 > a, .block.edito-custom body.node1316899 h2 > a, body.node1316899 .block.article-title h2 > a, .block.article-title body.node1316899 h2 > a, body.node1316958 .at-main-title > a, body.node1316958 .block.edito-custom h2 > a, .block.edito-custom body.node1316958 h2 > a, body.node1316958 .block.article-title h2 > a, .block.article-title body.node1316958 h2 > a, body.node1316963 .at-main-title > a, body.node1316963 .block.edito-custom h2 > a, .block.edito-custom body.node1316963 h2 > a, body.node1316963 .block.article-title h2 > a, .block.article-title body.node1316963 h2 > a, body.node1316971 .at-main-title > a, body.node1316971 .block.edito-custom h2 > a, .block.edito-custom body.node1316971 h2 > a, body.node1316971 .block.article-title h2 > a, .block.article-title body.node1316971 h2 > a {
+.main-title > a, .catalog-order .block-title > a, body.node1309141 .contacts-list .intro h3 > a, .node1315331 .contacts-list h1 > a, .app-optimize-visit__title > a, .subheader__title > a, .block.edito-custom .at-main-title > a, .block.article-title .at-main-title > a, .block.edito-custom h2 > a, .block.edito-custom .block.article-title h2 > a, .block.article-title .block.edito-custom h2 > a, .block.article-title h2 > a, .home-news .block-title > a, body.matchmaking h1 > a, body.matchmaking .la-main-title > a, .page-highlight .block.edito h2 > a, .partner-list h1 > a, .sr-group-title > a, body.node1316899 .at-main-title > a, body.node1316899 .block.edito-custom h2 > a, .block.edito-custom body.node1316899 h2 > a, body.node1316899 .block.article-title h2 > a, .block.article-title body.node1316899 h2 > a, body.node1316958 .at-main-title > a, body.node1316958 .block.edito-custom h2 > a, .block.edito-custom body.node1316958 h2 > a, body.node1316958 .block.article-title h2 > a, .block.article-title body.node1316958 h2 > a, body.node1316963 .at-main-title > a, body.node1316963 .block.edito-custom h2 > a, .block.edito-custom body.node1316963 h2 > a, body.node1316963 .block.article-title h2 > a, .block.article-title body.node1316963 h2 > a, body.node1316971 .at-main-title > a, body.node1316971 .block.edito-custom h2 > a, .block.edito-custom body.node1316971 h2 > a, body.node1316971 .block.article-title h2 > a, .block.article-title body.node1316971 h2 > a {
   text-decoration: none;
 }
 
@@ -1255,7 +1257,8 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
   border: 0;
 }
 
-.home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .home-events .main-title-with-link > h3, .home-events .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .home-events .main-title-with-link > h1, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title, .home-events .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .home-events .main-title-with-link > h2, .home-events .partner-list .main-title-with-link > h1, .partner-list .home-events .main-title-with-link > h1, .home-events .main-title-with-link > .sr-group-title, .home-events body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316899 .main-title-with-link > h2, .home-events .block.article-title body.node1316899 .main-title-with-link > h2,
+.home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .home-events .main-title-with-link > h3, .home-events .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .home-events .main-title-with-link > h1, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title, .home-events body.matchmaking .main-title-with-link > h1, body.matchmaking .home-events .main-title-with-link > h1,
+.home-events body.matchmaking .main-title-with-link > .la-main-title, body.matchmaking .home-events .main-title-with-link > .la-main-title, .home-events .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .home-events .main-title-with-link > h2, .home-events .partner-list .main-title-with-link > h1, .partner-list .home-events .main-title-with-link > h1, .home-events .main-title-with-link > .sr-group-title, .home-events body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316899 .main-title-with-link > h2, .home-events .block.article-title body.node1316899 .main-title-with-link > h2,
 .home-events body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316958 .main-title-with-link > h2, .home-events .block.article-title body.node1316958 .main-title-with-link > h2,
 .home-events body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316963 .main-title-with-link > h2, .home-events .block.article-title body.node1316963 .main-title-with-link > h2,
 .home-events body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316971 .main-title-with-link > h2, .home-events .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -1281,7 +1284,8 @@ body.node1316971 .more-infos-contact__inner {
   margin: auto;
 }
 
-body.node1316971 .main-title, body.node1316971 .catalog-order .block-title, .catalog-order body.node1316971 .block-title, body.node1316971 body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro body.node1316971 h3, body.node1316971 .node1315331 .contacts-list h1, .node1315331 .contacts-list body.node1316971 h1, body.node1316971 .app-optimize-visit__title, body.node1316971 .subheader__title, body.node1316971 .block.edito-custom .at-main-title, .block.edito-custom body.node1316971 .at-main-title, body.node1316971 .block.article-title .at-main-title, .block.article-title body.node1316971 .at-main-title, body.node1316971 .home-news .block-title, .home-news body.node1316971 .block-title, body.node1316971 .page-highlight .block.edito h2, .page-highlight .block.edito body.node1316971 h2, body.node1316971 .partner-list h1, .partner-list body.node1316971 h1, body.node1316971 .sr-group-title,
+body.node1316971 .main-title, body.node1316971 .catalog-order .block-title, .catalog-order body.node1316971 .block-title, body.node1316971 body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro body.node1316971 h3, body.node1316971 .node1315331 .contacts-list h1, .node1315331 .contacts-list body.node1316971 h1, body.node1316971 .app-optimize-visit__title, body.node1316971 .subheader__title, body.node1316971 .block.edito-custom .at-main-title, .block.edito-custom body.node1316971 .at-main-title, body.node1316971 .block.article-title .at-main-title, .block.article-title body.node1316971 .at-main-title, body.node1316971 .home-news .block-title, .home-news body.node1316971 .block-title, body.node1316971 body.matchmaking h1, body.matchmaking body.node1316971 h1,
+body.node1316971 body.matchmaking .la-main-title, body.matchmaking body.node1316971 .la-main-title, body.node1316971 .page-highlight .block.edito h2, .page-highlight .block.edito body.node1316971 h2, body.node1316971 .partner-list h1, .partner-list body.node1316971 h1, body.node1316971 .sr-group-title,
 body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block.edito-custom body.node1316971 h2, body.node1316971 .block.article-title h2, .block.article-title body.node1316971 h2 {
   text-align: center;
 }
@@ -4940,7 +4944,8 @@ body.article_list .more-infos-contact {
   }
 }
 
-.partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event .partner-list h1, .partner-list .partner-of-the-event h1, .partner-of-the-event .sr-group-title, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
+.partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event body.matchmaking h1, body.matchmaking .partner-of-the-event h1,
+.partner-of-the-event body.matchmaking .la-main-title, body.matchmaking .partner-of-the-event .la-main-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event .partner-list h1, .partner-list .partner-of-the-event h1, .partner-of-the-event .sr-group-title, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
 .partner-of-the-event body.node1316958 .at-main-title, body.node1316958 .partner-of-the-event .at-main-title,
 .partner-of-the-event body.node1316963 .at-main-title, body.node1316963 .partner-of-the-event .at-main-title,
 .partner-of-the-event body.node1316971 .at-main-title, body.node1316971 .partner-of-the-event .at-main-title {
@@ -4950,7 +4955,8 @@ body.article_list .more-infos-contact {
 }
 
 @media screen and (min-width: 1024px) {
-  .partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event .partner-list h1, .partner-list .partner-of-the-event h1, .partner-of-the-event .sr-group-title, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
+  .partner-of-the-event .main-title, .partner-of-the-event .catalog-order .block-title, .catalog-order .partner-of-the-event .block-title, .partner-of-the-event body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .partner-of-the-event h3, .partner-of-the-event .node1315331 .contacts-list h1, .node1315331 .contacts-list .partner-of-the-event h1, .partner-of-the-event .app-optimize-visit__title, .partner-of-the-event .subheader__title, .partner-of-the-event .block.edito-custom .at-main-title, .block.edito-custom .partner-of-the-event .at-main-title, .partner-of-the-event .block.article-title .at-main-title, .block.article-title .partner-of-the-event .at-main-title, .partner-of-the-event .block.edito-custom h2, .block.edito-custom .partner-of-the-event h2, .partner-of-the-event .block.article-title h2, .block.article-title .partner-of-the-event h2, .partner-of-the-event .home-news .block-title, .home-news .partner-of-the-event .block-title, .partner-of-the-event body.matchmaking h1, body.matchmaking .partner-of-the-event h1,
+  .partner-of-the-event body.matchmaking .la-main-title, body.matchmaking .partner-of-the-event .la-main-title, .partner-of-the-event .page-highlight .block.edito h2, .page-highlight .block.edito .partner-of-the-event h2, .partner-of-the-event .partner-list h1, .partner-list .partner-of-the-event h1, .partner-of-the-event .sr-group-title, .partner-of-the-event body.node1316899 .at-main-title, body.node1316899 .partner-of-the-event .at-main-title,
   .partner-of-the-event body.node1316958 .at-main-title, body.node1316958 .partner-of-the-event .at-main-title,
   .partner-of-the-event body.node1316963 .at-main-title, body.node1316963 .partner-of-the-event .at-main-title,
   .partner-of-the-event body.node1316971 .at-main-title, body.node1316971 .partner-of-the-event .at-main-title {
@@ -7081,7 +7087,8 @@ body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.bo
   }
 }
 
-.exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header .partner-list h1, .partner-list .exhibitors-slider__header h1, .exhibitors-slider__header .sr-group-title, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
+.exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header body.matchmaking h1, body.matchmaking .exhibitors-slider__header h1,
+.exhibitors-slider__header body.matchmaking .la-main-title, body.matchmaking .exhibitors-slider__header .la-main-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header .partner-list h1, .partner-list .exhibitors-slider__header h1, .exhibitors-slider__header .sr-group-title, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
 .exhibitors-slider__header body.node1316958 .at-main-title, body.node1316958 .exhibitors-slider__header .at-main-title,
 .exhibitors-slider__header body.node1316963 .at-main-title, body.node1316963 .exhibitors-slider__header .at-main-title,
 .exhibitors-slider__header body.node1316971 .at-main-title, body.node1316971 .exhibitors-slider__header .at-main-title {
@@ -7089,7 +7096,8 @@ body.body-corpo.page-rubric #zone4 .block.block-page.edito.edito-custom, body.bo
 }
 
 @media screen and (min-width: 768px) {
-  .exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header .partner-list h1, .partner-list .exhibitors-slider__header h1, .exhibitors-slider__header .sr-group-title, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
+  .exhibitors-slider__header .main-title, .exhibitors-slider__header .catalog-order .block-title, .catalog-order .exhibitors-slider__header .block-title, .exhibitors-slider__header body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .exhibitors-slider__header h3, .exhibitors-slider__header .node1315331 .contacts-list h1, .node1315331 .contacts-list .exhibitors-slider__header h1, .exhibitors-slider__header .app-optimize-visit__title, .exhibitors-slider__header .subheader__title, .exhibitors-slider__header .block.edito-custom .at-main-title, .block.edito-custom .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.article-title .at-main-title, .block.article-title .exhibitors-slider__header .at-main-title, .exhibitors-slider__header .block.edito-custom h2, .block.edito-custom .exhibitors-slider__header h2, .exhibitors-slider__header .block.article-title h2, .block.article-title .exhibitors-slider__header h2, .exhibitors-slider__header .home-news .block-title, .home-news .exhibitors-slider__header .block-title, .exhibitors-slider__header body.matchmaking h1, body.matchmaking .exhibitors-slider__header h1,
+  .exhibitors-slider__header body.matchmaking .la-main-title, body.matchmaking .exhibitors-slider__header .la-main-title, .exhibitors-slider__header .page-highlight .block.edito h2, .page-highlight .block.edito .exhibitors-slider__header h2, .exhibitors-slider__header .partner-list h1, .partner-list .exhibitors-slider__header h1, .exhibitors-slider__header .sr-group-title, .exhibitors-slider__header body.node1316899 .at-main-title, body.node1316899 .exhibitors-slider__header .at-main-title,
   .exhibitors-slider__header body.node1316958 .at-main-title, body.node1316958 .exhibitors-slider__header .at-main-title,
   .exhibitors-slider__header body.node1316963 .at-main-title, body.node1316963 .exhibitors-slider__header .at-main-title,
   .exhibitors-slider__header body.node1316971 .at-main-title, body.node1316971 .exhibitors-slider__header .at-main-title {
@@ -8325,7 +8333,8 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line:af
   }
 }
 
-.home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .home-search h3, .home-search .node1315331 .contacts-list h1, .node1315331 .contacts-list .home-search h1, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title, .home-search .page-highlight .block.edito h2, .page-highlight .block.edito .home-search h2, .home-search .partner-list h1, .partner-list .home-search h1, .home-search .sr-group-title, .home-search body.node1316899 .at-main-title, body.node1316899 .home-search .at-main-title,
+.home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .home-search h3, .home-search .node1315331 .contacts-list h1, .node1315331 .contacts-list .home-search h1, .home-search .app-optimize-visit__title, .home-search .subheader__title, .home-search .block.edito-custom .at-main-title, .block.edito-custom .home-search .at-main-title, .home-search .block.article-title .at-main-title, .block.article-title .home-search .at-main-title, .home-search .block.edito-custom h2, .block.edito-custom .home-search h2, .home-search .block.article-title h2, .block.article-title .home-search h2, .home-search .home-news .block-title, .home-news .home-search .block-title, .home-search body.matchmaking h1, body.matchmaking .home-search h1,
+.home-search body.matchmaking .la-main-title, body.matchmaking .home-search .la-main-title, .home-search .page-highlight .block.edito h2, .page-highlight .block.edito .home-search h2, .home-search .partner-list h1, .partner-list .home-search h1, .home-search .sr-group-title, .home-search body.node1316899 .at-main-title, body.node1316899 .home-search .at-main-title,
 .home-search body.node1316958 .at-main-title, body.node1316958 .home-search .at-main-title,
 .home-search body.node1316963 .at-main-title, body.node1316963 .home-search .at-main-title,
 .home-search body.node1316971 .at-main-title, body.node1316971 .home-search .at-main-title,
@@ -8348,6 +8357,10 @@ body.node1309141 .contacts-list .intro .error-page h3,
 .block.article-title .error-page h2,
 .error-page .home-news .block-title,
 .home-news .error-page .block-title,
+.error-page body.matchmaking h1,
+body.matchmaking .error-page h1,
+.error-page body.matchmaking .la-main-title,
+body.matchmaking .error-page .la-main-title,
 .error-page .page-highlight .block.edito h2,
 .page-highlight .block.edito .error-page h2,
 .error-page .partner-list h1,
@@ -8950,7 +8963,8 @@ body.article_list .list-articles .main-title-with-link {
   border: 0;
 }
 
-body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .partner-list .main-title-with-link > h1, .partner-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .sr-group-title, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
+body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.matchmaking .main-title-with-link > h1, body.matchmaking body.article_list .list-articles .main-title-with-link > h1,
+body.article_list .list-articles body.matchmaking .main-title-with-link > .la-main-title, body.matchmaking body.article_list .list-articles .main-title-with-link > .la-main-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .partner-list .main-title-with-link > h1, .partner-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .sr-group-title, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
 body.article_list .list-articles body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316958 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316958 .main-title-with-link > h2,
 body.article_list .list-articles body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316963 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316963 .main-title-with-link > h2,
 body.article_list .list-articles body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316971 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -8964,7 +8978,8 @@ body.article_list .list-articles body.node1316971 .main-title-with-link > .at-ma
 }
 
 @media screen and (min-width: 768px) {
-  body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .partner-list .main-title-with-link > h1, .partner-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .sr-group-title, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
+  body.article_list .list-articles .main-title-with-link > .main-title, body.article_list .list-articles .catalog-order .main-title-with-link > .block-title, .catalog-order body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro body.article_list .list-articles .main-title-with-link > h3, body.article_list .list-articles .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .app-optimize-visit__title, body.article_list .list-articles .main-title-with-link > .subheader__title, body.article_list .list-articles .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.article-title .main-title-with-link > .at-main-title, .block.article-title body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom .main-title-with-link > h2, .block.edito-custom body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .block.article-title .main-title-with-link > h2, .block.article-title body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .home-news .main-title-with-link > .block-title, .home-news body.article_list .list-articles .main-title-with-link > .block-title, body.article_list .list-articles body.matchmaking .main-title-with-link > h1, body.matchmaking body.article_list .list-articles .main-title-with-link > h1,
+  body.article_list .list-articles body.matchmaking .main-title-with-link > .la-main-title, body.matchmaking body.article_list .list-articles .main-title-with-link > .la-main-title, body.article_list .list-articles .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito body.article_list .list-articles .main-title-with-link > h2, body.article_list .list-articles .partner-list .main-title-with-link > h1, .partner-list body.article_list .list-articles .main-title-with-link > h1, body.article_list .list-articles .main-title-with-link > .sr-group-title, body.article_list .list-articles body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316899 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316899 .main-title-with-link > h2,
   body.article_list .list-articles body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316958 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316958 .main-title-with-link > h2,
   body.article_list .list-articles body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316963 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316963 .main-title-with-link > h2,
   body.article_list .list-articles body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 body.article_list .list-articles .main-title-with-link > .at-main-title, body.article_list .list-articles .block.edito-custom body.node1316971 .main-title-with-link > h2, body.article_list .list-articles .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -9339,6 +9354,330 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-ite
 
 .is-stuck .mn-item-lvl-1:first-child {
   display: block;
+}
+
+body.matchmaking h1,
+body.matchmaking .la-main-title {
+  text-align: center;
+}
+
+body.matchmaking .main-title-with-link {
+  border: 0;
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.matchmaking .main-title-with-link h2 {
+  margin: 0 auto;
+}
+
+body.matchmaking #zone1 .block.edito {
+  margin: 1.5rem auto 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.matchmaking #zone1 .block.edito {
+    width: 66.6667%;
+  }
+}
+
+body.matchmaking #zone1 .block.edito p {
+  color: #8C909E;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+body.matchmaking #zone1 .block.edito p:first-of-type {
+  text-align: center;
+}
+
+body.matchmaking #zone1 .block.edito p:not(:first-of-type) {
+  padding: 0 1rem;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  body.matchmaking #zone1 .block.edito p:not(:first-of-type) {
+    margin-bottom: 3rem;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body.matchmaking #zone1 .block.edito p:not(:first-of-type) {
+    width: calc(50% - 1rem);
+    margin-top: 2rem;
+  }
+  body.matchmaking #zone1 .block.edito p:not(:first-of-type):last-of-type {
+    text-align: left;
+  }
+}
+
+body.matchmaking #zone1 .block.edito p:nth-of-type(2) {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  body.matchmaking #zone1 .block.edito p:nth-of-type(2) {
+    text-align: right;
+  }
+}
+
+body.matchmaking #zone2 .block.edito h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  border: 0;
+  margin: 0 0 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  body.matchmaking #zone2 .block.edito h2 {
+    font-size: 4rem;
+  }
+}
+
+body.matchmaking #zone2 .block.edito p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 2.4rem;
+}
+
+body.matchmaking #zone2 .block.edito p:nth-of-type(2) {
+  border-bottom: 0.1rem solid #c8ccd7;
+  padding-bottom: 2rem;
+}
+
+body.matchmaking #zone2 .block.edito .inside {
+  padding: 1.5rem;
+}
+
+body.matchmaking #zone2 .block.edito .inside::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  body.matchmaking #zone2 .block.edito .inside {
+    padding: 7.8rem 13.1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body.matchmaking #zone2 .block.edito .inside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body.matchmaking #zone2 .block.edito h2,
+  body.matchmaking #zone2 .block.edito p,
+  body.matchmaking #zone2 .block.edito ul {
+    float: left;
+    width: calc(50% + 1.5rem);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body.matchmaking #zone2 .block.edito img {
+    float: right;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.matchmaking #zone2 .block.edito img {
+    width: 42.7rem;
+    height: 42.7rem;
+  }
+}
+
+body.matchmaking #zone2 .block.edito .style2 {
+  color: #8C909E;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  line-height: 3.3;
+  text-transform: uppercase;
+}
+
+body.matchmaking #zone2 .block.edito:first-of-type {
+  background-color: #F3F6FB;
+  margin-left: -6.3rem;
+  margin-right: -6.3rem;
+}
+
+body.matchmaking #zone2 .block.edito:first-of-type img {
+  max-height: 42.7rem;
+}
+
+@media screen and (max-width: 767px) {
+  body.matchmaking #zone2 .block.edito:first-of-type h2 {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
+    order: 5;
+  }
+  body.matchmaking #zone2 .block.edito:first-of-type img {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+    margin-bottom: 1rem;
+  }
+  body.matchmaking #zone2 .block.edito:first-of-type p:first-of-type {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  body.matchmaking #zone2 .block.edito:first-of-type p:nth-of-type(2) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  body.matchmaking #zone2 .block.edito:first-of-type p:last-of-type {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+body.matchmaking #zone2 .block.edito:last-of-type {
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+body.matchmaking #zone2 .block.edito:last-of-type::before {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  background: #F3F6FB;
+  z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+  body.matchmaking #zone2 .block.edito:last-of-type::before {
+    right: -4rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body.matchmaking #zone2 .block.edito:last-of-type::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
+
+body.matchmaking #zone2 .block.edito:last-of-type p {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.matchmaking #zone2 .block.edito:last-of-type .inside {
+    padding: 7.8rem 13.1rem 7.8rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body.matchmaking #zone2 .block.edito:last-of-type img {
+    height: 41.2rem;
+    width: 67.3rem;
+    position: absolute;
+    right: -10.3rem;
+  }
+}
+
+body.matchmaking #zone2 .block.edito:last-of-type h2,
+body.matchmaking #zone2 .block.edito:last-of-type p,
+body.matchmaking #zone2 .block.edito:last-of-type ul {
+  padding-right: 3%;
+}
+
+@media screen and (max-width: 767px) {
+  body.matchmaking #zone2 .block.edito:last-of-type h2 {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  body.matchmaking #zone2 .block.edito:last-of-type img {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    margin-bottom: 1rem;
+  }
+  body.matchmaking #zone2 .block.edito:last-of-type p {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  body.matchmaking #zone2 .block.edito:last-of-type ul {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
+body.matchmaking .list-articles {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  body.matchmaking .list-articles .grid-la-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+body.matchmaking .list-articles .gla-item {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  body.matchmaking .list-articles .gla-item {
+    margin: auto;
+    min-width: 30rem;
+  }
+}
+
+body.matchmaking .list-articles .gla-item img {
+  width: 28.9rem;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body.matchmaking .list-articles .gla-item img {
+    height: 28.9rem;
+  }
+}
+
+body.matchmaking .list-articles .gla-item-content {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -10936,7 +11275,8 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
   text-align: center;
 }
 
-.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .partner .main-title-with-link > h3, .partner .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .partner .main-title-with-link > h1, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title, .partner .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .partner .main-title-with-link > h2, .partner .partner-list .main-title-with-link > h1, .partner-list .partner .main-title-with-link > h1, .partner .main-title-with-link > .sr-group-title, .partner body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316899 .main-title-with-link > h2, .partner .block.article-title body.node1316899 .main-title-with-link > h2,
+.partner .main-title-with-link > .main-title, .partner .catalog-order .main-title-with-link > .block-title, .catalog-order .partner .main-title-with-link > .block-title, .partner body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .partner .main-title-with-link > h3, .partner .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .partner .main-title-with-link > h1, .partner .main-title-with-link > .app-optimize-visit__title, .partner .main-title-with-link > .subheader__title, .partner .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .partner .main-title-with-link > .at-main-title, .partner .block.article-title .main-title-with-link > .at-main-title, .block.article-title .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom .main-title-with-link > h2, .block.edito-custom .partner .main-title-with-link > h2, .partner .block.article-title .main-title-with-link > h2, .block.article-title .partner .main-title-with-link > h2, .partner .home-news .main-title-with-link > .block-title, .home-news .partner .main-title-with-link > .block-title, .partner body.matchmaking .main-title-with-link > h1, body.matchmaking .partner .main-title-with-link > h1,
+.partner body.matchmaking .main-title-with-link > .la-main-title, body.matchmaking .partner .main-title-with-link > .la-main-title, .partner .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .partner .main-title-with-link > h2, .partner .partner-list .main-title-with-link > h1, .partner-list .partner .main-title-with-link > h1, .partner .main-title-with-link > .sr-group-title, .partner body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316899 .main-title-with-link > h2, .partner .block.article-title body.node1316899 .main-title-with-link > h2,
 .partner body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316958 .main-title-with-link > h2, .partner .block.article-title body.node1316958 .main-title-with-link > h2,
 .partner body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316963 .main-title-with-link > h2, .partner .block.article-title body.node1316963 .main-title-with-link > h2,
 .partner body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .partner .main-title-with-link > .at-main-title, .partner .block.edito-custom body.node1316971 .main-title-with-link > h2, .partner .block.article-title body.node1316971 .main-title-with-link > h2 {
@@ -11153,7 +11493,8 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
   border: 0;
 }
 
-.list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
+.list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.matchmaking h1, body.matchmaking .list-articles.block.block-page.prix-inno .main-title-with-link h1,
+.list-articles.block.block-page.prix-inno .main-title-with-link body.matchmaking .la-main-title, body.matchmaking .list-articles.block.block-page.prix-inno .main-title-with-link .la-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title {
@@ -11166,7 +11507,8 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
+  .list-articles.block.block-page.prix-inno .main-title-with-link .main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-inno .main-title-with-link h3, .list-articles.block.block-page.prix-inno .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-inno .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-inno .main-title-with-link .block-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.matchmaking h1, body.matchmaking .list-articles.block.block-page.prix-inno .main-title-with-link h1,
+  .list-articles.block.block-page.prix-inno .main-title-with-link body.matchmaking .la-main-title, body.matchmaking .list-articles.block.block-page.prix-inno .main-title-with-link .la-main-title, .list-articles.block.block-page.prix-inno .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-inno .main-title-with-link h2, .list-articles.block.block-page.prix-inno .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-inno .main-title-with-link h1, .list-articles.block.block-page.prix-inno .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-inno .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-inno .main-title-with-link .at-main-title {
@@ -11472,7 +11814,8 @@ html[lang='en'] .list-articles.block.block-page.prix-inno .grid-la-list .gla-ite
   }
 }
 
-.list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
+.list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.matchmaking h1, body.matchmaking .list-articles.block.block-page.prix-secteurs .main-title-with-link h1,
+.list-articles.block.block-page.prix-secteurs .main-title-with-link body.matchmaking .la-main-title, body.matchmaking .list-articles.block.block-page.prix-secteurs .main-title-with-link .la-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
 .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title {
@@ -11485,7 +11828,8 @@ html[lang='en'] .list-articles.block.block-page.prix-inno .grid-la-list .gla-ite
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
+  .list-articles.block.block-page.prix-secteurs .main-title-with-link .main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.prix-secteurs .main-title-with-link h3, .list-articles.block.block-page.prix-secteurs .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .subheader__title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.prix-secteurs .main-title-with-link .block-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.matchmaking h1, body.matchmaking .list-articles.block.block-page.prix-secteurs .main-title-with-link h1,
+  .list-articles.block.block-page.prix-secteurs .main-title-with-link body.matchmaking .la-main-title, body.matchmaking .list-articles.block.block-page.prix-secteurs .main-title-with-link .la-main-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.prix-secteurs .main-title-with-link h2, .list-articles.block.block-page.prix-secteurs .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.prix-secteurs .main-title-with-link h1, .list-articles.block.block-page.prix-secteurs .main-title-with-link .sr-group-title, .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title,
   .list-articles.block.block-page.prix-secteurs .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.prix-secteurs .main-title-with-link .at-main-title {
@@ -13464,7 +13808,8 @@ body.node1316899 .quicklinks-cta--large {
   }
 }
 
-.list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .sr-group-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
+.list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.matchmaking h1, body.matchmaking .list-articles.block.block-page.world-champions-tour .main-title-with-link h1,
+.list-articles.block.block-page.world-champions-tour .main-title-with-link body.matchmaking .la-main-title, body.matchmaking .list-articles.block.block-page.world-champions-tour .main-title-with-link .la-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .sr-group-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title {
@@ -13477,7 +13822,8 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 @media screen and (min-width: 1024px) {
-  .list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .sr-group-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
+  .list-articles.block.block-page.world-champions-tour .main-title-with-link .main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .catalog-order .block-title, .catalog-order .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .list-articles.block.block-page.world-champions-tour .main-title-with-link h3, .list-articles.block.block-page.world-champions-tour .main-title-with-link .node1315331 .contacts-list h1, .node1315331 .contacts-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .app-optimize-visit__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .subheader__title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom .at-main-title, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title .at-main-title, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.edito-custom h2, .block.edito-custom .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .block.article-title h2, .block.article-title .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .home-news .block-title, .home-news .list-articles.block.block-page.world-champions-tour .main-title-with-link .block-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.matchmaking h1, body.matchmaking .list-articles.block.block-page.world-champions-tour .main-title-with-link h1,
+  .list-articles.block.block-page.world-champions-tour .main-title-with-link body.matchmaking .la-main-title, body.matchmaking .list-articles.block.block-page.world-champions-tour .main-title-with-link .la-main-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link .page-highlight .block.edito h2, .page-highlight .block.edito .list-articles.block.block-page.world-champions-tour .main-title-with-link h2, .list-articles.block.block-page.world-champions-tour .main-title-with-link .partner-list h1, .partner-list .list-articles.block.block-page.world-champions-tour .main-title-with-link h1, .list-articles.block.block-page.world-champions-tour .main-title-with-link .sr-group-title, .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316899 .at-main-title, body.node1316899 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
   .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316958 .at-main-title, body.node1316958 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
   .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
   .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title {
