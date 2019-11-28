@@ -1277,6 +1277,10 @@ body.node1316958 .article-wrapper .article-content h4, .error-page .intro h2, .s
   color: #383838;
 }
 
+body.node1316971 .more-infos-contact__inner {
+  margin: auto;
+}
+
 body.node1316971 .main-title, body.node1316971 .catalog-order .block-title, .catalog-order body.node1316971 .block-title, body.node1316971 body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro body.node1316971 h3, body.node1316971 .node1315331 .contacts-list h1, .node1315331 .contacts-list body.node1316971 h1, body.node1316971 .app-optimize-visit__title, body.node1316971 .subheader__title, body.node1316971 .block.edito-custom .at-main-title, .block.edito-custom body.node1316971 .at-main-title, body.node1316971 .block.article-title .at-main-title, .block.article-title body.node1316971 .at-main-title, body.node1316971 .home-news .block-title, .home-news body.node1316971 .block-title, body.node1316971 .page-highlight .block.edito h2, .page-highlight .block.edito body.node1316971 h2, body.node1316971 .partner-list h1, .partner-list body.node1316971 h1, body.node1316971 .sr-group-title,
 body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block.edito-custom body.node1316971 h2, body.node1316971 .block.article-title h2, .block.article-title body.node1316971 h2 {
   text-align: center;
