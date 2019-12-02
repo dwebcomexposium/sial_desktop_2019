@@ -13035,12 +13035,6 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
   border-bottom: 0.1rem solid #e3e9ea;
 }
 
-@media screen and (min-width: 768px) {
-  .site-banner {
-    position: fixed;
-  }
-}
-
 .site-banner::after {
   content: '';
   display: none;
