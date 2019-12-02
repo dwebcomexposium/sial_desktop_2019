@@ -1,1 +1,23 @@
-!function(e){e(function(){e(".partner-gallery.cxp-swiper").each(function(){new Swiper(e(this).get(0),{slidesPerView:"auto",loop:!1,effect:"slide",centeredSlides:!0,spaceBetween:0,grabCursor:!0,wrapperClass:"swiper-wrapper",slideClass:"slider-item",slideActiveClass:"slider-item-active",allowTouchMove:!0,initialSlide:Math.round((e(this).find(".slider-item").length-1)/2),autoplay:{delay:2500}})})})}(jQuery);
+(function($) {
+    $(function() {
+        $('.partner-gallery.cxp-swiper').each(function() {
+            var slider = new Swiper($(this).get(0), {
+                slidesPerView: 'auto',
+                loop: false,
+                effect: 'slide',
+                centeredSlides: true,
+                spaceBetween: 0,
+                grabCursor: true,
+                wrapperClass: 'swiper-wrapper',
+                slideClass: 'slider-item',
+                slideActiveClass: 'slider-item-active',
+                allowTouchMove: true,
+                initialSlide: Math.round(($(this).find('.slider-item').length - 1) / 2),
+                autoplay: {
+                    delay: 2500
+                }
+            });
+        });
+    });
+})(jQuery);
+//# sourceMappingURL=partners.js.map

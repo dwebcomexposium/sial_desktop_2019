@@ -1,1 +1,24 @@
-!function(n){n(function(){function t(){var t=n(".social-sharing")[0];n(".social-sharing .sr-title").text("Partager cet évènement");var e=t.getBoundingClientRect().height,a=n(".article-program .article-title img").offset().top,i=parseInt(a,10)-parseInt(e,10)-40;t.style.top=i+"px"}if(n("body").hasClass("article-program")||n("body").hasClass("article-node1310667")){var e=n(".article-intro > p").clone();n(".article-title .at-content").append(e),t(),n(window).resize(function(){t()})}})}(jQuery);
+/**
+ * Article program - social sharing block placement
+ */
+(function($) {
+    $(function() {
+        var calculateSocialSharingPos = function() {
+            var socialSharingDiv = $('.social-sharing')[0];
+            $('.social-sharing .sr-title').text('Partager cet évènement');
+            var divHeight = socialSharingDiv.getBoundingClientRect().height;
+            var titleProps = $('.article-program .article-title img').offset().top;
+            var topPos = parseInt(titleProps, 10) - parseInt(divHeight, 10) - 40;
+            socialSharingDiv.style.top = topPos + 'px';
+        };
+        if ($('body').hasClass('article-program') || $('body').hasClass('article-node1310667')) {
+            var subtitleClone = $('.article-intro > p').clone();
+            $('.article-title .at-content').append(subtitleClone);
+            calculateSocialSharingPos();
+            $(window).resize(function() {
+                calculateSocialSharingPos();
+            });
+        }
+    });
+})(jQuery);
+//# sourceMappingURL=article-program.js.map
