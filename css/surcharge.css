@@ -1387,11 +1387,22 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
 .home-events body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316963 .main-title-with-link > h2, .home-events .block.article-title body.node1316963 .main-title-with-link > h2,
 .home-events body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316971 .main-title-with-link > h2, .home-events .block.article-title body.node1316971 .main-title-with-link > h2 {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 4.2rem;
   font-weight: 900;
-  line-height: 6rem;
   color: #585858;
   text-transform: none;
+  font-size: 2.6rem;
+  line-height: 4.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home-events .main-title-with-link > .main-title, .home-events .catalog-order .main-title-with-link > .block-title, .catalog-order .home-events .main-title-with-link > .block-title, .home-events body.node1309141 .contacts-list .intro .main-title-with-link > h3, body.node1309141 .contacts-list .intro .home-events .main-title-with-link > h3, .home-events .node1315331 .contacts-list .main-title-with-link > h1, .node1315331 .contacts-list .home-events .main-title-with-link > h1, .home-events .main-title-with-link > .app-optimize-visit__title, .home-events .main-title-with-link > .subheader__title, .home-events .block.edito-custom .main-title-with-link > .at-main-title, .block.edito-custom .home-events .main-title-with-link > .at-main-title, .home-events .block.article-title .main-title-with-link > .at-main-title, .block.article-title .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom .main-title-with-link > h2, .block.edito-custom .home-events .main-title-with-link > h2, .home-events .block.article-title .main-title-with-link > h2, .block.article-title .home-events .main-title-with-link > h2, .home-events .home-news .main-title-with-link > .block-title, .home-news .home-events .main-title-with-link > .block-title, .home-events body.matchmaking .main-title-with-link > h1, body.matchmaking .home-events .main-title-with-link > h1,
+  .home-events body.matchmaking .main-title-with-link > .la-main-title, body.matchmaking .home-events .main-title-with-link > .la-main-title, .home-events body.matchmaking #zone2 .block.edito .main-title-with-link > h2, body.matchmaking #zone2 .block.edito .home-events .main-title-with-link > h2, .home-events .page-highlight .block.edito .main-title-with-link > h2, .page-highlight .block.edito .home-events .main-title-with-link > h2, .home-events .partner-list .main-title-with-link > h1, .partner-list .home-events .main-title-with-link > h1, .home-events body.node1318534 #zone1 .edito .main-title-with-link > h2, body.node1318534 #zone1 .edito .home-events .main-title-with-link > h2, .home-events body.node1318534 .contacts-list .main-title-with-link > .block-title, body.node1318534 .contacts-list .home-events .main-title-with-link > .block-title, .home-events .main-title-with-link > .sr-group-title, .home-events body.node1316899 .main-title-with-link > .at-main-title, body.node1316899 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316899 .main-title-with-link > h2, .home-events .block.article-title body.node1316899 .main-title-with-link > h2,
+  .home-events body.node1316958 .main-title-with-link > .at-main-title, body.node1316958 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316958 .main-title-with-link > h2, .home-events .block.article-title body.node1316958 .main-title-with-link > h2,
+  .home-events body.node1316963 .main-title-with-link > .at-main-title, body.node1316963 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316963 .main-title-with-link > h2, .home-events .block.article-title body.node1316963 .main-title-with-link > h2,
+  .home-events body.node1316971 .main-title-with-link > .at-main-title, body.node1316971 .home-events .main-title-with-link > .at-main-title, .home-events .block.edito-custom body.node1316971 .main-title-with-link > h2, .home-events .block.article-title body.node1316971 .main-title-with-link > h2 {
+    line-height: 6rem;
+    font-size: 4.2rem;
+  }
 }
 
 body.node1316963 .article-content p:nth-of-type(2), body.node1316958 .article-wrapper .article-content h3,
@@ -5078,10 +5089,18 @@ body.article_list .more-infos-contact {
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
+  max-width: 61rem;
+}
+
+@media screen and (min-width: 480px) {
+  .sial-network {
+    margin: 0 auto 3rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .sial-network {
+    max-width: none;
     float: left;
     width: 48.8%;
     min-height: 44rem;
@@ -7064,9 +7083,9 @@ body.page-rubric #zone4 .block.block-page.edito.edito-custom, body.page-rubric #
 
 .exhibitors-slider {
   position: relative;
-  margin-top: 10rem;
-  margin-bottom: 6rem;
   padding-bottom: 12rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -7077,10 +7096,20 @@ body.page-rubric #zone4 .block.block-page.edito.edito-custom, body.page-rubric #
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .exhibitors-slider {
+    margin-top: 10rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .front .exhibitors-slider {
     padding-top: 0;
   }
+}
+
+.exhibitors-slider .catal-ex-header {
+  display: none;
 }
 
 .exhibitors-slider::before {
@@ -7470,7 +7499,7 @@ body.page-rubric #zone4 .block.block-page.edito.edito-custom, body.page-rubric #
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .home-events .grid-la-list {
     margin-left: -3rem;
   }
@@ -8479,6 +8508,8 @@ body.node1316971 .error-page .at-main-title {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .home-search .ql-list .btn-primary,
@@ -9763,7 +9794,6 @@ body.matchmaking .list-articles .gla-item-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -2.5rem;
   padding: 4rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -9773,11 +9803,20 @@ body.matchmaking .list-articles .gla-item-content {
   background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
+  max-width: 61rem;
+  margin: 0 -2.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .nf-main-content {
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .nf-main-content {
     min-height: 44rem;
+    max-width: none;
     margin: 0;
     border-radius: 0.8rem;
   }
