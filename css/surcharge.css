@@ -285,7 +285,7 @@ img {
 .subheader__btn, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.node126547 .mod-catal .catal-ed-activity .catal-ed-activity-link, body.node126547 .mod-catal.catal-other-ex .catal-other-ex-actions a, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
-body.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.node126547 .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.node126547 .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, .pl-trigger, .partner .main-title-with-link .link-view-all, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+body.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.node126547 .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.node126547 .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .pl-trigger, .partner .main-title-with-link .link-view-all, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 0.9rem 2.6rem 1rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -303,12 +303,13 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1, .home-even
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  outline: 0;
 }
 
 .subheader__btn:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.node126547 .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.node126547 .mod-catal.catal-other-ex .catal-other-ex-actions a:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
-body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.node126547 .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.node126547 .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.node126547 .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.node126547 .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -10427,6 +10428,267 @@ body.catalogue {
   background-color: #fff;
 }
 
+body.catalogue #indexModal {
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  border: 0;
+  padding: 3rem;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+body.catalogue #indexModal .m-btn-to-close {
+  top: 0.5rem;
+  right: 0.5rem;
+  background: #F85C29;
+}
+
+body.catalogue #indexModal .m-btn-to-close i.icon-catal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body.catalogue #indexModal .m-btn-to-close i.icon-catal:before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: '\271a';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-size: 1.7rem;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha,
+body.catalogue .esf-results-filter-alpha {
+  color: #383838;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue #indexModal .catal-results-index-alpha,
+  body.catalogue .esf-results-filter-alpha {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-label,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-filter-label,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-label,
+body.catalogue .esf-results-filter-alpha .esf-results-filter-label {
+  font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.1rem;
+  margin: 0 0 1.5rem;
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-label,
+  body.catalogue #indexModal .catal-results-index-alpha .esf-results-filter-label,
+  body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-label,
+  body.catalogue .esf-results-filter-alpha .esf-results-filter-label {
+    margin: 0 2rem 0 0;
+    text-align: left;
+  }
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 0 -1rem;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list,
+  body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list,
+  body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list,
+  body.catalogue .esf-results-filter-alpha .esf-results-alpha-list {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 0 0 0 auto;
+  }
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden),
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden),
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden),
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) {
+  margin: 0 0 1rem;
+  letter-spacing: normal;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
+  border: 0.1rem solid rgba(56, 56, 56, 0.5);
+  border-radius: 0.8rem;
+  color: rgba(56, 56, 56, 0.5);
+  text-align: center;
+  padding: 0.5rem 0.62rem;
+  line-height: 2.4rem;
+  min-width: 2.6rem;
+  background: #fff;
+  cursor: not-allowed;
+}
+
+@media screen and (min-width: 1280px) {
+  body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden),
+  body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden),
+  body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden),
+  body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) {
+    margin: 0;
+  }
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='123'],
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'],
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='123'],
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'] {
+  border-radius: 1rem;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='123'] a:before,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'] a:before,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='123'] a:before,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'] a:before {
+  border-radius: 1rem;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(:first-of-type):not(:nth-child(1)),
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden):not(:first-of-type):not(:nth-child(1)),
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(:first-of-type):not(:nth-child(1)),
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(:first-of-type):not(:nth-child(1)) {
+  margin-left: 0.8rem;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden).current,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden).current,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden).current,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden).current {
+  color: #F85C29;
+  border-color: #F85C29;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):hover a, body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):active a,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):hover a,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):active a,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a {
+  color: #fff;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):hover a:before, body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):active a:before,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a:before,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a:before,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):hover a:before,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden):not(.current):active a:before,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a:before,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a:before {
+  border-color: #F85C29;
+  background: #F85C29;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden) a,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden) a,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden) a,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) a {
+  display: block;
+  text-decoration: none;
+  color: #383838;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  z-index: 1;
+  position: relative;
+  cursor: pointer;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden) a:before,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden) a:before,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden) a:before,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) a:before {
+  content: '';
+  position: absolute;
+  -webkit-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  -o-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  border: 0.1rem solid #383838;
+  border-radius: 0.8rem;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  height: calc(100% + 1rem + 0.1rem);
+  width: calc(100% + 1.24rem + 0.1rem);
+  z-index: -1;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='all'],
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'],
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='all'],
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] {
+  border-radius: 2.3rem;
+  padding: 0.5rem 1.5rem;
+}
+
+body.catalogue #indexModal .catal-results-index-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='all'] a:before,
+body.catalogue #indexModal .catal-results-index-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] a:before,
+body.catalogue .esf-results-filter-alpha .catal-results-index-alpha-list > li:not(.js-hidden)[data-letter='all'] a:before,
+body.catalogue .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] a:before {
+  width: calc(100% + 3rem);
+}
+
 body.catalogue .form-select {
   border-radius: 0.7rem !important;
   border: 0;
@@ -10691,6 +10953,17 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-s
   margin: 4rem 0 0;
 }
 
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search .visually-hidden {
+  position: relative !important;
+  height: auto !important;
+  width: auto !important;
+  clip: auto !important;
+}
+
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search .icon-catal-search {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search {
     margin: 0;
@@ -10741,12 +11014,21 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-a
   outline: 0;
 }
 
-body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header p {
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header .esf-as-title {
   margin: 0;
   font-size: inherit;
-  font-weight: inherit;
   font-family: inherit;
   line-height: inherit;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  font-weight: 500;
+  color: inherit;
+  background: transparent !important;
+  border-radius: 0;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:before, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:after {
@@ -10774,158 +11056,6 @@ body.catalogue .exhibitor-search-form #esf-results-zone {
 body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter {
   padding: 0;
   color: #383838;
-}
-
-@media screen and (min-width: 1280px) {
-  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-filter-label {
-  font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 3.1rem;
-  margin: 0 0 1.5rem;
-  display: block;
-  text-align: center;
-}
-
-@media screen and (min-width: 1280px) {
-  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-filter-label {
-    margin: 0 2rem 0 0;
-    text-align: left;
-  }
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: 0 0 -1rem;
-  list-style: none;
-  padding: 0;
-}
-
-@media screen and (min-width: 1280px) {
-  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    margin: 0 0 0 auto;
-  }
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) {
-  margin: 0 0 1rem;
-  letter-spacing: normal;
-  font-size: 1.6rem;
-  font-weight: 500;
-  font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  border: 0.1rem solid rgba(56, 56, 56, 0.5);
-  border-radius: 0.8rem;
-  color: rgba(56, 56, 56, 0.5);
-  text-align: center;
-  padding: 0.5rem 0.62rem;
-  line-height: 2.4rem;
-  min-width: 2.6rem;
-  background: #fff;
-  cursor: not-allowed;
-}
-
-@media screen and (min-width: 1280px) {
-  body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) {
-    margin: 0;
-  }
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'] {
-  border-radius: 1rem;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='123'] a:before {
-  border-radius: 1rem;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(:first-of-type):not(:nth-child(1)) {
-  margin-left: 0.8rem;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden).current {
-  color: #F85C29;
-  border-color: #F85C29;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a, body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a {
-  color: #fff;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):hover a:before, body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden):not(.current):active a:before {
-  border-color: #F85C29;
-  background: #F85C29;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) a {
-  display: block;
-  text-decoration: none;
-  color: #383838;
-  -webkit-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
-  z-index: 1;
-  position: relative;
-  cursor: pointer;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden) a:before {
-  content: '';
-  position: absolute;
-  -webkit-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -o-transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  border: 0.1rem solid #383838;
-  border-radius: 0.8rem;
-  background: #fff;
-  top: 50%;
-  left: 50%;
-  height: calc(100% + 1rem + 0.1rem);
-  width: calc(100% + 1.24rem + 0.1rem);
-  z-index: -1;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] {
-  border-radius: 2.3rem;
-  padding: 0.5rem 1.5rem;
-}
-
-body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha .esf-results-alpha-list > li:not(.js-hidden)[data-letter='all'] a:before {
-  width: calc(100% + 3rem);
 }
 
 body.catalogue .block.catal-results {
@@ -11006,6 +11136,10 @@ body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-so
   -webkit-box-flex: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
+}
+
+body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index {
+  margin: 0;
 }
 
 body.catalogue .block.social-sharing {
@@ -11491,6 +11625,13 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand {
   margin-top: 1.5rem;
   font-size: 1.4rem;
+}
+
+body.catalogue .catal-ex-item .catal-ex-item-content > .catal-ex-item-stand {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-top: 1rem;
 }
 
 body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title {
@@ -13541,7 +13682,9 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 
 .site-wrapper,
 .global-wrapper > .wrapper,
-.global-wrapper > .subheader__wrapper {
+.global-wrapper > .subheader__wrapper,
+#main > .wrapper,
+#main > .subheader__wrapper {
   margin-bottom: 0;
   padding: 0 2.5rem;
   background: none;
@@ -13552,7 +13695,9 @@ html[lang='en'] .list-articles.block.block-page.prix-secteurs .slider-content .l
 @media screen and (min-width: 768px) {
   .site-wrapper,
   .global-wrapper > .wrapper,
-  .global-wrapper > .subheader__wrapper {
+  .global-wrapper > .subheader__wrapper,
+  #main > .wrapper,
+  #main > .subheader__wrapper {
     padding: 0 1.5rem;
   }
 }
