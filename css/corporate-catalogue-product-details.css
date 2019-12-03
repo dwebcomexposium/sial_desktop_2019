@@ -199,7 +199,6 @@
   list-style-type: none;
   float: left;
   margin-left: 0.7rem;
-  font-size: ;
 }
 .mod-catal .catal-prd-main .catal-prd-stand-item:not(:first-child) {
   border-left: 1px solid #e3e9ea;
