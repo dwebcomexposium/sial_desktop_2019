@@ -324,7 +324,8 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .hom
 }
 
 .node1315331 .contacts-list .intro a.externe, .testimonials__quote__link, .why-visit__item__link, body.node126547 .mod-catal .catal-ed-activity .catal-ed-activity-item a, .gla-btn-read-more, .home-search .ql-list .btn-primary,
-.error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
+.error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
   position: relative;
   display: inline-block;
   padding: 0.2rem 0;
@@ -345,7 +346,8 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .hom
 }
 
 .node1315331 .contacts-list .intro a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.node126547 .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
-.error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
+.error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -361,8 +363,10 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, .hom
 }
 
 .node1315331 .contacts-list .intro a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.node126547 .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
-.error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .node1315331 .contacts-list .intro a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.node126547 .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
-.error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
+.error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .node1315331 .contacts-list .intro a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.node126547 .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
+.error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
   width: 100%;
 }
 
@@ -11249,17 +11253,20 @@ body.catalogue .catal-ex-item.is-top-premium {
   }
 }
 
+body.catalogue .catal-ex-item.is-top-premium .msl-brand-content,
 body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-content {
   padding-top: 3.8rem;
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item.is-top-premium .msl-brand-content,
   body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-content {
     padding-top: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item.is-top-premium .msl-brand-content,
   body.catalogue .catal-ex-item.is-top-premium .catal-ex-item-content {
     padding-bottom: 0;
   }
@@ -11391,6 +11398,7 @@ body.catalogue .catal-ex-item .catal-ex-item-img a:hover img, body.catalogue .ca
   transform: scale(1.08);
 }
 
+body.catalogue .catal-ex-item .msl-brand-content,
 body.catalogue .catal-ex-item .catal-ex-item-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11409,10 +11417,12 @@ body.catalogue .catal-ex-item .catal-ex-item-content {
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .msl-brand-content,
   body.catalogue .catal-ex-item .catal-ex-item-content {
     padding: 0 0 3rem;
     display: block;
   }
+  body.catalogue .catal-ex-item .msl-brand-content::after,
   body.catalogue .catal-ex-item .catal-ex-item-content::after {
     clear: both;
     content: "";
@@ -11420,6 +11430,9 @@ body.catalogue .catal-ex-item .catal-ex-item-content {
   }
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title {
   margin: 0;
   min-height: 0;
@@ -11431,6 +11444,9 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title 
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title,
+  body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title,
+  body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title,
   body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title {
     padding: 0 3rem 0 0;
     float: left;
@@ -11438,31 +11454,76 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title 
   }
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .catal-ex-item-buttons,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .catal-ex-item-buttons,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .catal-ex-item-buttons,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons {
   display: none;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .msl-brand-title,
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .catal-ex-item-title,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .msl-brand-title,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .catal-ex-item-title,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .msl-brand-title,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .catal-ex-item-title,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .msl-brand-title,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title {
   font-size: 1.8rem;
   line-height: 2.8rem;
   font-weight: 900;
   color: #383838;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
+  margin-bottom: 0;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .msl-brand-title a,
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .catal-ex-item-title a,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .msl-brand-title a,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .catal-ex-item-title a,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .msl-brand-title a,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .catal-ex-item-title a,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .msl-brand-title a,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title a {
   color: inherit !important;
   text-decoration: none;
 }
 
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title a:hover, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title a:active {
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .msl-brand-title a:hover, body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .msl-brand-title a:active,
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .catal-ex-item-title a:hover,
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .catal-ex-item-title a:active,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .msl-brand-title a:hover,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .msl-brand-title a:active,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .catal-ex-item-title a:hover,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .catal-ex-item-title a:active,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .msl-brand-title a:hover,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .msl-brand-title a:active,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .catal-ex-item-title a:hover,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .catal-ex-item-title a:active,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .msl-brand-title a:hover,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .msl-brand-title a:active,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title a:hover,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-title a:active {
   text-decoration: underline;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .msl-brand-title a .icon-catal,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .msl-brand-title a .icon-catal,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .msl-brand-title a .icon-catal,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .msl-brand-title a .icon-catal {
+  font-size: 1.5rem;
+  color: #0c8192;
+  margin-right: 0.2rem;
+}
+
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .catal-ex-item-country,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .catal-ex-item-country,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .catal-ex-item-country,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-country {
   display: none;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
   width: 100%;
   height: 100%;
@@ -11488,6 +11549,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat,
   body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
     border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
     padding: 0 0 0 3rem;
@@ -11498,6 +11560,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
   }
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-iconlist,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconlist {
   padding-top: 2rem;
   margin-top: 0 !important;
@@ -11506,6 +11569,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-iconlist,
   body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconlist {
     padding-top: 0;
     margin-top: 0 !important;
@@ -11514,6 +11578,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   }
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-title,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-title {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
@@ -11531,6 +11596,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-title,
   body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-title {
     padding-top: 0;
     margin-top: 0 !important;
@@ -11539,12 +11605,14 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   }
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item {
   margin: 0;
   line-height: 2.6rem;
@@ -11553,28 +11621,35 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   color: #383838;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item:before,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item:before {
   content: '#';
   margin-right: -0.3rem;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item img,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item img {
   display: none;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a {
   color: inherit;
   text-decoration: none;
 }
 
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a:hover, body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a:active {
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a:hover, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a:active,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a:hover,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item a:active {
   text-decoration: underline;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item:not(:last-of-type),
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item:not(:last-of-type) {
   margin-bottom: 0.6rem;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more {
   -webkit-box-ordinal-group: 4;
   -ms-flex-order: 3;
@@ -11584,14 +11659,19 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   margin-top: 1.5rem;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link span,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link span {
   text-decoration: none;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link .icon-catal,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link .icon-catal {
   display: none;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-ex,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-desc,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-ex,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
   margin: 0 !important;
   padding: 0 !important;
@@ -11604,6 +11684,9 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
 }
 
 @media screen and (min-width: 1024px) {
+  body.catalogue .catal-ex-item .msl-brand-content .msl-brand-ex,
+  body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-desc,
+  body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-ex,
   body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
     float: left;
     width: 40%;
@@ -11611,6 +11694,9 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
   }
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-country,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-country,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-country,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-country {
   color: #383838;
   margin-top: 0.5rem;
@@ -11621,16 +11707,23 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-
   line-height: 1.5rem;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-txt,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-txt,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-txt,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-txt {
   font-size: 1.3rem;
   margin: 1.5rem 0 0;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-stand,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-stand,
+body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-stand,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-stand {
   margin-top: 1.5rem;
   font-size: 1.4rem;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content > .catal-ex-item-stand,
 body.catalogue .catal-ex-item .catal-ex-item-content > .catal-ex-item-stand {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
@@ -11638,6 +11731,9 @@ body.catalogue .catal-ex-item .catal-ex-item-content > .catal-ex-item-stand {
   margin-top: 1rem;
 }
 
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-group-title,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-group-title,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-group-title,
 body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title {
   padding: 0;
   width: 100%;
@@ -11645,12 +11741,18 @@ body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-group
   margin-bottom: 1.5rem;
 }
 
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex,
 body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
   padding: 0 !important;
   float: none;
   width: 100%;
 }
 
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor,
 body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -11660,6 +11762,9 @@ body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc 
   justify-content: flex-start;
 }
 
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor .catal-ex-item-exhibitor-title,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor .catal-ex-item-exhibitor-title,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor .catal-ex-item-exhibitor-title,
 body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor .catal-ex-item-exhibitor-title {
   margin-right: 1rem;
   color: #383838;
@@ -11669,20 +11774,60 @@ body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc 
   font-size: 1.6rem;
 }
 
-body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor .catal-ex-item-exhibitor-list {
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list {
   -webkit-box-flex: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.2rem;
 }
 
-body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item {
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item {
   margin: 0;
   padding: 0;
 }
 
-body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a {
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item a,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item a,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item a,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a {
   color: #383838;
   text-decoration: none;
   text-transform: uppercase;
@@ -11691,10 +11836,43 @@ body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc 
   letter-spacing: 0.104rem;
 }
 
-body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:hover, body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:active {
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item a:hover, body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item a:active,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item a:hover,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .msl-brand-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:active,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item a:hover,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item a:active,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item a:hover,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .msl-brand-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .msl-brand-ex-list .catal-ex-item-exhibitor-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .msl-brand-ex .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .msl-brand-ex-list .catal-ex-item-exhibitor-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .msl-brand-ex-item a:active,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:hover,
+body.catalogue.marque .catal-ex-item .catal-ex-item-content .catal-ex-item-desc .catal-ex-item-exhibitor-list .catal-ex-item-exhibitor-item a:active {
   text-decoration: underline;
 }
 
+body.catalogue.produit .catal-ex-item .msl-brand-content .msl-brand-group-title,
+body.catalogue.produit .catal-ex-item .msl-brand-content .catal-ex-item-group-title,
+body.catalogue.produit .catal-ex-item .catal-ex-item-content .msl-brand-group-title,
 body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title {
   padding: 0;
   width: 100%;
@@ -11702,6 +11880,7 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-grou
   margin-bottom: 1.5rem;
 }
 
+body.catalogue.produit .catal-ex-item .msl-brand-content .catal-ex-item-cat,
 body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat {
   width: 100%;
   float: none;
@@ -11711,6 +11890,7 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat 
   margin: 0;
 }
 
+body.catalogue.produit .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-iconitem,
 body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem {
   color: #383838;
   text-transform: uppercase;
@@ -11719,10 +11899,12 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat 
   letter-spacing: 0.104rem;
 }
 
+body.catalogue.produit .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-iconitem .icon-catal,
 body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-iconitem .icon-catal {
   margin-right: 0;
 }
 
+body.catalogue.produit .catal-ex-item .msl-brand-content .catal-ex-item-desc,
 body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
   display: none;
 }
