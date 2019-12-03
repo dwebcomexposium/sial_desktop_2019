@@ -8616,9 +8616,13 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line .g
 }
 
 .home-news .gla-item-img,
+<<<<<<< HEAD
 .home-news .gla-item .cx-lazy-load,
 .home-news body.node126547 .mod-catal.catal-other-ex .catal-other-ex-link .cx-lazy-load,
 body.node126547 .mod-catal.catal-other-ex .home-news .catal-other-ex-link .cx-lazy-load {
+=======
+.home-news .gla-item .cx-lazy-load {
+>>>>>>> 0c58e0bc32c102a71aa2184aec582071e08e8516
   width: 22%;
   min-width: 11rem;
   border-radius: 0;
