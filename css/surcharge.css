@@ -10148,6 +10148,7 @@ body.catalogue .exhibitor-search-form .esf-form-zone {
   margin: 0;
   padding: 0;
   border: 0;
+  position: static;
   background: transparent;
   border-radius: 0;
 }
@@ -10169,6 +10170,7 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-intro-title + .esf-sea
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line {
   margin: 0 auto;
   width: 100%;
+  position: relative;
   padding-bottom: 5rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -10255,6 +10257,7 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-sele
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search {
   border: 0;
+  outline: 0;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
   border-radius: 0.7rem;
   font-style: normal;
@@ -10447,6 +10450,8 @@ body.catalogue .exhibitor-search-form #esf-results-zone .esf-results-alpha-filte
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0 0 -1rem;
+  list-style: none;
+  padding: 0;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10697,12 +10702,12 @@ body.catalogue .catal-ex-item {
 body.catalogue .catal-ex-item:not(.is-top-premium) {
   width: 100%;
   margin-right: 0 !important;
+  margin-bottom: 3rem;
 }
 
 @media screen and (min-width: 768px) {
   body.catalogue .catal-ex-item:not(.is-top-premium) {
     width: calc((100% - 3rem) / 2);
-    margin-bottom: 3rem;
   }
   body.catalogue .catal-ex-item:not(.is-top-premium):nth-child(2n) {
     margin-right: 3rem !important;
