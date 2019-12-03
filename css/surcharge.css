@@ -6140,6 +6140,9 @@ body.article_list .more-infos-contact {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
   -webkit-transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: transform 7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -7369,6 +7372,10 @@ body.page-rubric .exhibitors-slider {
   border: 0;
 }
 
+.exhibitors-slider .catal-ex-item-stand {
+  display: none;
+}
+
 .exhibitors-slider .catal-ex-item-title {
   color: #383838;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
@@ -7398,6 +7405,10 @@ body.page-rubric .exhibitors-slider {
   display: block;
   width: auto;
   margin: auto;
+}
+
+.exhibitors-slider .catal-ex-item-buttons-small {
+  display: none;
 }
 
 .exhibitors-slider .catal-ex-item-cat-title {
@@ -9989,7 +10000,7 @@ body.matchmaking .list-articles .gla-item-content {
   }
 }
 
-.page-highlight .block.edito .cx-lazy-load {
+.page-highlight .block.edito img {
   min-width: 100%;
   max-width: 100%;
   height: 26.8rem;
@@ -9999,7 +10010,7 @@ body.matchmaking .list-articles .gla-item-content {
 }
 
 @media screen and (min-width: 768px) {
-  .page-highlight .block.edito .cx-lazy-load {
+  .page-highlight .block.edito img {
     float: left;
     width: 43.09064%;
     min-width: 0;
