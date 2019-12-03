@@ -10428,6 +10428,10 @@ body.catalogue {
   background-color: #fff;
 }
 
+body.catalogue .mysel-hist-bar {
+  display: none;
+}
+
 body.catalogue #indexModal {
   margin: 0;
   top: 0;
