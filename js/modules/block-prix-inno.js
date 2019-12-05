@@ -1,1 +1,67 @@
-!function(s){function i(){var a=window.matchMedia("(max-width:1023px)").matches;s(".list-articles.block.block-page.prix-inno").each(function(){var i=s(this),e=i.find(".list-grids-with-pagin");if(e.length){var n=e.hasClass("swiper-container-initialized");if(a){if(!n)new Swiper(e.get(0),{slidesPerView:"auto",loop:!1,effect:"slide",spaceBetween:30,wrapperClass:"grid-la-list",slideClass:"gla-item",slideActiveClass:"is-active",allowTouchMove:!0,initialSlide:0,centeredSlides:!0,watchSlidesProgress:!0,watchSlidesVisibility:!0,navigation:{nextEl:i.find(".prix-inno__arrows-container .arrow.right").get(0),prevEl:i.find(".prix-inno__arrows-container .arrow.left").get(0)},breakpoints:{480:{centeredSlides:!1}}})}else n&&e.get(0).swiper.destroy()}})}s(function(){s(".list-articles.block.block-page.prix-inno").each(function(){var i=s(this);i.find(".list-grids-with-pagin").length&&i.append(s('<div class="prix-inno__arrows-container"><span class="arrow left"></span><span class="arrow right"></span></div>'))}),i(),s(window).on("resizeend",i)})}(jQuery);
+(function($) {
+    $(function() {
+        /* Init mobile arrows */
+        $('.list-articles.block.block-page.prix-inno').each(function() {
+            var block = $(this);
+            var slider = block.find('.list-grids-with-pagin');
+            if (slider.length) {
+                $('<div class="prix-inno__progressbar custom_generic_progressBar" />').appendTo(block);
+                block.append($('<div class="prix-inno__arrows-container"><span class="arrow left"></span><span class="arrow right"></span></div>'));
+            }
+        });
+        refreshBlockSlider();
+        $(window).on('resizeend', refreshBlockSlider);
+    });
+    /* Init on Mobile, destroy on desktop */    function refreshBlockSlider() {
+        var isMobile = function() {
+            if ($('body').hasClass('body-mobile') || window.matchMedia('(max-width:1023px)').matches) {
+                return true;
+            } else {
+                return false;
+            }
+        };
+        $('.list-articles.block.block-page.prix-inno').each(function() {
+            var block = $(this);
+            var slider = block.find('.list-grids-with-pagin');
+            if (slider.length) {
+                var isInit = slider.hasClass('swiper-container-initialized');
+                if (isMobile()) {
+                    if (!isInit) {
+                        var SwiperSlider = new Swiper(slider.get(0), {
+                            slidesPerView: 'auto',
+                            loop: false,
+                            effect: 'slide',
+                            spaceBetween: 30,
+                            pagination: {
+                                el: block.find('.custom_generic_progressBar').get(0),
+                                type: 'progressbar'
+                            },
+                            wrapperClass: 'grid-la-list',
+                            slideClass: 'gla-item',
+                            slideActiveClass: 'is-active',
+                            allowTouchMove: true,
+                            initialSlide: 0,
+                            centeredSlides: true,
+                            watchSlidesProgress: true,
+                            watchSlidesVisibility: true,
+                            navigation: {
+                                nextEl: block.find('.prix-inno__arrows-container .arrow.right').get(0),
+                                prevEl: block.find('.prix-inno__arrows-container .arrow.left').get(0)
+                            },
+                            breakpoints: {
+                                480: {
+                                    centeredSlides: false
+                                }
+                            }
+                        });
+                    }
+                } else {
+                    if (isInit) {
+                        slider.get(0).swiper.destroy();
+                    }
+                }
+            }
+        });
+    }
+})(jQuery);
+//# sourceMappingURL=block-prix-inno.js.map

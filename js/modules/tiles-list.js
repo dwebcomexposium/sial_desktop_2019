@@ -1,5 +1,5 @@
 /**
- * Home sector Block
+ * Tiles list Block
  * @requires Swiper
  * @requires jQuery.resizeEnd
  */
@@ -11,7 +11,7 @@
         });
     });
     function init() {
-        $('.home-sectors').each(function(i, item) {
+        $('.block-custom.tiles-list').each(function(i, item) {
             var block = $(item);
             var container = block.find('.quicklinks');
             if (block.hasClass('block-initialised')) {
@@ -25,8 +25,6 @@
                     }
                 }
             } else {
-                // Move read more link outside container
-                block.find('.linkid794935').appendTo(block);
                 if (isMobile()) {
                     initSlider(block);
                 }
@@ -43,18 +41,18 @@
     }
     function initSlider(block) {
         var container = block.find('.quicklinks');
-        $('<div class="home-sectors__progressbar custom_generic_progressBar" />').appendTo(block);
+        $('<div class="tiles-list__progressbar custom_generic_progressBar" />').appendTo(block);
         new Swiper(container[0], {
             loop: true,
             slidesPerView: 'auto',
             spaceBetween: 20,
             wrapperClass: 'ql-list',
-            slideClass: 'ql-item:not(.linkid794935)',
+            slideClass: 'tiles-list__item',
             centeredSlides: true,
             centerInsufficientSlides: true,
             watchOverflow: true,
             pagination: {
-                el: block.find('.home-sectors__progressbar').get(0),
+                el: block.find('.tiles-list__progressbar').get(0),
                 type: 'progressbar'
             },
             on: {
@@ -67,7 +65,7 @@
     function destroySlider(block) {
         var container = block.find('.quicklinks');
         container.get(0).swiper.destroy();
-        block.find('.home-sectors__progressbar').remove();
+        block.find('.tiles-list__progressbar').remove();
     }
 })(jQuery);
-//# sourceMappingURL=home-sectors.js.map
+//# sourceMappingURL=tiles-list.js.map
