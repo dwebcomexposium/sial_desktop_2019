@@ -11008,14 +11008,14 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   content: none;
 }
 
-.home-images + .home-events + .home-search {
+.home-search-dark {
   position: relative;
   overflow: initial;
   padding: 7.1rem 1.5rem 7.2rem;
 }
 
 @media screen and (min-width: 768px) {
-  .home-images + .home-events + .home-search {
+  .home-search-dark {
     padding-right: 0;
     padding-left: 8.3334%;
   }
@@ -11057,19 +11057,36 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   }
 }
 
-.home-sectors + .home-search::after {
+.home-sectors + div {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 4.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home-sectors + div {
+    float: right;
+    margin-top: 8rem;
+  }
+}
+
+.home-sectors + div + .home-search {
+  clear: initial;
+}
+
+.home-sectors + div + .home-search::after {
   clear: both;
   content: "";
   display: block;
 }
 
 @media screen and (min-width: 768px) {
-  .home-sectors + .home-search {
+  .home-sectors + div + .home-search {
     margin-top: 8rem;
   }
 }
 
-.home-sectors + .home-search + .home-events {
+.home-sectors + div + .home-search + .home-events {
   clear: both;
 }
 
