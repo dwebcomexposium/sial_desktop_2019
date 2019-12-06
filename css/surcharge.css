@@ -11057,36 +11057,36 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   }
 }
 
-.home-sectors + div {
-  width: 25rem;
-  height: 25rem;
-  margin-top: 4.9rem;
-}
-
-@media screen and (min-width: 768px) {
-  .home-sectors + div {
-    float: right;
-    margin-top: 8rem;
-  }
-}
-
-.home-sectors + div + .home-search {
+.home-sectors + .home-search {
   clear: initial;
 }
 
-.home-sectors + div + .home-search::after {
+.home-sectors + .home-search::after {
   clear: both;
   content: "";
   display: block;
 }
 
 @media screen and (min-width: 768px) {
-  .home-sectors + div + .home-search {
+  .home-sectors + .home-search {
     margin-top: 8rem;
   }
 }
 
-.home-sectors + div + .home-search + .home-events {
+.home-sectors + .home-search + div {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 4.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home-sectors + .home-search + div {
+    float: right;
+    margin-top: 8rem;
+  }
+}
+
+.home-sectors + .home-search + div + .home-events {
   clear: both;
 }
 
