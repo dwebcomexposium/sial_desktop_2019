@@ -1,0 +1,1 @@
+{"version":3,"sources":["ouragan_sources/js/blocks/back-to-top.js"],"names":["$","document","on","e","preventDefault","animate","scrollTop","jQuery"],"mappings":"CAAA,SAAWA;IACTA,EAAE;QAEAA,EAAEC,UAAUC,GAAG,SAAS,gBAAgB,SAAUC;YAChDA,EAAEC;YACFJ,EAAE,cAAcK,QAAQ;gBACtBC,WAAW;eACV;;;EAPT,CAWGC","file":"back-to-top.js","sourceRoot":"../../../.."}
