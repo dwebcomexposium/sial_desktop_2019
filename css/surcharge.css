@@ -1763,6 +1763,7 @@ body.node1316971 .list-articles .grid-la-list .gla-item, body.node1316971 .list-
   }
 }
 
+body.page-events .social-sharing,
 body.article-program .social-sharing,
 body.sial-innovation .social-sharing {
   margin: 0;
@@ -1780,6 +1781,7 @@ body.sial-innovation .social-sharing {
   text-align: center;
 }
 
+body.page-events .social-sharing .sr-title,
 body.article-program .social-sharing .sr-title,
 body.sial-innovation .social-sharing .sr-title {
   color: #8C909E;
@@ -1792,6 +1794,7 @@ body.sial-innovation .social-sharing .sr-title {
   margin: 0.5rem 0 1.3rem;
 }
 
+body.page-events .social-sharing .sr-list,
 body.article-program .social-sharing .sr-list,
 body.sial-innovation .social-sharing .sr-list {
   padding: 0;
@@ -1807,6 +1810,7 @@ body.sial-innovation .social-sharing .sr-list {
   justify-content: center;
 }
 
+body.page-events .social-sharing .sr-item,
 body.article-program .social-sharing .sr-item,
 body.sial-innovation .social-sharing .sr-item {
   padding: 0;
@@ -1817,6 +1821,7 @@ body.sial-innovation .social-sharing .sr-item {
   position: relative;
 }
 
+body.page-events .social-sharing .sr-item a,
 body.article-program .social-sharing .sr-item a,
 body.sial-innovation .social-sharing .sr-item a {
   display: -webkit-box;
@@ -1841,6 +1846,8 @@ body.sial-innovation .social-sharing .sr-item a {
   user-select: none;
 }
 
+body.page-events .social-sharing .sr-item a .icon,
+body.page-events .social-sharing .sr-item a .sr-item-txt,
 body.article-program .social-sharing .sr-item a .icon,
 body.article-program .social-sharing .sr-item a .sr-item-txt,
 body.sial-innovation .social-sharing .sr-item a .icon,
@@ -1848,6 +1855,7 @@ body.sial-innovation .social-sharing .sr-item a .sr-item-txt {
   display: none;
 }
 
+body.page-events .social-sharing .sr-item a:before,
 body.article-program .social-sharing .sr-item a:before,
 body.sial-innovation .social-sharing .sr-item a:before {
   font-family: 'sial-icomoon' !important;
@@ -1867,32 +1875,39 @@ body.sial-innovation .social-sharing .sr-item a:before {
   transition: color 0.2s ease-in-out;
 }
 
+body.page-events .social-sharing .sr-item a.sr-link-mail:before,
 body.article-program .social-sharing .sr-item a.sr-link-mail:before,
 body.sial-innovation .social-sharing .sr-item a.sr-link-mail:before {
   content: '\2709';
 }
 
+body.page-events .social-sharing .sr-item a.sr-link-facebook:before,
 body.article-program .social-sharing .sr-item a.sr-link-facebook:before,
 body.sial-innovation .social-sharing .sr-item a.sr-link-facebook:before {
   content: "";
 }
 
+body.page-events .social-sharing .sr-item a.sr-link-twitter:before,
 body.article-program .social-sharing .sr-item a.sr-link-twitter:before,
 body.sial-innovation .social-sharing .sr-item a.sr-link-twitter:before {
   content: "";
 }
 
+body.page-events .social-sharing .sr-item a.sr-link-linkedin:before,
 body.article-program .social-sharing .sr-item a.sr-link-linkedin:before,
 body.sial-innovation .social-sharing .sr-item a.sr-link-linkedin:before {
   content: "";
 }
 
-body.article-program .social-sharing .sr-item a:hover:before, body.article-program .social-sharing .sr-item a:active:before,
+body.page-events .social-sharing .sr-item a:hover:before, body.page-events .social-sharing .sr-item a:active:before,
+body.article-program .social-sharing .sr-item a:hover:before,
+body.article-program .social-sharing .sr-item a:active:before,
 body.sial-innovation .social-sharing .sr-item a:hover:before,
 body.sial-innovation .social-sharing .sr-item a:active:before {
   color: #F85C29;
 }
 
+body.page-events .social-sharing .sr-item:not(:first-of-type),
 body.article-program .social-sharing .sr-item:not(:first-of-type),
 body.sial-innovation .social-sharing .sr-item:not(:first-of-type) {
   margin-left: 1.2rem;
@@ -15139,19 +15154,20 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc
 }
 
 .pagination {
-  padding: 0;
-  border: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  margin: 4rem 0;
+  padding: 0;
+  line-height: 2.6rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  line-height: 2.6rem;
-  margin: 4rem 0;
+  border: 0;
 }
 
 @media screen and (min-width: 768px) {
