@@ -268,14 +268,31 @@ img {
   }
 }
 
-.article-content blockquote::after {
+.article-content blockquote:not(.testimonials__quote__text) p, .blockquote .inside, .article-content blockquote:not(.testimonials__quote__text) .inside, body.node1310382 .article-wrapper .article-content blockquote .inside {
+  position: relative;
+  z-index: 1;
+  margin-left: 9.55882%;
+  margin-right: 9.55882%;
+  padding: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3.2rem;
+  border: 0;
+}
+
+.article-content blockquote:not(.testimonials__quote__text)::after {
   clear: both;
   content: "";
   display: block;
 }
 
-.blockquote, body.node1310382 .article-wrapper .article-content blockquote {
+.article-content blockquote:not(.testimonials__quote__text) .icon-quote {
+  display: none;
+}
+
+.blockquote, .article-content blockquote:not(.testimonials__quote__text), body.node1310382 .article-wrapper .article-content blockquote {
   position: relative;
+  max-width: none;
   padding: 6rem 1.5rem;
   margin-left: -2.5rem;
   margin-right: -2.5rem;
@@ -284,13 +301,13 @@ img {
 }
 
 @media screen and (min-width: 480px) {
-  .blockquote, body.node1310382 .article-wrapper .article-content blockquote {
+  .blockquote, .article-content blockquote:not(.testimonials__quote__text), body.node1310382 .article-wrapper .article-content blockquote {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-.blockquote::before, body.node1310382 .article-wrapper .article-content blockquote::before, .blockquote::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+.blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before, .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -307,7 +324,7 @@ img {
   color: #FFD200;
 }
 
-.blockquote::before, body.node1310382 .article-wrapper .article-content blockquote::before {
+.blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before {
   content: '\e907';
   font-size: 6rem;
   left: 2rem;
@@ -315,20 +332,20 @@ img {
 }
 
 @media screen and (min-width: 480px) {
-  .blockquote::before, body.node1310382 .article-wrapper .article-content blockquote::before {
+  .blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before {
     font-size: 8rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .blockquote::before, body.node1310382 .article-wrapper .article-content blockquote::before {
+  .blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before {
     font-size: 10rem;
     left: 4rem;
     top: 4rem;
   }
 }
 
-.blockquote::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+.blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
   content: '\e908';
   right: 2rem;
   font-size: 5rem;
@@ -337,30 +354,20 @@ img {
 }
 
 @media screen and (min-width: 480px) {
-  .blockquote::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+  .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
     font-size: 6rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .blockquote::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+  .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
     font-size: 8rem;
     right: 11.76471%;
     bottom: 3rem;
   }
 }
 
-.blockquote .inside, body.node1310382 .article-wrapper .article-content blockquote .inside {
-  position: relative;
-  z-index: 1;
-  margin-left: 9.55882%;
-  margin-right: 9.55882%;
-  font-size: 1.8rem;
-  font-weight: 500;
-  line-height: 3.2rem;
-}
-
-.blockquote .block-title, body.node1310382 .article-wrapper .article-content blockquote .block-title {
+.blockquote .block-title, .article-content blockquote:not(.testimonials__quote__text) .block-title, body.node1310382 .article-wrapper .article-content blockquote .block-title {
   display: none;
 }
 
@@ -7351,14 +7358,24 @@ body.pourquoi-exposer #zone2 > h2 {
   position: relative;
 }
 
-.testimonials__quote__text {
+.testimonials__quote__text,
+.testimonials__quote blockquote.testimonials__quote__text {
   max-width: 68.5rem;
   margin: 2rem auto;
+  padding: 0;
   font-size: 1.9rem;
   font-weight: 500;
   line-height: 3.2rem;
   text-align: center;
   color: #383838;
+  background: none;
+}
+
+.testimonials__quote__text::after,
+.testimonials__quote blockquote.testimonials__quote__text::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .testimonials__quote__author {
@@ -17803,8 +17820,11 @@ body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-pa
   background: #E2DE56;
 }
 
-.list-articles.block.block-page.sial-inno .grid-la-list .gla-item > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, .list-articles.block.block-page.sial-inno .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-page.sial-inno .grid-la-list .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before {
+.list-articles.block.block-page.sial-inno .grid-la-list .gla-item > a .gla-item-content .gla-item-tag.topic_la_cuisine, .list-articles.block.block-page.sial-inno .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine, body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-page.sial-inno .grid-la-list .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine {
   color: #fff;
+}
+
+.list-articles.block.block-page.sial-inno .grid-la-list .gla-item > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, .list-articles.block.block-page.sial-inno .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-page.sial-inno .grid-la-list .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before {
   background: #E38597;
 }
 
