@@ -2,7 +2,7 @@
   "metadata": {
     "name": "SIAL",
     "lastOpened": 0,
-    "created": 1575535628705
+    "created": 1575991622546
   },
   "iconSets": [
     {
@@ -77,7 +77,7 @@
           "name": "covered-food",
           "prevSize": 16,
           "code": 129377,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 154,
@@ -85,7 +85,7 @@
           "name": "storage",
           "prevSize": 16,
           "code": 128190,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 153,
@@ -93,7 +93,7 @@
           "name": "trophy",
           "prevSize": 16,
           "code": 59661,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 152,
@@ -101,7 +101,7 @@
           "name": "notebook",
           "prevSize": 16,
           "code": 128211,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 151,
@@ -109,7 +109,7 @@
           "name": "smartphone",
           "prevSize": 16,
           "code": 128241,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 150,
@@ -117,7 +117,7 @@
           "name": "car",
           "prevSize": 16,
           "code": 128663,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 149,
@@ -125,7 +125,7 @@
           "name": "accomodation",
           "prevSize": 16,
           "code": 127971,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 148,
@@ -133,7 +133,7 @@
           "name": "locate-time",
           "prevSize": 16,
           "code": 59659,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 147,
@@ -141,7 +141,7 @@
           "name": "mail-open",
           "prevSize": 16,
           "code": 128231,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 146,
@@ -149,7 +149,7 @@
           "name": "phone",
           "prevSize": 16,
           "code": 128222,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 145,
@@ -157,7 +157,7 @@
           "name": "Mail",
           "prevSize": 16,
           "code": 9993,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 144,
@@ -165,7 +165,7 @@
           "name": "pedestal",
           "prevSize": 16,
           "code": 127942,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 143,
@@ -173,7 +173,7 @@
           "name": "quote-1",
           "prevSize": 16,
           "code": 59655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 142,
@@ -181,7 +181,7 @@
           "name": "quote-2",
           "prevSize": 16,
           "code": 59656,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 139,
@@ -189,7 +189,7 @@
           "name": "minus",
           "prevSize": 16,
           "code": 10134,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 116,
@@ -197,7 +197,7 @@
           "name": "coffee",
           "prevSize": 16,
           "code": 9749,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 117,
@@ -205,7 +205,7 @@
           "name": "coins",
           "prevSize": 16,
           "code": 128176,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 118,
@@ -213,7 +213,7 @@
           "name": "flower",
           "prevSize": 16,
           "code": 127799,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 119,
@@ -221,7 +221,7 @@
           "name": "increase",
           "prevSize": 16,
           "code": 128200,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 120,
@@ -229,7 +229,7 @@
           "name": "product",
           "prevSize": 16,
           "code": 128717,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 121,
@@ -237,7 +237,7 @@
           "name": "rice",
           "prevSize": 16,
           "code": 59660,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 122,
@@ -245,7 +245,7 @@
           "name": "tea",
           "prevSize": 16,
           "code": 127861,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 123,
@@ -253,7 +253,7 @@
           "name": "world",
           "prevSize": 16,
           "code": 127758,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 124,
@@ -261,7 +261,7 @@
           "name": "marker",
           "prevSize": 16,
           "code": 128205,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 125,
@@ -269,7 +269,7 @@
           "name": "matchmaking",
           "prevSize": 16,
           "code": 128243,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 126,
@@ -277,7 +277,7 @@
           "name": "luggage",
           "prevSize": 16,
           "code": 128092,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 72,
@@ -285,7 +285,7 @@
           "name": "stock",
           "prevSize": 16,
           "code": 128230,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 73,
@@ -293,7 +293,7 @@
           "name": "store",
           "prevSize": 16,
           "code": 127978,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 74,
@@ -301,7 +301,7 @@
           "name": "visite-guidee",
           "prevSize": 16,
           "code": 128655,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 75,
@@ -309,7 +309,7 @@
           "name": "conference",
           "prevSize": 16,
           "code": 127908,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 76,
@@ -317,7 +317,7 @@
           "name": "concierge",
           "prevSize": 16,
           "code": 128709,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 77,
@@ -325,7 +325,7 @@
           "name": "celebrity",
           "prevSize": 16,
           "code": 128129,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 78,
@@ -333,7 +333,7 @@
           "name": "contact",
           "prevSize": 16,
           "code": 128172,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 79,
@@ -341,7 +341,7 @@
           "name": "contacts",
           "prevSize": 16,
           "code": 128199,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 80,
@@ -349,7 +349,7 @@
           "name": "launch",
           "prevSize": 16,
           "code": 128640,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 81,
@@ -357,7 +357,7 @@
           "name": "truck",
           "prevSize": 16,
           "code": 128667,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 82,
@@ -365,7 +365,7 @@
           "name": "android",
           "prevSize": 16,
           "code": 59653,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 83,
@@ -373,7 +373,7 @@
           "name": "apple",
           "prevSize": 16,
           "code": 59654,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 84,
@@ -381,7 +381,7 @@
           "name": "facebook",
           "prevSize": 16,
           "code": 59648,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 85,
@@ -389,7 +389,7 @@
           "name": "insta",
           "prevSize": 16,
           "code": 59649,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 86,
@@ -397,7 +397,7 @@
           "name": "linkedin",
           "prevSize": 16,
           "code": 59650,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 87,
@@ -405,7 +405,7 @@
           "name": "twitter",
           "prevSize": 16,
           "code": 59651,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 88,
@@ -413,7 +413,7 @@
           "name": "youtube",
           "prevSize": 16,
           "code": 59652,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 89,
@@ -421,7 +421,7 @@
           "name": "wallet",
           "prevSize": 16,
           "code": 127915,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 90,
@@ -429,7 +429,7 @@
           "name": "map",
           "prevSize": 16,
           "code": 128204,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 91,
@@ -437,7 +437,7 @@
           "name": "produits-laitiers",
           "prevSize": 16,
           "code": 129472,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 92,
@@ -445,7 +445,7 @@
           "name": "exponent",
           "prevSize": 16,
           "code": 8505,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 93,
@@ -453,7 +453,7 @@
           "name": "fruits-et-legumes",
           "prevSize": 16,
           "code": 127828,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 94,
@@ -461,7 +461,15 @@
           "name": "star",
           "prevSize": 16,
           "code": 11088,
-          "tempChar": ""
+          "tempChar": ""
+        },
+        {
+          "order": 156,
+          "id": 67,
+          "name": "star-empty",
+          "prevSize": 16,
+          "code": 127761,
+          "tempChar": ""
         },
         {
           "order": 95,
@@ -469,7 +477,7 @@
           "name": "speaker",
           "prevSize": 16,
           "code": 128226,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 96,
@@ -477,7 +485,7 @@
           "name": "epicerie",
           "prevSize": 16,
           "code": 127833,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 97,
@@ -485,7 +493,7 @@
           "name": "boissons",
           "prevSize": 16,
           "code": 127866,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 98,
@@ -493,7 +501,7 @@
           "name": "bio-bien-etre",
           "prevSize": 16,
           "code": 127793,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 137,
@@ -501,7 +509,7 @@
           "name": "viandes",
           "prevSize": 16,
           "code": 127830,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 136,
@@ -509,7 +517,7 @@
           "name": "produits-mer",
           "prevSize": 16,
           "code": 127844,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 135,
@@ -517,7 +525,7 @@
           "name": "traiteur-snacking",
           "prevSize": 16,
           "code": 127858,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 134,
@@ -525,7 +533,7 @@
           "name": "food-processing",
           "prevSize": 16,
           "code": 129302,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 133,
@@ -533,7 +541,7 @@
           "name": "search",
           "prevSize": 16,
           "code": 128270,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 132,
@@ -541,7 +549,7 @@
           "name": "distributeur",
           "prevSize": 16,
           "code": 128666,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 131,
@@ -549,7 +557,7 @@
           "name": "importateur",
           "prevSize": 16,
           "code": 128747,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 129,
@@ -557,7 +565,7 @@
           "name": "restaurateur",
           "prevSize": 16,
           "code": 127869,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 130,
@@ -565,7 +573,7 @@
           "name": "industriel",
           "prevSize": 16,
           "code": 127981,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 128,
@@ -573,7 +581,7 @@
           "name": "arrow-top",
           "prevSize": 16,
           "code": 128285,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 138,
@@ -581,7 +589,7 @@
           "name": "plus",
           "prevSize": 16,
           "code": 10010,
-          "tempChar": ""
+          "tempChar": ""
         },
         {
           "order": 127,
@@ -589,15 +597,15 @@
           "name": "play",
           "prevSize": 16,
           "code": 9655,
-          "tempChar": ""
+          "tempChar": ""
         }
       ],
       "id": 0,
       "metadata": {
         "name": "sial-2019",
         "importSize": {
-          "width": 53,
-          "height": 47
+          "width": 19,
+          "height": 19
         }
       },
       "height": 1024,
@@ -617,7 +625,8 @@
           "grid": 0,
           "tags": [
             "fair-stand"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 73,
@@ -635,7 +644,8 @@
           "grid": 0,
           "tags": [
             "contract"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 72,
@@ -647,7 +657,8 @@
           "grid": 0,
           "tags": [
             "Calendar"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 71,
@@ -659,7 +670,8 @@
           "grid": 0,
           "tags": [
             "Path"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 70,
@@ -670,7 +682,8 @@
           "grid": 0,
           "tags": [
             "Combined Shape"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 69,
@@ -687,7 +700,8 @@
           "grid": 0,
           "tags": [
             "Calculator"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 68,
@@ -698,7 +712,8 @@
           "grid": 0,
           "tags": [
             "France"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 67,
@@ -710,7 +725,8 @@
           "grid": 0,
           "tags": [
             "XMLID_49"
-          ]
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 66,
@@ -786,9 +802,7 @@
           "tags": [
             "notebook"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 62,
@@ -805,9 +819,7 @@
           "tags": [
             "smartphone"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 61,
@@ -822,9 +834,7 @@
           "tags": [
             "Car"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 60,
@@ -847,9 +857,7 @@
           "tags": [
             "Hotel"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 59,
@@ -864,9 +872,7 @@
           "tags": [
             "placeholder"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 58,
@@ -878,9 +884,7 @@
           "tags": [
             "Shape (2)"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 57,
@@ -892,9 +896,7 @@
           "tags": [
             "Shape"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 56,
@@ -906,9 +908,7 @@
           "tags": [
             "Mail"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 55,
@@ -922,9 +922,7 @@
           "tags": [
             "pedestal"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 54,
@@ -938,9 +936,7 @@
           "tags": [
             "quote-1"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 53,
@@ -954,9 +950,7 @@
           "tags": [
             "quote-2"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 52,
@@ -969,9 +963,7 @@
           "tags": [
             "minus"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 44,
@@ -985,9 +977,7 @@
             "coffee"
           ],
           "defaultCode": 59655,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 45,
@@ -1008,9 +998,7 @@
             "coins"
           ],
           "defaultCode": 59656,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 46,
@@ -1025,9 +1013,7 @@
             "flower"
           ],
           "defaultCode": 59657,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 47,
@@ -1043,9 +1029,7 @@
             "increase"
           ],
           "defaultCode": 59658,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 48,
@@ -1063,9 +1047,7 @@
             "product"
           ],
           "defaultCode": 59659,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 49,
@@ -1080,9 +1062,7 @@
             "rice"
           ],
           "defaultCode": 59660,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 50,
@@ -1096,9 +1076,7 @@
             "tea"
           ],
           "defaultCode": 59661,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 51,
@@ -1113,9 +1091,7 @@
             "world"
           ],
           "defaultCode": 59662,
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 43,
@@ -1128,9 +1104,7 @@
           "tags": [
             "marker"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 42,
@@ -1145,9 +1119,7 @@
           "tags": [
             "matchmaking"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 41,
@@ -1164,9 +1136,7 @@
           "tags": [
             "luggage"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 40,
@@ -1179,9 +1149,7 @@
           "tags": [
             "stock"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 39,
@@ -1195,9 +1163,7 @@
           "tags": [
             "store-tour"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 38,
@@ -1210,9 +1176,7 @@
           "tags": [
             "visite-guidee"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 37,
@@ -1232,9 +1196,7 @@
           "tags": [
             "conference"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 36,
@@ -1249,9 +1211,7 @@
           "tags": [
             "concierge"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 33,
@@ -1264,9 +1224,7 @@
           "tags": [
             "celebrity"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 35,
@@ -1279,9 +1237,7 @@
           "tags": [
             "contact"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 32,
@@ -1295,9 +1251,7 @@
           "tags": [
             "contacts"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 31,
@@ -1316,9 +1270,7 @@
           "tags": [
             "launch"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 30,
@@ -1339,9 +1291,7 @@
           "tags": [
             "truck"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 27,
@@ -1357,9 +1307,7 @@
           "tags": [
             "android"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 25,
@@ -1373,9 +1321,7 @@
           "tags": [
             "apple-store"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 23,
@@ -1387,9 +1333,7 @@
           "tags": [
             "facebook-button"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 22,
@@ -1401,9 +1345,7 @@
           "tags": [
             "instagram-button"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 21,
@@ -1415,9 +1357,7 @@
           "tags": [
             "linkedin-button"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 20,
@@ -1429,9 +1369,7 @@
           "tags": [
             "twitter-button"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 19,
@@ -1443,9 +1381,7 @@
           "tags": [
             "youtube-button"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 12,
@@ -1461,9 +1397,7 @@
           "tags": [
             "pass"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 11,
@@ -1476,9 +1410,7 @@
           "tags": [
             "map"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 10,
@@ -1493,9 +1425,7 @@
           "tags": [
             "lait"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 9,
@@ -1507,9 +1437,7 @@
           "tags": [
             "info"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 8,
@@ -1527,9 +1455,7 @@
           "tags": [
             "fruits"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 7,
@@ -1541,9 +1467,21 @@
           "tags": [
             "Favoris"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
+        },
+        {
+          "id": 75,
+          "paths": [
+            "M230.148 1024c-12.060-0.164-23.116-4.329-31.935-11.224l0.117 0.088c-13.21-9.761-21.683-25.277-21.683-42.773 0-3.629 0.365-7.173 1.059-10.597l-0.058 0.34 48.787-302.268-212.118-212.118c-12.181-9.8-19.91-24.705-19.91-41.416 0-28.457 22.414-51.678 50.551-52.973l0.116-0.004 289.541-45.075 128.331-274.693c8.679-18.153 26.897-30.47 47.992-30.47s39.312 12.317 47.854 30.151l0.138 0.319 130.453 273.632 289.011 42.954c20.613 3.222 37.103 17.937 42.858 37.276l0.096 0.375c1.887 5.219 2.978 11.242 2.978 17.52 0 15.247-6.435 28.992-16.737 38.665l-0.028 0.026-208.406 212.118 49.317 300.677c0.209 1.592 0.329 3.434 0.329 5.303s-0.119 3.711-0.351 5.517l0.022-0.214c0.024 0.596 0.038 1.297 0.038 2 0 29.287-23.742 53.030-53.030 53.030-9.138 0-17.736-2.311-25.241-6.381l0.28 0.139-257.193-139.468-257.723 142.649c-6.999 4.334-15.486 6.902-24.574 6.902-0.31 0-0.619-0.003-0.927-0.009l0.046 0.001zM513.326 811.882l282.117 157.498-53.030-333.025 228.027-233.86 25.984-10.606-24.924 7.954s0 0 0 0l-318.177-47.196-142.119-299.617-139.998 301.208-318.177 49.317 229.088 235.981-53.030 329.313z"
+          ],
+          "attrs": [],
+          "isMulticolor": false,
+          "isMulticolor2": false,
+          "grid": 0,
+          "tags": [
+            "star-empty"
+          ],
+          "colorPermutations": {}
         },
         {
           "id": 6,
@@ -1555,9 +1493,7 @@
           "tags": [
             "exposants"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 5,
@@ -1574,9 +1510,7 @@
           "tags": [
             "epices"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 4,
@@ -1593,9 +1527,7 @@
           "tags": [
             "boissons"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 3,
@@ -1608,9 +1540,7 @@
           "tags": [
             "bio"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 2,
@@ -1626,9 +1556,7 @@
           "tags": [
             "viandes"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 1,
@@ -1644,9 +1572,7 @@
           "tags": [
             "shrimp"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 0,
@@ -1660,9 +1586,7 @@
           "tags": [
             "traiteur-snacking"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 17,
@@ -1677,9 +1601,7 @@
           "tags": [
             "industriel"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 13,
@@ -1691,9 +1613,7 @@
           "tags": [
             "search"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 14,
@@ -1715,9 +1635,7 @@
           "tags": [
             "distributeur"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 15,
@@ -1730,9 +1648,7 @@
           "tags": [
             "importateur"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 16,
@@ -1746,9 +1662,7 @@
           "tags": [
             "restaurateur"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 18,
@@ -1765,9 +1679,7 @@
           "tags": [
             "industriel"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 28,
@@ -1780,9 +1692,7 @@
           "tags": [
             "Icons-back Copy 3"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 29,
@@ -1794,9 +1704,7 @@
           "tags": [
             "plus"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         },
         {
           "id": 34,
@@ -1809,28 +1717,11 @@
           "tags": [
             "play"
           ],
-          "colorPermutations": {
-            "200204215125521001": []
-          }
+          "colorPermutations": {}
         }
       ],
       "invisible": false,
-      "colorThemes": [
-        [
-          [
-            255,
-            210,
-            0,
-            1
-          ],
-          [
-            200,
-            204,
-            215,
-            1
-          ]
-        ]
-      ],
+      "colorThemes": [],
       "colorThemeIdx": 0
     }
   ],
