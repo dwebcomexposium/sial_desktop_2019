@@ -17476,8 +17476,11 @@ body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-pa
   background: #E2DE56;
 }
 
-.list-articles.block.block-page.sial-inno .grid-la-list .gla-item > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, .list-articles.block.block-page.sial-inno .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-page.sial-inno .grid-la-list .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before {
+.list-articles.block.block-page.sial-inno .grid-la-list .gla-item > a .gla-item-content .gla-item-tag.topic_la_cuisine, .list-articles.block.block-page.sial-inno .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine, body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-page.sial-inno .grid-la-list .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine {
   color: #fff;
+}
+
+.list-articles.block.block-page.sial-inno .grid-la-list .gla-item > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, .list-articles.block.block-page.sial-inno .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before, body.node126547.exposant .mod-catal.catal-other-ex .list-articles.block.block-page.sial-inno .grid-la-list .catal-other-ex-link > a .gla-item-content .gla-item-tag.topic_la_cuisine::before {
   background: #E38597;
 }
 
