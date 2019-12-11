@@ -18935,10 +18935,11 @@ body.node1316899 .quicklinks-cta--large {
 
 .list-articles.block.block-page.world-champions-tour {
   position: relative;
-  margin: 4rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 4rem 0;
+  padding: 5rem 0 4rem;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-align: stretch;
@@ -18947,7 +18948,6 @@ body.node1316899 .quicklinks-cta--large {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  padding: 5rem 0 4rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -18962,24 +18962,24 @@ body.node1316899 .quicklinks-cta--large {
   }
 }
 
-.list-articles.block.block-page.world-champions-tour:before {
+.list-articles.block.block-page.world-champions-tour::before {
   content: '';
-  background: #FFDB38;
-  width: 100vw;
-  top: 0;
-  height: 100%;
-  z-index: 1;
   position: absolute;
+  z-index: 1;
+  top: 0;
   left: 50%;
+  width: 100vw;
+  height: 100%;
+  background: #FFDB38;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
 @media screen and (min-width: 1280px) {
-  .list-articles.block.block-page.world-champions-tour:before {
-    left: auto;
+  .list-articles.block.block-page.world-champions-tour::before {
     right: 0;
+    left: auto;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -18996,21 +18996,21 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .world-champions-tour-slider {
-  overflow: visible;
   width: 100%;
+  overflow: visible;
 }
 
 @media screen and (min-width: 1280px) {
   .list-articles.block.block-page.world-champions-tour .world-champions-tour-slider {
-    margin-right: -1000rem;
     width: 2000rem;
+    margin-right: -1000rem;
     overflow: hidden;
   }
 }
 
 .list-articles.block.block-page.world-champions-tour .la-slider {
-  overflow: visible;
   width: 100%;
+  overflow: visible;
 }
 
 @media screen and (min-width: 1280px) {
@@ -19020,11 +19020,11 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .main-title-with-link {
-  border: 0;
-  margin-bottom: 2.85rem;
-  border-bottom: 0.1rem solid #fff;
-  padding-bottom: 1.5rem;
   width: 100%;
+  margin-bottom: 2.85rem;
+  padding-bottom: 1.5rem;
+  border: 0;
+  border-bottom: 0.1rem solid #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -19050,11 +19050,11 @@ body.node1316899 .quicklinks-cta--large {
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316963 .at-main-title, body.node1316963 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title,
 .list-articles.block.block-page.world-champions-tour .main-title-with-link body.node1316971 .at-main-title, body.node1316971 .list-articles.block.block-page.world-champions-tour .main-title-with-link .at-main-title {
   float: none;
-  text-transform: none;
-  font-weight: 900;
-  color: #585858;
   font-size: 3rem;
+  font-weight: 900;
   line-height: 4.4rem;
+  text-transform: none;
+  color: #585858;
 }
 
 @media screen and (min-width: 1024px) {
@@ -19088,14 +19088,14 @@ body.node1316899 .quicklinks-cta--large {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 3rem;
+  display: none;
   margin: 0 0 2.85rem;
-  border-bottom: 0.1rem solid #fff;
+  padding-left: 3rem;
+  padding-bottom: calc(1.5rem + 1rem);
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  padding-left: 3rem;
-  padding-bottom: calc(1.5rem + 1rem);
-  display: none;
+  border-bottom: 0.1rem solid #fff;
 }
 
 .list-articles.block.block-page.world-champions-tour .world-champions-tour__arrows-container .arrow {
@@ -19198,11 +19198,11 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item {
-  border-radius: 0.5rem;
-  margin: 0;
   width: calc(100vw - 5rem);
   max-width: 26rem;
+  margin: 0;
   background: #fff;
+  border-radius: 0.5rem;
   -webkit-transition: opacity 0.2s ease-in-out;
   -o-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
@@ -19219,8 +19219,8 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item > a {
-  border-radius: 0.5rem;
   position: relative;
+  border-radius: 0.5rem;
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item > a:hover, .list-articles.block.block-page.world-champions-tour .slider-content .la-item > a:active, .list-articles.block.block-page.world-champions-tour .slider-content .la-item > a:focus {
@@ -19244,16 +19244,16 @@ body.node1316899 .quicklinks-cta--large {
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item .gla-item-img,
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item .la-item-img,
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item .cx-lazy-load {
-  height: 13.1rem;
   width: 100%;
+  height: 13.1rem;
   min-height: 0;
+  font-family: 'object-fit: cover;';
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-top-left-radius: 0.6rem;
   border-top-right-radius: 0.6rem;
   -o-object-fit: cover;
   object-fit: cover;
-  font-family: 'object-fit: cover;';
   -webkit-transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -19262,17 +19262,18 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content {
+  position: relative;
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: static;
-  z-index: 1;
+  height: calc(100% - 13.1rem);
+  padding: 2.2rem 2.5rem 2rem;
   text-align: left;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 2.2rem 2.5rem 2rem;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
@@ -19281,7 +19282,6 @@ body.node1316899 .quicklinks-cta--large {
   align-items: flex-start;
   border-bottom-left-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
-  height: calc(100% - 13.1rem);
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content > * {
@@ -19291,57 +19291,32 @@ body.node1316899 .quicklinks-cta--large {
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-tag {
   position: relative;
-  background: none;
   top: auto;
   left: auto;
+  display: block;
+  width: 100%;
+  min-height: 3.2rem;
+  margin-bottom: 1.4rem;
   padding: 0 5.5rem 0 0;
-  color: #383838;
-  text-transform: none;
   font-size: 1.2rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-weight: 500;
-  letter-spacing: 0.104rem;
   line-height: 2.2rem;
-  display: block;
-  margin-bottom: 1.4rem;
-  width: 100%;
-  min-height: 3.2rem;
-}
-
-.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-tag:after {
-  content: '';
-  top: -1.1rem;
-  right: -1.75rem;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 4.5rem;
-}
-
-.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-tag.topic_sial_canada_2018_gold_winner:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/or.svg");
-  width: 6.1rem;
-}
-
-.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-tag.topic_grand_prix_argent:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/argent.svg");
-  width: 6.2rem;
-}
-
-.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-tag.topic_sial_canada_2018_bronze_winner:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/bronze.svg");
-  width: 6.1rem;
+  letter-spacing: 0.104rem;
+  text-transform: none;
+  color: #383838;
+  background: none;
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title {
-  font-weight: 900;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  color: #383838;
+  position: static;
   margin-bottom: 0.8rem;
-  letter-spacing: 0.104rem;
-  line-height: 2.6rem;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+  letter-spacing: 0.104rem;
+  color: #383838;
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title > a {
@@ -19352,12 +19327,35 @@ body.node1316899 .quicklinks-cta--large {
   display: none;
 }
 
+.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title [class^='award-'] {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  right: 1.1rem;
+  width: 6.1rem;
+  height: 4.5rem;
+  text-align: right;
+  background: center / cover no-repeat;
+}
+
+.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-gold {
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/or.svg");
+}
+
+.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-silver {
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/silver.svg");
+}
+
+.list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-bronze {
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/bronze.svg");
+}
+
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-desc {
   margin-top: auto;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  line-height: 2.7rem;
   font-size: 1.5rem;
   font-weight: 500;
+  line-height: 2.7rem;
   color: #8C909E;
 }
 
@@ -19382,9 +19380,9 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:before {
-  color: #2b2f2f;
-  letter-spacing: normal;
   font-size: 1.6rem;
+  letter-spacing: normal;
+  color: #2b2f2f;
 }
 
 html[lang='fr'] .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:before {
@@ -19401,14 +19399,14 @@ html[lang='en'] .list-articles.block.block-page.world-champions-tour .slider-con
 
 .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   margin-top: 4rem;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
   .list-articles.block.block-page.world-champions-tour .include_in_above_block {
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
