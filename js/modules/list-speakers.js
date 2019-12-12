@@ -1,0 +1,1 @@
+!function(e){e(function(){if(e("body").hasClass("node1318742")||e("body").hasClass("speakers-sial")){var s=e(".js__speakers-search");s.length&&e(".cl-content").before(s)}})}(jQuery);
