@@ -268,7 +268,7 @@ img {
   }
 }
 
-.article-content blockquote:not(.testimonials__quote__text) p, .blockquote .inside, .article-content blockquote:not(.testimonials__quote__text) .inside, body.node1310382 .article-wrapper .article-content blockquote .inside {
+.article-content blockquote:not(.testimonials__quote__text) p, .blockquote .inside, .article-content blockquote:not(.testimonials__quote__text) .inside {
   position: relative;
   z-index: 1;
   margin: 0 9.55882%;
@@ -279,13 +279,13 @@ img {
   border: 0;
 }
 
-body.article .article-content blockquote:not(.testimonials__quote__text) p, .article-content blockquote:not(.testimonials__quote__text) body.article p, body.article .blockquote .inside, .blockquote body.article .inside, body.article .article-content blockquote:not(.testimonials__quote__text) .inside, .article-content blockquote:not(.testimonials__quote__text) body.article .inside, body.article body.node1310382 .article-wrapper .article-content blockquote .inside, body.node1310382 .article-wrapper .article-content blockquote body.article .inside {
+body.article .article-content blockquote:not(.testimonials__quote__text) p, .article-content blockquote:not(.testimonials__quote__text) body.article p, body.article .blockquote .inside, .blockquote body.article .inside, body.article .article-content blockquote:not(.testimonials__quote__text) .inside, .article-content blockquote:not(.testimonials__quote__text) body.article .inside {
   margin-right: 3.11751%;
   margin-left: 6.95444%;
 }
 
 @media screen and (min-width: 768px) {
-  body.article .article-content blockquote:not(.testimonials__quote__text) p, .article-content blockquote:not(.testimonials__quote__text) body.article p, body.article .blockquote .inside, .blockquote body.article .inside, body.article .article-content blockquote:not(.testimonials__quote__text) .inside, .article-content blockquote:not(.testimonials__quote__text) body.article .inside, body.article body.node1310382 .article-wrapper .article-content blockquote .inside, body.node1310382 .article-wrapper .article-content blockquote body.article .inside {
+  body.article .article-content blockquote:not(.testimonials__quote__text) p, .article-content blockquote:not(.testimonials__quote__text) body.article p, body.article .blockquote .inside, .blockquote body.article .inside, body.article .article-content blockquote:not(.testimonials__quote__text) .inside, .article-content blockquote:not(.testimonials__quote__text) body.article .inside {
     font-size: 2.5rem;
     line-height: 4.2rem;
   }
@@ -305,26 +305,30 @@ body.article .article-content blockquote:not(.testimonials__quote__text) p, .art
   display: none;
 }
 
-.blockquote, .article-content blockquote:not(.testimonials__quote__text), body.node1310382 .article-wrapper .article-content blockquote {
+.blockquote, .article-content blockquote:not(.testimonials__quote__text) {
   position: relative;
-  max-width: none;
-  padding: 6rem 1.5rem;
-  margin-right: -2.5rem;
-  margin-left: -2.5rem;
-  background: #FFDB38;
-  color: #292B2F;
-  overflow: hidden;
   z-index: 0;
+  max-width: none;
+  margin: 3rem -2.5rem;
+  padding: 6rem 1.5rem;
+  color: #292B2F;
+  background: #FFDB38;
+  overflow: hidden;
+}
+
+body.node1310382 .blockquote, body.node1310382 .article-content blockquote:not(.testimonials__quote__text), .article-content body.node1310382 blockquote:not(.testimonials__quote__text) {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 @media screen and (min-width: 480px) {
-  .blockquote, .article-content blockquote:not(.testimonials__quote__text), body.node1310382 .article-wrapper .article-content blockquote {
+  .blockquote, .article-content blockquote:not(.testimonials__quote__text) {
     padding-right: 3rem;
     padding-left: 3rem;
   }
 }
 
-.blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before, .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+.blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -341,7 +345,7 @@ body.article .article-content blockquote:not(.testimonials__quote__text) p, .art
   color: #FFD200;
 }
 
-.blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before {
+.blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before {
   content: '\e907';
   top: 2rem;
   left: 2rem;
@@ -349,20 +353,20 @@ body.article .article-content blockquote:not(.testimonials__quote__text) p, .art
 }
 
 @media screen and (min-width: 480px) {
-  .blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before {
+  .blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before {
     font-size: 8rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before, body.node1310382 .article-wrapper .article-content blockquote::before {
+  .blockquote::before, .article-content blockquote:not(.testimonials__quote__text)::before {
     top: 4rem;
     left: 4rem;
     font-size: 10rem;
   }
 }
 
-.blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+.blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after {
   content: '\e908';
   top: auto;
   right: 2rem;
@@ -371,24 +375,24 @@ body.article .article-content blockquote:not(.testimonials__quote__text) p, .art
 }
 
 @media screen and (min-width: 480px) {
-  .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+  .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after {
     font-size: 6rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after, body.node1310382 .article-wrapper .article-content blockquote::after {
+  .blockquote::after, .article-content blockquote:not(.testimonials__quote__text)::after {
     right: 11.76471%;
     bottom: 3rem;
     font-size: 8rem;
   }
 }
 
-.blockquote .block-title, .article-content blockquote:not(.testimonials__quote__text) .block-title, body.node1310382 .article-wrapper .article-content blockquote .block-title {
+.blockquote .block-title, .article-content blockquote:not(.testimonials__quote__text) .block-title {
   display: none;
 }
 
-.blockquote figure, .article-content blockquote:not(.testimonials__quote__text) figure, body.node1310382 .article-wrapper .article-content blockquote figure {
+.blockquote figure, .article-content blockquote:not(.testimonials__quote__text) figure {
   position: relative;
   z-index: 1;
   margin-top: 0;
@@ -396,7 +400,7 @@ body.article .article-content blockquote:not(.testimonials__quote__text) p, .art
 }
 
 @media screen and (min-width: 768px) {
-  .blockquote figure, .article-content blockquote:not(.testimonials__quote__text) figure, body.node1310382 .article-wrapper .article-content blockquote figure {
+  .blockquote figure, .article-content blockquote:not(.testimonials__quote__text) figure {
     max-width: 18.3rem;
   }
 }
@@ -409,16 +413,16 @@ body.article .article-content blockquote:not(.testimonials__quote__text) p, .art
   vertical-align: initial;
 }
 
-body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-link, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
+body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .catal-ex-item-buttons .btn-primary, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-link, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1, body.front .exhibitors-slider + .block.edito .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.node126547.exposant .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
-  padding: 0.9rem 2.6rem 1rem;
+  padding: 1.3rem 2.6rem 1.4rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 2.6rem;
+  line-height: 1;
   text-align: center;
   text-transform: none;
   text-decoration: none;
@@ -433,7 +437,7 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1, body.front
   outline: 0;
 }
 
-body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
+body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .catal-ex-item-buttons .btn-primary:hover, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, body.front .exhibitors-slider + .block.edito .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.node126547.exposant .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
@@ -450,7 +454,7 @@ body.article .article-wrapper .article-content .btn-invert:hover, .subheader__bt
   background: #fff;
 }
 
-body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a, body.node126547.exposant .mod-catal .catal-ed-main-url-link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
+body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .catal-ed-activity-link, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a, body.node126547.exposant .mod-catal .catal-ed-main-url-link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
 .error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
   position: relative;
@@ -472,7 +476,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   overflow: hidden;
 }
 
-body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, body.node126547.exposant .mod-catal .catal-ed-main-url-link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
+body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .catal-ed-activity-link::after, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, body.node126547.exposant .mod-catal .catal-ed-main-url-link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
 .error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
   content: '';
@@ -489,9 +493,9 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, body.node126547.exposant .mod-catal .is-active.catal-ed-main-url-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
+body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .is-active.catal-ed-activity-link::after, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, body.node126547.exposant .mod-catal .is-active.catal-ed-main-url-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
 .error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, body.node126547.exposant .mod-catal .catal-ed-main-url-link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .catal-ed-activity-link:hover::after, body.node126547.exposant .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, body.node126547.exposant .mod-catal .catal-ed-main-url-link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
 .error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
   width: 100%;
@@ -1601,6 +1605,24 @@ input[type=checkbox]:checked {
   content: "🌑";
 }
 
+.icon-catal-localisation::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "📍";
+}
+
+.mod-catal .icon-catal-localisation::before {
+  content: "📍";
+}
+
 body.node1309141 .contacts-list .cl-content, body.speakers-sial .contacts-list .cl-content,
 body.node1318742 .contacts-list .cl-content, body.node1318534 .contacts-list .cl-content {
   display: -webkit-box;
@@ -1997,7 +2019,8 @@ body.node1316971 .at-main-title, body.node1316971 .block.edito-custom h2, .block
 }
 
 body.node1316963 .article-content p:nth-of-type(2), body.node1316958 .article-wrapper .article-content h3,
-body.node1316958 .article-wrapper .article-content h4, .error-page .intro h2, .sr-main-title, body.node1316899 .article-intro h2, body.node1316899 .article-content h2, body.node1316899 .article-content table tr td {
+body.node1316958 .article-wrapper .article-content h4, body.page-events.page-details .catal-ed-main-title,
+body.page-events.page-details .catal-ed-main-desc-title, .error-page .intro h2, .sr-main-title, body.node1316899 .article-intro h2, body.node1316899 .article-content h2, body.node1316899 .article-content table tr td {
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
@@ -2132,6 +2155,12 @@ body.node1316971 .list-articles .grid-la-list .gla-item, body.node1316971 .list-
   body.node1316971 .list-articles .cxp-pagination .grid-la-list .gla-item:nth-child(3n + 1), body.node1316971 .list-articles .cxp-pagination .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link:nth-child(3n + 1), body.node126547.exposant .mod-catal.catal-other-ex body.node1316971 .list-articles .cxp-pagination .grid-la-list .catal-other-ex-link:nth-child(3n + 1), body.node1316971 .list-articles .cxp-pagination .grid-la-list .gla-item:nth-child(1), body.node1316971 .list-articles .cxp-pagination .grid-la-list body.node126547.exposant .mod-catal.catal-other-ex .catal-other-ex-link:nth-child(1), body.node126547.exposant .mod-catal.catal-other-ex body.node1316971 .list-articles .cxp-pagination .grid-la-list .catal-other-ex-link:nth-child(1) {
     margin-left: 0;
   }
+}
+
+ins[data-revive-id] {
+  display: block;
+  margin: 3rem auto;
+  text-align: center;
 }
 
 body.article .article-wrapper .article-title .at-tag {
@@ -2500,7 +2529,7 @@ body.sial-innovation .social-sharing {
   -webkit-box-ordinal-group: 3;
   -ms-flex-order: 2;
   order: 2;
-  margin: 0;
+  margin: 3rem 0;
   padding: 2.5rem 2.6rem;
   text-align: center;
   -webkit-box-flex: 0;
@@ -9508,10 +9537,6 @@ body.node1310382 .article-wrapper .article-content h4 {
   margin-bottom: 1.5rem;
 }
 
-body.node1310382 .article-wrapper .article-content > * {
-  margin: auto;
-}
-
 @media screen and (min-width: 1024px) {
   body.node1310382 .article-wrapper .article-content > * {
     width: 66.6667%;
@@ -9522,36 +9547,6 @@ body.node1310382 .article-wrapper .article-content > * {
 body.node1310382 .article-wrapper .article-content p {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-body.node1310382 .article-wrapper .article-content ul li::before {
-  border-radius: 50%;
-  background: #383838;
-}
-
-body.node1310382 .article-wrapper .article-content blockquote {
-  margin: 3.6rem auto 4.1rem;
-}
-
-@media screen and (min-width: 1024px) {
-  body.node1310382 .article-wrapper .article-content blockquote {
-    padding: 6.8rem 5.6rem 6.9rem 8.8rem;
-  }
-}
-
-body.node1310382 .article-wrapper .article-content blockquote p {
-  color: #383838;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 500;
-  line-height: 1.68;
-  border: 0;
-  position: relative;
-  z-index: 1;
-}
-
-body.node1310382 .article-wrapper .article-content blockquote i {
-  display: none;
 }
 
 body.node1310382 .article-wrapper .article-content iframe {
@@ -9589,6 +9584,298 @@ body.node1310382 .article-wrapper .social-sharing .social-sharing {
     margin-top: 0;
     background: none;
   }
+}
+
+body.page-events.page-details #zone2 {
+  width: 100%;
+}
+
+body.page-events.page-details #zone3,
+body.page-events.page-details .catal-nav-ex {
+  display: none;
+}
+
+body.page-events.page-details .event-view-full {
+  max-width: 82.3rem;
+  margin: 0 auto;
+}
+
+body.page-events.page-details .list-articles {
+  position: relative;
+  z-index: 1;
+  margin: 2.5rem 0 0;
+  text-align: center;
+}
+
+body.page-events.page-details .list-articles + .catal-ex-details {
+  margin-top: -3rem;
+}
+
+body.page-events.page-details .list-articles img {
+  display: block;
+  margin: 0 auto;
+}
+
+body.page-events.page-details .catal-ex-item-buttons {
+  position: absolute !important;
+  left: 1.5rem;
+  margin-top: 20rem;
+  max-width: 17.08%;
+}
+
+body.page-events.page-details .catal-ex-item-buttons .btn-primary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body.page-events.page-details .catal-ex-item-buttons .btn-primary[data-action='add'] > .selection-empty,
+body.page-events.page-details .catal-ex-item-buttons .btn-primary[data-action='remove'] > .selection-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body.page-events.page-details .catal-ex-item-buttons .btn-primary .icon-catal {
+  -webkit-box-ordinal-group: 100;
+  -ms-flex-order: 99;
+  order: 99;
+  margin-left: 1rem;
+  margin-right: 0;
+  font-size: 1.2rem;
+  color: #F85C29;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+body.page-events.page-details .catal-ex-item-stand-more-link {
+  font-size: 1.4rem;
+  color: #F85C29;
+}
+
+body.page-events.page-details .catal-ex-item-stand-more-link .icon-catal {
+  display: none;
+}
+
+body.page-events.page-details .catal-ex-details {
+  position: relative;
+  z-index: 0;
+  padding: 3rem 0;
+}
+
+body.page-events.page-details .catal-ex-details::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  max-width: 125rem;
+  height: 100%;
+  background: #F3F6FB;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+body.page-events.page-details .catal-ex-details .edito {
+  margin: 0;
+}
+
+body.page-events.page-details .catal-ed-group {
+  border: 0;
+}
+
+body.page-events.page-details .catal-ed-group-title {
+  padding: 0;
+  border: 0;
+}
+
+body.page-events.page-details .catal-ed-activity .catal-ed-activity-group {
+  padding: 0;
+  border: 0;
+}
+
+body.page-events.page-details .catal-ed-activity .catal-ed-activity-list {
+  line-height: 2.2rem;
+}
+
+body.page-events.page-details .catal-ed-activity .catal-ed-activity-item {
+  padding: 0;
+}
+
+body.page-events.page-details .catal-ed-activity-title {
+  line-height: 2.2rem;
+}
+
+body.page-events.page-details .catal-ed-activity-link {
+  line-height: 2.2rem;
+}
+
+body.page-events.page-details .catal-ed-main {
+  margin: 3rem 0;
+  padding: 0;
+  background: none;
+  border: 0;
+}
+
+body.page-events.page-details .catal-ed-main-title,
+body.page-events.page-details .catal-ed-main-desc-title {
+  text-align: left;
+}
+
+body.page-events.page-details .catal-ed-main-desc {
+  margin-top: 3rem;
+}
+
+body.page-events.page-details .catal-ed-main-session {
+  width: 50%;
+}
+
+body.page-events.page-details .catal-ed-main-address {
+  margin-top: 0;
+}
+
+body.page-events.page-details .catal-ed-main-address .icon-catal {
+  margin-right: 1.5rem;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  vertical-align: text-bottom;
+  color: #F85C29;
+}
+
+body.page-events.page-details .catal-ed-main-address span {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 0 1rem;
+  font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 2.2rem;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+body.page-events.page-details .catal-ed-main-address span::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: calc(100% + 1.4rem);
+  height: 100%;
+  background: #292B2F;
+  -webkit-transform: translate(-50%, -50%) skewX(-25deg);
+  -ms-transform: translate(-50%, -50%) skewX(-25deg);
+  transform: translate(-50%, -50%) skewX(-25deg);
+}
+
+body.page-events.page-details .event-link-opposite {
+  padding: 0;
+  font-weight: 700;
+  color: #F85C29;
+  border: 0;
+}
+
+body.page-events.page-details .evd-infos-type-container {
+  margin: 1.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body.page-events.page-details .evd-infos-type {
+  display: inline-block;
+  text-align: center;
+}
+
+body.page-events.page-details .evd-infos-type .evd-infos-type-title {
+  position: absolute !important;
+  height: 0.1rem;
+  width: 0.1rem;
+  overflow: hidden;
+  clip: rect(0.1rem 0.1rem 0.1rem 0.1rem);
+  /* IE6, IE7 */
+  clip: rect(0.1rem, 0.1rem, 0.1rem, 0.1rem);
+  white-space: nowrap;
+  /* added line */
+}
+
+body.page-events.page-details .evd-infos-type .evd-infos-type-list {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+body.page-events.page-details .evd-infos-type .event-type-li {
+  display: inline-block;
+  margin: 0 1.5rem;
+}
+
+body.page-events.page-details .evd-infos-type .event-type-li::before {
+  display: none;
+}
+
+body.page-events.page-details .evd-infos-type .event-link {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 0 1rem;
+  font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 2.3rem;
+  letter-spacing: 0;
+  color: #383838;
+}
+
+body.page-events.page-details .evd-infos-type .event-link::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: calc(100% + 1.4rem);
+  height: 100%;
+  background: #FFDB38;
+  -webkit-transform: translate(-50%, -50%) skewX(-25deg);
+  -ms-transform: translate(-50%, -50%) skewX(-25deg);
+  transform: translate(-50%, -50%) skewX(-25deg);
+}
+
+body.page-events.page-details .evd-infos-type:nth-child(2) .event-link {
+  color: #fff;
+}
+
+body.page-events.page-details .evd-infos-type:nth-child(2) .event-link::after {
+  background-color: #292B2F;
 }
 
 body.node126547.exposant.body-mobile .mod-catal.catal-ex-details .edito .inside, body.node126547.exposant .mod-catal.pagination, body.node126547.exposant .mod-catal.catal-nav-ex, body.node126547.exposant .mod-catal .catal-ed-partners, body.node126547.exposant .mod-catal .catal-ed-activity-group:nth-of-type(3), body.node126547.exposant .mod-catal .catal-ed-group-title, body.node126547.exposant .mod-catal .catal-ed-main-stand-name, body.node126547.exposant .mod-catal .catal-ed-main-stand-title,
@@ -13171,25 +13458,14 @@ body.node1316971 .block.article-title .error-page h2,
 .home-sectors {
   clear: both;
   position: relative;
+  z-index: 2;
   margin-top: 4.9rem;
   margin-bottom: 4.9rem;
   padding: 5rem 0 6rem;
   background-color: #F3F6FB;
-  z-index: 2;
   /**
    * background images
    */
-}
-
-body.article .home-sectors,
-.front .home-sectors,
-.node1303947 .home-sectors {
-  background-color: #FFDB38;
-}
-
-body.page-rubric #zone2 > .home-sectors {
-  background: transparent;
-  margin: 0 0 3.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -13199,6 +13475,20 @@ body.page-rubric #zone2 > .home-sectors {
     padding-top: 8rem;
     padding-bottom: 9rem;
   }
+}
+
+body.article .home-sectors,
+.front .home-sectors,
+.node1303947 .home-sectors {
+  background-color: #FFDB38;
+}
+
+body.page-rubric #zone2 > .home-sectors {
+  margin: 0 0 3.5rem;
+  background: transparent;
+}
+
+@media screen and (min-width: 768px) {
   body.page-rubric #zone2 > .home-sectors {
     margin: 2rem 0 7rem;
     padding: 0;
@@ -13262,8 +13552,8 @@ body.page-rubric #zone2 > .home-sectors__title {
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 3rem;
-  color: #383838;
   text-align: center;
+  color: #383838;
 }
 
 body.page-rubric #zone2 > .home-sectors__description {
@@ -13308,15 +13598,15 @@ body.page-rubric #zone2 > .home-sectors__description {
   overflow: hidden;
 }
 
-body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
-  width: 23.2rem;
-}
-
 @media screen and (min-width: 768px) {
   .home-sectors .quicklinks .ql-item {
     margin: 1rem;
     overflow: visible;
   }
+}
+
+body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
+  width: 23.2rem;
 }
 
 .home-sectors .quicklinks .ql-item:hover .btn-primary::after {
@@ -13346,29 +13636,13 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   overflow: hidden;
 }
 
-.home-sectors .quicklinks .ql-item .btn-primary::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  background: center center / cover no-repeat;
-  -webkit-transition: -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  -o-transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
 .home-sectors .quicklinks .ql-item .btn-primary .icon {
   position: relative;
+  z-index: 2;
   display: block;
   height: 3rem;
-  z-index: 2;
-  font-size: 3rem;
   margin-bottom: 2rem;
+  font-size: 3rem;
 }
 
 .home-sectors .quicklinks .ql-item .btn-primary .icon.icon-produits-surgeles {
@@ -13385,14 +13659,30 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
 .home-sectors .quicklinks .ql-item .btn-primary::before {
   content: '';
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+}
+
+.home-sectors .quicklinks .ql-item .btn-primary::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: center center / cover no-repeat;
+  -webkit-transition: -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .home-sectors .quicklinks .ql-item::after {
@@ -13408,36 +13698,36 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   -moz-osx-font-smoothing: grayscale;
   content: "✚";
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 2.6rem;
-  height: 2.5rem;
-  font-size: 1.3rem;
-  color: #F85C29;
-  background: #fff;
-  border-top-left-radius: 0.6rem;
-  border-bottom-right-radius: 0.6rem;
   z-index: 1;
-  cursor: pointer;
+  right: 0;
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 2.6rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  color: #F85C29;
+  background: #fff;
+  border-top-left-radius: 0.6rem;
+  border-bottom-right-radius: 0.6rem;
+  cursor: pointer;
 }
 
 .home-sectors > .ql-item {
-  list-style: none;
-  width: 100%;
-  text-align: center;
   -webkit-box-ordinal-group: 100;
   -ms-flex-order: 99;
   order: 99;
+  width: 100%;
   margin-top: 5rem;
+  list-style: none;
+  text-align: center;
 }
 
 .home-sectors > .ql-item [class^='btn'] {
