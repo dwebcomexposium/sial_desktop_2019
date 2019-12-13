@@ -9991,10 +9991,12 @@ body.page-events.page-details .catal-ed-main-session {
   width: 50%;
 }
 
+body.page-events.page-details .evd-infos-stand-item,
 body.page-events.page-details .catal-ed-main-address {
   margin-top: 0;
 }
 
+body.page-events.page-details .evd-infos-stand-item .icon-catal,
 body.page-events.page-details .catal-ed-main-address .icon-catal {
   margin-right: 1.5rem;
   font-size: 2.2rem;
@@ -10003,6 +10005,7 @@ body.page-events.page-details .catal-ed-main-address .icon-catal {
   color: #F85C29;
 }
 
+body.page-events.page-details .evd-infos-stand-item span,
 body.page-events.page-details .catal-ed-main-address span {
   position: relative;
   z-index: 0;
@@ -10017,6 +10020,7 @@ body.page-events.page-details .catal-ed-main-address span {
   color: #fff;
 }
 
+body.page-events.page-details .evd-infos-stand-item span::after,
 body.page-events.page-details .catal-ed-main-address span::after {
   content: '';
   position: absolute;
@@ -10056,11 +10060,13 @@ body.page-events.page-details .evd-infos-type-container {
   align-items: center;
 }
 
+body.page-events.page-details .evd-infos-theme,
 body.page-events.page-details .evd-infos-type {
   display: inline-block;
   text-align: center;
 }
 
+body.page-events.page-details .evd-infos-theme .evd-infos-type-title,
 body.page-events.page-details .evd-infos-type .evd-infos-type-title {
   position: absolute !important;
   height: 0.1rem;
@@ -10073,22 +10079,38 @@ body.page-events.page-details .evd-infos-type .evd-infos-type-title {
   /* added line */
 }
 
+body.page-events.page-details .evd-infos-theme .evd-infos-theme-list,
+body.page-events.page-details .evd-infos-theme .evd-infos-type-list,
+body.page-events.page-details .evd-infos-type .evd-infos-theme-list,
 body.page-events.page-details .evd-infos-type .evd-infos-type-list {
   margin: 0;
   padding: 0;
   line-height: 1;
 }
 
-body.page-events.page-details .evd-infos-type .event-type-li {
+body.page-events.page-details .evd-infos-theme .event-type-li,
+body.page-events.page-details .evd-infos-theme .evd-infos-type-item,
+body.page-events.page-details .evd-infos-theme .evd-infos-theme-item,
+body.page-events.page-details .evd-infos-type .event-type-li,
+body.page-events.page-details .evd-infos-type .evd-infos-type-item,
+body.page-events.page-details .evd-infos-type .evd-infos-theme-item {
   display: inline-block;
   margin: 0 1.5rem;
 }
 
-body.page-events.page-details .evd-infos-type .event-type-li::before {
+body.page-events.page-details .evd-infos-theme .event-type-li::before,
+body.page-events.page-details .evd-infos-theme .evd-infos-type-item::before,
+body.page-events.page-details .evd-infos-theme .evd-infos-theme-item::before,
+body.page-events.page-details .evd-infos-type .event-type-li::before,
+body.page-events.page-details .evd-infos-type .evd-infos-type-item::before,
+body.page-events.page-details .evd-infos-type .evd-infos-theme-item::before {
   display: none;
 }
 
-body.page-events.page-details .evd-infos-type .event-link {
+body.page-events.page-details .evd-infos-theme .event-link,
+body.page-events.page-details .evd-infos-theme .evd-infos-stand-link,
+body.page-events.page-details .evd-infos-type .event-link,
+body.page-events.page-details .evd-infos-type .evd-infos-stand-link {
   position: relative;
   z-index: 0;
   display: inline-block;
@@ -10099,10 +10121,14 @@ body.page-events.page-details .evd-infos-type .event-link {
   font-style: normal;
   line-height: 2.3rem;
   letter-spacing: 0;
+  text-decoration: none;
   color: #383838;
 }
 
-body.page-events.page-details .evd-infos-type .event-link::after {
+body.page-events.page-details .evd-infos-theme .event-link::after,
+body.page-events.page-details .evd-infos-theme .evd-infos-stand-link::after,
+body.page-events.page-details .evd-infos-type .event-link::after,
+body.page-events.page-details .evd-infos-type .evd-infos-stand-link::after {
   content: '';
   position: absolute;
   z-index: -1;
@@ -10116,10 +10142,12 @@ body.page-events.page-details .evd-infos-type .event-link::after {
   transform: translate(-50%, -50%) skewX(-25deg);
 }
 
+body.page-events.page-details .evd-infos-theme:nth-child(2) .event-link,
 body.page-events.page-details .evd-infos-type:nth-child(2) .event-link {
   color: #fff;
 }
 
+body.page-events.page-details .evd-infos-theme:nth-child(2) .event-link::after,
 body.page-events.page-details .evd-infos-type:nth-child(2) .event-link::after {
   background-color: #292B2F;
 }
