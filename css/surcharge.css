@@ -12,80 +12,80 @@ img {
  */
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Light.eot");
-  src: url("../fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Light.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-LightOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Roman.eot");
-  src: url("../fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Roman.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Oblique.eot");
-  src: url("../fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Oblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Medium.eot");
-  src: url("../fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Medium.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/Avenir-Heavy.eot");
-  src: url("../fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/Avenir-Heavy.woff") format("woff"), url("../fonts/avenir/Avenir-Heavy.woff2") format("woff2");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-Black.eot");
-  src: url("../fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Black.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -96,16 +96,16 @@ img {
  */
 @font-face {
   font-family: 'Avenir Book';
-  src: url("../fonts/avenir/AvenirLT-Book.eot");
-  src: url("../fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Book.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir Book';
-  src: url("../fonts/avenir/AvenirLT-BookOblique.eot");
-  src: url("../fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -116,32 +116,32 @@ img {
  */
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-Medium.eot");
-  src: url("../fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Medium.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-MediumObl.eot");
-  src: url("../fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-MediumObl.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-Demi.eot");
-  src: url("../fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Demi.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("../fonts/futura/FuturaPT-Bold.eot");
-  src: url("../fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Bold.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -152,8 +152,8 @@ img {
  */
 @font-face {
   font-family: 'Futura PT Book';
-  src: url("../fonts/futura/FuturaPT-Book.eot");
-  src: url("../fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Book.woff") format("woff");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -164,16 +164,16 @@ img {
  */
 @font-face {
   font-family: 'Futura Cond';
-  src: url("../fonts/futura/Futura-CondensedMedium.eot");
-  src: url("../fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("../fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura Cond';
-  src: url("../fonts/futura/Futura-CondensedExtraBold.eot");
-  src: url("../fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("../fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot");
+  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
@@ -183,92 +183,11 @@ img {
  */
 @font-face {
   font-family: 'sial-icomoon';
-  src: url("../fonts/icomoon/icomoon.eot}");
-  src: url("../fonts/icomoon/icomoon.eot#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot}");
+  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.ttf") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
-}
-
-@font-face {
-  font-family: 'Gudea';
-  src: url("../fonts/gudea/Gudea-Regular-webfont.eot");
-  src: url("../fonts/gudea/Gudea-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Regular-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Regular-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Regular-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Regular-webfont.svg#gudearegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Gudea';
-  src: url("../fonts/gudea/Gudea-Italic-webfont.eot");
-  src: url("../fonts/gudea/Gudea-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Italic-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Italic-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Italic-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Italic-webfont.svg#gudeaitalic") format("svg");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Gudea';
-  src: url("../fonts/gudea/Gudea-Bold-webfont.eot");
-  src: url("../fonts/gudea/Gudea-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Bold-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Bold-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Bold-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Bold-webfont.svg#gudeabold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
-
-/* League Gothic */
-@font-face {
-  font-family: 'League Gothic';
-  src: url("../fonts/league-gothic/LeagueGothic-Regular-webfont.eot");
-  src: url("../fonts/league-gothic/LeagueGothic-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.woff2") format("woff2"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.woff") format("woff"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.ttf") format("truetype"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.svg#league_gothicregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Droid Sans */
-@font-face {
-  font-family: 'Droid Sans';
-  src: url("../fonts/droidsans/DroidSans-webfont.eot");
-  src: url("../fonts/droidsans/DroidSans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans/DroidSans-webfont.woff2") format("woff2"), url("../fonts/droidsans/DroidSans-webfont.woff") format("woff"), url("../fonts/droidsans/DroidSans-webfont.ttf") format("truetype"), url("../fonts/droidsans/DroidSans-webfont.svg#droid_sansregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Droid Sans';
-  src: url("../fonts/droidsans/DroidSans-Bold-webfont.eot");
-  src: url("../fonts/droidsans/DroidSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans/DroidSans-Bold-webfont.woff2") format("woff2"), url("../fonts/droidsans/DroidSans-Bold-webfont.woff") format("woff"), url("../fonts/droidsans/DroidSans-Bold-webfont.ttf") format("truetype"), url("../fonts/droidsans/DroidSans-Bold-webfont.svg#droid_sansbold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
-
-/* Montserrat */
-@font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/montserrat/Montserrat-Regular-webfont.eot");
-  src: url("../fonts/montserrat/Montserrat-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-Regular-webfont.woff") format("woff"), url("../fonts/montserrat/Montserrat-Regular-webfont.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-Regular-webfont.svg#montserratregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url("../fonts/montserrat/Montserrat-Bold-webfont.eot");
-  src: url("../fonts/montserrat/Montserrat-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-Bold-webfont.woff") format("woff"), url("../fonts/montserrat/Montserrat-Bold-webfont.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-Bold-webfont.svg#montserratbold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'icon-catal';
-  src: url("../fonts/comexposium-iconcatalogue/fonts/comexposium-iconcatalogue.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'icon';
-  src: url("../fonts/comexposium-iconfront/fonts/comexposium-iconfront.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @-webkit-keyframes slideUpFadeIn {
@@ -494,7 +413,17 @@ body.node1310382 .blockquote, body.node1310382 .article-content blockquote:not(.
   vertical-align: initial;
 }
 
-body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .externe.lien1, body.node1316963 .article-wrapper .article-content .externe.lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link,
+body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .important1 .lien1, body.article .article-wrapper .article-content .important2 .lien1, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .externe.lien1, body.node1316963 .article-wrapper .article-content .externe.lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
@@ -520,7 +449,17 @@ body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zon
   outline: 0;
 }
 
-body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .externe.lien1:hover, body.node1316963 .article-wrapper .article-content .externe.lien2:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary:hover, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,
+body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .important1 .lien1:hover, body.article .article-wrapper .article-content .important2 .lien1:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .externe.lien1:hover, body.node1316963 .article-wrapper .article-content .externe.lien2:hover, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary:hover, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
@@ -539,7 +478,10 @@ body.article .article-wrapper .article-content .btn-invert:hover, .subheader__bt
   background: #fff;
 }
 
-body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .event-view-full .catal-ed-activity-link, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a,
+body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.page-events .evsf-as-header .evsf-as-title, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .event-view-full .catal-ed-activity-link, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a, body.exposant.fiche .mod-catal .catal-ed-main-url-link,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
 .error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
@@ -563,7 +505,10 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   overflow: hidden;
 }
 
-body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .event-view-full .catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a::after,
+body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.page-events .evsf-as-header .evsf-as-title::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .event-view-full .catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
 .error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
@@ -582,11 +527,17 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .event-view-full .is-active.catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after,
+body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#esf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.page-events .evsf-as-header .is-active.evsf-as-title::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .event-view-full .is-active.catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, body.exposant.fiche .mod-catal .is-active.catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
 .error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .event-view-full .catal-ed-activity-link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new:hover::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.page-events .evsf-as-header .evsf-as-title:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .event-view-full .catal-ed-activity-link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
 .error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
@@ -612,7 +563,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-  background: url("../img/icons/check.svg") center center no-repeat;
+  background: url("/theme/sial_2019_desktop_git/img/icons/check.svg") center center no-repeat;
   background-size: 75%;
 }
 
@@ -1615,6 +1566,7 @@ input[type=checkbox]:checked {
 }
 
 .icon-long-arrow-right::before,
+.icon-catal-arrow-right::before,
 .icon-catal-long-arrow-right::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1634,11 +1586,13 @@ input[type=checkbox]:checked {
 }
 
 .mod-catal .icon-long-arrow-right::before, .mod-catal
+.icon-catal-arrow-right::before, .mod-catal
 .icon-catal-long-arrow-right::before {
   content: "🔝";
 }
 
 .icon-long-arrow-left::before,
+.icon-catal-arrow-left::before,
 .icon-catal-long-arrow-left::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1658,6 +1612,7 @@ input[type=checkbox]:checked {
 }
 
 .mod-catal .icon-long-arrow-left::before, .mod-catal
+.icon-catal-arrow-left::before, .mod-catal
 .icon-catal-long-arrow-left::before {
   content: "🔝";
 }
@@ -2499,6 +2454,18 @@ body.article .article-wrapper .article-content .lien2 {
 
 body.article .article-wrapper .article-content .lien2::after {
   width: 100%;
+}
+
+body.article .article-wrapper .article-content .important1 .lien1::after {
+  display: none;
+}
+
+body.article .article-wrapper .article-content .important2 .lien1 {
+  background: #F85C29;
+}
+
+body.article .article-wrapper .article-content .important2 .lien1::after {
+  display: none;
 }
 
 body.article .article-wrapper .article-content .btn-secondary {
@@ -3929,6 +3896,7 @@ body.page-events .block.edito.mod-catal h1 {
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone,
 body.page-events .exhibitor-search-form .esf-form-zone {
   position: static;
   margin: 0;
@@ -3938,6 +3906,9 @@ body.page-events .exhibitor-search-form .esf-form-zone {
   border-radius: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title {
   margin: 0;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -3948,14 +3919,35 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title {
   color: #383838;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title + .evsf-search-line,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title + .esf-search-line,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title + .evsf-search-line,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title + .esf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title + .evsf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title + .esf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title + .evsf-search-line,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title + .esf-search-line {
   margin-top: 3.4rem;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title label,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title label,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title label,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title label {
   font-size: inherit;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-search-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
   position: relative;
   width: 100%;
@@ -3974,6 +3966,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
     max-width: 95%;
     padding-bottom: 9.1rem;
@@ -3988,11 +3981,13 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
 }
 
 @media screen and (min-width: 1280px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
     max-width: 77.32%;
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line::before,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line::before {
   content: '';
   position: absolute;
@@ -4007,6 +4002,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line::before 
   transform: translateX(-50%);
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select {
   width: 100%;
   max-width: 30.5rem;
@@ -4020,6 +4016,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-se
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select {
     width: auto !important;
     max-width: 100%;
@@ -4032,11 +4029,13 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-se
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select select,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select select {
   height: auto;
   padding: 1.6rem 5rem 1.6rem 2.3rem !important;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select::after {
   font-size: 1.1rem;
   -webkit-transform: rotate(-180deg) translateY(55%);
@@ -4044,7 +4043,11 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-se
   transform: rotate(-180deg) translateY(55%);
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #front_search_suggest_event,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_simple_search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_simple_search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_simple_search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search {
   margin: 0;
   width: 100%;
@@ -4067,7 +4070,11 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_sim
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #front_search_suggest_event,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_simple_search,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_simple_search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event,
+  body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_simple_search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search {
     width: auto;
     max-width: 100%;
@@ -4096,16 +4103,22 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_sim
   color: #8C909E;
 }
 
-body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search::placeholder {
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #front_search_suggest_event, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_simple_search, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_simple_search, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_simple_search, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search::placeholder {
   color: #8C909E;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search {
   width: auto;
   margin: 4rem 0 0;
   outline: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search .visually-hidden,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search .visually-hidden,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search .visually-hidden,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search .visually-hidden {
   position: relative !important;
   width: auto !important;
@@ -4113,16 +4126,25 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn
   clip: auto !important;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search .icon-catal-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search .icon-catal-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search .icon-catal-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search .icon-catal-search {
   display: none;
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
+  body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search {
     margin: 0;
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new {
   right: auto;
   bottom: auto;
@@ -4131,6 +4153,9 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
+  body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new {
     position: absolute;
     right: 0;
@@ -4139,14 +4164,27 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new .evsf-search-plus-txt,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new .esf-search-plus-txt,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new .evsf-search-plus-txt,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new .esf-search-plus-txt,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new .evsf-search-plus-txt,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new .esf-search-plus-txt,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new .evsf-search-plus-txt,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new .esf-search-plus-txt {
   text-decoration: none;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after {
   padding: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search {
   margin: 3rem 0 0;
   text-align: center;
@@ -4155,11 +4193,28 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search {
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search,
+  body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search {
     text-align: left;
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header {
+  display: block;
+}
+
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header {
   position: relative;
   top: auto;
@@ -4167,6 +4222,21 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf
   outline: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header .esf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header .evsf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header .evsf-as-title,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header .esf-as-title {
   margin: 0;
   padding: 0;
@@ -4184,10 +4254,31 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf
   transition: none;
 }
 
-body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::before, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::after {
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button::before, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button::before,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header::after,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button::before,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button::before,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::after {
   content: none;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters {
   position: relative;
   top: 2.5rem;
@@ -4195,17 +4286,51 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf
   border: 0.1rem solid #DDE1E6;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-list-filters,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-filter-panel,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .esf-as-filter-panel {
   margin-top: 0;
 }
 
+body.page-events .exhibitor-search-form #evsf-results-zone,
 body.page-events .exhibitor-search-form #esf-results-zone {
   margin-top: 3rem;
   background: transparent;
   border: 0;
 }
 
+body.page-events .exhibitor-search-form #evsf-results-zone .evsf-results-alpha-filter,
+body.page-events .exhibitor-search-form #evsf-results-zone .esf-results-alpha-filter,
+body.page-events .exhibitor-search-form #esf-results-zone .evsf-results-alpha-filter,
 body.page-events .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter {
   padding: 0;
   color: #383838;
@@ -4279,6 +4404,7 @@ body.page-events .evsf-ampm-list {
   margin-top: -20rem;
   padding: 0;
   text-align: center;
+  margin-left: -2.5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -4309,9 +4435,7 @@ body.page-events .evsf-ampm-list .form-checkbox {
 }
 
 body.page-events .catal-results {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 100%;
   margin-top: 2.5rem !important;
   margin-bottom: 3rem;
   padding-bottom: 2.5rem;
@@ -4321,15 +4445,30 @@ body.page-events .catal-results {
   border-bottom: 0.1rem solid #F3F6FB;
 }
 
+@media screen and (min-width: 480px) {
+  body.page-events .catal-results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 body.page-events .catal-results-title {
+  display: block;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
   padding: 0;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1;
   color: currentColor;
   border: 0;
+}
+
+@media screen and (min-width: 480px) {
+  body.page-events .catal-results-title {
+    margin-bottom: 0;
+  }
 }
 
 body.page-events .catal-results-selectboxes {
@@ -4345,12 +4484,24 @@ body.page-events .catal-results-selectboxes .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-body.page-events .catal-ex {
+@media screen and (min-width: 480px) {
+  body.page-events .catal-results-selectboxes .form-item {
+    margin-bottom: 0;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+body.page-events .catal-ex,
+body.page-events .evl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4360,6 +4511,7 @@ body.page-events .catal-ex {
   margin-top: -1.5rem !important;
 }
 
+body.page-events .evl-event,
 body.page-events .catal-ex-item {
   position: relative;
   display: -webkit-box;
@@ -4380,26 +4532,35 @@ body.page-events .catal-ex-item {
   overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
+  body.page-events .evl-event,
   body.page-events .catal-ex-item {
     width: calc((100% / 2) - (1.5rem * 2));
   }
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .evl-event,
   body.page-events .catal-ex-item {
     width: calc((100% / 3) - (1.5rem * 2));
   }
 }
 
+body.page-events .evl-event a,
 body.page-events .catal-ex-item a {
   color: currentColor;
 }
 
-body.page-events .catal-ex-item a:hover, body.page-events .catal-ex-item a:focus, body.page-events .catal-ex-item a:active {
+body.page-events .evl-event a:hover, body.page-events .evl-event a:focus, body.page-events .evl-event a:active,
+body.page-events .catal-ex-item a:hover,
+body.page-events .catal-ex-item a:focus,
+body.page-events .catal-ex-item a:active {
   color: currentColor;
 }
 
+body.page-events .evl-event .evl-event-media,
+body.page-events .evl-event .catal-ex-item-img,
+body.page-events .catal-ex-item .evl-event-media,
 body.page-events .catal-ex-item .catal-ex-item-img {
   position: relative;
   height: 0;
@@ -4413,6 +4574,12 @@ body.page-events .catal-ex-item .catal-ex-item-img {
   overflow: hidden;
 }
 
+body.page-events .evl-event .evl-event-media .ezimage-field,
+body.page-events .evl-event .evl-event-media .cx-lazy-load,
+body.page-events .evl-event .catal-ex-item-img .ezimage-field,
+body.page-events .evl-event .catal-ex-item-img .cx-lazy-load,
+body.page-events .catal-ex-item .evl-event-media .ezimage-field,
+body.page-events .catal-ex-item .evl-event-media .cx-lazy-load,
 body.page-events .catal-ex-item .catal-ex-item-img .ezimage-field,
 body.page-events .catal-ex-item .catal-ex-item-img .cx-lazy-load {
   position: absolute;
@@ -4425,30 +4592,49 @@ body.page-events .catal-ex-item .catal-ex-item-img .cx-lazy-load {
   transform: translate(-50%, -50%);
 }
 
+body.page-events .evl-event .evl-event-media a:hover img,
+body.page-events .evl-event .catal-ex-item-img a:hover img,
+body.page-events .catal-ex-item .evl-event-media a:hover img,
 body.page-events .catal-ex-item .catal-ex-item-img a:hover img {
   opacity: 1;
   -webkit-filter: none;
   filter: none;
 }
 
+body.page-events .evl-event .evl-event-title,
+body.page-events .evl-event .catal-ex-item-title,
+body.page-events .catal-ex-item .evl-event-title,
 body.page-events .catal-ex-item .catal-ex-item-title {
   padding-top: 3rem;
-  margin-bottom: 2rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.8rem;
   font-weight: 900;
   line-height: 2.8rem;
   color: currentColor;
+  border: 0;
 }
 
+body.page-events .evl-event .evl-event-title a,
+body.page-events .evl-event .catal-ex-item-title a,
+body.page-events .catal-ex-item .evl-event-title a,
+body.page-events .catal-ex-item .catal-ex-item-title a {
+  text-decoration: none;
+}
+
+body.page-events .evl-event .evl-event-group-title,
+body.page-events .evl-event .catal-ex-item-group-title,
+body.page-events .catal-ex-item .evl-event-group-title,
 body.page-events .catal-ex-item .catal-ex-item-group-title {
-  margin: 0;
+  margin: 0 0 auto;
   padding: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border: 0;
 }
 
+body.page-events .evl-event .evl-event-buttons,
+body.page-events .evl-event .catal-ex-item-buttons,
+body.page-events .catal-ex-item .evl-event-buttons,
 body.page-events .catal-ex-item .catal-ex-item-buttons {
   position: absolute;
   top: 0;
@@ -4459,9 +4645,13 @@ body.page-events .catal-ex-item .catal-ex-item-buttons {
   text-align: right;
 }
 
+body.page-events .evl-event .evl-event-buttons .btn-primary,
+body.page-events .evl-event .catal-ex-item-buttons .btn-primary,
+body.page-events .catal-ex-item .evl-event-buttons .btn-primary,
 body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary {
-  height: 4.2rem;
+  display: inline-block;
   width: 4.2rem;
+  height: 4.2rem;
   margin: 0;
   padding: 0;
   color: #F85C29;
@@ -4472,27 +4662,42 @@ body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary {
   box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.07);
 }
 
+body.page-events .evl-event .evl-event-buttons .btn-primary .icon-catal,
+body.page-events .evl-event .catal-ex-item-buttons .btn-primary .icon-catal,
+body.page-events .catal-ex-item .evl-event-buttons .btn-primary .icon-catal,
 body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary .icon-catal {
   margin: 0;
   vertical-align: inherit;
 }
 
+body.page-events .evl-event .evl-event-buttons .btn-primary .animation-txt,
+body.page-events .evl-event .catal-ex-item-buttons .btn-primary .animation-txt,
+body.page-events .catal-ex-item .evl-event-buttons .btn-primary .animation-txt,
 body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary .animation-txt {
   display: none;
 }
 
+body.page-events .evl-event .evl-event-content,
+body.page-events .evl-event .catal-ex-item-content,
+body.page-events .catal-ex-item .evl-event-content,
 body.page-events .catal-ex-item .catal-ex-item-content {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 3rem 3rem 1.5rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 3rem 3rem 1.5rem;
 }
 
+body.page-events .evl-event .evl-event-content .date_event,
+body.page-events .evl-event .catal-ex-item-content .date_event,
+body.page-events .catal-ex-item .evl-event-content .date_event,
 body.page-events .catal-ex-item .catal-ex-item-content .date_event {
   font-size: 1.6rem;
   font-weight: 300;
@@ -4500,6 +4705,19 @@ body.page-events .catal-ex-item .catal-ex-item-content .date_event {
   line-height: 2.6rem;
 }
 
+body.page-events .evl-event .evl-event-content .evl-event-details-list,
+body.page-events .evl-event .evl-event-content .organizer_event,
+body.page-events .evl-event .evl-event-content .types_event,
+body.page-events .evl-event .evl-event-content .topics_event,
+body.page-events .evl-event .catal-ex-item-content .evl-event-details-list,
+body.page-events .evl-event .catal-ex-item-content .organizer_event,
+body.page-events .evl-event .catal-ex-item-content .types_event,
+body.page-events .evl-event .catal-ex-item-content .topics_event,
+body.page-events .catal-ex-item .evl-event-content .evl-event-details-list,
+body.page-events .catal-ex-item .evl-event-content .organizer_event,
+body.page-events .catal-ex-item .evl-event-content .types_event,
+body.page-events .catal-ex-item .evl-event-content .topics_event,
+body.page-events .catal-ex-item .catal-ex-item-content .evl-event-details-list,
 body.page-events .catal-ex-item .catal-ex-item-content .organizer_event,
 body.page-events .catal-ex-item .catal-ex-item-content .types_event,
 body.page-events .catal-ex-item .catal-ex-item-content .topics_event {
@@ -4509,12 +4727,22 @@ body.page-events .catal-ex-item .catal-ex-item-content .topics_event {
   color: #8C909E;
 }
 
+body.page-events .evl-event .evl-event-content .evl-event-details-list,
+body.page-events .evl-event .evl-event-content .organizer_event,
+body.page-events .evl-event .catal-ex-item-content .evl-event-details-list,
+body.page-events .evl-event .catal-ex-item-content .organizer_event,
+body.page-events .catal-ex-item .evl-event-content .evl-event-details-list,
+body.page-events .catal-ex-item .evl-event-content .organizer_event,
+body.page-events .catal-ex-item .catal-ex-item-content .evl-event-details-list,
 body.page-events .catal-ex-item .catal-ex-item-content .organizer_event {
   margin: 2rem -3rem 0;
   padding: 2rem 3rem 0;
   border-top: 0.1rem solid #F3F6FB;
 }
 
+body.page-events .evl-event .evl-event-content .types_event,
+body.page-events .evl-event .catal-ex-item-content .types_event,
+body.page-events .catal-ex-item .evl-event-content .types_event,
 body.page-events .catal-ex-item .catal-ex-item-content .types_event {
   position: absolute;
   top: 3rem;
@@ -4529,31 +4757,74 @@ body.page-events .catal-ex-item .catal-ex-item-content .types_event {
   color: currentColor;
 }
 
+body.page-events .evl-event .evl-event-content .types_event .evl-event-cat-title,
+body.page-events .evl-event .evl-event-content .types_event .catal-ex-item-cat-title,
+body.page-events .evl-event .catal-ex-item-content .types_event .evl-event-cat-title,
+body.page-events .evl-event .catal-ex-item-content .types_event .catal-ex-item-cat-title,
+body.page-events .catal-ex-item .evl-event-content .types_event .evl-event-cat-title,
+body.page-events .catal-ex-item .evl-event-content .types_event .catal-ex-item-cat-title,
+body.page-events .catal-ex-item .catal-ex-item-content .types_event .evl-event-cat-title,
 body.page-events .catal-ex-item .catal-ex-item-content .types_event .catal-ex-item-cat-title {
   display: none;
 }
 
+body.page-events .evl-event .evl-event-details-term,
+body.page-events .evl-event .evl-event-details-def,
+body.page-events .evl-event .catal-ex-item-cat-title,
+body.page-events .catal-ex-item .evl-event-details-term,
+body.page-events .catal-ex-item .evl-event-details-def,
 body.page-events .catal-ex-item .catal-ex-item-cat-title {
   font-size: inherit;
   color: currentColor;
 }
 
+body.page-events .evl-event .catal-ex-item-desc,
 body.page-events .catal-ex-item .catal-ex-item-desc {
   margin-top: 1.5rem;
   padding: 0;
   font-size: inherit;
 }
 
+body.page-events .evl-event .evl-event-details-list,
+body.page-events .evl-event .evl-event-stand-item,
+body.page-events .evl-event .catal-ex-item-stand-item,
+body.page-events .catal-ex-item .evl-event-details-list,
+body.page-events .catal-ex-item .evl-event-stand-item,
 body.page-events .catal-ex-item .catal-ex-item-stand-item {
   margin: 0;
   padding: 0;
   font-size: inherit;
 }
 
+body.page-events .evl-event .catal-ex-item-stand,
+body.page-events .evl-event .icon-catal-localisation,
+body.page-events .evl-event .place_event,
+body.page-events .evl-event .description_event,
+body.page-events .catal-ex-item .catal-ex-item-stand,
 body.page-events .catal-ex-item .icon-catal-localisation,
 body.page-events .catal-ex-item .place_event,
 body.page-events .catal-ex-item .description_event {
   display: none;
+}
+
+body.page-events .evsf-search-line {
+  margin-top: 2rem !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body.page-events .evsf-search-line #evsf_simple_search {
+  height: auto;
+  padding: 1.6rem 5rem 1.6rem 2.3rem !important;
+  border: 0;
+}
+
+body.page-events .evsf-as-header .evsf-btn-search .icon-catal {
+  display: none;
+}
+
+body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
+  display: inline;
 }
 
 .catalog-order {
@@ -5423,7 +5694,7 @@ body.node1309141 .quicklinks-cta--large {
   margin-bottom: 5rem;
   padding-top: 4rem;
   padding-bottom: 8.9rem;
-  background: #EAEEF6 url("../img/visual/smartphone-bg.svg") bottom left no-repeat;
+  background: #EAEEF6 url("/theme/sial_2019_desktop_git/img/visual/smartphone-bg.svg") bottom left no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -6317,7 +6588,7 @@ body.node1309141 .quicklinks-cta--large {
   height: 2.6rem;
   margin-top: 0.5rem;
   margin-right: 0.9rem;
-  background: url("../img/logo-sial.svg") center center/contain no-repeat;
+  background: url("/theme/sial_2019_desktop_git/img/logo-sial.svg") center center/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -6433,7 +6704,7 @@ body.node1309141 .quicklinks-cta--large {
 
 @media screen and (min-width: 1024px) {
   .hero.hero-why-exhibit .hero__background--with-img {
-    background: #303237 url("../img/visual/hero-why-exhibit-bg.png") right center/contain no-repeat;
+    background: #303237 url("/theme/sial_2019_desktop_git/img/visual/hero-why-exhibit-bg.png") right center/contain no-repeat;
   }
 }
 
@@ -7020,7 +7291,7 @@ body.node1309141 .quicklinks-cta--large {
   right: -2.5rem;
   display: block;
   width: 100vw;
-  background: #FFDB38 url("../img/visual/round-add-bg.svg") right bottom no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/round-add-bg.svg") right bottom no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -7775,7 +8046,7 @@ body.pourquoi-exposer #zone2 > h2 {
 }
 
 .propale .deadline__block--participate {
-  background: #FFDB38 url("../img/visual/sial-propale-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/sial-propale-bg.svg") bottom right no-repeat;
   text-align: left;
 }
 
@@ -7798,7 +8069,7 @@ body.pourquoi-exposer #zone2 > h2 {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #00050A url("../img/visual/sial-network-bg.png") center left/cover no-repeat;
+  background: #00050A url("/theme/sial_2019_desktop_git/img/visual/sial-network-bg.png") center left/cover no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
@@ -8123,7 +8394,7 @@ body.pourquoi-exposer #zone2 > h2 {
   padding: 4rem 3rem;
   text-align: center;
   justify-self: flex-end;
-  background: #FFDB38 url("../img/visual/idea-bg.svg") right bottom/contain no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/idea-bg.svg") right bottom/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -11956,11 +12227,11 @@ body.page-rubric .exhibitors-slider {
 }
 
 .exhibitors-slider__btn--prev {
-  background-image: url("../img/icons/arrow-left--rounded.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-left--rounded.svg");
 }
 
 .exhibitors-slider__btn--next {
-  background-image: url("../img/icons/arrow-right--rounded.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-right--rounded.svg");
 }
 
 .exhibitors-slider__btn__container {
@@ -13197,7 +13468,7 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line .g
   margin: 0 auto !important;
   padding: 9rem 0 0 3rem;
   color: #fff;
-  background: rgba(48, 50, 55, 0.5) url("../img/visual/conferences-bg.jpg") center center/cover no-repeat;
+  background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_desktop_git/img/visual/conferences-bg.jpg") center center/cover no-repeat;
   border-radius: 0.6rem;
   overflow: hidden;
 }
@@ -14466,47 +14737,47 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
 }
 
 .home-sectors .ql-item.linkid794925 .btn-primary:after {
-  background-image: url("../img/sectors/viandes.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid999999 .btn-primary:after {
-  background-image: url("../img/sectors/viandes.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid794934 .btn-primary:after {
-  background-image: url("../img/sectors/food-processing.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/food-processing.png");
 }
 
 .home-sectors .ql-item.linkid794933 .btn-primary:after {
-  background-image: url("../img/sectors/traiteur-snacking.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/traiteur-snacking.png");
 }
 
 .home-sectors .ql-item.linkid794932 .btn-primary:after {
-  background-image: url("../img/sectors/produits-surgeles.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-surgeles.png");
 }
 
 .home-sectors .ql-item.linkid794931 .btn-primary:after {
-  background-image: url("../img/sectors/produits-laitiers.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-laitiers.png");
 }
 
 .home-sectors .ql-item.linkid794930 .btn-primary:after {
-  background-image: url("../img/sectors/produits-mer.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-mer.png");
 }
 
 .home-sectors .ql-item.linkid794929 .btn-primary:after {
-  background-image: url("../img/sectors/boissons.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/boissons.png");
 }
 
 .home-sectors .ql-item.linkid794928 .btn-primary:after {
-  background-image: url("../img/sectors/bio-bien-etre.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/bio-bien-etre.png");
 }
 
 .home-sectors .ql-item.linkid794927 .btn-primary:after {
-  background-image: url("../img/sectors/fruits-legumes.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/fruits-legumes.png");
 }
 
 .home-sectors .ql-item.linkid794926 .btn-primary:after {
-  background-image: url("../img/sectors/epicerie.png");
+  background-image: url("/theme/sial_2019_desktop_git/img/sectors/epicerie.png");
 }
 
 .home-images {
@@ -16177,7 +16448,7 @@ body.matchmaking .list-articles .gla-item-title {
   align-items: center;
   text-align: center;
   color: #383838;
-  background: #FFDB38 url("../img/visual/newsletter-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   max-width: 61rem;
@@ -18604,7 +18875,7 @@ body.node1318534 .submit-product::before {
   width: 100vw;
   height: 100%;
   top: 0;
-  background: #FFDB38 url("../img/visual/sial-submit-product-bg.svg") bottom right 25% no-repeat;
+  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/sial-submit-product-bg.svg") bottom right 25% no-repeat;
   z-index: -1;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -19027,23 +19298,23 @@ body.exhibitor-details .mod-catal.catal-other-ex .list-articles.block.block-page
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_or {
-  background-image: url("../img/visual/award-gold.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_gold {
-  background-image: url("../img/visual/award-gold.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_argent {
-  background-image: url("../img/visual/award-silver.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_silver {
-  background-image: url("../img/visual/award-silver.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_bronze {
-  background-image: url("../img/visual/award-bronze.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-bronze.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-title {
@@ -21819,23 +22090,23 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-or {
-  background-image: url("../img/visual/award-gold.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-gold {
-  background-image: url("../img/visual/award-gold.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-argent {
-  background-image: url("../img/visual/award-silver.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-silver {
-  background-image: url("../img/visual/award-silver.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-bronze {
-  background-image: url("../img/visual/award-bronze.svg");
+  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-bronze.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-desc {
@@ -21914,4 +22185,3 @@ body {
   color: #383838;
   background-color: #fff;
 }
-/*# sourceMappingURL=surcharge.css.map */
