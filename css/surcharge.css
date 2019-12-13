@@ -413,7 +413,17 @@ body.node1310382 .blockquote, body.node1310382 .article-content blockquote:not(.
   vertical-align: initial;
 }
 
-body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link,
+body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .important1 .lien1, body.article .article-wrapper .article-content .important2 .lien1, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
@@ -439,7 +449,17 @@ body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zon
   outline: 0;
 }
 
-body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary:hover, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,
+body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .important1 .lien1:hover, body.article .article-wrapper .article-content .important2 .lien1:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button:hover,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary:hover, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
@@ -458,7 +478,10 @@ body.article .article-wrapper .article-content .btn-invert:hover, .subheader__bt
   background: #fff;
 }
 
-body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .event-view-full .catal-ed-activity-link, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a,
+body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.page-events .evsf-as-header .evsf-as-title, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .event-view-full .catal-ed-activity-link, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a, body.exposant.fiche .mod-catal .catal-ed-main-url-link,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
 .error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
@@ -482,7 +505,10 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   overflow: hidden;
 }
 
-body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .event-view-full .catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a::after,
+body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.page-events .evsf-as-header .evsf-as-title::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .event-view-full .catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
 .error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
@@ -501,11 +527,17 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .event-view-full .is-active.catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after,
+body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#esf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.page-events .evsf-as-header .is-active.evsf-as-title::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .event-view-full .is-active.catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, body.exposant.fiche .mod-catal .is-active.catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
 .error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .event-view-full .catal-ed-activity-link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new:hover::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.page-events .evsf-as-header .evsf-as-title:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .event-view-full .catal-ed-activity-link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
 .error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
@@ -1534,6 +1566,7 @@ input[type=checkbox]:checked {
 }
 
 .icon-long-arrow-right::before,
+.icon-catal-arrow-right::before,
 .icon-catal-long-arrow-right::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1553,11 +1586,13 @@ input[type=checkbox]:checked {
 }
 
 .mod-catal .icon-long-arrow-right::before, .mod-catal
+.icon-catal-arrow-right::before, .mod-catal
 .icon-catal-long-arrow-right::before {
   content: "🔝";
 }
 
 .icon-long-arrow-left::before,
+.icon-catal-arrow-left::before,
 .icon-catal-long-arrow-left::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -1577,6 +1612,7 @@ input[type=checkbox]:checked {
 }
 
 .mod-catal .icon-long-arrow-left::before, .mod-catal
+.icon-catal-arrow-left::before, .mod-catal
 .icon-catal-long-arrow-left::before {
   content: "🔝";
 }
@@ -2418,6 +2454,18 @@ body.article .article-wrapper .article-content .lien2 {
 
 body.article .article-wrapper .article-content .lien2::after {
   width: 100%;
+}
+
+body.article .article-wrapper .article-content .important1 .lien1::after {
+  display: none;
+}
+
+body.article .article-wrapper .article-content .important2 .lien1 {
+  background: #F85C29;
+}
+
+body.article .article-wrapper .article-content .important2 .lien1::after {
+  display: none;
 }
 
 body.article .article-wrapper .article-content .btn-secondary {
@@ -3836,6 +3884,7 @@ body.page-events .block.edito.mod-catal h1 {
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone,
 body.page-events .exhibitor-search-form .esf-form-zone {
   position: static;
   margin: 0;
@@ -3845,6 +3894,9 @@ body.page-events .exhibitor-search-form .esf-form-zone {
   border-radius: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title {
   margin: 0;
   font-family: "Futura PT Book", "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -3855,14 +3907,35 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title {
   color: #383838;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title + .evsf-search-line,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title + .esf-search-line,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title + .evsf-search-line,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title + .esf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title + .evsf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title + .esf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title + .evsf-search-line,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title + .esf-search-line {
   margin-top: 3.4rem;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-intro-title label,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-intro-title label,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-intro-title label,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-intro-title label {
   font-size: inherit;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-search-line,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-search-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
   position: relative;
   width: 100%;
@@ -3881,6 +3954,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
     max-width: 95%;
     padding-bottom: 9.1rem;
@@ -3895,11 +3969,13 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
 }
 
 @media screen and (min-width: 1280px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line {
     max-width: 77.32%;
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line::before,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line::before {
   content: '';
   position: absolute;
@@ -3914,6 +3990,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line::before 
   transform: translateX(-50%);
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select {
   width: 100%;
   max-width: 30.5rem;
@@ -3927,6 +4004,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-se
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select {
     width: auto !important;
     max-width: 100%;
@@ -3939,11 +4017,13 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-se
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select select,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select select {
   height: auto;
   padding: 1.6rem 5rem 1.6rem 2.3rem !important;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select::after {
   font-size: 1.1rem;
   -webkit-transform: rotate(-180deg) translateY(55%);
@@ -3951,7 +4031,11 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-se
   transform: rotate(-180deg) translateY(55%);
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #front_search_suggest_event,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_simple_search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_simple_search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_simple_search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search {
   margin: 0;
   width: 100%;
@@ -3974,7 +4058,11 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_sim
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #front_search_suggest_event,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_simple_search,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_simple_search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event,
+  body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_simple_search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search {
     width: auto;
     max-width: 100%;
@@ -4003,16 +4091,22 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_sim
   color: #8C909E;
 }
 
-body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search::placeholder {
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #front_search_suggest_event, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_simple_search, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_simple_search, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #front_search_suggest_event, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_simple_search, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_simple_search::placeholder {
   color: #8C909E;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search {
   width: auto;
   margin: 4rem 0 0;
   outline: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search .visually-hidden,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search .visually-hidden,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search .visually-hidden,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search .visually-hidden {
   position: relative !important;
   width: auto !important;
@@ -4020,16 +4114,25 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn
   clip: auto !important;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search .icon-catal-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search .icon-catal-search,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search .icon-catal-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search .icon-catal-search {
   display: none;
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
+  body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search {
     margin: 0;
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new {
   right: auto;
   bottom: auto;
@@ -4038,6 +4141,9 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
+  body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new {
     position: absolute;
     right: 0;
@@ -4046,14 +4152,27 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new .evsf-search-plus-txt,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new .esf-search-plus-txt,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new .evsf-search-plus-txt,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new .esf-search-plus-txt,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new .evsf-search-plus-txt,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new .esf-search-plus-txt,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new .evsf-search-plus-txt,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new .esf-search-plus-txt {
   text-decoration: none;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after {
   padding: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search {
   margin: 3rem 0 0;
   text-align: center;
@@ -4062,11 +4181,28 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search {
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search,
+  body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search,
+  body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search,
   body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search {
     text-align: left;
   }
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header {
+  display: block;
+}
+
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header {
   position: relative;
   top: auto;
@@ -4074,6 +4210,21 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf
   outline: 0;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header .esf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header .evsf-as-title,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header .evsf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button .evsf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button .esf-as-title,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header .evsf-as-title,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header .esf-as-title {
   margin: 0;
   padding: 0;
@@ -4091,10 +4242,31 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf
   transition: none;
 }
 
-body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::before, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::after {
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button::before, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-header::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button::before,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-header::after,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button::before,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button::before,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button::after,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::before,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header::after {
   content: none;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters {
   position: relative;
   top: 2.5rem;
@@ -4102,17 +4274,51 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf
   border: 0.1rem solid #DDE1E6;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-advanced-search .esf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .evsf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-filters .esf-as-filter-panel,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-list-filters,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .esf-as-list-filters,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .evsf-as-filter-panel,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-filters .esf-as-filter-panel {
   margin-top: 0;
 }
 
+body.page-events .exhibitor-search-form #evsf-results-zone,
 body.page-events .exhibitor-search-form #esf-results-zone {
   margin-top: 3rem;
   background: transparent;
   border: 0;
 }
 
+body.page-events .exhibitor-search-form #evsf-results-zone .evsf-results-alpha-filter,
+body.page-events .exhibitor-search-form #evsf-results-zone .esf-results-alpha-filter,
+body.page-events .exhibitor-search-form #esf-results-zone .evsf-results-alpha-filter,
 body.page-events .exhibitor-search-form #esf-results-zone .esf-results-alpha-filter {
   padding: 0;
   color: #383838;
@@ -4184,9 +4390,9 @@ body.page-events .evsf-ampm-list {
   position: absolute;
   width: 100%;
   margin-top: -20rem;
-  margin-left: -2.5rem;
   padding: 0;
   text-align: center;
+  margin-left: -2.5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -4217,6 +4423,7 @@ body.page-events .evsf-ampm-list .form-checkbox {
 }
 
 body.page-events .catal-results {
+  width: 100%;
   margin-top: 2.5rem !important;
   margin-bottom: 3rem;
   padding-bottom: 2.5rem;
@@ -4281,7 +4488,8 @@ body.page-events .catal-results-selectboxes .form-item {
   }
 }
 
-body.page-events .catal-ex {
+body.page-events .catal-ex,
+body.page-events .evl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4291,6 +4499,7 @@ body.page-events .catal-ex {
   margin-top: -1.5rem !important;
 }
 
+body.page-events .evl-event,
 body.page-events .catal-ex-item {
   position: relative;
   display: -webkit-box;
@@ -4311,26 +4520,35 @@ body.page-events .catal-ex-item {
   overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
+  body.page-events .evl-event,
   body.page-events .catal-ex-item {
     width: calc((100% / 2) - (1.5rem * 2));
   }
 }
 
 @media screen and (min-width: 1024px) {
+  body.page-events .evl-event,
   body.page-events .catal-ex-item {
     width: calc((100% / 3) - (1.5rem * 2));
   }
 }
 
+body.page-events .evl-event a,
 body.page-events .catal-ex-item a {
   color: currentColor;
 }
 
-body.page-events .catal-ex-item a:hover, body.page-events .catal-ex-item a:focus, body.page-events .catal-ex-item a:active {
+body.page-events .evl-event a:hover, body.page-events .evl-event a:focus, body.page-events .evl-event a:active,
+body.page-events .catal-ex-item a:hover,
+body.page-events .catal-ex-item a:focus,
+body.page-events .catal-ex-item a:active {
   color: currentColor;
 }
 
+body.page-events .evl-event .evl-event-media,
+body.page-events .evl-event .catal-ex-item-img,
+body.page-events .catal-ex-item .evl-event-media,
 body.page-events .catal-ex-item .catal-ex-item-img {
   position: relative;
   height: 0;
@@ -4344,6 +4562,12 @@ body.page-events .catal-ex-item .catal-ex-item-img {
   overflow: hidden;
 }
 
+body.page-events .evl-event .evl-event-media .ezimage-field,
+body.page-events .evl-event .evl-event-media .cx-lazy-load,
+body.page-events .evl-event .catal-ex-item-img .ezimage-field,
+body.page-events .evl-event .catal-ex-item-img .cx-lazy-load,
+body.page-events .catal-ex-item .evl-event-media .ezimage-field,
+body.page-events .catal-ex-item .evl-event-media .cx-lazy-load,
 body.page-events .catal-ex-item .catal-ex-item-img .ezimage-field,
 body.page-events .catal-ex-item .catal-ex-item-img .cx-lazy-load {
   position: absolute;
@@ -4356,12 +4580,18 @@ body.page-events .catal-ex-item .catal-ex-item-img .cx-lazy-load {
   transform: translate(-50%, -50%);
 }
 
+body.page-events .evl-event .evl-event-media a:hover img,
+body.page-events .evl-event .catal-ex-item-img a:hover img,
+body.page-events .catal-ex-item .evl-event-media a:hover img,
 body.page-events .catal-ex-item .catal-ex-item-img a:hover img {
   opacity: 1;
   -webkit-filter: none;
   filter: none;
 }
 
+body.page-events .evl-event .evl-event-title,
+body.page-events .evl-event .catal-ex-item-title,
+body.page-events .catal-ex-item .evl-event-title,
 body.page-events .catal-ex-item .catal-ex-item-title {
   padding-top: 3rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
@@ -4369,8 +4599,19 @@ body.page-events .catal-ex-item .catal-ex-item-title {
   font-weight: 900;
   line-height: 2.8rem;
   color: currentColor;
+  border: 0;
 }
 
+body.page-events .evl-event .evl-event-title a,
+body.page-events .evl-event .catal-ex-item-title a,
+body.page-events .catal-ex-item .evl-event-title a,
+body.page-events .catal-ex-item .catal-ex-item-title a {
+  text-decoration: none;
+}
+
+body.page-events .evl-event .evl-event-group-title,
+body.page-events .evl-event .catal-ex-item-group-title,
+body.page-events .catal-ex-item .evl-event-group-title,
 body.page-events .catal-ex-item .catal-ex-item-group-title {
   margin: 0 0 auto;
   padding: 0;
@@ -4379,6 +4620,9 @@ body.page-events .catal-ex-item .catal-ex-item-group-title {
   border: 0;
 }
 
+body.page-events .evl-event .evl-event-buttons,
+body.page-events .evl-event .catal-ex-item-buttons,
+body.page-events .catal-ex-item .evl-event-buttons,
 body.page-events .catal-ex-item .catal-ex-item-buttons {
   position: absolute;
   top: 0;
@@ -4389,6 +4633,9 @@ body.page-events .catal-ex-item .catal-ex-item-buttons {
   text-align: right;
 }
 
+body.page-events .evl-event .evl-event-buttons .btn-primary,
+body.page-events .evl-event .catal-ex-item-buttons .btn-primary,
+body.page-events .catal-ex-item .evl-event-buttons .btn-primary,
 body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary {
   display: inline-block;
   width: 4.2rem;
@@ -4403,15 +4650,24 @@ body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary {
   box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.07);
 }
 
+body.page-events .evl-event .evl-event-buttons .btn-primary .icon-catal,
+body.page-events .evl-event .catal-ex-item-buttons .btn-primary .icon-catal,
+body.page-events .catal-ex-item .evl-event-buttons .btn-primary .icon-catal,
 body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary .icon-catal {
   margin: 0;
   vertical-align: inherit;
 }
 
+body.page-events .evl-event .evl-event-buttons .btn-primary .animation-txt,
+body.page-events .evl-event .catal-ex-item-buttons .btn-primary .animation-txt,
+body.page-events .catal-ex-item .evl-event-buttons .btn-primary .animation-txt,
 body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary .animation-txt {
   display: none;
 }
 
+body.page-events .evl-event .evl-event-content,
+body.page-events .evl-event .catal-ex-item-content,
+body.page-events .catal-ex-item .evl-event-content,
 body.page-events .catal-ex-item .catal-ex-item-content {
   position: relative;
   display: -webkit-box;
@@ -4427,6 +4683,9 @@ body.page-events .catal-ex-item .catal-ex-item-content {
   flex-direction: column;
 }
 
+body.page-events .evl-event .evl-event-content .date_event,
+body.page-events .evl-event .catal-ex-item-content .date_event,
+body.page-events .catal-ex-item .evl-event-content .date_event,
 body.page-events .catal-ex-item .catal-ex-item-content .date_event {
   font-size: 1.6rem;
   font-weight: 300;
@@ -4434,6 +4693,19 @@ body.page-events .catal-ex-item .catal-ex-item-content .date_event {
   line-height: 2.6rem;
 }
 
+body.page-events .evl-event .evl-event-content .evl-event-details-list,
+body.page-events .evl-event .evl-event-content .organizer_event,
+body.page-events .evl-event .evl-event-content .types_event,
+body.page-events .evl-event .evl-event-content .topics_event,
+body.page-events .evl-event .catal-ex-item-content .evl-event-details-list,
+body.page-events .evl-event .catal-ex-item-content .organizer_event,
+body.page-events .evl-event .catal-ex-item-content .types_event,
+body.page-events .evl-event .catal-ex-item-content .topics_event,
+body.page-events .catal-ex-item .evl-event-content .evl-event-details-list,
+body.page-events .catal-ex-item .evl-event-content .organizer_event,
+body.page-events .catal-ex-item .evl-event-content .types_event,
+body.page-events .catal-ex-item .evl-event-content .topics_event,
+body.page-events .catal-ex-item .catal-ex-item-content .evl-event-details-list,
 body.page-events .catal-ex-item .catal-ex-item-content .organizer_event,
 body.page-events .catal-ex-item .catal-ex-item-content .types_event,
 body.page-events .catal-ex-item .catal-ex-item-content .topics_event {
@@ -4443,12 +4715,22 @@ body.page-events .catal-ex-item .catal-ex-item-content .topics_event {
   color: #8C909E;
 }
 
+body.page-events .evl-event .evl-event-content .evl-event-details-list,
+body.page-events .evl-event .evl-event-content .organizer_event,
+body.page-events .evl-event .catal-ex-item-content .evl-event-details-list,
+body.page-events .evl-event .catal-ex-item-content .organizer_event,
+body.page-events .catal-ex-item .evl-event-content .evl-event-details-list,
+body.page-events .catal-ex-item .evl-event-content .organizer_event,
+body.page-events .catal-ex-item .catal-ex-item-content .evl-event-details-list,
 body.page-events .catal-ex-item .catal-ex-item-content .organizer_event {
   margin: 2rem -3rem 0;
   padding: 2rem 3rem 0;
   border-top: 0.1rem solid #F3F6FB;
 }
 
+body.page-events .evl-event .evl-event-content .types_event,
+body.page-events .evl-event .catal-ex-item-content .types_event,
+body.page-events .catal-ex-item .evl-event-content .types_event,
 body.page-events .catal-ex-item .catal-ex-item-content .types_event {
   position: absolute;
   top: 3rem;
@@ -4463,31 +4745,74 @@ body.page-events .catal-ex-item .catal-ex-item-content .types_event {
   color: currentColor;
 }
 
+body.page-events .evl-event .evl-event-content .types_event .evl-event-cat-title,
+body.page-events .evl-event .evl-event-content .types_event .catal-ex-item-cat-title,
+body.page-events .evl-event .catal-ex-item-content .types_event .evl-event-cat-title,
+body.page-events .evl-event .catal-ex-item-content .types_event .catal-ex-item-cat-title,
+body.page-events .catal-ex-item .evl-event-content .types_event .evl-event-cat-title,
+body.page-events .catal-ex-item .evl-event-content .types_event .catal-ex-item-cat-title,
+body.page-events .catal-ex-item .catal-ex-item-content .types_event .evl-event-cat-title,
 body.page-events .catal-ex-item .catal-ex-item-content .types_event .catal-ex-item-cat-title {
   display: none;
 }
 
+body.page-events .evl-event .evl-event-details-term,
+body.page-events .evl-event .evl-event-details-def,
+body.page-events .evl-event .catal-ex-item-cat-title,
+body.page-events .catal-ex-item .evl-event-details-term,
+body.page-events .catal-ex-item .evl-event-details-def,
 body.page-events .catal-ex-item .catal-ex-item-cat-title {
   font-size: inherit;
   color: currentColor;
 }
 
+body.page-events .evl-event .catal-ex-item-desc,
 body.page-events .catal-ex-item .catal-ex-item-desc {
   margin-top: 1.5rem;
   padding: 0;
   font-size: inherit;
 }
 
+body.page-events .evl-event .evl-event-details-list,
+body.page-events .evl-event .evl-event-stand-item,
+body.page-events .evl-event .catal-ex-item-stand-item,
+body.page-events .catal-ex-item .evl-event-details-list,
+body.page-events .catal-ex-item .evl-event-stand-item,
 body.page-events .catal-ex-item .catal-ex-item-stand-item {
   margin: 0;
   padding: 0;
   font-size: inherit;
 }
 
+body.page-events .evl-event .catal-ex-item-stand,
+body.page-events .evl-event .icon-catal-localisation,
+body.page-events .evl-event .place_event,
+body.page-events .evl-event .description_event,
+body.page-events .catal-ex-item .catal-ex-item-stand,
 body.page-events .catal-ex-item .icon-catal-localisation,
 body.page-events .catal-ex-item .place_event,
 body.page-events .catal-ex-item .description_event {
   display: none;
+}
+
+body.page-events .evsf-search-line {
+  margin-top: 2rem !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body.page-events .evsf-search-line #evsf_simple_search {
+  height: auto;
+  padding: 1.6rem 5rem 1.6rem 2.3rem !important;
+  border: 0;
+}
+
+body.page-events .evsf-as-header .evsf-btn-search .icon-catal {
+  display: none;
+}
+
+body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
+  display: inline;
 }
 
 .catalog-order {
