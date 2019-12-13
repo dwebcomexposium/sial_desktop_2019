@@ -1,0 +1,1 @@
+!function(a){a(function(){if(a("body").hasClass("detail-actu")){var t=a(".article-title + .article-intro > p");t.length&&a(".article-title .at-content h1").after(t)}})}(jQuery);
