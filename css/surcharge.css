@@ -12,80 +12,80 @@ img {
  */
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Light.eot");
+  src: url("../fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-LightOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Roman.eot");
+  src: url("../fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Oblique.eot");
+  src: url("../fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Oblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Medium.eot");
+  src: url("../fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff2") format("woff2");
+  src: url("../fonts/avenir/Avenir-Heavy.eot");
+  src: url("../fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/Avenir-Heavy.woff") format("woff"), url("../fonts/avenir/Avenir-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Black.eot");
+  src: url("../fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Black.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -96,16 +96,16 @@ img {
  */
 @font-face {
   font-family: 'Avenir Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Book.eot");
+  src: url("../fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-BookOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -116,32 +116,32 @@ img {
  */
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Medium.eot");
+  src: url("../fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-MediumObl.eot");
+  src: url("../fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-MediumObl.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Demi.eot");
+  src: url("../fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Demi.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Bold.eot");
+  src: url("../fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -152,8 +152,8 @@ img {
  */
 @font-face {
   font-family: 'Futura PT Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Book.eot");
+  src: url("../fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -164,16 +164,16 @@ img {
  */
 @font-face {
   font-family: 'Futura Cond';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
+  src: url("../fonts/futura/Futura-CondensedMedium.eot");
+  src: url("../fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("../fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura Cond';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
+  src: url("../fonts/futura/Futura-CondensedExtraBold.eot");
+  src: url("../fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("../fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
@@ -183,11 +183,92 @@ img {
  */
 @font-face {
   font-family: 'sial-icomoon';
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot}");
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.ttf") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.svg#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot}");
+  src: url("../fonts/icomoon/icomoon.eot#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
+}
+
+@font-face {
+  font-family: 'Gudea';
+  src: url("../fonts/gudea/Gudea-Regular-webfont.eot");
+  src: url("../fonts/gudea/Gudea-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Regular-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Regular-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Regular-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Regular-webfont.svg#gudearegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gudea';
+  src: url("../fonts/gudea/Gudea-Italic-webfont.eot");
+  src: url("../fonts/gudea/Gudea-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Italic-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Italic-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Italic-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Italic-webfont.svg#gudeaitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gudea';
+  src: url("../fonts/gudea/Gudea-Bold-webfont.eot");
+  src: url("../fonts/gudea/Gudea-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Bold-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Bold-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Bold-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Bold-webfont.svg#gudeabold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* League Gothic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("../fonts/league-gothic/LeagueGothic-Regular-webfont.eot");
+  src: url("../fonts/league-gothic/LeagueGothic-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.woff2") format("woff2"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.woff") format("woff"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.ttf") format("truetype"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Droid Sans */
+@font-face {
+  font-family: 'Droid Sans';
+  src: url("../fonts/droidsans/DroidSans-webfont.eot");
+  src: url("../fonts/droidsans/DroidSans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans/DroidSans-webfont.woff2") format("woff2"), url("../fonts/droidsans/DroidSans-webfont.woff") format("woff"), url("../fonts/droidsans/DroidSans-webfont.ttf") format("truetype"), url("../fonts/droidsans/DroidSans-webfont.svg#droid_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url("../fonts/droidsans/DroidSans-Bold-webfont.eot");
+  src: url("../fonts/droidsans/DroidSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans/DroidSans-Bold-webfont.woff2") format("woff2"), url("../fonts/droidsans/DroidSans-Bold-webfont.woff") format("woff"), url("../fonts/droidsans/DroidSans-Bold-webfont.ttf") format("truetype"), url("../fonts/droidsans/DroidSans-Bold-webfont.svg#droid_sansbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat/Montserrat-Regular-webfont.eot");
+  src: url("../fonts/montserrat/Montserrat-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-Regular-webfont.woff") format("woff"), url("../fonts/montserrat/Montserrat-Regular-webfont.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-Regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat/Montserrat-Bold-webfont.eot");
+  src: url("../fonts/montserrat/Montserrat-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-Bold-webfont.woff") format("woff"), url("../fonts/montserrat/Montserrat-Bold-webfont.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-Bold-webfont.svg#montserratbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icon-catal';
+  src: url("../fonts/comexposium-iconcatalogue/fonts/comexposium-iconcatalogue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icon';
+  src: url("../fonts/comexposium-iconfront/fonts/comexposium-iconfront.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @-webkit-keyframes slideUpFadeIn {
@@ -563,7 +644,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-  background: url("/theme/sial_2019_desktop_git/img/icons/check.svg") center center no-repeat;
+  background: url("../img/icons/check.svg") center center no-repeat;
   background-size: 75%;
 }
 
@@ -3388,7 +3469,13 @@ body.article-program .article-wrapper .article-title .at-content {
   flex-direction: column;
 }
 
-body.article-program .article-wrapper .article-title .at-main-title, body.article-program .article-wrapper .article-title .block.edito-custom h2, .block.edito-custom body.article-program .article-wrapper .article-title h2, body.article-program .article-wrapper .block.article-title h2 {
+@media screen and (min-width: 1280px) {
+  body.article-program .article-wrapper .article-title .at-content {
+    padding-top: 0;
+  }
+}
+
+body.article-program .article-wrapper .article-title .at-content .at-main-title, body.article-program .article-wrapper .article-title .at-content .block.edito-custom h2, .block.edito-custom body.article-program .article-wrapper .article-title .at-content h2, body.article-program .article-wrapper .block.article-title .at-content h2 {
   -webkit-box-ordinal-group: 2;
   -ms-flex-order: 1;
   order: 1;
@@ -3399,6 +3486,7 @@ body.article-program .article-wrapper .article-title .at-main-title, body.articl
   line-height: 6.3rem;
   text-align: center;
   color: #585858;
+  border: 0 !important;
 }
 
 body.article-program .article-wrapper .article-title p:last-of-type {
@@ -3861,6 +3949,10 @@ body.node1316963 .article-content p:nth-of-type(8), body.node1316963 .article-co
   display: inline-block;
   color: currentColor;
   text-decoration: none;
+}
+
+.bn-item-link .hashtag {
+  display: none;
 }
 
 .bn-item:last-child .bn-item-link {
@@ -5694,7 +5786,7 @@ body.node1309141 .quicklinks-cta--large {
   margin-bottom: 5rem;
   padding-top: 4rem;
   padding-bottom: 8.9rem;
-  background: #EAEEF6 url("/theme/sial_2019_desktop_git/img/visual/smartphone-bg.svg") bottom left no-repeat;
+  background: #EAEEF6 url("../img/visual/smartphone-bg.svg") bottom left no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -6588,7 +6680,7 @@ body.node1309141 .quicklinks-cta--large {
   height: 2.6rem;
   margin-top: 0.5rem;
   margin-right: 0.9rem;
-  background: url("/theme/sial_2019_desktop_git/img/logo-sial.svg") center center/contain no-repeat;
+  background: url("../img/logo-sial.svg") center center/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -6704,7 +6796,7 @@ body.node1309141 .quicklinks-cta--large {
 
 @media screen and (min-width: 1024px) {
   .hero.hero-why-exhibit .hero__background--with-img {
-    background: #303237 url("/theme/sial_2019_desktop_git/img/visual/hero-why-exhibit-bg.png") right center/contain no-repeat;
+    background: #303237 url("../img/visual/hero-why-exhibit-bg.png") right center/contain no-repeat;
   }
 }
 
@@ -7291,7 +7383,7 @@ body.node1309141 .quicklinks-cta--large {
   right: -2.5rem;
   display: block;
   width: 100vw;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/round-add-bg.svg") right bottom no-repeat;
+  background: #FFDB38 url("../img/visual/round-add-bg.svg") right bottom no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -8046,7 +8138,7 @@ body.pourquoi-exposer #zone2 > h2 {
 }
 
 .propale .deadline__block--participate {
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/sial-propale-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("../img/visual/sial-propale-bg.svg") bottom right no-repeat;
   text-align: left;
 }
 
@@ -8069,7 +8161,7 @@ body.pourquoi-exposer #zone2 > h2 {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #00050A url("/theme/sial_2019_desktop_git/img/visual/sial-network-bg.png") center left/cover no-repeat;
+  background: #00050A url("../img/visual/sial-network-bg.png") center left/cover no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
@@ -8394,7 +8486,7 @@ body.pourquoi-exposer #zone2 > h2 {
   padding: 4rem 3rem;
   text-align: center;
   justify-self: flex-end;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/idea-bg.svg") right bottom/contain no-repeat;
+  background: #FFDB38 url("../img/visual/idea-bg.svg") right bottom/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -9867,9 +9959,16 @@ body.detail-actu .article-wrapper {
 }
 
 body.detail-actu .article-wrapper .article-title > .inside .at-content .at-main-title, body.detail-actu .article-wrapper .article-title > .inside .at-content .block.edito-custom h2, .block.edito-custom body.detail-actu .article-wrapper .article-title > .inside .at-content h2, body.detail-actu .article-wrapper .article-title > .inside .at-content .block.article-title h2, .block.article-title body.detail-actu .article-wrapper .article-title > .inside .at-content h2 {
-  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
   margin-top: 2rem;
-  margin-bottom: 10.1rem;
+  margin-bottom: 2.2rem;
+  border: 0;
 }
 
 @media screen and (min-width: 1280px) {
@@ -9877,6 +9976,17 @@ body.detail-actu .article-wrapper .article-title > .inside .at-content .at-main-
     font-size: 4.2rem;
     line-height: 1.5;
   }
+}
+
+body.detail-actu .article-wrapper .article-title > .inside .at-content .at-main-title .hashtag, body.detail-actu .article-wrapper .article-title > .inside .at-content .block.edito-custom h2 .hashtag, .block.edito-custom body.detail-actu .article-wrapper .article-title > .inside .at-content h2 .hashtag, body.detail-actu .article-wrapper .article-title > .inside .at-content .block.article-title h2 .hashtag, .block.article-title body.detail-actu .article-wrapper .article-title > .inside .at-content h2 .hashtag {
+  color: #383838;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.104rem;
+  line-height: 3.08;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 body.detail-actu .article-wrapper .article-title > .inside img.cx-lazy-load,
@@ -9946,39 +10056,18 @@ body.detail-actu .article-wrapper .article-title .at-content {
   width: 100%;
 }
 
-body.detail-actu .article-wrapper .article-intro {
-  position: absolute;
-  top: 13rem;
-  left: 0;
-  right: 0;
-  display: block;
-  width: 100%;
-}
-
-@media screen and (min-width: 520px) {
-  body.detail-actu .article-wrapper .article-intro {
-    top: 11rem;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  body.detail-actu .article-wrapper .article-intro {
-    top: 16rem;
-  }
-}
-
-body.detail-actu .article-wrapper .article-intro p {
+body.detail-actu .article-wrapper .article-title .at-content p {
   color: #8C909E;
-  margin: auto;
+  margin: 0 auto 2rem;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.55;
   text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
-  body.detail-actu .article-wrapper .article-intro p {
-    width: 60%;
+@media screen and (min-width: 768px) {
+  body.detail-actu .article-wrapper .article-title .at-content p {
+    width: 62%;
   }
 }
 
@@ -9986,13 +10075,13 @@ body.detail-actu .article-wrapper .article-content {
   position: relative;
   margin-bottom: 8rem;
   margin-top: -4rem;
-  padding: 10.5rem 1.5rem 8rem;
+  padding: 7.5rem 1.5rem 8rem;
 }
 
 @media screen and (min-width: 768px) {
   body.detail-actu .article-wrapper .article-content {
-    margin-top: -15rem;
-    padding-top: 22.5rem;
+    margin-top: -16.4rem;
+    padding-top: 22.4rem;
   }
 }
 
@@ -10127,7 +10216,7 @@ body.detail-actu .article-wrapper .social-sharing .social-sharing {
     display: block;
     position: absolute;
     left: -0.5rem;
-    top: 12.2rem;
+    top: 15.5rem;
     border: 0;
     margin-top: 0;
     background: none;
@@ -10165,21 +10254,43 @@ body.page-events.page-details .list-articles img {
   margin: 0 auto;
 }
 
+body.page-events.page-details .event-view-full .block.edito.mod-catal .inside {
+  position: relative;
+}
+
 body.page-events.page-details .event-view-full .catal-ex-item-buttons {
   position: absolute !important;
-  left: 1.5rem;
-  margin-top: 20rem;
-  padding-right: 1.5rem;
-  max-width: 17.08%;
+  z-index: 2;
+  right: 0;
+  bottom: -4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 1280px) {
+  body.page-events.page-details .event-view-full .catal-ex-item-buttons {
+    display: block;
+    right: auto;
+    bottom: auto;
+    margin-top: 5rem;
+    padding-right: 1.5rem;
+    max-width: 21.35rem;
+    -webkit-transform: translate(-100%, 100%);
+    -ms-transform: translate(-100%, 100%);
+    transform: translate(-100%, 100%);
+  }
 }
 
 body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 4.2rem;
+  height: 4.2rem;
+  line-height: 4.2rem;
   margin-left: 0;
-  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
   -webkit-box-align: center;
@@ -10188,6 +10299,22 @@ body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-prima
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  background: #fff;
+  -webkit-box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (min-width: 1280px) {
+  body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    background: #292B2F;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
 }
 
 body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary[data-action='add'] > .selection-empty,
@@ -10200,17 +10327,36 @@ body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-prima
   align-items: center;
 }
 
+body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary .animation-txt {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary .animation-txt {
+    display: block;
+  }
+}
+
 body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary .icon-catal {
-  -webkit-box-ordinal-group: 100;
-  -ms-flex-order: 99;
-  order: 99;
-  margin-left: 1rem;
-  margin-right: 0;
-  font-size: 1.2rem;
+  margin: 0;
   color: #F85C29;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+}
+
+@media screen and (min-width: 1280px) {
+  body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary .icon-catal {
+    -webkit-box-ordinal-group: 100;
+    -ms-flex-order: 99;
+    order: 99;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary .icon-catal.icon-catal-calendar {
+  font-size: 1.6rem;
 }
 
 body.page-events.page-details .event-view-full .catal-ex-item-stand-more-link {
@@ -11203,9 +11349,8 @@ body.exhibitor-details .mod-catal .catal-ed-main-social {
   body.exposant.fiche .mod-catal .catal-ed-main-social,
   body.exhibitor-details .mod-catal .catal-ed-main-social {
     position: absolute;
-    top: 27.5rem;
+    top: 2.2rem;
     left: 16rem;
-    top: 1.6rem;
     z-index: 10;
     margin-top: 0;
   }
@@ -12227,11 +12372,11 @@ body.page-rubric .exhibitors-slider {
 }
 
 .exhibitors-slider__btn--prev {
-  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-left--rounded.svg");
+  background-image: url("../img/icons/arrow-left--rounded.svg");
 }
 
 .exhibitors-slider__btn--next {
-  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-right--rounded.svg");
+  background-image: url("../img/icons/arrow-right--rounded.svg");
 }
 
 .exhibitors-slider__btn__container {
@@ -13468,7 +13613,7 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line .g
   margin: 0 auto !important;
   padding: 9rem 0 0 3rem;
   color: #fff;
-  background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_desktop_git/img/visual/conferences-bg.jpg") center center/cover no-repeat;
+  background: rgba(48, 50, 55, 0.5) url("../img/visual/conferences-bg.jpg") center center/cover no-repeat;
   border-radius: 0.6rem;
   overflow: hidden;
 }
@@ -14737,47 +14882,47 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
 }
 
 .home-sectors .ql-item.linkid794925 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
+  background-image: url("../img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid999999 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
+  background-image: url("../img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid794934 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/food-processing.png");
+  background-image: url("../img/sectors/food-processing.png");
 }
 
 .home-sectors .ql-item.linkid794933 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/traiteur-snacking.png");
+  background-image: url("../img/sectors/traiteur-snacking.png");
 }
 
 .home-sectors .ql-item.linkid794932 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-surgeles.png");
+  background-image: url("../img/sectors/produits-surgeles.png");
 }
 
 .home-sectors .ql-item.linkid794931 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-laitiers.png");
+  background-image: url("../img/sectors/produits-laitiers.png");
 }
 
 .home-sectors .ql-item.linkid794930 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-mer.png");
+  background-image: url("../img/sectors/produits-mer.png");
 }
 
 .home-sectors .ql-item.linkid794929 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/boissons.png");
+  background-image: url("../img/sectors/boissons.png");
 }
 
 .home-sectors .ql-item.linkid794928 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/bio-bien-etre.png");
+  background-image: url("../img/sectors/bio-bien-etre.png");
 }
 
 .home-sectors .ql-item.linkid794927 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/fruits-legumes.png");
+  background-image: url("../img/sectors/fruits-legumes.png");
 }
 
 .home-sectors .ql-item.linkid794926 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/epicerie.png");
+  background-image: url("../img/sectors/epicerie.png");
 }
 
 .home-images {
@@ -16448,7 +16593,7 @@ body.matchmaking .list-articles .gla-item-title {
   align-items: center;
   text-align: center;
   color: #383838;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/newsletter-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("../img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   max-width: 61rem;
@@ -18875,7 +19020,7 @@ body.node1318534 .submit-product::before {
   width: 100vw;
   height: 100%;
   top: 0;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/sial-submit-product-bg.svg") bottom right 25% no-repeat;
+  background: #FFDB38 url("../img/visual/sial-submit-product-bg.svg") bottom right 25% no-repeat;
   z-index: -1;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -19298,23 +19443,23 @@ body.exhibitor-details .mod-catal.catal-other-ex .list-articles.block.block-page
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_or {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_gold {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_argent {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_silver {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_bronze {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-bronze.svg");
+  background-image: url("../img/visual/award-bronze.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-title {
@@ -22090,23 +22235,23 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-or {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-gold {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-argent {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-silver {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-bronze {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-bronze.svg");
+  background-image: url("../img/visual/award-bronze.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-desc {
@@ -22185,3 +22330,4 @@ body {
   color: #383838;
   background-color: #fff;
 }
+/*# sourceMappingURL=surcharge.css.map */
