@@ -1113,6 +1113,20 @@ input[type=checkbox]:checked {
   content: "📳";
 }
 
+.icon.icon-minus::before {
+  font-family: 'sial-icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "➖";
+}
+
 .icon.icon-notebook::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
@@ -9651,8 +9665,8 @@ body.node1316958 .article-wrapper .article-content .card ul li::before {
 }
 
 body.faq .block-page.faq {
-  padding: 2rem 0 5rem;
   position: relative;
+  padding: 2rem 0 5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -9670,33 +9684,33 @@ body.faq .block-page.faq {
 body.faq .block-page.faq::before {
   content: '';
   position: absolute;
+  z-index: -1;
+  top: -8rem;
   left: 50%;
+  width: 100vw;
+  height: calc(100% + 8rem);
+  background-color: #F3F6FB;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #F3F6FB;
-  width: 100vw;
-  height: calc(100% + 8rem);
-  z-index: -1;
-  top: -8rem;
 }
 
 body.faq .block-page.faq .faq-main-title {
   margin-bottom: 5.6rem;
-  text-align: center;
   padding: 0;
-  border: 0;
-  color: #585858;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 4.5rem;
+  text-align: center;
+  color: #585858;
+  border: 0;
 }
 
 @media screen and (min-width: 768px) {
   body.faq .block-page.faq .faq-main-title {
-    line-height: 6rem;
     font-size: 4.2rem;
+    line-height: 6rem;
   }
 }
 
@@ -9708,13 +9722,13 @@ body.faq .block-page.faq .intro {
 }
 
 body.faq .block-page.faq .fc-title {
+  margin-bottom: 1.5rem;
   padding: 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   color: #383838;
   border: 0;
-  margin-bottom: 1.5rem;
 }
 
 body.faq .block-page.faq .faq-content {
@@ -9724,24 +9738,25 @@ body.faq .block-page.faq .faq-content {
 body.faq .block-page.faq .fc-item-link {
   position: relative;
   display: block;
-  color: #383838;
+  padding: 3rem 9rem 3rem 2rem;
   font-size: 2rem;
   font-weight: 600;
   line-height: 3.1rem;
   text-decoration: none;
-  border-bottom: 0.1rem solid #E3E3E3;
-  padding: 3rem 9rem 3rem 2rem;
+  color: #383838;
 }
 
 @media screen and (min-width: 768px) {
   body.faq .block-page.faq .fc-item-link {
-    padding: 3rem 10rem 3rem 3rem;
+    padding-right: 10rem;
+    padding-left: 3rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body.faq .block-page.faq .fc-item-link {
-    padding: 3rem 17.9rem 3rem 10.9rem;
+    padding-right: 17.9rem;
+    padding-left: 10.9rem;
   }
 }
 
@@ -9752,11 +9767,11 @@ body.faq .block-page.faq .fc-item-link .icon {
 body.faq .block-page.faq .fc-item-link::before, body.faq .block-page.faq .fc-item-link::after {
   position: absolute;
   top: 2.25rem;
+  right: 2rem;
   width: 4.1rem;
   height: 4.1rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -9781,7 +9796,6 @@ body.faq .block-page.faq .fc-item-link::before {
 }
 
 body.faq .block-page.faq .fc-item-link::after {
-  content: "✚";
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
@@ -9792,9 +9806,11 @@ body.faq .block-page.faq .fc-item-link::after {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  content: "✚";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 1.5rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -9805,7 +9821,6 @@ body.faq .block-page.faq .fc-item-link::after {
   -webkit-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  font-size: 1.5rem;
 }
 
 body.faq .block-page.faq .fc-item-link:hover::before, body.faq .block-page.faq .fc-item-link:active::before {
@@ -9817,10 +9832,10 @@ body.faq .block-page.faq .fc-item-link:hover::after, body.faq .block-page.faq .f
 }
 
 body.faq .block-page.faq .fc-item {
-  border: 0;
+  position: relative;
   padding: 0;
   background-color: #fff;
-  position: relative;
+  border: 0;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   -o-transition: box-shadow 0.2s ease-in-out;
@@ -9831,16 +9846,16 @@ body.faq .block-page.faq .fc-item {
 }
 
 body.faq .block-page.faq .fc-item.is-open {
-  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.08);
-  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
 }
 
 body.faq .block-page.faq .fc-item.is-open .fc-item-link::after {
-  content: '\2796';
+  content: "➖";
 }
 
 body.faq .block-page.faq .fc-item:not(:last-of-type) {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 body.faq .block-page.faq .fc-item-content {
@@ -9848,6 +9863,7 @@ body.faq .block-page.faq .fc-item-content {
   line-height: 3.1rem;
   font-size: 2rem;
   font-weight: 300;
+  background-color: #FDF8D4;
 }
 
 @media screen and (min-width: 768px) {
