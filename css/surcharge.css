@@ -12,80 +12,80 @@ img {
  */
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Light.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Light.eot");
+  src: url("../fonts/avenir/AvenirLT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-LightOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-LightOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-LightOblique.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Roman.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Roman.eot");
+  src: url("../fonts/avenir/AvenirLT-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Oblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Oblique.eot");
+  src: url("../fonts/avenir/AvenirLT-Oblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Oblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Medium.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Medium.eot");
+  src: url("../fonts/avenir/AvenirLT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-MediumOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-MediumOblique.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/avenir/Avenir-Heavy.woff2") format("woff2");
+  src: url("../fonts/avenir/Avenir-Heavy.eot");
+  src: url("../fonts/avenir/Avenir-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/Avenir-Heavy.woff") format("woff"), url("../fonts/avenir/Avenir-Heavy.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-HeavyOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-HeavyOblique.woff") format("woff");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Black.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Black.eot");
+  src: url("../fonts/avenir/AvenirLT-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Black.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-BlackOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BlackOblique.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -96,16 +96,16 @@ img {
  */
 @font-face {
   font-family: 'Avenir Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-Book.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-Book.eot");
+  src: url("../fonts/avenir/AvenirLT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
+  src: url("../fonts/avenir/AvenirLT-BookOblique.eot");
+  src: url("../fonts/avenir/AvenirLT-BookOblique.eot?#iefix") format("embedded-opentype"), url("../fonts/avenir/AvenirLT-BookOblique.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -116,32 +116,32 @@ img {
  */
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Medium.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Medium.eot");
+  src: url("../fonts/futura/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-MediumObl.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-MediumObl.eot");
+  src: url("../fonts/futura/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-MediumObl.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Demi.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Demi.eot");
+  src: url("../fonts/futura/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Demi.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Bold.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Bold.eot");
+  src: url("../fonts/futura/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -152,8 +152,8 @@ img {
  */
 @font-face {
   font-family: 'Futura PT Book';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/FuturaPT-Book.woff") format("woff");
+  src: url("../fonts/futura/FuturaPT-Book.eot");
+  src: url("../fonts/futura/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaPT-Book.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -164,16 +164,16 @@ img {
  */
 @font-face {
   font-family: 'Futura Cond';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
+  src: url("../fonts/futura/Futura-CondensedMedium.eot");
+  src: url("../fonts/futura/Futura-CondensedMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedMedium.woff") format("woff"), url("../fonts/futura/Futura-CondensedMedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Futura Cond';
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot");
-  src: url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
+  src: url("../fonts/futura/Futura-CondensedExtraBold.eot");
+  src: url("../fonts/futura/Futura-CondensedExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/Futura-CondensedExtraBold.woff") format("woff"), url("../fonts/futura/Futura-CondensedExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
@@ -183,11 +183,92 @@ img {
  */
 @font-face {
   font-family: 'sial-icomoon';
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot}");
-  src: url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.eot#iefix") format("embedded-opentype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.ttf") format("truetype"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.woff") format("woff"), url("/theme/sial_2019_desktop_git/fonts/icomoon/icomoon.svg#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot}");
+  src: url("../fonts/icomoon/icomoon.eot#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
+}
+
+@font-face {
+  font-family: 'Gudea';
+  src: url("../fonts/gudea/Gudea-Regular-webfont.eot");
+  src: url("../fonts/gudea/Gudea-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Regular-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Regular-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Regular-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Regular-webfont.svg#gudearegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gudea';
+  src: url("../fonts/gudea/Gudea-Italic-webfont.eot");
+  src: url("../fonts/gudea/Gudea-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Italic-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Italic-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Italic-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Italic-webfont.svg#gudeaitalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gudea';
+  src: url("../fonts/gudea/Gudea-Bold-webfont.eot");
+  src: url("../fonts/gudea/Gudea-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gudea/Gudea-Bold-webfont.woff2") format("woff2"), url("../fonts/gudea/Gudea-Bold-webfont.woff") format("woff"), url("../fonts/gudea/Gudea-Bold-webfont.ttf") format("truetype"), url("../fonts/gudea/Gudea-Bold-webfont.svg#gudeabold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* League Gothic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url("../fonts/league-gothic/LeagueGothic-Regular-webfont.eot");
+  src: url("../fonts/league-gothic/LeagueGothic-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.woff2") format("woff2"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.woff") format("woff"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.ttf") format("truetype"), url("../fonts/league-gothic/LeagueGothic-Regular-webfont.svg#league_gothicregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Droid Sans */
+@font-face {
+  font-family: 'Droid Sans';
+  src: url("../fonts/droidsans/DroidSans-webfont.eot");
+  src: url("../fonts/droidsans/DroidSans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans/DroidSans-webfont.woff2") format("woff2"), url("../fonts/droidsans/DroidSans-webfont.woff") format("woff"), url("../fonts/droidsans/DroidSans-webfont.ttf") format("truetype"), url("../fonts/droidsans/DroidSans-webfont.svg#droid_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url("../fonts/droidsans/DroidSans-Bold-webfont.eot");
+  src: url("../fonts/droidsans/DroidSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans/DroidSans-Bold-webfont.woff2") format("woff2"), url("../fonts/droidsans/DroidSans-Bold-webfont.woff") format("woff"), url("../fonts/droidsans/DroidSans-Bold-webfont.ttf") format("truetype"), url("../fonts/droidsans/DroidSans-Bold-webfont.svg#droid_sansbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat/Montserrat-Regular-webfont.eot");
+  src: url("../fonts/montserrat/Montserrat-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-Regular-webfont.woff") format("woff"), url("../fonts/montserrat/Montserrat-Regular-webfont.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-Regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/montserrat/Montserrat-Bold-webfont.eot");
+  src: url("../fonts/montserrat/Montserrat-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-Bold-webfont.woff") format("woff"), url("../fonts/montserrat/Montserrat-Bold-webfont.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-Bold-webfont.svg#montserratbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icon-catal';
+  src: url("../fonts/comexposium-iconcatalogue/fonts/comexposium-iconcatalogue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icon';
+  src: url("../fonts/comexposium-iconfront/fonts/comexposium-iconfront.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @-webkit-keyframes slideUpFadeIn {
@@ -413,12 +494,12 @@ body.node1310382 .blockquote, body.node1310382 .article-content blockquote:not(.
   vertical-align: initial;
 }
 
-body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link,
+body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .externe.lien1, body.node1316963 .article-wrapper .article-content .externe.lien2, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1, body.front .exhibitors-slider + .block.edito .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.speakers-sial .edito.mod-catal .main-title-with-link a,
-body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-wrapper .article-content .externe.lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 1.3rem 2.6rem 1.4rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -439,12 +520,12 @@ body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zon
   outline: 0;
 }
 
-body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary:hover, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,
+body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .externe.lien1:hover, body.node1316963 .article-wrapper .article-content .externe.lien2:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary:hover, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, body.front .exhibitors-slider + .block.edito .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.speakers-sial .edito.mod-catal .main-title-with-link a:hover,
-body.node1318742 .edito.mod-catal .main-title-with-link a:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+body.node1318742 .edito.mod-catal .main-title-with-link a:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-wrapper .article-content .externe.lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -531,7 +612,7 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:checked {
-  background: url("/theme/sial_2019_desktop_git/img/icons/check.svg") center center no-repeat;
+  background: url("../img/icons/check.svg") center center no-repeat;
   background-size: 75%;
 }
 
@@ -3408,6 +3489,24 @@ body.article-program .article-wrapper .article-content {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.56;
+  max-width: initial;
+}
+
+body.article-program .article-wrapper .article-content::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -15rem;
+  width: 100%;
+  height: 15rem;
+  background-color: #F3F6FB;
+}
+
+@media screen and (min-width: 1024px) {
+  body.article-program .article-wrapper .article-content::before {
+    top: -10rem;
+    height: 10rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3417,8 +3516,14 @@ body.article-program .article-wrapper .article-content {
   }
 }
 
-body.article-program .article-wrapper .article-content .lien2 {
+body.article-program .article-wrapper .article-content .externe.lien2 {
   color: #F85C29;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+body.article-program .article-wrapper .article-content .externe.lien1::after {
+  content: none;
 }
 
 body.article-program .article-wrapper .article-content p,
@@ -3521,22 +3626,6 @@ body.article-program .article-wrapper .article-content p:last-of-type {
 
 body.article-program .article-wrapper .article-content p a {
   text-decoration: none;
-}
-
-body.article-program .article-wrapper .article-content::before {
-  position: absolute;
-  z-index: -1;
-  top: -15rem;
-  width: 100%;
-  height: 15rem;
-  background-color: #F3F6FB;
-}
-
-@media screen and (min-width: 1024px) {
-  body.article-program .article-wrapper .article-content::before {
-    top: -10rem;
-    height: 10rem;
-  }
 }
 
 body.article-program .article-wrapper .article-content ul {
@@ -3686,6 +3775,14 @@ body.node1316963 .article-intro {
   margin-right: auto;
 }
 
+body.node1316963 .article-wrapper .article-content .externe.lien2 {
+  position: relative;
+}
+
+body.node1316963 .article-wrapper .article-content .externe.lien2::after {
+  content: none;
+}
+
 body.node1316963 .article-content > * {
   width: 100%;
 }
@@ -3694,10 +3791,6 @@ body.node1316963 .article-content iframe {
   margin-bottom: 2rem;
   margin-left: 0 !important;
   width: 100%;
-}
-
-body.node1316963 .article-content .lien2 {
-  position: relative;
 }
 
 body.node1316963 .article-content p {
@@ -4719,8 +4812,14 @@ body.node1309141 .contacts-list .intro p {
   }
 }
 
+@media screen and (min-width: 660px) {
+  body.node1309141 .contacts-list .cl-content {
+    margin: 0 -1.5rem;
+  }
+}
+
 body.node1309141 .contacts-list .cl-item {
-  max-width: 29.1rem;
+  width: 29.1rem;
   margin: 1.5rem auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -4728,26 +4827,26 @@ body.node1309141 .contacts-list .cl-item {
   flex-direction: column;
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 640px) {
   body.node1309141 .contacts-list .cl-item {
-    margin-right: 0;
-    margin-left: 0;
+    width: calc((100% / 2) - 3rem);
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .cl-item {
-    width: calc(50% - 3rem);
-    max-width: calc(33% - 1.5rem);
-    margin: 3rem 0 0;
+    width: calc((100% / 3) - 3rem);
+    margin-top: 3rem;
+    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body.node1309141 .contacts-list .cl-item {
-    width: calc(50% - 3rem);
-    max-width: initial;
-    margin: 9rem 0 0;
+    width: calc((100% / 2) - 3rem);
+    margin-top: 9rem;
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;
     -ms-flex-direction: initial;
@@ -4763,25 +4862,29 @@ body.node1309141 .contacts-list .cl-item-illust {
 }
 
 body.node1309141 .contacts-list .cl-item-photo {
+  position: relative;
   height: 21.2rem;
   overflow: hidden;
-}
-
-body.node1309141 .contacts-list .cl-item-photo > img {
-  width: 100%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
 
-@media screen and (min-width: 1024px) {
-  body.node1309141 .contacts-list .cl-item-photo > img {
-    border-radius: 0.5rem 0 0 0.5rem;
-  }
+body.node1309141 .contacts-list .cl-item-photo > img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: none;
+  max-height: none;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 1024px) {
   body.node1309141 .contacts-list .cl-item-photo {
     width: 21.2rem;
+    border-radius: 0.5rem 0 0 0.5rem;
   }
 }
 
@@ -5320,7 +5423,7 @@ body.node1309141 .quicklinks-cta--large {
   margin-bottom: 5rem;
   padding-top: 4rem;
   padding-bottom: 8.9rem;
-  background: #EAEEF6 url("/theme/sial_2019_desktop_git/img/visual/smartphone-bg.svg") bottom left no-repeat;
+  background: #EAEEF6 url("../img/visual/smartphone-bg.svg") bottom left no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -6214,7 +6317,7 @@ body.node1309141 .quicklinks-cta--large {
   height: 2.6rem;
   margin-top: 0.5rem;
   margin-right: 0.9rem;
-  background: url("/theme/sial_2019_desktop_git/img/logo-sial.svg") center center/contain no-repeat;
+  background: url("../img/logo-sial.svg") center center/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -6330,7 +6433,7 @@ body.node1309141 .quicklinks-cta--large {
 
 @media screen and (min-width: 1024px) {
   .hero.hero-why-exhibit .hero__background--with-img {
-    background: #303237 url("/theme/sial_2019_desktop_git/img/visual/hero-why-exhibit-bg.png") right center/contain no-repeat;
+    background: #303237 url("../img/visual/hero-why-exhibit-bg.png") right center/contain no-repeat;
   }
 }
 
@@ -6917,7 +7020,7 @@ body.node1309141 .quicklinks-cta--large {
   right: -2.5rem;
   display: block;
   width: 100vw;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/round-add-bg.svg") right bottom no-repeat;
+  background: #FFDB38 url("../img/visual/round-add-bg.svg") right bottom no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -7492,6 +7595,17 @@ body.pourquoi-exposer .block.edito .inside .detail-secteur__datas {
 @media screen and (min-width: 1024px) {
   body.pourquoi-exposer .block.edito .inside .detail-secteur__datas {
     max-width: initial;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.pourquoi-exposer .block.edito .inside .detail-secteur__datas {
+    padding: 3rem;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 }
 
@@ -7661,7 +7775,7 @@ body.pourquoi-exposer #zone2 > h2 {
 }
 
 .propale .deadline__block--participate {
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/sial-propale-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("../img/visual/sial-propale-bg.svg") bottom right no-repeat;
   text-align: left;
 }
 
@@ -7684,7 +7798,7 @@ body.pourquoi-exposer #zone2 > h2 {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #00050A url("/theme/sial_2019_desktop_git/img/visual/sial-network-bg.png") center left/cover no-repeat;
+  background: #00050A url("../img/visual/sial-network-bg.png") center left/cover no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   overflow: hidden;
@@ -8009,7 +8123,7 @@ body.pourquoi-exposer #zone2 > h2 {
   padding: 4rem 3rem;
   text-align: center;
   justify-self: flex-end;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/idea-bg.svg") right bottom/contain no-repeat;
+  background: #FFDB38 url("../img/visual/idea-bg.svg") right bottom/contain no-repeat;
 }
 
 @media screen and (min-width: 768px) {
@@ -9142,6 +9256,7 @@ body.node1316958 .article-wrapper .article-title img.cx-lazy-load {
 }
 
 body.node1316958 .article-wrapper .article-content {
+  max-width: initial;
   font-size: 1.6rem;
   margin-top: 0;
   padding-bottom: 9.2rem;
@@ -9207,6 +9322,7 @@ body.node1316958 .article-wrapper .article-content .card-wrapper {
 body.node1316958 .article-wrapper .article-content .card img {
   max-width: 20.3rem;
   width: 50%;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -9591,7 +9707,7 @@ body.detail-actu .article-wrapper .article-intro p {
 
 @media screen and (min-width: 1024px) {
   body.detail-actu .article-wrapper .article-intro p {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -10809,17 +10925,18 @@ body.exhibitor-details .mod-catal .catal-ed-main-social {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  position: absolute;
-  z-index: 10;
-  top: 27.5rem;
-  left: 16rem;
-  margin-top: 0;
+  margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
   body.exposant.fiche .mod-catal .catal-ed-main-social,
   body.exhibitor-details .mod-catal .catal-ed-main-social {
+    position: absolute;
+    top: 27.5rem;
+    left: 16rem;
     top: 1.6rem;
+    z-index: 10;
+    margin-top: 0;
   }
 }
 
@@ -11839,11 +11956,11 @@ body.page-rubric .exhibitors-slider {
 }
 
 .exhibitors-slider__btn--prev {
-  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-left--rounded.svg");
+  background-image: url("../img/icons/arrow-left--rounded.svg");
 }
 
 .exhibitors-slider__btn--next {
-  background-image: url("/theme/sial_2019_desktop_git/img/icons/arrow-right--rounded.svg");
+  background-image: url("../img/icons/arrow-right--rounded.svg");
 }
 
 .exhibitors-slider__btn__container {
@@ -13080,7 +13197,7 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line .g
   margin: 0 auto !important;
   padding: 9rem 0 0 3rem;
   color: #fff;
-  background: rgba(48, 50, 55, 0.5) url("/theme/sial_2019_desktop_git/img/visual/conferences-bg.jpg") center center/cover no-repeat;
+  background: rgba(48, 50, 55, 0.5) url("../img/visual/conferences-bg.jpg") center center/cover no-repeat;
   border-radius: 0.6rem;
   overflow: hidden;
 }
@@ -14349,47 +14466,47 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
 }
 
 .home-sectors .ql-item.linkid794925 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
+  background-image: url("../img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid999999 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/viandes.png");
+  background-image: url("../img/sectors/viandes.png");
 }
 
 .home-sectors .ql-item.linkid794934 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/food-processing.png");
+  background-image: url("../img/sectors/food-processing.png");
 }
 
 .home-sectors .ql-item.linkid794933 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/traiteur-snacking.png");
+  background-image: url("../img/sectors/traiteur-snacking.png");
 }
 
 .home-sectors .ql-item.linkid794932 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-surgeles.png");
+  background-image: url("../img/sectors/produits-surgeles.png");
 }
 
 .home-sectors .ql-item.linkid794931 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-laitiers.png");
+  background-image: url("../img/sectors/produits-laitiers.png");
 }
 
 .home-sectors .ql-item.linkid794930 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/produits-mer.png");
+  background-image: url("../img/sectors/produits-mer.png");
 }
 
 .home-sectors .ql-item.linkid794929 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/boissons.png");
+  background-image: url("../img/sectors/boissons.png");
 }
 
 .home-sectors .ql-item.linkid794928 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/bio-bien-etre.png");
+  background-image: url("../img/sectors/bio-bien-etre.png");
 }
 
 .home-sectors .ql-item.linkid794927 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/fruits-legumes.png");
+  background-image: url("../img/sectors/fruits-legumes.png");
 }
 
 .home-sectors .ql-item.linkid794926 .btn-primary:after {
-  background-image: url("/theme/sial_2019_desktop_git/img/sectors/epicerie.png");
+  background-image: url("../img/sectors/epicerie.png");
 }
 
 .home-images {
@@ -16060,7 +16177,7 @@ body.matchmaking .list-articles .gla-item-title {
   align-items: center;
   text-align: center;
   color: #383838;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/newsletter-bg.svg") bottom right no-repeat;
+  background: #FFDB38 url("../img/visual/newsletter-bg.svg") bottom right no-repeat;
   -webkit-box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   box-shadow: 0 0.2rem 3.4rem 0 rgba(130, 130, 130, 0.26);
   max-width: 61rem;
@@ -18136,7 +18253,7 @@ body.node1318534 #zone1 .edito p em {
 }
 
 body.node1318534 .contacts-list {
-  margin: 7rem -6.3rem;
+  margin: 7rem 0;
   padding: 5.1rem 5.5rem;
   position: relative;
 }
@@ -18149,7 +18266,7 @@ body.node1318534 .contacts-list::before {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 100vw;
+  width: 110vw;
   height: 100%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -18158,7 +18275,7 @@ body.node1318534 .contacts-list::before {
 
 @media screen and (min-width: 1280px) {
   body.node1318534 .contacts-list::before {
-    left: 0;
+    left: -6.3rem;
     -webkit-transform: initial;
     -ms-transform: initial;
     transform: initial;
@@ -18188,14 +18305,28 @@ body.node1318534 .contacts-list .cl-item {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  max-width: 29.1rem;
+  width: 29.1rem;
   margin: 1.5rem auto;
 }
 
 @media screen and (min-width: 640px) {
   body.node1318534 .contacts-list .cl-item {
-    margin-left: 1.4rem;
-    margin-right: 1.4rem;
+    width: calc((100% / 2) - 3rem);
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body.node1318534 .contacts-list .cl-item {
+    width: calc((100% / 3) - 3rem);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.node1318534 .contacts-list .cl-item {
+    width: calc((100% / 4) - 3rem);
+    max-width: 29.1rem;
   }
 }
 
@@ -18301,28 +18432,6 @@ body.node1318534 .quicklinks-cta--large .ql-item .btn-primary .icon {
   body.node1318534 .quicklinks-cta--large .ql-item {
     width: 33.3334%;
   }
-}
-
-body.node1318534 .quicklinks-cta--large .icon-ampoule::before,
-body.node1318534 .quicklinks-cta--large .icon-trophee::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body.node1318534 .quicklinks-cta--large .icon-ampoule::before {
-  content: '\e913';
-}
-
-body.node1318534 .quicklinks-cta--large .icon-trophee::before {
-  content: '\e90d';
 }
 
 body.node1318534 .detail-secteur {
@@ -18495,7 +18604,7 @@ body.node1318534 .submit-product::before {
   width: 100vw;
   height: 100%;
   top: 0;
-  background: #FFDB38 url("/theme/sial_2019_desktop_git/img/visual/sial-submit-product-bg.svg") bottom right 25% no-repeat;
+  background: #FFDB38 url("../img/visual/sial-submit-product-bg.svg") bottom right 25% no-repeat;
   z-index: -1;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -18525,7 +18634,6 @@ body.node1318534 .selection-stages .detail-secteur__topText {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: rgba(56, 56, 56, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18539,6 +18647,12 @@ body.node1318534 .selection-stages .detail-secteur__topText {
   width: 100%;
   height: 100%;
   padding: 2.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1318534 .selection-stages .detail-secteur__topText {
+    background-color: rgba(56, 56, 56, 0.7);
+  }
 }
 
 body.node1318534 .selection-stages .detail-secteur__topText p {
@@ -18913,23 +19027,23 @@ body.exhibitor-details .mod-catal.catal-other-ex .list-articles.block.block-page
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_or {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_gold {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_argent {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_silver {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-tag.topic_grand_prix_bronze {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-bronze.svg");
+  background-image: url("../img/visual/award-bronze.svg");
 }
 
 .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-title {
@@ -20637,6 +20751,7 @@ body.node1316963 .article-wrapper .article-content {
   line-height: 3rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: initial;
 }
 
 @media screen and (min-width: 1024px) {
@@ -20687,6 +20802,7 @@ body.node1316971 .article-wrapper .article-intro {
   font-weight: 300;
   line-height: 1.5;
   text-align: center;
+  max-width: initial;
 }
 
 body.node1316899 .article-navigation,
@@ -20786,30 +20902,6 @@ body.node1316971 .quicklinks-cta--large .ql-item {
   }
 }
 
-body.node1316899 .quicklinks-cta--large .ql-item .icon-map::before,
-body.node1316958 .quicklinks-cta--large .ql-item .icon-map::before,
-body.node1316963 .quicklinks-cta--large .ql-item .icon-map::before,
-body.node1316971 .quicklinks-cta--large .ql-item .icon-map::before {
-  content: "";
-}
-
-body.node1316899 .quicklinks-cta--large .ql-item .icon-home::before,
-body.node1316958 .quicklinks-cta--large .ql-item .icon-home::before,
-body.node1316963 .quicklinks-cta--large .ql-item .icon-home::before,
-body.node1316971 .quicklinks-cta--large .ql-item .icon-home::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "🏣";
-}
-
 /* Page /Infos-Pratiques/Tarifs-SIAL-Paris-2020 */
 body.node1316899 .article-wrapper::after {
   height: 105%;
@@ -20823,6 +20915,14 @@ body.node1316899 .article-wrapper::after {
 
 body.node1316899 .article-wrapper .article-title .at-main-title, body.node1316899 .article-wrapper .article-title .block.edito-custom h2, .block.edito-custom body.node1316899 .article-wrapper .article-title h2, body.node1316899 .article-wrapper .block.article-title h2 {
   margin-bottom: 0;
+}
+
+body.node1316899 .article-wrapper .article-content .externe.lien1 {
+  margin-top: 0;
+}
+
+body.node1316899 .article-wrapper .article-content .externe.lien1::after {
+  content: none;
 }
 
 body.node1316899 .article-intro {
@@ -21215,10 +21315,6 @@ body.node1316899 .article-content table::after {
   left: 0;
   background-color: #8C909E;
   opacity: 0.27;
-}
-
-body.node1316899 .article-content .lien1 {
-  margin-top: 0;
 }
 
 body.node1316899 .article-navigation {
@@ -21723,23 +21819,23 @@ body.node1316899 .quicklinks-cta--large {
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-or {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-gold {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-gold.svg");
+  background-image: url("../img/visual/award-gold.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-argent {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-silver {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-silver.svg");
+  background-image: url("../img/visual/award-silver.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-title .award-bronze {
-  background-image: url("/theme/sial_2019_desktop_git/img/visual/award-bronze.svg");
+  background-image: url("../img/visual/award-bronze.svg");
 }
 
 .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-desc {
@@ -21818,3 +21914,4 @@ body {
   color: #383838;
   background-color: #fff;
 }
+/*# sourceMappingURL=surcharge.css.map */
