@@ -4184,6 +4184,7 @@ body.page-events .evsf-ampm-list {
   position: absolute;
   width: 100%;
   margin-top: -20rem;
+  margin-left: -2.5rem;
   padding: 0;
   text-align: center;
 }
@@ -4216,9 +4217,6 @@ body.page-events .evsf-ampm-list .form-checkbox {
 }
 
 body.page-events .catal-results {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 2.5rem !important;
   margin-bottom: 3rem;
   padding-bottom: 2.5rem;
@@ -4228,15 +4226,30 @@ body.page-events .catal-results {
   border-bottom: 0.1rem solid #F3F6FB;
 }
 
+@media screen and (min-width: 480px) {
+  body.page-events .catal-results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 body.page-events .catal-results-title {
+  display: block;
   margin-right: auto;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
   padding: 0;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1;
   color: currentColor;
   border: 0;
+}
+
+@media screen and (min-width: 480px) {
+  body.page-events .catal-results-title {
+    margin-bottom: 0;
+  }
 }
 
 body.page-events .catal-results-selectboxes {
@@ -4252,9 +4265,20 @@ body.page-events .catal-results-selectboxes .form-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 1.5rem;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  body.page-events .catal-results-selectboxes .form-item {
+    margin-bottom: 0;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
 }
 
 body.page-events .catal-ex {
@@ -4340,7 +4364,6 @@ body.page-events .catal-ex-item .catal-ex-item-img a:hover img {
 
 body.page-events .catal-ex-item .catal-ex-item-title {
   padding-top: 3rem;
-  margin-bottom: 2rem;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.8rem;
   font-weight: 900;
@@ -4349,7 +4372,7 @@ body.page-events .catal-ex-item .catal-ex-item-title {
 }
 
 body.page-events .catal-ex-item .catal-ex-item-group-title {
-  margin: 0;
+  margin: 0 0 auto;
   padding: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -4367,8 +4390,9 @@ body.page-events .catal-ex-item .catal-ex-item-buttons {
 }
 
 body.page-events .catal-ex-item .catal-ex-item-buttons .btn-primary {
-  height: 4.2rem;
+  display: inline-block;
   width: 4.2rem;
+  height: 4.2rem;
   margin: 0;
   padding: 0;
   color: #F85C29;
@@ -4393,11 +4417,14 @@ body.page-events .catal-ex-item .catal-ex-item-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 3rem 3rem 1.5rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 3rem 3rem 1.5rem;
 }
 
 body.page-events .catal-ex-item .catal-ex-item-content .date_event {
