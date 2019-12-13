@@ -1,1 +1,0 @@
-{"version":3,"sources":["ouragan_sources/js/blocks/block-page-faq.js"],"names":["$","each","this","text","trim","length","remove","jQuery"],"mappings":"CAAA,SAAWA;IACTA,EAAE;;QAGAA,EAAE,iDAAiDC,KAAK;YACtD,IAAID,EAAEE,MAAMC,OAAOC,OAAOC,WAAW,GAAG;gBACtCL,EAAEE,MAAMI;;;;EANhB,CAWGC","file":"block-page-faq.js","sourceRoot":"../../../.."}
