@@ -494,7 +494,7 @@ body.node1310382 .blockquote, body.node1310382 .article-content blockquote:not(.
   vertical-align: initial;
 }
 
-body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .important1 .lien1, body.article .article-wrapper .article-content .important2 .lien1, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .lien1, body.node1316963 .article-content .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .important1 .lien1, body.article .article-wrapper .article-content .important2 .lien1, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, body.article-program .article-wrapper .article-content .externe.lien1, body.node1316963 .article-wrapper .article-content .externe.lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button,
@@ -509,7 +509,7 @@ body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link, bo
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1, body.front .exhibitors-slider + .block.edito .lien1, .home-events .edito .lien2, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.speakers-sial .edito.mod-catal .main-title-with-link a,
-body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-content .lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-wrapper .article-content .externe.lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 1.3rem 2.6rem 1.4rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -530,7 +530,7 @@ body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zon
   outline: 0;
 }
 
-body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .important1 .lien1:hover, body.article .article-wrapper .article-content .important2 .lien1:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .lien1:hover, body.node1316963 .article-content .lien2:hover, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search:hover,
+body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .important1 .lien1:hover, body.article .article-wrapper .article-content .important2 .lien1:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, body.article-program .article-wrapper .article-content .externe.lien1:hover, body.node1316963 .article-wrapper .article-content .externe.lien2:hover, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search:hover,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search:hover,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search:hover,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button:hover,
@@ -545,7 +545,7 @@ body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:hov
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, body.front .exhibitors-slider + .block.edito .lien1:hover, .home-events .edito .lien2:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.speakers-sial .edito.mod-catal .main-title-with-link a:hover,
-body.node1318742 .edito.mod-catal .main-title-with-link a:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-content .lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+body.node1318742 .edito.mod-catal .main-title-with-link a:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-wrapper .article-content .externe.lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -3537,6 +3537,24 @@ body.article-program .article-wrapper .article-content {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.56;
+  max-width: initial;
+}
+
+body.article-program .article-wrapper .article-content::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -15rem;
+  width: 100%;
+  height: 15rem;
+  background-color: #F3F6FB;
+}
+
+@media screen and (min-width: 1024px) {
+  body.article-program .article-wrapper .article-content::before {
+    top: -10rem;
+    height: 10rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -3546,8 +3564,14 @@ body.article-program .article-wrapper .article-content {
   }
 }
 
-body.article-program .article-wrapper .article-content .lien2 {
+body.article-program .article-wrapper .article-content .externe.lien2 {
   color: #F85C29;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+body.article-program .article-wrapper .article-content .externe.lien1::after {
+  content: none;
 }
 
 body.article-program .article-wrapper .article-content p,
@@ -3650,22 +3674,6 @@ body.article-program .article-wrapper .article-content p:last-of-type {
 
 body.article-program .article-wrapper .article-content p a {
   text-decoration: none;
-}
-
-body.article-program .article-wrapper .article-content::before {
-  position: absolute;
-  z-index: -1;
-  top: -15rem;
-  width: 100%;
-  height: 15rem;
-  background-color: #F3F6FB;
-}
-
-@media screen and (min-width: 1024px) {
-  body.article-program .article-wrapper .article-content::before {
-    top: -10rem;
-    height: 10rem;
-  }
 }
 
 body.article-program .article-wrapper .article-content ul {
@@ -3815,6 +3823,14 @@ body.node1316963 .article-intro {
   margin-right: auto;
 }
 
+body.node1316963 .article-wrapper .article-content .externe.lien2 {
+  position: relative;
+}
+
+body.node1316963 .article-wrapper .article-content .externe.lien2::after {
+  content: none;
+}
+
 body.node1316963 .article-content > * {
   width: 100%;
 }
@@ -3823,10 +3839,6 @@ body.node1316963 .article-content iframe {
   margin-bottom: 2rem;
   margin-left: 0 !important;
   width: 100%;
-}
-
-body.node1316963 .article-content .lien2 {
-  position: relative;
 }
 
 body.node1316963 .article-content p {
@@ -5152,8 +5164,14 @@ body.node1309141 .contacts-list .intro p {
   }
 }
 
+@media screen and (min-width: 660px) {
+  body.node1309141 .contacts-list .cl-content {
+    margin: 0 -1.5rem;
+  }
+}
+
 body.node1309141 .contacts-list .cl-item {
-  max-width: 29.1rem;
+  width: 29.1rem;
   margin: 1.5rem auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -5161,26 +5179,26 @@ body.node1309141 .contacts-list .cl-item {
   flex-direction: column;
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 640px) {
   body.node1309141 .contacts-list .cl-item {
-    margin-right: 0;
-    margin-left: 0;
+    width: calc((100% / 2) - 3rem);
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
   }
 }
 
 @media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .cl-item {
-    width: calc(50% - 3rem);
-    max-width: calc(33% - 1.5rem);
-    margin: 3rem 0 0;
+    width: calc((100% / 3) - 3rem);
+    margin-top: 3rem;
+    margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body.node1309141 .contacts-list .cl-item {
-    width: calc(50% - 3rem);
-    max-width: initial;
-    margin: 9rem 0 0;
+    width: calc((100% / 2) - 3rem);
+    margin-top: 9rem;
     -webkit-box-orient: initial;
     -webkit-box-direction: initial;
     -ms-flex-direction: initial;
@@ -5196,25 +5214,29 @@ body.node1309141 .contacts-list .cl-item-illust {
 }
 
 body.node1309141 .contacts-list .cl-item-photo {
+  position: relative;
   height: 21.2rem;
   overflow: hidden;
-}
-
-body.node1309141 .contacts-list .cl-item-photo > img {
-  width: 100%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
 
-@media screen and (min-width: 1024px) {
-  body.node1309141 .contacts-list .cl-item-photo > img {
-    border-radius: 0.5rem 0 0 0.5rem;
-  }
+body.node1309141 .contacts-list .cl-item-photo > img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: none;
+  max-height: none;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 1024px) {
   body.node1309141 .contacts-list .cl-item-photo {
     width: 21.2rem;
+    border-radius: 0.5rem 0 0 0.5rem;
   }
 }
 
@@ -7925,6 +7947,17 @@ body.pourquoi-exposer .block.edito .inside .detail-secteur__datas {
 @media screen and (min-width: 1024px) {
   body.pourquoi-exposer .block.edito .inside .detail-secteur__datas {
     max-width: initial;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.pourquoi-exposer .block.edito .inside .detail-secteur__datas {
+    padding: 3rem;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 }
 
@@ -9575,6 +9608,7 @@ body.node1316958 .article-wrapper .article-title img.cx-lazy-load {
 }
 
 body.node1316958 .article-wrapper .article-content {
+  max-width: initial;
   font-size: 1.6rem;
   margin-top: 0;
   padding-bottom: 9.2rem;
@@ -9640,6 +9674,7 @@ body.node1316958 .article-wrapper .article-content .card-wrapper {
 body.node1316958 .article-wrapper .article-content .card img {
   max-width: 20.3rem;
   width: 50%;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -10024,7 +10059,7 @@ body.detail-actu .article-wrapper .article-intro p {
 
 @media screen and (min-width: 1024px) {
   body.detail-actu .article-wrapper .article-intro p {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -11299,17 +11334,18 @@ body.exhibitor-details .mod-catal .catal-ed-main-social {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  position: absolute;
-  z-index: 10;
-  top: 27.5rem;
-  left: 16rem;
-  margin-top: 0;
+  margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
   body.exposant.fiche .mod-catal .catal-ed-main-social,
   body.exhibitor-details .mod-catal .catal-ed-main-social {
+    position: absolute;
+    top: 27.5rem;
+    left: 16rem;
     top: 1.6rem;
+    z-index: 10;
+    margin-top: 0;
   }
 }
 
@@ -18626,7 +18662,7 @@ body.node1318534 #zone1 .edito p em {
 }
 
 body.node1318534 .contacts-list {
-  margin: 7rem -6.3rem;
+  margin: 7rem 0;
   padding: 5.1rem 5.5rem;
   position: relative;
 }
@@ -18639,7 +18675,7 @@ body.node1318534 .contacts-list::before {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 100vw;
+  width: 110vw;
   height: 100%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -18648,7 +18684,7 @@ body.node1318534 .contacts-list::before {
 
 @media screen and (min-width: 1280px) {
   body.node1318534 .contacts-list::before {
-    left: 0;
+    left: -6.3rem;
     -webkit-transform: initial;
     -ms-transform: initial;
     transform: initial;
@@ -18678,14 +18714,28 @@ body.node1318534 .contacts-list .cl-item {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  max-width: 29.1rem;
+  width: 29.1rem;
   margin: 1.5rem auto;
 }
 
 @media screen and (min-width: 640px) {
   body.node1318534 .contacts-list .cl-item {
-    margin-left: 1.4rem;
-    margin-right: 1.4rem;
+    width: calc((100% / 2) - 3rem);
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body.node1318534 .contacts-list .cl-item {
+    width: calc((100% / 3) - 3rem);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  body.node1318534 .contacts-list .cl-item {
+    width: calc((100% / 4) - 3rem);
+    max-width: 29.1rem;
   }
 }
 
@@ -18791,28 +18841,6 @@ body.node1318534 .quicklinks-cta--large .ql-item .btn-primary .icon {
   body.node1318534 .quicklinks-cta--large .ql-item {
     width: 33.3334%;
   }
-}
-
-body.node1318534 .quicklinks-cta--large .icon-ampoule::before,
-body.node1318534 .quicklinks-cta--large .icon-trophee::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body.node1318534 .quicklinks-cta--large .icon-ampoule::before {
-  content: '\e913';
-}
-
-body.node1318534 .quicklinks-cta--large .icon-trophee::before {
-  content: '\e90d';
 }
 
 body.node1318534 .detail-secteur {
@@ -19015,7 +19043,6 @@ body.node1318534 .selection-stages .detail-secteur__topText {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: rgba(56, 56, 56, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19029,6 +19056,12 @@ body.node1318534 .selection-stages .detail-secteur__topText {
   width: 100%;
   height: 100%;
   padding: 2.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1318534 .selection-stages .detail-secteur__topText {
+    background-color: rgba(56, 56, 56, 0.7);
+  }
 }
 
 body.node1318534 .selection-stages .detail-secteur__topText p {
@@ -21127,6 +21160,7 @@ body.node1316963 .article-wrapper .article-content {
   line-height: 3rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: initial;
 }
 
 @media screen and (min-width: 1024px) {
@@ -21177,6 +21211,7 @@ body.node1316971 .article-wrapper .article-intro {
   font-weight: 300;
   line-height: 1.5;
   text-align: center;
+  max-width: initial;
 }
 
 body.node1316899 .article-navigation,
@@ -21276,30 +21311,6 @@ body.node1316971 .quicklinks-cta--large .ql-item {
   }
 }
 
-body.node1316899 .quicklinks-cta--large .ql-item .icon-map::before,
-body.node1316958 .quicklinks-cta--large .ql-item .icon-map::before,
-body.node1316963 .quicklinks-cta--large .ql-item .icon-map::before,
-body.node1316971 .quicklinks-cta--large .ql-item .icon-map::before {
-  content: "";
-}
-
-body.node1316899 .quicklinks-cta--large .ql-item .icon-home::before,
-body.node1316958 .quicklinks-cta--large .ql-item .icon-home::before,
-body.node1316963 .quicklinks-cta--large .ql-item .icon-home::before,
-body.node1316971 .quicklinks-cta--large .ql-item .icon-home::before {
-  font-family: 'sial-icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "🏣";
-}
-
 /* Page /Infos-Pratiques/Tarifs-SIAL-Paris-2020 */
 body.node1316899 .article-wrapper::after {
   height: 105%;
@@ -21313,6 +21324,14 @@ body.node1316899 .article-wrapper::after {
 
 body.node1316899 .article-wrapper .article-title .at-main-title, body.node1316899 .article-wrapper .article-title .block.edito-custom h2, .block.edito-custom body.node1316899 .article-wrapper .article-title h2, body.node1316899 .article-wrapper .block.article-title h2 {
   margin-bottom: 0;
+}
+
+body.node1316899 .article-wrapper .article-content .externe.lien1 {
+  margin-top: 0;
+}
+
+body.node1316899 .article-wrapper .article-content .externe.lien1::after {
+  content: none;
 }
 
 body.node1316899 .article-intro {
@@ -21705,10 +21724,6 @@ body.node1316899 .article-content table::after {
   left: 0;
   background-color: #8C909E;
   opacity: 0.27;
-}
-
-body.node1316899 .article-content .lien1 {
-  margin-top: 0;
 }
 
 body.node1316899 .article-navigation {
