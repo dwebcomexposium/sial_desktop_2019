@@ -2504,6 +2504,10 @@ body.article .article-wrapper .article-content figure small {
   font-size: 1.4rem;
 }
 
+body.article .article-wrapper .article-content table:not(.table1) thead td {
+  font-weight: 700;
+}
+
 body.article .article-wrapper .article-content table:not(.table1) td {
   border-color: #c8ccd7;
 }
