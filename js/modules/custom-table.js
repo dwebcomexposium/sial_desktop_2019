@@ -1,0 +1,1 @@
+!function(i){i(function(){i("table.custom-table tbody tr, table.table1 tbody tr").each(function(t,a){var e=i(a).find("td:first-child").eq(0);i(a).find("td").not(":first-child").data("title",e.text()).attr("data-title",e.text()).prop("data-title",e.text())})})}(jQuery);
