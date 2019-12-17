@@ -15184,9 +15184,9 @@ body.article_list .list-articles .grid-la-list {
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-left: 0;
 }
 
@@ -15249,21 +15249,21 @@ body.faq.article_list #zone4 .more-infos-contact {
 }
 
 body.faq.article_list .block-page.list-articles {
-  padding: 2rem 0 3rem;
   margin-bottom: 4rem;
+  padding: 2rem 0 3rem;
 }
 
 @media screen and (min-width: 768px) {
   body.faq.article_list .block-page.list-articles {
-    padding: 2rem 0 5rem;
     margin-bottom: 8rem;
+    padding: 2rem 0 5rem;
   }
 }
 
 body.faq.article_list .block-page.list-articles::before {
-  max-height: none;
-  height: calc(100% + 8rem);
   top: -8rem;
+  height: calc(100% + 8rem);
+  max-height: none;
 }
 
 body.faq.article_list .block-page.list-articles .intro {
@@ -15276,8 +15276,8 @@ body.faq.article_list .block-page.list-articles .grid-la-list {
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link,
 body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link {
-  margin-bottom: 3rem;
   width: 100%;
+  margin-bottom: 3rem;
   margin-left: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
@@ -15302,8 +15302,8 @@ body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-det
 @media screen and (min-width: 881px) {
   body.faq.article_list .block-page.list-articles .grid-la-list .gla-item, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link,
   body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link {
-    margin-left: 3rem;
     width: calc((100% - 1 * 3rem) / 2);
+    margin-left: 3rem;
   }
   body.faq.article_list .block-page.list-articles .grid-la-list .gla-item:nth-child(2n + 1), body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link:nth-child(2n + 1), body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link:nth-child(2n + 1),
   body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link:nth-child(2n + 1), body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link:nth-child(2n + 1) {
@@ -15327,9 +15327,9 @@ body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-det
 }
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item > a, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link > a, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link > a, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link > a, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link > a {
+  position: relative;
   height: auto;
   border-radius: 0;
-  position: relative;
 }
 
 @media screen and (min-width: 480px) {
@@ -15339,22 +15339,22 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item > a, bod
 }
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item > a img, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link > a img, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link > a img, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link > a img, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link > a img {
-  border-radius: 0;
   width: 100%;
   min-height: 0;
   max-height: 32.9rem;
+  border-radius: 0;
 }
 
 @media screen and (min-width: 480px) {
   body.faq.article_list .block-page.list-articles .grid-la-list .gla-item > a img, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link > a img, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link > a img, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link > a img, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link > a img {
-    max-height: none;
     position: absolute;
-    height: 100%;
+    top: 50%;
     left: 50%;
+    height: 100%;
+    max-height: none;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    top: 50%;
     -webkit-transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
     transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
     -o-transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
@@ -15372,14 +15372,14 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item > a img,
 }
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content {
-  border-radius: 0;
-  height: auto;
-  padding: 3.5rem 4.6rem 4rem 2.9rem;
-  display: block;
+  right: auto;
   bottom: auto;
   left: auto;
-  right: auto;
+  display: block;
+  height: auto;
+  padding: 3.5rem 4.6rem 4rem 2.9rem;
   text-align: center;
+  border-radius: 0;
 }
 
 @media screen and (min-width: 480px) {
@@ -15391,15 +15391,15 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-ite
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a {
   display: block;
-  text-decoration: none;
   text-align: left;
+  text-decoration: none;
 }
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien2, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien2, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien2, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien2, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien2 {
-  line-height: 2.6rem;
+  position: relative;
   padding: 0.2rem 0;
   font-weight: 600;
-  position: relative;
+  line-height: 2.6rem;
 }
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien2:not(:nth-last-child(1)), body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien2:not(:nth-last-child(1)), body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien2:not(:nth-last-child(1)), body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien2:not(:nth-last-child(1)), body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien2:not(:nth-last-child(1)) {
@@ -15409,10 +15409,10 @@ body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-ite
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien2::before, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien2::before, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien2::before, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien2::before, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien2::before {
   content: '';
   position: absolute;
-  height: 0.076rem;
-  width: 3.4rem;
   bottom: 0;
   left: 0;
+  width: 3.4rem;
+  height: 0.076rem;
   background: #F85C29;
 }
 
@@ -15434,12 +15434,12 @@ body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-pa
 }
 
 body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-title, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-title, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-title, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-title, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-title {
+  margin-bottom: 2rem;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 2.5rem;
-  color: #383838;
   font-weight: 900;
   line-height: 4rem;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  margin-bottom: 2rem;
+  color: #383838;
 }
 
 body.speakers-sial .speaker-sial > .block-title,
