@@ -1,1 +1,1 @@
-!function(a){a(function(){if(a("body").hasClass("detail-actu")){var t=a(".article-title + .article-intro > p");t.length&&a(".article-title .at-content h1").after(t)}})}(jQuery);
+!function(a){a(function(){if(a("body").hasClass("detail-actu")){var t=a(".article-title + .article-intro > p"),e=a(".article-navigation .an-item"),i=a(".article-title .at-theme");t.length&&a(".article-title .at-content h1").after(t),e.length&&i.length&&e.each(function(t){var e=a(this).find(".an-item-title");a(e).before(i.clone())})}})}(jQuery);

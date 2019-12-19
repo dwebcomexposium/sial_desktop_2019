@@ -1,12 +1,1 @@
-/**
- * Custom table
- */
-(function($) {
-    $(function() {
-        $('table.custom-table tbody tr, table.table1 tbody tr').each(function(i, row) {
-            var firstCell = $(row).find('td:first-child').eq(0);
-            var otherCell = $(row).find('td').not(':first-child').data('title', firstCell.text()).attr('data-title', firstCell.text()).prop('data-title', firstCell.text());
-        });
-    });
-})(jQuery);
-//# sourceMappingURL=custom-table.js.map
+!function(i){i(function(){i("table.custom-table tbody tr, table.table1 tbody tr").each(function(t,a){var e=i(a).find("td:first-child").eq(0);i(a).find("td").not(":first-child").data("title",e.text()).attr("data-title",e.text()).prop("data-title",e.text())})})}(jQuery);
