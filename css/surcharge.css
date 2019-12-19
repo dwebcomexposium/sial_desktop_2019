@@ -5391,7 +5391,7 @@ body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type)::before
   top: 0;
   right: 0;
   left: 50%;
-  width: 100vw;
+  width: 110vw;
   height: 100%;
   background-color: #F3F6FB;
   -webkit-transform: translateX(-50%);
@@ -5420,8 +5420,7 @@ body.node1309141 .contacts-list .inside > h2:not(:first-of-type) {
 }
 
 body.node1309141 .contacts-list .inside > h2:first-of-type {
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
   padding-top: 5.1rem;
 }
 
@@ -5476,34 +5475,38 @@ body.node1309141 .contacts-list .inside > .cl-content:last-of-type {
 
 @media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item {
-    width: calc((100% / 3) - 3rem);
-    margin-top: 3rem;
-    margin-bottom: 0;
+    width: calc(100% - 3rem);
+    max-width: 61.2rem;
+    margin: 10rem auto 0;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+    -ms-flex-direction: initial;
+    flex-direction: initial;
+  }
+  body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item:first-of-type {
+    margin-top: 3.5rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item {
     width: calc((100% / 2) - 3rem);
-    margin-top: 9rem;
-    -webkit-box-orient: initial;
-    -webkit-box-direction: initial;
-    -ms-flex-direction: initial;
-    flex-direction: initial;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item:nth-of-type(-n+2) {
-    margin-top: 5rem;
+    margin-top: 6rem;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-photo {
     width: 21.2rem;
     border-radius: 0.5rem 0 0 0.5rem;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-content {
     position: relative;
     width: calc(100% - 21.2rem);
@@ -5523,7 +5526,7 @@ body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-subt
   text-transform: capitalize;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-subtitle {
     font-size: 2.5rem;
     -webkit-transform: translate3d(-24rem, -8rem, 0);
@@ -5531,11 +5534,22 @@ body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-subt
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-subtitle, body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-address {
     position: absolute;
     top: 0;
     width: 150%;
+  }
+}
+
+body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-address {
+  color: #383838;
+}
+
+@media screen and (min-width: 768px) {
+  body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-address {
+    -webkit-transform: translate3d(-24rem, -3.5rem, 0);
+    transform: translate3d(-24rem, -3.5rem, 0);
   }
 }
 
@@ -5551,7 +5565,7 @@ body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-phon
   color: #383838;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-phone, body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-email {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -5580,7 +5594,7 @@ body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-emai
   margin-right: 1.1rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-phone .icon-phone,
   body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-email .icon-email {
     margin-top: initial;
@@ -5652,7 +5666,7 @@ body.node1309141 .contacts-list .cl-item.has__firstJobTitle, body.node1309141 .c
   margin-top: 8rem;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .cl-item.has__firstJobTitle::after, body.node1309141 .contacts-list .cl-item.has__borderTop::after {
     position: absolute;
     content: '';
@@ -5663,10 +5677,10 @@ body.node1309141 .contacts-list .cl-item.has__firstJobTitle, body.node1309141 .c
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .cl-item.has__borderTop::after {
     left: calc(-10% - 0.1rem);
-    width: calc(110% + 0.1rem);
+    width: calc(110% + 0.5rem);
   }
 }
 
@@ -5674,7 +5688,7 @@ body.node1309141 .contacts-list .cl-item.has__firstJobTitle::before {
   position: absolute;
   top: -6.5rem;
   left: 0;
-  width: 100%;
+  width: 150%;
   content: attr(data-job-title);
   color: #1E1E1E;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
@@ -5685,8 +5699,14 @@ body.node1309141 .contacts-list .cl-item.has__firstJobTitle::before {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 1024px) {
+  body.node1309141 .contacts-list .cl-item.has__firstJobTitle::before {
+    width: 100%;
+  }
+}
+
 body.node1309141 .contacts-list .cl-item.has__firstJobTitle::after {
-  width: 100%;
+  width: calc(100% + 0.5rem);
   left: 0;
 }
 
@@ -5718,17 +5738,6 @@ body.node1309141 .contacts-list .cl-item-content {
   min-height: 21.2rem;
   margin-top: 1rem;
   padding: 2rem 1.8rem 2.6rem 3rem;
-}
-
-body.node1309141 .contacts-list .cl-item-address {
-  color: #383838;
-}
-
-@media screen and (min-width: 1024px) {
-  body.node1309141 .contacts-list .cl-item-address {
-    -webkit-transform: translate3d(-24rem, -3.5rem, 0);
-    transform: translate3d(-24rem, -3.5rem, 0);
-  }
 }
 
 body.node1309141 .contacts-list .cl-item-title {
