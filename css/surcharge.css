@@ -13218,18 +13218,19 @@ body.page-rubric .exhibitors-slider {
 }
 
 body.product-details .mod-catal.block.edito {
-  padding: 1.5rem 0 0;
+  padding: 1.5rem 0 0 1rem;
   position: relative;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   body.product-details .mod-catal.block.edito {
-    padding: 6.5rem 8.3334% 0 0;
+    padding-top: 6.5rem;
+    padding-right: 45%;
     background-color: #F3F6FB;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   body.product-details .mod-catal.block.edito {
     padding-left: 8.3334%;
   }
@@ -13250,7 +13251,7 @@ body.product-details .mod-catal.block.edito::before {
   z-index: -1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   body.product-details .mod-catal.block.edito::before {
     right: 0;
     width: 40%;
@@ -13298,6 +13299,9 @@ body.product-details .mod-catal .catal-prd-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 1rem;
 }
 
 body.product-details .mod-catal .catal-prd-main::after {
@@ -13306,15 +13310,17 @@ body.product-details .mod-catal .catal-prd-main::after {
   display: block;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   body.product-details .mod-catal .catal-prd-main {
-    padding-right: 40%;
+    padding-right: 45%;
+    padding-bottom: calc(12.2rem / 2);
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
   body.product-details .mod-catal .catal-prd-main {
-    padding: 0 46% 6.6rem 8.3334%;
+    padding-left: 8.3334%;
+    margin-bottom: 8rem;
   }
 }
 
@@ -13333,7 +13339,7 @@ body.product-details .mod-catal .catal-prd-main::before {
   z-index: -1;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   body.product-details .mod-catal .catal-prd-main::before {
     right: 0;
     width: 40%;
@@ -13353,6 +13359,15 @@ body.product-details .mod-catal .catal-prd-main::before {
   }
 }
 
+body.product-details .mod-catal .catal-prd-main .catal-prd-main-desc-title {
+  color: #585858;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.6;
+  text-align: left;
+}
+
 body.product-details .mod-catal .catal-prd-main .catal-prd-main-desc {
   border: 0;
 }
@@ -13361,12 +13376,13 @@ body.product-details .mod-catal .catal-prd-main img {
   height: 24.4rem;
   width: 24.4rem;
   border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   body.product-details .mod-catal .catal-prd-main img {
     position: absolute;
-    top: calc(-50% - (12.2rem / 4));
+    top: -50%;
     right: calc(20% - 12.2rem);
   }
 }
@@ -13374,15 +13390,37 @@ body.product-details .mod-catal .catal-prd-main img {
 body.product-details .mod-catal .catal-prd-exhibitor,
 body.product-details .mod-catal .catal-prd-infos {
   width: 100%;
-  margin: auto;
+  margin: auto auto 4rem;
   border: 0;
 }
 
+body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-infos-main-title,
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-main-title {
+  color: #585858;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.6;
+  text-align: left;
+}
+
 @media screen and (min-width: 1024px) {
+  body.product-details .mod-catal .catal-prd-exhibitor,
+  body.product-details .mod-catal .catal-prd-infos {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   body.product-details .mod-catal .catal-prd-exhibitor {
     float: left;
     width: 65%;
   }
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor img {
+  width: 26rem;
+  height: 13.6rem;
 }
 
 body.product-details .mod-catal .catal-prd-exhibitor-view {
@@ -13399,16 +13437,73 @@ body.product-details .mod-catal .catal-prd-exhibitor-view a {
   text-decoration: none;
 }
 
+body.product-details .mod-catal .catal-prd-exhibitor-view a:hover, body.product-details .mod-catal .catal-prd-exhibitor-view a:active, body.product-details .mod-catal .catal-prd-exhibitor-view a:focus {
+  text-decoration: none;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-content {
+  float: none;
+}
+
+@media screen and (min-width: 768px) {
+  body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-content {
+    float: right;
+  }
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-title {
+  width: 35%;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-title,
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-list {
+  color: #383838;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.104rem;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 1024px) {
+  body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-title,
+  body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-list {
+    line-height: 3.08;
+  }
+}
+
+@media screen and (min-width: 1280px) {
   body.product-details .mod-catal .catal-prd-infos {
     float: right;
     width: 35%;
   }
 }
 
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-group:last-child {
+  border: 0;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-item > .icon-catal {
+  display: none;
+}
+
 body.product-details .mod-catal.catal-other-prd {
   clear: both;
-  padding-top: 4rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.product-details .mod-catal.catal-other-prd {
+    padding-top: 4rem;
+  }
 }
 
 body.product-details .mod-catal.catal-other-prd h2 {
@@ -13422,6 +13517,10 @@ body.product-details .mod-catal.catal-other-prd h2 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+body.product-details .mod-catal.catal-other-prd h2 .exhibitors-slider__btn__container {
+  margin: 0 0 0 auto;
 }
 
 body.product-details .mod-catal.catal-other-prd .catal-other-prd-list {
