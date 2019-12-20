@@ -1657,7 +1657,8 @@ body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_ne
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.page-events .evsf-as-header .evsf-as-title, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .event-view-full .catal-ed-activity-link, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a, body.exposant.fiche .mod-catal .catal-ed-main-url-link,
-body.exhibitor-details .mod-catal .catal-ed-main-url-link, body.product-details .mod-catal.block.edito .catal-pr-ex-link, body.product-details .mod-catal .catal-prd-exhibitor-view a, .gla-btn-read-more, .home-search .ql-list .btn-primary,
+body.exhibitor-details .mod-catal .catal-ed-main-url-link, body.product-details .mod-catal.block.edito .catal-pr-ex-link, body.product-details .mod-catal .catal-prd-exhibitor-view a,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
 .error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
   position: relative;
@@ -1684,7 +1685,8 @@ body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_ne
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.page-events .evsf-as-header .evsf-as-title::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .event-view-full .catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link::after,
-body.exhibitor-details .mod-catal .catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
+body.exhibitor-details .mod-catal .catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a::after,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
 .error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
   content: '';
@@ -1706,14 +1708,16 @@ body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-act
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.page-events .evsf-as-header .is-active.evsf-as-title::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .event-view-full .is-active.catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, body.exposant.fiche .mod-catal .is-active.catal-ed-main-url-link::after,
-body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .is-active.catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a.is-active::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
+body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .is-active.catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a.is-active::after,
+body.product-details .mod-catal .catal-prd-exhibitor-view .is-active.catal-prd-exhibitor-view-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
 .error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a.is-active::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.page-events .evsf-as-header .evsf-as-title:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .event-view-full .catal-ed-activity-link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link:hover::after,
-body.exhibitor-details .mod-catal .catal-ed-main-url-link:hover::after, body.product-details .mod-catal.block.edito .catal-pr-ex-link:hover::after, body.product-details .mod-catal .catal-prd-exhibitor-view a:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
+body.exhibitor-details .mod-catal .catal-ed-main-url-link:hover::after, body.product-details .mod-catal.block.edito .catal-pr-ex-link:hover::after, body.product-details .mod-catal .catal-prd-exhibitor-view a:hover::after,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
 .error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
   width: 100%;
@@ -13389,11 +13393,61 @@ body.product-details .mod-catal .catal-prd-main img {
   }
 }
 
+body.product-details .mod-catal .catal-prd-main .catal-prd-main-footer {
+  border: 0;
+  border-bottom: 4rem;
+}
+
 body.product-details .mod-catal .catal-prd-exhibitor,
 body.product-details .mod-catal .catal-prd-infos {
   width: 100%;
   margin: auto auto 4rem;
   border: 0;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor.js-fold,
+body.product-details .mod-catal .catal-prd-infos.js-fold {
+  position: relative;
+  z-index: 2;
+  padding-top: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 4rem;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor.js-fold .catal-prd-group-title,
+body.product-details .mod-catal .catal-prd-infos.js-fold .catal-prd-group-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor.js-fold::before,
+body.product-details .mod-catal .catal-prd-infos.js-fold::before {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100vw;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+@media screen and (min-width: 768px) {
+  body.product-details .mod-catal .catal-prd-exhibitor.js-fold::before,
+  body.product-details .mod-catal .catal-prd-infos.js-fold::before {
+    content: none;
+  }
 }
 
 body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-infos-main-title,
@@ -13425,11 +13479,45 @@ body.product-details .mod-catal .catal-prd-exhibitor img {
   height: 13.6rem;
 }
 
+body.product-details .mod-catal .catal-prd-exhibitor .js-fold-target .catal-prd-exhibitor-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor .js-fold-target .catal-prd-exhibitor-view,
+body.product-details .mod-catal .catal-prd-exhibitor .js-fold-target .catal-prd-exhibitor-title {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor .js-fold-target img,
+body.product-details .mod-catal .catal-prd-exhibitor .js-fold-target .catal-prd-exhibitor-img {
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
 body.product-details .mod-catal .catal-prd-exhibitor-view {
   border: 0;
 }
 
-body.product-details .mod-catal .catal-prd-exhibitor-view a {
+body.product-details .mod-catal .catal-prd-exhibitor-view catal-prd-exhibitor-title {
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.55;
+  color: #383838;
+  text-decoration: none;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor-view a,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link {
   display: block;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.8rem;
@@ -13439,8 +13527,16 @@ body.product-details .mod-catal .catal-prd-exhibitor-view a {
   text-decoration: none;
 }
 
-body.product-details .mod-catal .catal-prd-exhibitor-view a:hover, body.product-details .mod-catal .catal-prd-exhibitor-view a:active, body.product-details .mod-catal .catal-prd-exhibitor-view a:focus {
+body.product-details .mod-catal .catal-prd-exhibitor-view a:hover, body.product-details .mod-catal .catal-prd-exhibitor-view a:active, body.product-details .mod-catal .catal-prd-exhibitor-view a:focus,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:hover,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:active,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:focus {
   text-decoration: none;
+}
+
+body.product-details .mod-catal .catal-prd-exhibitor-view a .icon-catal,
+body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link .icon-catal {
+  display: none;
 }
 
 body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-content {
@@ -13454,7 +13550,7 @@ body.product-details .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-conten
 }
 
 body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-title {
-  width: 35%;
+  width: auto;
 }
 
 body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-title,
@@ -13488,6 +13584,9 @@ body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-group {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-group:last-child {
@@ -13592,6 +13691,10 @@ body.product-details .mod-catal.catal-other-prd .catal-other-prd-txt {
 
 body.product-details .mod-catal.catal-other-prd .catal-other-prd-actions {
   display: none;
+}
+
+body.product-details.body-mobile .catal-prd-main {
+  padding-bottom: 0 !important;
 }
 
 @media screen and (min-width: 768px) {
