@@ -13227,6 +13227,7 @@ body.product-details .mod-catal.block.edito {
     padding-top: 6.5rem;
     padding-right: 45%;
     background-color: #F3F6FB;
+    min-height: 16.3rem;
   }
 }
 
@@ -13314,6 +13315,7 @@ body.product-details .mod-catal .catal-prd-main::after {
   body.product-details .mod-catal .catal-prd-main {
     padding-right: 45%;
     padding-bottom: calc(12.2rem / 2);
+    min-height: 20.2rem;
   }
 }
 
