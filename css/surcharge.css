@@ -16082,7 +16082,6 @@ body.product-details .mod-catal.catal-other-prd .home-news .catal-other-prd-link
 
 @media screen and (min-width: 768px) {
   .home-news .gla-item:first-child .gla-item-title, .home-news body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link:first-child .gla-item-title, body.exposant.fiche .mod-catal.catal-other-ex .home-news .catal-other-ex-link:first-child .gla-item-title, .home-news body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link:first-child .gla-item-title, body.exhibitor-details .mod-catal.catal-other-ex .home-news .catal-other-ex-link:first-child .gla-item-title, .home-news body.product-details .mod-catal.catal-other-prd .catal-other-prd-link:first-child .gla-item-title, body.product-details .mod-catal.catal-other-prd .home-news .catal-other-prd-link:first-child .gla-item-title {
-    max-height: 5.42rem;
     overflow: hidden;
     -ms-flex-negative: 0;
     flex-shrink: 0;
