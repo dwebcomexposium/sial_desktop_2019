@@ -5559,7 +5559,7 @@ body.node1309141 .contacts-list .inside > .cl-content:last-of-type .cl-item-subt
   order: 3;
   margin-bottom: 1.1rem;
   line-height: 1.6;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 @media screen and (min-width: 768px) {
