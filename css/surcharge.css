@@ -18845,6 +18845,10 @@ body.matchmaking .list-articles .gla-item-title {
   }
 }
 
+.page-highlight .block.edito .important1 {
+  margin-top: 2.7rem;
+}
+
 .page-highlight .block.edito .link-read-more,
 .page-highlight .block.edito .btn-primary {
   margin-top: 2.7rem;
