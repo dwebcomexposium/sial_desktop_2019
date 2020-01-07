@@ -2367,6 +2367,44 @@ ins[data-revive-id] {
   text-align: center;
 }
 
+body.article .article-wrapper .article-content h2 {
+  margin: 1.2rem 0;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 6rem;
+  color: #585858;
+}
+
+body.article .article-wrapper .article-content h3, .sial-innovation .block-page.edito h2 {
+  margin: 1.2rem 0;
+  padding: 0;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: currentColor;
+  border-bottom: 0;
+}
+
+body.article .article-wrapper .article-content h4, .sial-innovation .block-page.edito h3 {
+  margin: 1rem 0;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: currentColor;
+}
+
+body.article .article-wrapper .article-content h5, .sial-innovation .block-page.edito h4, .sial-innovation .block-page.edito h5 {
+  margin: 0.9rem 0;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+  color: currentColor;
+}
+
 body.article .article-wrapper .article-title .at-tag {
   display: block;
   margin: 1rem 0;
@@ -2415,42 +2453,6 @@ body.article .article-wrapper .article-content {
   margin-right: auto;
   margin-left: auto;
   font-size: 1.6rem;
-}
-
-body.article .article-wrapper .article-content h2 {
-  margin: 1.2rem 0;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 4rem;
-  font-weight: 900;
-  line-height: 6rem;
-  color: #585858;
-}
-
-body.article .article-wrapper .article-content h3 {
-  margin: 1.2rem 0;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 900;
-  line-height: 4rem;
-  color: currentColor;
-}
-
-body.article .article-wrapper .article-content h4 {
-  margin: 1rem 0;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.5rem;
-  font-weight: 900;
-  line-height: 4rem;
-  color: currentColor;
-}
-
-body.article .article-wrapper .article-content h5 {
-  margin: 0.9rem 0;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 1.8rem;
-  font-weight: 900;
-  line-height: 2.6rem;
-  color: currentColor;
 }
 
 body.article .article-wrapper .article-content ul, body.article .article-wrapper .article-content ol {
@@ -2581,6 +2583,10 @@ body.article .article-wrapper .article-content .important2 .lien1::after {
 
 body.article .article-wrapper .article-content .btn-secondary {
   background: #F85C29;
+}
+
+.sial-innovation .block-page.edito p {
+  margin-bottom: 2.8rem;
 }
 
 body.article .article-navigation {
