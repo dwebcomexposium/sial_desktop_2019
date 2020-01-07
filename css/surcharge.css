@@ -3361,6 +3361,7 @@ body.sial-innovation .article-title > .inside .at-content .blocs-starts {
 
 body.sial-innovation .article-title > .inside .at-content .blocs-starts .social-sharing {
   width: 100%;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
