@@ -2023,6 +2023,8 @@ a:active, a:focus, a:hover {
 
 .quicklinks-base .btn-primary .icon, .home-quicklinks .btn-primary .icon, .block.quicklinks-cta--large .btn-primary .icon, body.node1316899 .quicklinks-cta--large .btn-primary .icon, body.node1316958 .quicklinks-cta--large .btn-primary .icon, body.node1316963 .quicklinks-cta--large .btn-primary .icon, body.node1316971 .quicklinks-cta--large .btn-primary .icon {
   margin: 0 0 1.5rem;
+  font-size: 2.7rem;
+  color: #F85C29;
   -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2037,17 +2039,8 @@ a:active, a:focus, a:hover {
   }
 }
 
-.quicklinks-base .btn-primary .icon::before, .home-quicklinks .btn-primary .icon::before, .block.quicklinks-cta--large .btn-primary .icon::before, body.node1316899 .quicklinks-cta--large .btn-primary .icon::before, body.node1316958 .quicklinks-cta--large .btn-primary .icon::before, body.node1316963 .quicklinks-cta--large .btn-primary .icon::before, body.node1316971 .quicklinks-cta--large .btn-primary .icon::before {
-  font-size: 2.7rem;
-  color: #F85C29;
-}
-
-.quicklinks-base .btn-primary .icon.icon-wallet::before, .home-quicklinks .btn-primary .icon.icon-wallet::before, .block.quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316899 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316958 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316963 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316971 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before {
-  color: currentColor;
-}
-
 @media screen and (min-width: 768px) {
-  .quicklinks-base .btn-primary .icon.icon-wallet::before, .home-quicklinks .btn-primary .icon.icon-wallet::before, .block.quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316899 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316958 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316963 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before, body.node1316971 .quicklinks-cta--large .btn-primary .icon.icon-wallet::before {
+  .quicklinks-base .btn-primary .icon.icon-wallet, .home-quicklinks .btn-primary .icon.icon-wallet, .block.quicklinks-cta--large .btn-primary .icon.icon-wallet, body.node1316899 .quicklinks-cta--large .btn-primary .icon.icon-wallet, body.node1316958 .quicklinks-cta--large .btn-primary .icon.icon-wallet, body.node1316963 .quicklinks-cta--large .btn-primary .icon.icon-wallet, body.node1316971 .quicklinks-cta--large .btn-primary .icon.icon-wallet {
     font-size: 3.7rem;
   }
 }
@@ -16258,6 +16251,10 @@ body.product-details .mod-catal.catal-other-prd .home-news .catal-other-prd-link
 .home-quicklinks .ql-item.linkid794390 .btn-primary {
   color: #fff;
   background-color: #F85C29;
+}
+
+.home-quicklinks .ql-item.linkid794390 .icon {
+  color: currentColor;
 }
 
 @media screen and (min-width: 768px) {
