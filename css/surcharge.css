@@ -3438,7 +3438,7 @@ body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-c
   }
 }
 
-body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-ceremony::before {
+body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-ceremony--cup::before {
   font-family: 'sial-icomoon' !important;
   speak: none;
   font-style: normal;
