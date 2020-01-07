@@ -1654,7 +1654,7 @@ body.article .article-wrapper .article-content .btn-invert:hover, .subheader__bt
   background: #fff;
 }
 
-body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, .lien1, .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.page-events .evsf-as-header .evsf-as-title, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .event-view-full .catal-ed-activity-link, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a,
@@ -1682,7 +1682,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   overflow: hidden;
 }
 
-body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
+body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, .lien1::after, .lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.page-events .evsf-as-header .evsf-as-title::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .event-view-full .catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a::after,
@@ -1705,7 +1705,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
+body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, .is-active.lien1::after, .is-active.lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#esf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.page-events .evsf-as-header .is-active.evsf-as-title::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .event-view-full .is-active.catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after,
@@ -1713,7 +1713,7 @@ body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a.i
 body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .is-active.catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a.is-active::after,
 body.product-details .mod-catal .catal-prd-exhibitor-view .is-active.catal-prd-exhibitor-view-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
 .error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a.is-active::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a.is-active::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, .lien1:hover::after, .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.page-events .evsf-as-header .evsf-as-title:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .event-view-full .catal-ed-activity-link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
@@ -2570,6 +2570,21 @@ body.article .article-wrapper .article-content .btn-secondary {
 
 .sial-innovation .block-page.edito p {
   margin-bottom: 2.8rem;
+}
+
+.lien1 {
+  padding-bottom: 0;
+  vertical-align: bottom;
+}
+
+.lien2 {
+  padding-bottom: 0;
+  vertical-align: bottom;
+  color: #F85C29;
+}
+
+.lien2::after {
+  width: 100%;
 }
 
 .important1 .lien1::after {
@@ -14049,6 +14064,12 @@ body.product-details.body-mobile .catal-prd-main {
 }
 
 @media screen and (min-width: 768px) {
+  .footer-menu .ql-item {
+    min-width: 19rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .footer-menu .ql-item.linkid794991 {
     margin-bottom: 4rem;
   }
@@ -18845,8 +18866,8 @@ body.matchmaking .list-articles .gla-item-title {
   }
 }
 
-.page-highlight .block.edito .important1 {
-  margin-top: 2.7rem !important;
+.page-highlight .block.edito .inside .important1 .lien1 {
+  margin-top: 2.7rem;
 }
 
 .page-highlight .block.edito .link-read-more,
