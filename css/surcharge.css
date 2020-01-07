@@ -18846,7 +18846,7 @@ body.matchmaking .list-articles .gla-item-title {
 }
 
 .page-highlight .block.edito .important1 {
-  margin-top: 2.7rem;
+  margin-top: 2.7rem !important;
 }
 
 .page-highlight .block.edito .link-read-more,
