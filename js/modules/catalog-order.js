@@ -1,0 +1,1 @@
+!function(o){o(function(){var a=o("<div />").addClass("catalog-order__image");o(".block.catalog-order").find("img").eq(0).wrap(a)})}(jQuery);

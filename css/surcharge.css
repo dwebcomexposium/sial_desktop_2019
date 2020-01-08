@@ -5020,22 +5020,29 @@ body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
   justify-content: flex-start;
 }
 
+.catalog-order .inside::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   .catalog-order .inside {
     display: block;
   }
 }
 
-.catalog-order .inside > *:not(img) {
+.catalog-order .inside > *:not(img):not(.catalog-order__image) {
   margin-left: 0;
 }
 
 @media screen and (min-width: 768px) {
-  .catalog-order .inside > *:not(img) {
+  .catalog-order .inside > *:not(img):not(.catalog-order__image) {
     margin-left: 48.8%;
   }
 }
 
+.catalog-order__image,
 .catalog-order .cx-lazy-load,
 .catalog-order .gla-item-img,
 .catalog-order .la-item-img,
@@ -5056,13 +5063,15 @@ body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
 .block.edito-custom .catalog-order .cx-lazy-load,
 .catalog-order .block.article-title .cx-lazy-load,
 .block.article-title .catalog-order .cx-lazy-load {
-  margin-top: 4rem;
+  margin: 4rem auto 0;
+  text-align: center;
   -webkit-box-ordinal-group: 100;
   -ms-flex-order: 99;
   order: 99;
 }
 
 @media screen and (min-width: 768px) {
+  .catalog-order__image,
   .catalog-order .cx-lazy-load,
   .catalog-order .gla-item-img,
   .catalog-order .la-item-img,
@@ -5091,6 +5100,31 @@ body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
     -ms-flex-order: 0;
     order: 0;
   }
+}
+
+.catalog-order__image .cx-lazy-load,
+.catalog-order__image .gla-item-img,
+.catalog-order__image .la-item-img,
+.catalog-order__image .at-illust,
+.catalog-order__image .block.edito-custom .at-illust,
+.block.edito-custom .catalog-order__image .at-illust,
+.catalog-order__image .block.article-title .at-illust,
+.block.article-title .catalog-order__image .at-illust,
+.catalog-order__image .block.edito-custom .gla-item-img,
+.block.edito-custom .catalog-order__image .gla-item-img,
+.catalog-order__image .block.article-title .gla-item-img,
+.block.article-title .catalog-order__image .gla-item-img,
+.catalog-order__image .block.edito-custom .la-item-img,
+.block.edito-custom .catalog-order__image .la-item-img,
+.catalog-order__image .block.article-title .la-item-img,
+.block.article-title .catalog-order__image .la-item-img,
+.catalog-order__image .block.edito-custom .cx-lazy-load,
+.block.edito-custom .catalog-order__image .cx-lazy-load,
+.catalog-order__image .block.article-title .cx-lazy-load,
+.block.article-title .catalog-order__image .cx-lazy-load {
+  float: none;
+  width: auto;
+  margin-right: 0;
 }
 
 .catalog-order .block-title {
@@ -6162,6 +6196,7 @@ body.node1309141 .quicklinks-cta--large {
 }
 
 .app-optimize-visit {
+  clear: both;
   position: relative;
   margin-top: 5.8rem;
   padding-top: 5rem;
