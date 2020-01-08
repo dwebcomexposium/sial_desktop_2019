@@ -16355,6 +16355,19 @@ body.product-details .mod-catal.catal-other-prd .home-news .catal-other-prd-link
   }
 }
 
+.home-search + ins[data-revive-id],
+.error-page + ins[data-revive-id] {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home-search + ins[data-revive-id],
+  .error-page + ins[data-revive-id] {
+    margin-top: 8rem;
+  }
+}
+
 .home-search .main-title, .home-search .catalog-order .block-title, .catalog-order .home-search .block-title, .home-search body.node1309141 .contacts-list .intro h3, body.node1309141 .contacts-list .intro .home-search h3, .home-search body.node1309141 .contacts-list .inside > h2:first-of-type, body.node1309141 .contacts-list .home-search .inside > h2:first-of-type, .home-search .node1318741 .contacts-list .block-title, .node1318741 .contacts-list .home-search .block-title,
 .home-search .node1315331 .contacts-list .block-title, .node1315331 .contacts-list .home-search .block-title, .home-search .node1318741 .contacts-list h1, .node1318741 .contacts-list .home-search h1,
 .home-search .node1315331 .contacts-list h1, .node1315331 .contacts-list .home-search h1, .home-search .app-optimize-visit__title, .home-search .hero.hero-why-exhibit h1, .hero.hero-why-exhibit .home-search h1, .home-search body.pourquoi-exposer .block.edito .inside h2, body.pourquoi-exposer .block.edito .inside .home-search h2,
