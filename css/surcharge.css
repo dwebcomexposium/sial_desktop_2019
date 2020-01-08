@@ -8101,10 +8101,6 @@ table.table1 td::after {
   color: #8C909E;
 }
 
-body.article_list .more-infos-contact {
-  margin: 4rem auto 5.7rem;
-}
-
 @media screen and (min-width: 1024px) {
   .more-infos-contact {
     display: -webkit-box;
@@ -8116,6 +8112,18 @@ body.article_list .more-infos-contact {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+  }
+}
+
+body.article_list .more-infos-contact {
+  margin: 4rem auto 5.7rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body.node1309141 .more-infos-contact {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -8136,6 +8144,10 @@ body.article_list .more-infos-contact {
     font-size: 4rem;
     line-height: 6.5rem;
   }
+}
+
+body.node1309141 .more-infos-contact__title {
+  display: none;
 }
 
 .more-infos-contact__title::before {
