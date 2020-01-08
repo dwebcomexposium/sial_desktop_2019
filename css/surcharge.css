@@ -15556,6 +15556,7 @@ html[lang='fr'] .site-banner .global-search-form .gsf-fields .gsf-submit-line .g
 }
 
 .home-events {
+  clear: both;
   position: relative;
   display: block;
   padding-top: 4.8rem;
