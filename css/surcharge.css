@@ -10587,6 +10587,7 @@ body.detail-actu .article-wrapper .article-title > .inside .at-content .at-main-
 }
 
 body.detail-actu .article-wrapper .article-title > .inside .at-content .at-main-title .hashtag, body.detail-actu .article-wrapper .article-title > .inside .at-content .block.edito-custom h2 .hashtag, .block.edito-custom body.detail-actu .article-wrapper .article-title > .inside .at-content h2 .hashtag, body.detail-actu .article-wrapper .article-title > .inside .at-content .block.article-title h2 .hashtag, .block.article-title body.detail-actu .article-wrapper .article-title > .inside .at-content h2 .hashtag {
+  display: none;
   color: #383838;
   font-family: inherit;
   font-size: 1.2rem;
