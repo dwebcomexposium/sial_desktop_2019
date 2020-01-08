@@ -5417,8 +5417,15 @@ body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) {
   }
 }
 
-body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) .cl-item-subtitle, body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) .cl-item-address {
+body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) .cl-item-subtitle {
   display: none !important;
+}
+
+body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) .cl-item [itemprop=address], body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) .cl-item-address {
+  display: block;
+  -webkit-box-ordinal-group: 100;
+  -ms-flex-order: 99;
+  order: 99;
 }
 
 body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) .cl-item-email, body.node1309141 .contacts-list .inside > .cl-content:not(:last-of-type) .cl-item-phone {
@@ -5637,10 +5644,10 @@ body.node1309141 .contacts-list .cl-item.has__firstJobTitle, body.node1309141 .c
 
 @media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .cl-item.has__firstJobTitle::after, body.node1309141 .contacts-list .cl-item.has__borderTop::after {
-    position: absolute;
     content: '';
-    display: block;
+    position: absolute;
     top: -2.5rem;
+    display: block;
     height: 0.2rem;
     background-color: rgba(0, 0, 0, 0.15);
   }
@@ -5648,24 +5655,24 @@ body.node1309141 .contacts-list .cl-item.has__firstJobTitle, body.node1309141 .c
 
 @media screen and (min-width: 768px) {
   body.node1309141 .contacts-list .cl-item.has__borderTop::after {
-    left: calc(-10% - 0.1rem);
-    width: calc(110% + 0.5rem);
+    left: -3rem;
+    width: calc(100% + 3rem);
   }
 }
 
 body.node1309141 .contacts-list .cl-item.has__firstJobTitle::before {
+  content: attr(data-job-title);
   position: absolute;
   top: -6.5rem;
   left: 0;
   width: 150%;
-  content: attr(data-job-title);
-  color: #1E1E1E;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
-  letter-spacing: 0.13rem;
   line-height: 2.46;
+  letter-spacing: 0.13rem;
   text-transform: uppercase;
+  color: #1E1E1E;
 }
 
 @media screen and (min-width: 1024px) {
@@ -5675,8 +5682,8 @@ body.node1309141 .contacts-list .cl-item.has__firstJobTitle::before {
 }
 
 body.node1309141 .contacts-list .cl-item.has__firstJobTitle::after {
-  width: calc(100% + 0.5rem);
   left: 0;
+  width: 100%;
 }
 
 body.node1309141 .contacts-list .cl-item-illust {
