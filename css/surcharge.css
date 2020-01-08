@@ -1647,7 +1647,7 @@ body.article .article-wrapper .article-content .btn-invert:hover, .subheader__bt
   background: #fff;
 }
 
-body.article .article-wrapper .article-content .lien1, body.article .article-wrapper .article-content .lien2, .lien1, .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
+.lien1, .lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.page-events .evsf-as-header .evsf-as-title, .node1315331 .contacts-list .intro a.externe, .node1318741 .contacts-list + .block-page.edito a.externe, .testimonials__quote__link, .why-visit__item__link, body.page-events.page-details .event-view-full .catal-ed-activity-link, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a,
@@ -1675,7 +1675,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   overflow: hidden;
 }
 
-body.article .article-wrapper .article-content .lien1::after, body.article .article-wrapper .article-content .lien2::after, .lien1::after, .lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
+.lien1::after, .lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.page-events .evsf-as-header .evsf-as-title::after, .node1315331 .contacts-list .intro a.externe::after, .node1318741 .contacts-list + .block-page.edito a.externe::after, .testimonials__quote__link::after, .why-visit__item__link::after, body.page-events.page-details .event-view-full .catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a::after,
@@ -1698,7 +1698,7 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-body.article .article-wrapper .article-content .is-active.lien1::after, body.article .article-wrapper .article-content .is-active.lien2::after, .is-active.lien1::after, .is-active.lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
+.is-active.lien1::after, .is-active.lien2::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .is-active#esf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#evsf_new_search_new::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.page-events .evsf-as-header .is-active.evsf-as-title::after, .node1315331 .contacts-list .intro a.is-active.externe::after, .node1318741 .contacts-list + .block-page.edito a.is-active.externe::after, .is-active.testimonials__quote__link::after, .is-active.why-visit__item__link::after, body.page-events.page-details .event-view-full .is-active.catal-ed-activity-link::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after,
@@ -1706,7 +1706,7 @@ body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a.i
 body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .is-active.catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a.is-active::after,
 body.product-details .mod-catal .catal-prd-exhibitor-view .is-active.catal-prd-exhibitor-view-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
 .error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a.is-active::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, body.article .article-wrapper .article-content .lien1:hover::after, body.article .article-wrapper .article-content .lien2:hover::after, .lien1:hover::after, .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a.is-active::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .lien1:hover::after, .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.page-events .evsf-as-header .evsf-as-title:hover::after, .node1315331 .contacts-list .intro a.externe:hover::after, .node1318741 .contacts-list + .block-page.edito a.externe:hover::after, .testimonials__quote__link:hover::after, .why-visit__item__link:hover::after, body.page-events.page-details .event-view-full .catal-ed-activity-link:hover::after, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after,
@@ -2542,21 +2542,6 @@ body.article .article-wrapper .article-content table:not(.table1) tr:nth-child(o
   background-color: #F3F6FB;
 }
 
-body.article .article-wrapper .article-content .lien1 {
-  padding-bottom: 0;
-  vertical-align: bottom;
-}
-
-body.article .article-wrapper .article-content .lien2 {
-  padding-bottom: 0;
-  vertical-align: bottom;
-  color: #F85C29;
-}
-
-body.article .article-wrapper .article-content .lien2::after {
-  width: 100%;
-}
-
 body.article .article-wrapper .article-content .btn-secondary {
   background: #F85C29;
 }
@@ -2623,7 +2608,14 @@ body.detail-actu .article-navigation {
   margin-bottom: 8rem;
 }
 
-.article-navigation .an-list {
+.article-navigation .an-list::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+body.detail-actu .article-navigation .an-list,
+body.article-program .article-navigation .an-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2638,14 +2630,9 @@ body.detail-actu .article-navigation {
   flex-direction: column;
 }
 
-.article-navigation .an-list::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-
 @media screen and (min-width: 768px) {
-  .article-navigation .an-list {
+  body.detail-actu .article-navigation .an-list,
+  body.article-program .article-navigation .an-list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -2653,7 +2640,60 @@ body.detail-actu .article-navigation {
   }
 }
 
+.article-navigation .an-item-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #292B2F;
+  background: #F3F6FB;
+}
+
+.article-navigation .an-item-illust,
+.article-navigation .cx-lazy-load {
+  width: 10rem;
+  height: 6rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+}
+
+.article-navigation .at-theme {
+  display: none;
+}
+
+body.detail-actu .article-navigation .at-theme,
+body.article-program .article-navigation .at-theme {
+  display: inline-block;
+  margin-left: 1.5rem !important;
+}
+
+body.detail-actu .article-navigation .an-item-title,
+body.article-program .article-navigation .an-item-title {
+  margin-top: 2rem;
+  font-family: "Avenir", "Nunito", Arial, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 3.2rem;
+  color: #fff;
+}
+
+body.detail-actu .article-navigation .an-item-title + .gla-item-desc,
+body.article-program .article-navigation .an-item-title + .gla-item-desc {
+  margin-top: 1rem;
+}
+
 .article-navigation .an-item-content {
+  width: calc(100% - 6rem);
+  padding: 0 3rem;
+  text-align: inherit;
+}
+
+body.detail-actu .article-navigation .an-item-content,
+body.article-program .article-navigation .an-item-content {
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2670,66 +2710,81 @@ body.detail-actu .article-navigation {
   width: 100%;
   height: 100%;
   padding: 19.7rem 1.5rem 4.3rem;
+  text-align: left;
+  color: #fff;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
-  z-index: 2;
-  color: #fff;
 }
 
 @media screen and (min-width: 1024px) {
-  .article-navigation .an-item-content {
+  body.detail-actu .article-navigation .an-item-content,
+  body.article-program .article-navigation .an-item-content {
     min-height: 43.5rem;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .article-navigation .an-item-content {
+  body.detail-actu .article-navigation .an-item-content,
+  body.article-program .article-navigation .an-item-content {
     padding: 19.7rem 3rem 4.3rem;
   }
 }
 
-.article-navigation .an-item-content .at-theme {
-  margin-left: 1.5rem !important;
-}
-
-.article-navigation .an-item-content .an-item-publication,
-.article-navigation .an-item-content .icon-short-arrow-right {
+body.detail-actu .article-navigation .an-item-content .icon-short-arrow-right,
+body.article-program .article-navigation .an-item-content .icon-short-arrow-right {
   display: none;
 }
 
-.article-navigation .an-item-content .an-item-title {
-  color: #fff;
-  font-family: "Avenir", "Nunito", Arial, sans-serif;
-  font-size: 2.4rem;
-  font-weight: 900;
-  line-height: 3.2rem;
-  margin-top: 2rem;
+.article-navigation .an-item-prev {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  margin-right: auto;
 }
 
-.article-navigation .an-item-content .an-item-title + .gla-item-desc {
-  margin-top: 1rem;
+.article-navigation .an-item-prev .an-item-illust,
+.article-navigation .an-item-prev .cx-lazy-load {
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
 }
 
-.article-navigation .an-item {
+.article-navigation .an-item-next {
+  -webkit-box-ordinal-group: 100;
+  -ms-flex-order: 99;
+  order: 99;
+  margin-left: auto;
+}
+
+.article-navigation .an-item-next .an-item-illust,
+.article-navigation .an-item-next .cx-lazy-load {
+  -webkit-box-ordinal-group: 100;
+  -ms-flex-order: 99;
+  order: 99;
+}
+
+body.detail-actu .article-navigation .an-item,
+body.article-program .article-navigation .an-item {
+  width: 100%;
+  max-width: 39.7rem;
   margin: 1.5rem auto;
   border-radius: 0.6rem;
   -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
   box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
-  width: 100%;
-  max-width: 39.7rem;
 }
 
 @media screen and (min-width: 768px) {
-  .article-navigation .an-item {
-    margin: 0 1.5rem;
-    max-width: none;
+  body.detail-actu .article-navigation .an-item,
+  body.article-program .article-navigation .an-item {
     width: calc((100% - 1 * 6rem) / 2);
+    max-width: none;
+    margin: 0 1.5rem;
   }
 }
 
-.article-navigation .an-item > a {
-  border-radius: 0.6rem;
+body.detail-actu .article-navigation .an-item > a,
+body.article-program .article-navigation .an-item > a {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2740,36 +2795,56 @@ body.detail-actu .article-navigation {
   -ms-flex-direction: column;
   flex-direction: column;
   text-decoration: none;
+  border-radius: 0.6rem;
   overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) {
-  .article-navigation .an-item > a {
+  body.detail-actu .article-navigation .an-item > a,
+  body.article-program .article-navigation .an-item > a {
     min-height: 43.5rem;
   }
 }
 
-.article-navigation .an-item > a .at-illust, .article-navigation .an-item > a .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a .at-illust,
-.article-navigation .an-item > a .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a .gla-item-img,
-.article-navigation .an-item > a .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a .gla-item-img,
-.article-navigation .an-item > a .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a .la-item-img,
-.article-navigation .an-item > a .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a .la-item-img,
-.article-navigation .an-item > a .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a .cx-lazy-load,
-.article-navigation .an-item > a .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a .cx-lazy-load,
-.article-navigation .an-item > a .gla-item-img,
-.article-navigation .an-item > a .la-item-img,
-.article-navigation .an-item > a .cx-lazy-load,
-.article-navigation .an-item > a .an-item-illust {
+body.detail-actu .article-navigation .an-item > a .at-illust, body.detail-actu .article-navigation .an-item > a .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a .at-illust,
+body.detail-actu .article-navigation .an-item > a .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a .gla-item-img,
+body.detail-actu .article-navigation .an-item > a .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a .gla-item-img,
+body.detail-actu .article-navigation .an-item > a .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a .la-item-img,
+body.detail-actu .article-navigation .an-item > a .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a .la-item-img,
+body.detail-actu .article-navigation .an-item > a .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a .gla-item-img,
+body.detail-actu .article-navigation .an-item > a .la-item-img,
+body.detail-actu .article-navigation .an-item > a .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a .an-item-illust,
+body.article-program .article-navigation .an-item > a .at-illust,
+body.article-program .article-navigation .an-item > a .block.article-title .at-illust,
+.block.article-title body.article-program .article-navigation .an-item > a .at-illust,
+body.article-program .article-navigation .an-item > a .block.edito-custom .gla-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a .gla-item-img,
+body.article-program .article-navigation .an-item > a .block.article-title .gla-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a .gla-item-img,
+body.article-program .article-navigation .an-item > a .block.edito-custom .la-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a .la-item-img,
+body.article-program .article-navigation .an-item > a .block.article-title .la-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a .la-item-img,
+body.article-program .article-navigation .an-item > a .block.edito-custom .cx-lazy-load,
+.block.edito-custom body.article-program .article-navigation .an-item > a .cx-lazy-load,
+body.article-program .article-navigation .an-item > a .block.article-title .cx-lazy-load,
+.block.article-title body.article-program .article-navigation .an-item > a .cx-lazy-load,
+body.article-program .article-navigation .an-item > a .gla-item-img,
+body.article-program .article-navigation .an-item > a .la-item-img,
+body.article-program .article-navigation .an-item > a .cx-lazy-load,
+body.article-program .article-navigation .an-item > a .an-item-illust {
   position: absolute;
+  z-index: 1;
   top: 50%;
   left: 50%;
+  width: 100%;
+  height: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  max-width: none;
-  z-index: 1;
   -webkit-transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -o-transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2777,37 +2852,94 @@ body.detail-actu .article-navigation {
   transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-.article-navigation .an-item > a:hover .at-illust, .article-navigation .an-item > a:hover .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a:hover .at-illust,
-.article-navigation .an-item > a:hover .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a:hover .gla-item-img,
-.article-navigation .an-item > a:hover .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a:hover .gla-item-img,
-.article-navigation .an-item > a:hover .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a:hover .la-item-img,
-.article-navigation .an-item > a:hover .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a:hover .la-item-img,
-.article-navigation .an-item > a:hover .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a:hover .cx-lazy-load,
-.article-navigation .an-item > a:hover .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a:hover .cx-lazy-load,
-.article-navigation .an-item > a:hover .gla-item-img,
-.article-navigation .an-item > a:hover .la-item-img,
-.article-navigation .an-item > a:hover .cx-lazy-load,
-.article-navigation .an-item > a:hover .an-item-illust, .article-navigation .an-item > a:focus .at-illust, .article-navigation .an-item > a:focus .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a:focus .at-illust,
-.article-navigation .an-item > a:focus .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a:focus .gla-item-img,
-.article-navigation .an-item > a:focus .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a:focus .gla-item-img,
-.article-navigation .an-item > a:focus .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a:focus .la-item-img,
-.article-navigation .an-item > a:focus .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a:focus .la-item-img,
-.article-navigation .an-item > a:focus .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a:focus .cx-lazy-load,
-.article-navigation .an-item > a:focus .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a:focus .cx-lazy-load,
-.article-navigation .an-item > a:focus .gla-item-img,
-.article-navigation .an-item > a:focus .la-item-img,
-.article-navigation .an-item > a:focus .cx-lazy-load,
-.article-navigation .an-item > a:focus .an-item-illust, .article-navigation .an-item > a:active .at-illust, .article-navigation .an-item > a:active .block.article-title .at-illust, .block.article-title .article-navigation .an-item > a:active .at-illust,
-.article-navigation .an-item > a:active .block.edito-custom .gla-item-img, .block.edito-custom .article-navigation .an-item > a:active .gla-item-img,
-.article-navigation .an-item > a:active .block.article-title .gla-item-img, .block.article-title .article-navigation .an-item > a:active .gla-item-img,
-.article-navigation .an-item > a:active .block.edito-custom .la-item-img, .block.edito-custom .article-navigation .an-item > a:active .la-item-img,
-.article-navigation .an-item > a:active .block.article-title .la-item-img, .block.article-title .article-navigation .an-item > a:active .la-item-img,
-.article-navigation .an-item > a:active .block.edito-custom .cx-lazy-load, .block.edito-custom .article-navigation .an-item > a:active .cx-lazy-load,
-.article-navigation .an-item > a:active .block.article-title .cx-lazy-load, .block.article-title .article-navigation .an-item > a:active .cx-lazy-load,
-.article-navigation .an-item > a:active .gla-item-img,
-.article-navigation .an-item > a:active .la-item-img,
-.article-navigation .an-item > a:active .cx-lazy-load,
-.article-navigation .an-item > a:active .an-item-illust {
+body.detail-actu .article-navigation .an-item > a:hover .at-illust, body.detail-actu .article-navigation .an-item > a:hover .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .at-illust,
+body.detail-actu .article-navigation .an-item > a:hover .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:hover .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:hover .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:hover .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:hover .la-item-img,
+body.detail-actu .article-navigation .an-item > a:hover .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .la-item-img,
+body.detail-actu .article-navigation .an-item > a:hover .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a:hover .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:hover .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a:hover .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:hover .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:hover .la-item-img,
+body.detail-actu .article-navigation .an-item > a:hover .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:hover .an-item-illust, body.detail-actu .article-navigation .an-item > a:focus .at-illust, body.detail-actu .article-navigation .an-item > a:focus .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .at-illust,
+body.detail-actu .article-navigation .an-item > a:focus .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:focus .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:focus .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:focus .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:focus .la-item-img,
+body.detail-actu .article-navigation .an-item > a:focus .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .la-item-img,
+body.detail-actu .article-navigation .an-item > a:focus .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a:focus .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:focus .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a:focus .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:focus .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:focus .la-item-img,
+body.detail-actu .article-navigation .an-item > a:focus .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:focus .an-item-illust, body.detail-actu .article-navigation .an-item > a:active .at-illust, body.detail-actu .article-navigation .an-item > a:active .block.article-title .at-illust, .block.article-title body.detail-actu .article-navigation .an-item > a:active .at-illust,
+body.detail-actu .article-navigation .an-item > a:active .block.edito-custom .gla-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:active .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:active .block.article-title .gla-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:active .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:active .block.edito-custom .la-item-img, .block.edito-custom body.detail-actu .article-navigation .an-item > a:active .la-item-img,
+body.detail-actu .article-navigation .an-item > a:active .block.article-title .la-item-img, .block.article-title body.detail-actu .article-navigation .an-item > a:active .la-item-img,
+body.detail-actu .article-navigation .an-item > a:active .block.edito-custom .cx-lazy-load, .block.edito-custom body.detail-actu .article-navigation .an-item > a:active .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:active .block.article-title .cx-lazy-load, .block.article-title body.detail-actu .article-navigation .an-item > a:active .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:active .gla-item-img,
+body.detail-actu .article-navigation .an-item > a:active .la-item-img,
+body.detail-actu .article-navigation .an-item > a:active .cx-lazy-load,
+body.detail-actu .article-navigation .an-item > a:active .an-item-illust,
+body.article-program .article-navigation .an-item > a:hover .at-illust,
+body.article-program .article-navigation .an-item > a:hover .block.article-title .at-illust,
+.block.article-title body.article-program .article-navigation .an-item > a:hover .at-illust,
+body.article-program .article-navigation .an-item > a:hover .block.edito-custom .gla-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a:hover .gla-item-img,
+body.article-program .article-navigation .an-item > a:hover .block.article-title .gla-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a:hover .gla-item-img,
+body.article-program .article-navigation .an-item > a:hover .block.edito-custom .la-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a:hover .la-item-img,
+body.article-program .article-navigation .an-item > a:hover .block.article-title .la-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a:hover .la-item-img,
+body.article-program .article-navigation .an-item > a:hover .block.edito-custom .cx-lazy-load,
+.block.edito-custom body.article-program .article-navigation .an-item > a:hover .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:hover .block.article-title .cx-lazy-load,
+.block.article-title body.article-program .article-navigation .an-item > a:hover .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:hover .gla-item-img,
+body.article-program .article-navigation .an-item > a:hover .la-item-img,
+body.article-program .article-navigation .an-item > a:hover .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:hover .an-item-illust,
+body.article-program .article-navigation .an-item > a:focus .at-illust,
+body.article-program .article-navigation .an-item > a:focus .block.article-title .at-illust,
+.block.article-title body.article-program .article-navigation .an-item > a:focus .at-illust,
+body.article-program .article-navigation .an-item > a:focus .block.edito-custom .gla-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a:focus .gla-item-img,
+body.article-program .article-navigation .an-item > a:focus .block.article-title .gla-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a:focus .gla-item-img,
+body.article-program .article-navigation .an-item > a:focus .block.edito-custom .la-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a:focus .la-item-img,
+body.article-program .article-navigation .an-item > a:focus .block.article-title .la-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a:focus .la-item-img,
+body.article-program .article-navigation .an-item > a:focus .block.edito-custom .cx-lazy-load,
+.block.edito-custom body.article-program .article-navigation .an-item > a:focus .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:focus .block.article-title .cx-lazy-load,
+.block.article-title body.article-program .article-navigation .an-item > a:focus .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:focus .gla-item-img,
+body.article-program .article-navigation .an-item > a:focus .la-item-img,
+body.article-program .article-navigation .an-item > a:focus .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:focus .an-item-illust,
+body.article-program .article-navigation .an-item > a:active .at-illust,
+body.article-program .article-navigation .an-item > a:active .block.article-title .at-illust,
+.block.article-title body.article-program .article-navigation .an-item > a:active .at-illust,
+body.article-program .article-navigation .an-item > a:active .block.edito-custom .gla-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a:active .gla-item-img,
+body.article-program .article-navigation .an-item > a:active .block.article-title .gla-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a:active .gla-item-img,
+body.article-program .article-navigation .an-item > a:active .block.edito-custom .la-item-img,
+.block.edito-custom body.article-program .article-navigation .an-item > a:active .la-item-img,
+body.article-program .article-navigation .an-item > a:active .block.article-title .la-item-img,
+.block.article-title body.article-program .article-navigation .an-item > a:active .la-item-img,
+body.article-program .article-navigation .an-item > a:active .block.edito-custom .cx-lazy-load,
+.block.edito-custom body.article-program .article-navigation .an-item > a:active .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:active .block.article-title .cx-lazy-load,
+.block.article-title body.article-program .article-navigation .an-item > a:active .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:active .gla-item-img,
+body.article-program .article-navigation .an-item > a:active .la-item-img,
+body.article-program .article-navigation .an-item > a:active .cx-lazy-load,
+body.article-program .article-navigation .an-item > a:active .an-item-illust {
   -webkit-transform: translate(-50%, -50%) scale(1.2);
   -ms-transform: translate(-50%, -50%) scale(1.2);
   transform: translate(-50%, -50%) scale(1.2);
