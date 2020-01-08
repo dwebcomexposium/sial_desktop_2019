@@ -20866,10 +20866,10 @@ body.node1318534 .contacts-list .block-title {
   font-size: 4rem;
 }
 
-body.node1318534 .contacts-list .block-title > span {
-  font-size: 1.6rem;
+body.node1318534 .contacts-list .block-title > * {
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
-  font-weight: 1.56;
+  font-size: 1.6rem;
+  font-weight: 400;
   color: #383838;
 }
 
