@@ -3451,6 +3451,18 @@ body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-c
   color: #FFD200;
 }
 
+body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-ceremony p:first-child {
+  margin-top: 0;
+}
+
+body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-ceremony p:last-child {
+  margin-bottom: 0;
+}
+
+body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-ceremony a {
+  text-decoration: none;
+}
+
 body.sial-innovation .article-title > .inside .at-content .blocs-starts .award-ceremony__title {
   position: relative;
   z-index: 1;
