@@ -5212,7 +5212,7 @@ body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
   }
 }
 
-.catalog-order p {
+.catalog-order p:not(.important1) {
   margin-top: 0;
   font-size: 1.6rem;
   line-height: 3.1rem;
