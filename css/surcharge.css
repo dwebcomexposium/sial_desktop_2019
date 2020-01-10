@@ -14186,22 +14186,20 @@ body.product-details.body-mobile .catal-prd-main {
   }
 }
 
+.footer-menu .ql-item {
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   .footer-menu .ql-item {
     min-width: 19rem;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .footer-menu .ql-item.linkid794991 {
-    margin-bottom: 4rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .footer-menu .ql-item.linkid794994 {
-    margin-bottom: 12rem;
-  }
+.footer-menu .ql-item.break {
+  -webkit-column-break-after: column;
+  -moz-column-break-after: column;
+  break-after: column;
 }
 
 .footer-menu .ql-item.linkid795000 .btn-primary {
