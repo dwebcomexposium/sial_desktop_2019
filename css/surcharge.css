@@ -5218,6 +5218,10 @@ body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
   line-height: 3.1rem;
 }
 
+.catalog-order p.important {
+  margin-top: 1.5rem;
+}
+
 .catalog-order strong {
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
   font-weight: 700;
