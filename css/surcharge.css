@@ -5218,7 +5218,8 @@ body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
   line-height: 3.1rem;
 }
 
-.catalog-order p.important {
+.catalog-order p.important1,
+.catalog-order p.important2 {
   margin-top: 3rem;
 }
 
