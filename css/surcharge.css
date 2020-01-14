@@ -2941,16 +2941,16 @@ body.article-program .article-navigation .an-item-content .icon-short-arrow-righ
   display: none;
 }
 
-.article-navigation .an-item-prev {
+.article-navigation .an-item-previous {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
   margin-right: auto;
 }
 
-.article-navigation .an-item-prev .icon,
-.article-navigation .an-item-prev .an-item-illust,
-.article-navigation .an-item-prev .cx-lazy-load {
+.article-navigation .an-item-previous .icon,
+.article-navigation .an-item-previous .an-item-illust,
+.article-navigation .an-item-previous .cx-lazy-load {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
