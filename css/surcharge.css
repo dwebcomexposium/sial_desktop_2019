@@ -18087,7 +18087,8 @@ body.article_list .list-articles .intro {
   }
 }
 
-body.article_list .list-articles .gla-item-content p:not(.gla-item-btn) {
+body.article_list .list-articles .gla-item-content p:not(.gla-item-btn),
+body.article_list .list-articles .gla-item-content .gla-item-desc {
   font-size: 1.5rem;
 }
 
