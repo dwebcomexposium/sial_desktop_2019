@@ -4286,8 +4286,10 @@ body.node1316963 .article-content p:nth-of-type(8), body.node1316963 .article-co
 }
 
 .bn-item .icon {
+  display: inline-block;
   margin: 0 .5em 0 .33em;
-  font-size: 0.9rem;
+  font-size: 0.5rem;
+  vertical-align: middle;
 }
 
 .bn-item-link {
