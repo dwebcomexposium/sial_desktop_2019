@@ -1,8 +1,8 @@
 /**!
  Hammer jQuery plugin
  https://github.com/hammerjs/jquery.hammer.js/blob/master/jquery.hammer.js
-*/
-(function(factory) {
+ */
+(function (factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery', 'hammerjs'], factory);
   } else if (typeof exports === 'object') {
@@ -10,7 +10,7 @@
   } else {
     factory(jQuery, Hammer);
   }
-}(function($, Hammer) {
+}(function ($, Hammer) {
   function hammerify(el, options) {
     var $el = $(el);
     if (!$el.data("hammer")) {
@@ -18,15 +18,15 @@
     }
   }
 
-  $.fn.hammer = function(options) {
-    return this.each(function() {
+  $.fn.hammer = function (options) {
+    return this.each(function () {
       hammerify(this, options);
     });
   };
 
   // extend the emit method to also trigger jQuery events
-  Hammer.Manager.prototype.emit = (function(originalEmit) {
-    return function(type, data) {
+  Hammer.Manager.prototype.emit = (function (originalEmit) {
+    return function (type, data) {
       originalEmit.call(this, type, data);
       $(this.element).trigger({
         type: type,
@@ -46,9 +46,9 @@
  @last-update: 2015-07-06
  */
 
-(function($) {
+(function ($) {
 
-  $.cxpSwiper = function(el, options) {
+  $.cxpSwiper = function (el, options) {
 
     var defaults = {
       activeIndex: 0, // active slide (group) index
@@ -94,7 +94,7 @@
       element = el;
 
     // Plugin initialization
-    plugin.init = function() {
+    plugin.init = function () {
 
       plugin.settings = $.extend({}, defaults, options);
       updateSettingsFromHTMLData();
@@ -121,7 +121,7 @@
         }
         var $bullets = $(plugin.settings.pgContainer, $element).children();
         $bullets.first().addClass(plugin.settings.pgBulletActiveClass);
-        $bullets.on('click', function() {
+        $bullets.on('click', function () {
           plugin.swipePause();
           var decal = -(plugin.settings.activeIndex - $(this).index());
           if (decal !== 0) plugin.swipeTo(decal);
@@ -133,19 +133,19 @@
 
       // Initialize touch events
       if (plugin.settings.touch) {
-        $element.hammer().off('panright.cxpSwiper').on('panright.cxpSwiper', function(e) {
+        $element.hammer().off('panright.cxpSwiper').on('panright.cxpSwiper', function (e) {
           if (!plugin.settings.touching && !plugin.settings.animating && e.gesture.deltaX > plugin.settings.touchDelta) {
             plugin.settings.touching = true;
             plugin.swipePrev();
           }
         });
-        $element.hammer().off('panleft.cxpSwiper').on('panleft.cxpSwiper', function(e) {
+        $element.hammer().off('panleft.cxpSwiper').on('panleft.cxpSwiper', function (e) {
           if (!plugin.settings.touching && !plugin.settings.animating && e.gesture.deltaX < -plugin.settings.touchDelta) {
             plugin.settings.touching = true;
             plugin.swipeNext();
           }
         });
-        $element.hammer().off('panend.cxpSwiper').on('panend.cxpSwiper', function(e) {
+        $element.hammer().off('panend.cxpSwiper').on('panend.cxpSwiper', function (e) {
           plugin.settings.touching = false;
         });
 
@@ -160,11 +160,11 @@
     };
 
     // Update dimensions values
-    plugin.updateInitValues = function() {
+    plugin.updateInitValues = function () {
       plugin.settings.itemsCount = $(plugin.settings.itemSelector, $element).length;
       plugin.settings.containerWidth = $(plugin.settings.wrapperSelector, $element).outerWidth();
       plugin.settings.contentWidth = 0;
-      $(plugin.settings.itemSelector, $element).each(function() {
+      $(plugin.settings.itemSelector, $element).each(function () {
         plugin.settings.contentWidth += $(this).outerWidth();
       });
       if (plugin.settings.itemsPerSlide !== undefined) {
@@ -175,7 +175,7 @@
     };
 
     // Initialize transitions
-    plugin.disableTransitions = function() {
+    plugin.disableTransitions = function () {
       $(plugin.settings.wrapperSelector, $element).css({
         '-webkit-transition': 'none',
         'transition': 'none'
@@ -184,8 +184,8 @@
     };
 
     // Initialize transitions
-    plugin.initTransitions = function() {
-      if(plugin.settings.transitionsSet) return;
+    plugin.initTransitions = function () {
+      if (plugin.settings.transitionsSet) return;
       $(plugin.settings.wrapperSelector, $element).css({
         '-webkit-transition': 'all ' + (plugin.settings.speed / 1000) + 's',
         'transition': 'all ' + (plugin.settings.speed / 1000) + 's'
@@ -194,25 +194,25 @@
     };
 
     // Reads plugin settings from HTML data-* attributes (camelCase)
-    var updateSettingsFromHTMLData = function() {
+    var updateSettingsFromHTMLData = function () {
       var data = $element.data();
       for (var dat in data) plugin.settings[dat] = data[dat];
     };
 
     // Event Handlers on HTML components inside the plugin
-    var registerEvents = function() {
+    var registerEvents = function () {
 
-      $(plugin.settings.nextSelector, $element).off('click.cxpSwiper').on('click.cxpSwiper', function(e) {
+      $(plugin.settings.nextSelector, $element).off('click.cxpSwiper').on('click.cxpSwiper', function (e) {
         e.preventDefault();
         plugin.swipePause();
         plugin.swipeNext();
       });
-      $(plugin.settings.prevSelector, $element).off('click.cxpSwiper').on('click.cxpSwiper', function(e) {
+      $(plugin.settings.prevSelector, $element).off('click.cxpSwiper').on('click.cxpSwiper', function (e) {
         e.preventDefault();
         plugin.swipePause();
         plugin.swipePrev();
       });
-      $(plugin.settings.playPauseSelector, $element).off('click.cxpSwiper').on('click.cxpSwiper', function(e) {
+      $(plugin.settings.playPauseSelector, $element).off('click.cxpSwiper').on('click.cxpSwiper', function (e) {
         e.preventDefault();
         if (plugin.settings.isAutoplay) {
           plugin.swipePause();
@@ -224,7 +224,7 @@
     };
 
     // Calculate offset of slides for swiping
-    var getOffset = function(dir) {
+    var getOffset = function (dir) {
       var offsetLeft = false;
       if (plugin.settings.itemsPerSlide === undefined) { // if itemsPerSlide is not defined : width is auto (container)
         offsetLeft = -plugin.settings.containerWidth * plugin.settings.activeIndex;
@@ -250,14 +250,14 @@
     };
 
     // Toggle pause state
-    plugin.swipePause = function() {
+    plugin.swipePause = function () {
       $(plugin.settings.playPauseSelector, $element).find('.icon').removeClass('icon-pause').addClass('icon-play');
       clearInterval(plugin.settings.interval);
       plugin.settings.isAutoplay = false;
     };
 
     // Toggle auto play state
-    plugin.swipePlay = function() {
+    plugin.swipePlay = function () {
       $(plugin.settings.playPauseSelector, $element).find('.icon').removeClass('icon-play').addClass('icon-pause');
       clearInterval(plugin.settings.interval);
       plugin.settings.interval = setInterval(plugin.swipeNext, plugin.settings.autoDelay);
@@ -265,7 +265,7 @@
     };
 
     // Destroy
-    plugin.destroy = function() {
+    plugin.destroy = function () {
       // Clear the autoplay interval if exists
       clearInterval(plugin.settings.interval);
       // Unregister events
@@ -275,17 +275,17 @@
     };
 
     // Next item
-    plugin.swipeNext = function() {
+    plugin.swipeNext = function () {
       plugin.swipeTo(1);
     };
 
     // Previous item
-    plugin.swipePrev = function() {
+    plugin.swipePrev = function () {
       plugin.swipeTo(-1);
     };
 
     // Go to item (direct)
-    plugin.goTo = function(index) {
+    plugin.goTo = function (index) {
       if (index > -1) plugin.settings.activeIndex = index;
       var offsetLeft = getOffset(index);
       $(plugin.settings.wrapperSelector, $element).css({
@@ -296,7 +296,7 @@
     };
 
     // Swipe to item
-    plugin.swipeTo = function(dir) {
+    plugin.swipeTo = function (dir) {
 
       if (plugin.settings.animating) return false;
 
@@ -327,7 +327,7 @@
             'transform': 'translate3d(' + offsetLeft + 'px,0,0)'
           });
 
-          setTimeout(function() {
+          setTimeout(function () {
             plugin.settings.animating = false;
           }, plugin.settings.speed);
         } else {
@@ -340,7 +340,7 @@
     };
 
     // Update on resize
-    plugin.updateResize = function() {
+    plugin.updateResize = function () {
 
       if (plugin.settings.orientationReset) {
         var screenOrientation = ($(window).width() > $(window).height()) ? 90 : 0;
@@ -354,7 +354,7 @@
     };
 
     // Update pagination
-    plugin.updatePagination = function() {
+    plugin.updatePagination = function () {
 
       //if(plugin.settings.activeIndex===0) return false;
       var $next = $(plugin.settings.nextSelector, $element);
@@ -408,9 +408,12 @@
 
   };
 
-  $.fn.cxpSwiper = function(options) {
+  $.fn.cxpSwiper = function (options) {
+    if (this.parents('.nouveauxexpo').length) {
+      return;
+    }
 
-    return this.each(function() {
+    return this.each(function () {
       if (undefined === $(this).data('cxpSwiper')) {
         var plugin = new $.cxpSwiper(this, options);
         $(this).data('cxpSwiper', plugin);
