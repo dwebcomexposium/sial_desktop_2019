@@ -4474,6 +4474,11 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-se
   padding: 1.6rem 5rem 1.6rem 2.3rem !important;
 }
 
+body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select select.is-small,
+body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select select.is-small {
+  max-width: 100%;
+}
+
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line .form-select::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .form-select::after {
   font-size: 1.1rem;
@@ -4807,6 +4812,10 @@ body.page-events .form-select select[disabled] {
 
 body.page-events .form-select select option {
   color: #585858;
+}
+
+body.page-events .form-select select.is-small {
+  max-width: 100%;
 }
 
 body.page-events .form-select::before {
@@ -8146,6 +8155,10 @@ table.table1 td::after {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.local-agent__filters select.is-small {
+  max-width: 100%;
 }
 
 .local-agent__select {
@@ -20019,6 +20032,10 @@ body.catalogue .form-select select option {
   color: #585858;
 }
 
+body.catalogue .form-select select.is-small {
+  max-width: 100%;
+}
+
 body.catalogue .form-select::before {
   content: none !important;
 }
@@ -20180,6 +20197,10 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-sele
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-select select {
   padding: 1.6rem 5rem 1.6rem 2.3rem !important;
   height: auto;
+}
+
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-select select.is-small {
+  max-width: 100%;
 }
 
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .form-select::after {
