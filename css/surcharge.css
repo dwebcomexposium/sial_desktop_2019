@@ -11783,7 +11783,7 @@ body.exhibitor-details .mod-catal .catal-ed-products .catal-edp-cat .catal-edp-c
 
 body.exposant.fiche .mod-catal .catal-ed-products .catal-edp-cat .catal-edp-cat-item .icon-catal,
 body.exhibitor-details .mod-catal .catal-ed-products .catal-edp-cat .catal-edp-cat-item .icon-catal {
-  color: currentColor;
+  color: #F85C29;
 }
 
 body.exposant.fiche .mod-catal .catal-ed-products .catal-edp-content,
@@ -14285,6 +14285,14 @@ body.product-details .mod-catal.catal-other-prd .block.nouveauxexpo .catal-other
 .block.nouveauxexpo .gla-item-buttons,
 .block.nouveauxexpo .catal-ex-item-buttons {
   display: none;
+}
+
+.mod-catal a {
+  color: currentColor;
+}
+
+.mod-catal .catal-ex-item-stand-item .icon-catal {
+  color: #F85C29;
 }
 
 body.product-details .mod-catal.block.edito {
@@ -17974,6 +17982,12 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   display: none;
 }
 
+.list-articles body.faq.list-articles .grid-la-list {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 body.article_list .list-articles {
   position: relative;
 }
@@ -18078,9 +18092,6 @@ body.article_list .list-articles .grid-la-list {
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   margin-left: 0;
 }
 
