@@ -2527,7 +2527,7 @@ ins[data-revive-id] {
   text-align: center;
 }
 
-body.article .article-wrapper .article-content h2, .block-page.sitemap .sm-item-title {
+body.article .article-wrapper .article-content h2 {
   margin: 1.2rem 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 4rem;
@@ -2536,7 +2536,7 @@ body.article .article-wrapper .article-content h2, .block-page.sitemap .sm-item-
   color: #585858;
 }
 
-body.article .article-wrapper .article-content h3, .sial-innovation .block-page.edito h2 {
+body.article .article-wrapper .article-content h3, .sial-innovation .block-page.edito h2, .block-page.sitemap .sm-item-title {
   margin: 1.2rem 0;
   padding: 0;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
