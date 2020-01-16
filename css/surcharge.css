@@ -1744,7 +1744,7 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1, body.front
 .block.nouveauxexpo .main-title-with-link .link-view-all,
 .block.nouveauxexpo__header .link-view-all, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.product-details .mod-catal.catal-other-prd .catal-other-prd-link .gla-item-content > a.lien3, body.product-details .mod-catal.catal-other-prd body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-prd-link .gla-item-content > a.lien3, body.speakers-sial .edito.mod-catal .main-title-with-link a,
 body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .link-read-more,
-.page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-wrapper .article-content .externe.lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+.page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .mod-catal .esf-as-heading .esf-remove-filters, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-wrapper .article-content .externe.lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 1.3rem 2.6rem 1.4rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -1785,7 +1785,7 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, body
 .block.nouveauxexpo .main-title-with-link .link-view-all:hover,
 .block.nouveauxexpo__header .link-view-all:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.product-details .mod-catal.catal-other-prd .catal-other-prd-link .gla-item-content > a.lien3:hover, body.product-details .mod-catal.catal-other-prd body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-prd-link .gla-item-content > a.lien3:hover, body.speakers-sial .edito.mod-catal .main-title-with-link a:hover,
 body.node1318742 .edito.mod-catal .main-title-with-link a:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .link-read-more:hover,
-.page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-wrapper .article-content .externe.lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+.page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .mod-catal .esf-as-heading .esf-remove-filters:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-wrapper .article-content .externe.lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -1806,7 +1806,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a, body.exposant.fiche .mod-catal .catal-ed-main-url-link,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link, body.product-details .mod-catal.block.edito .catal-pr-ex-link, body.product-details .mod-catal .catal-prd-exhibitor-view a,
 body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link, .gla-btn-read-more, .home-search .ql-list .btn-primary,
-.error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
+.error-page .ql-list .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new, body.catalogue .block.catal-results > p > a, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link, .pl-item .link-read-more, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary, .subheader-navigation .block.quicklinks-navigation .ql-item-link, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary {
   position: relative;
   display: inline-block;
@@ -1834,7 +1834,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a::after,
 body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link::after, .gla-btn-read-more::after, .home-search .ql-list .btn-primary::after,
-.error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
+.error-page .ql-list .btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new::after, body.catalogue .block.catal-results > p > a::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link::after, .pl-item .link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary::after {
   content: '';
   position: absolute;
@@ -1857,7 +1857,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line .is-acti
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a.is-active::after, body.exposant.fiche .mod-catal .is-active.catal-ed-main-url-link::after,
 body.exhibitor-details .mod-catal .is-active.catal-ed-main-url-link::after, body.product-details .mod-catal.block.edito .is-active.catal-pr-ex-link::after, body.product-details .mod-catal .catal-prd-exhibitor-view a.is-active::after,
 body.product-details .mod-catal .catal-prd-exhibitor-view .is-active.catal-prd-exhibitor-view-link::after, .is-active.gla-btn-read-more::after, .home-search .ql-list .is-active.btn-primary::after,
-.error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
+.error-page .ql-list .is-active.btn-primary::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line .is-active#esf_new_search_new::after, body.catalogue .block.catal-results > p > a.is-active::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .is-active.catal-ex-item-cat-more-link::after, .pl-item .is-active.link-read-more::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a.is-active::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .subheader-navigation .block.quicklinks-navigation .is-active.ql-item-link::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .is-active.btn-primary::after, .lien1:hover::after, .lien2:hover::after, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf_new_search_new:hover::after,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf_new_search_new:hover::after,
@@ -1865,7 +1865,7 @@ body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new
 body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-item a:hover::after, body.exposant.fiche .mod-catal .catal-ed-main-url-link:hover::after,
 body.exhibitor-details .mod-catal .catal-ed-main-url-link:hover::after, body.product-details .mod-catal.block.edito .catal-pr-ex-link:hover::after, body.product-details .mod-catal .catal-prd-exhibitor-view a:hover::after,
 body.product-details .mod-catal .catal-prd-exhibitor-view .catal-prd-exhibitor-view-link:hover::after, .gla-btn-read-more:hover::after, .home-search .ql-list .btn-primary:hover::after,
-.error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
+.error-page .ql-list .btn-primary:hover::after, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf_new_search_new:hover::after, body.catalogue .block.catal-results > p > a:hover::after, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-more .catal-ex-item-cat-more-link:hover::after, .pl-item .link-read-more:hover::after, .exhibitors-slider .list-articles.block.block-page.prix-inno .grid-la-list .gla-item-content .gla-item-desc a:hover::after, .list-articles.block.block-page.prix-secteurs .slider-content .la-item-content .la-item-btn .btn-primary:hover::after, .subheader-navigation .block.quicklinks-navigation .ql-item-link:hover::after, .list-articles.block.block-page.world-champions-tour .slider-content .la-item-content .la-item-btn .btn-primary:hover::after {
   width: 100%;
 }
@@ -21108,6 +21108,45 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat 
 body.catalogue.produit .catal-ex-item .msl-brand-content .catal-ex-item-desc,
 body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-desc {
   display: none;
+}
+
+.mod-catal .esf-as-list-filters .current a {
+  background: #F85C29;
+}
+
+.mod-catal .esf-as-heading .esf-remove-filters {
+  top: 0.2rem;
+}
+
+.mod-catal .esf-as-heading .esf-remove-filters .icon-catal-cross {
+  display: none;
+}
+
+.mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl::after {
+  color: #fff;
+  background-color: #F85C29;
+  border: 0;
+  border-radius: 50%;
+}
+
+.mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl:hover::after {
+  color: #fff;
+  background-color: #F85C29;
+}
+
+.mod-catal .esf-as-af-filters > span {
+  color: #292B2F;
+  background: #FFD200;
+  border: 0;
+}
+
+.mod-catal .esf-as-af-filters > span .esf-tag-filter-remove {
+  color: currentColor;
+  background: inherit;
+}
+
+.mod-catal .esf-as-af-filters .icon-catal-cross {
+  color: currentColor;
 }
 
 .pagination {
