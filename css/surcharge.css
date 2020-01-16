@@ -20291,6 +20291,11 @@ body.catalogue .block.catal-results {
   }
 }
 
+body.catalogue .block.catal-results > p > a {
+  margin-bottom: -0.5rem;
+  vertical-align: text-bottom;
+}
+
 body.catalogue .block.catal-results .catal-results-title {
   margin: 0 0 1.5rem;
   padding: 0;
