@@ -1724,7 +1724,7 @@ body.node1310382 .blockquote, body.node1310382 .article-content blockquote:not(.
   vertical-align: initial;
 }
 
-body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content .btn-primary, body.article .article-wrapper .article-content .btn-secondary, .important1 .lien1, .important2 .lien1, body.node1316963 .article-wrapper .article-content .externe.lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
+body.article .article-wrapper .article-content .btn-invert, .subheader__btn, body.article .article-wrapper .article-content > *:not(.quicklinks-cta--large) .btn-primary, body.article .article-wrapper .article-content .btn-secondary, .important1 .lien1, .important2 .lien1, body.node1316963 .article-wrapper .article-content .externe.lien2, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button,
@@ -1765,7 +1765,7 @@ body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zon
   outline: 0;
 }
 
-body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, .important1 .lien1:hover, .important2 .lien1:hover, body.node1316963 .article-wrapper .article-content .externe.lien2:hover, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search:hover,
+body.article .article-wrapper .article-content .btn-invert:hover, .subheader__btn:hover, body.article .article-wrapper .article-content > *:not(.quicklinks-cta--large) .btn-primary:hover, body.article .article-wrapper .article-content .btn-secondary:hover, .important1 .lien1:hover, .important2 .lien1:hover, body.node1316963 .article-wrapper .article-content .externe.lien2:hover, body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #evsf-btn-search:hover,
 body.page-events .exhibitor-search-form .evsf-form-zone .esf-search-line #esf-btn-search:hover,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #evsf-btn-search:hover,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.page-events .exhibitor-search-form .evsf-form-zone .evsf-advanced-search .evsf-as-header button:hover,
@@ -2627,6 +2627,19 @@ body.article .article-wrapper .article-content ul ul, body.article .article-wrap
 
 body.article .article-wrapper .article-content ul li, body.article .article-wrapper .article-content ol li {
   margin-bottom: 1rem;
+}
+
+body.article .article-wrapper .article-content ul.ql-list {
+  margin: 0;
+  padding: 0;
+}
+
+body.article .article-wrapper .article-content ul li.ql-item {
+  margin-bottom: 0;
+}
+
+body.article .article-wrapper .article-content ul li.ql-item::before {
+  display: none;
 }
 
 body.article .article-wrapper .article-content ul li::before {
