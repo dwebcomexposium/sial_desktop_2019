@@ -12317,6 +12317,94 @@ body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-actions {
   display: none;
 }
 
+.mod-catal.exhibitor-search-form .typeahead-section-name {
+  padding: 1rem 2rem;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+  text-transform: uppercase;
+  color: inherit;
+  border-bottom: 0.1rem solid #dfdfdf;
+}
+
+.mod-catal.exhibitor-search-form .tt-dropdown-menu {
+  right: auto;
+  width: auto;
+  padding: 0;
+  color: #383838;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+  box-shadow: 0 0.4rem 0.9rem 0 rgba(0, 0, 0, 0.13);
+}
+
+.mod-catal.exhibitor-search-form .tt-dropdown-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mod-catal.exhibitor-search-form .tt-dataset {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  min-width: 30rem;
+}
+
+.mod-catal.exhibitor-search-form .tt-dataset + .tt-dataset {
+  border-left: 0.1rem solid #dfdfdf;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestions {
+  padding: 0.5rem 0;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestion {
+  color: #292B2F;
+  border-bottom: 0.1rem solid #dfdfdf;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestion:last-child {
+  border-bottom: 0;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestion p {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  text-decoration: none;
+  color: currentColor;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestion a {
+  padding: 0.5rem 2rem;
+  color: currentColor;
+  text-decoration: none;
+  -webkit-transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -o-transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestion a:focus, .mod-catal.exhibitor-search-form .tt-suggestion a:hover, .mod-catal.exhibitor-search-form .tt-suggestion a:active {
+  color: #F85C29;
+  background: none;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggestion a:focus .tt-highlight, .mod-catal.exhibitor-search-form .tt-suggestion a:hover .tt-highlight, .mod-catal.exhibitor-search-form .tt-suggestion a:active .tt-highlight {
+  color: #F85C29;
+}
+
+.mod-catal.exhibitor-search-form .tt-highlight {
+  color: #F85C29;
+}
+
+.mod-catal.exhibitor-search-form .tt-suggest-img {
+  display: none;
+}
+
 .block.edito-custom, .block.article-title {
   margin: 3rem auto 0;
   outline: none;
