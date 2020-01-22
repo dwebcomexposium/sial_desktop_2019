@@ -14400,10 +14400,14 @@ body.product-details .mod-catal.catal-other-prd .block.nouveauxexpo .catal-other
   display: none;
 }
 
-.nouveauxexpo + .quicklinks.all_exhibitors {
+.quicklinks.all_exhibitors {
   position: absolute;
   z-index: 1;
-  right: 17rem;
+  right: 20rem;
+  margin-top: 4.3rem;
+}
+
+.nouveauxexpo + .quicklinks.all_exhibitors {
   margin-top: -61.5rem;
 }
 
