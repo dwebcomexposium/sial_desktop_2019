@@ -14402,6 +14402,7 @@ body.product-details .mod-catal.catal-other-prd .block.nouveauxexpo .catal-other
 }
 
 .quicklinks.all_exhibitors {
+  text-align: center;
   position: absolute;
   z-index: 1;
   right: 20rem;
