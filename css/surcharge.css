@@ -14404,11 +14404,11 @@ body.product-details .mod-catal.catal-other-prd .block.nouveauxexpo .catal-other
   position: absolute;
   z-index: 1;
   right: 20rem;
-  margin-top: 4.3rem;
+  margin-top: 4.3rem !important;
 }
 
 .nouveauxexpo + .quicklinks.all_exhibitors {
-  margin-top: -61.5rem;
+  margin-top: -61.5rem !important;
 }
 
 .quicklinks.all_exhibitors .btn-primary .icon {
