@@ -20957,13 +20957,15 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-e
   color: #383838;
 }
 
-body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item::before,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item::before {
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item .catal-ex-item-cat-txt::before,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item .catal-ex-item-cat-txt::before {
   content: '#';
   margin-right: -0.3rem;
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item .catal-ex-item-cat-icon,
 body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item img,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item .catal-ex-item-cat-icon,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-cat .catal-ex-item-cat-list .catal-ex-item-cat-item img {
   display: none;
 }
