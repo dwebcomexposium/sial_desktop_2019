@@ -1745,7 +1745,8 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1, body.front
 .block.nouveauxexpo .main-title-with-link .link-view-all,
 .block.nouveauxexpo__header .link-view-all, .quicklinks.all_exhibitors .btn-primary, .home-news .link-view-all, .home-sectors > .ql-item [class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3, body.faq.article_list .block-page.list-articles .grid-la-list body.product-details .mod-catal.catal-other-prd .catal-other-prd-link .gla-item-content > a.lien3, body.product-details .mod-catal.catal-other-prd body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-prd-link .gla-item-content > a.lien3, body.speakers-sial .edito.mod-catal .main-title-with-link a,
 body.node1318742 .edito.mod-catal .main-title-with-link a, body.matchmaking #zone1 .block.edito .lien4, .nf-form-submit [class^='btn'], .page-highlight .block.edito .link-read-more,
-.page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, .mod-catal .esf-as-heading .esf-remove-filters, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-wrapper .article-content .externe.lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
+.page-highlight .block.edito .btn-primary, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons .btn-primary,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons .btn-primary, .mod-catal .esf-as-heading .esf-remove-filters, .pl-trigger, .partner .main-title-with-link .link-view-all, body.node1318534 .submit-product .btn-primary, .list-articles.block.block-page.prix-secteurs .include_in_above_block, body.node1316899 .article-wrapper .article-content .externe.lien1, .list-articles.block.block-page.world-champions-tour .include_in_above_block {
   display: inline-block;
   padding: 1.3rem 2.6rem 1.4rem;
   font-family: "Futura PT", "Lato", "Trebuchet MS", Arial, sans-serif;
@@ -1787,7 +1788,8 @@ body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, body
 .block.nouveauxexpo .main-title-with-link .link-view-all:hover,
 .block.nouveauxexpo__header .link-view-all:hover, .quicklinks.all_exhibitors .btn-primary:hover, .home-news .link-view-all:hover, .home-sectors > .ql-item :hover[class^='btn'], body.faq.article_list .block-page.list-articles .grid-la-list .gla-item .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exposant.fiche .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-link .gla-item-content > a.lien3:hover, body.exhibitor-details .mod-catal.catal-other-ex body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-ex-link .gla-item-content > a.lien3:hover, body.faq.article_list .block-page.list-articles .grid-la-list body.product-details .mod-catal.catal-other-prd .catal-other-prd-link .gla-item-content > a.lien3:hover, body.product-details .mod-catal.catal-other-prd body.faq.article_list .block-page.list-articles .grid-la-list .catal-other-prd-link .gla-item-content > a.lien3:hover, body.speakers-sial .edito.mod-catal .main-title-with-link a:hover,
 body.node1318742 .edito.mod-catal .main-title-with-link a:hover, body.matchmaking #zone1 .block.edito .lien4:hover, .nf-form-submit :hover[class^='btn'], .page-highlight .block.edito .link-read-more:hover,
-.page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, .mod-catal .esf-as-heading .esf-remove-filters:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-wrapper .article-content .externe.lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
+.page-highlight .block.edito .btn-primary:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line #esf-btn-search:hover, body.catalogue .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, body.catalogue .block.catal-results .catal-results-selectboxes .catal-results-index .btn-primary:hover, body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons .btn-primary:hover,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons .btn-primary:hover, .mod-catal .esf-as-heading .esf-remove-filters:hover, .pl-trigger:hover, .partner .main-title-with-link .link-view-all:hover, body.node1318534 .submit-product .btn-primary:hover, .list-articles.block.block-page.prix-secteurs .include_in_above_block:hover, body.node1316899 .article-wrapper .article-content .externe.lien1:hover, .list-articles.block.block-page.world-champions-tour .include_in_above_block:hover {
   background: #292B2F;
 }
 
@@ -3652,6 +3654,8 @@ body.sial-innovation .article-title > .inside .at-content .at-main-title, body.s
 @media screen and (min-width: 1280px) {
   body.sial-innovation .article-title > .inside .at-content .at-main-title, body.sial-innovation .article-title > .inside .at-content .block.edito-custom h2, .block.edito-custom body.sial-innovation .article-title > .inside .at-content h2, body.sial-innovation .article-title > .inside .at-content .block.article-title h2, .block.article-title body.sial-innovation .article-title > .inside .at-content h2 {
     width: calc(100% - 7.7rem);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -12332,6 +12336,11 @@ body.exhibitor-details .catal-ex-details .catal-ex-item-buttons {
   margin-right: 3rem;
 }
 
+body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary,
+body.exhibitor-details .catal-ex-details .catal-ex-item-buttons .btn-primary {
+  margin-left: 0;
+}
+
 body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='add'] .selection-empty,
 body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='remove'] .selection-full,
 body.exhibitor-details .catal-ex-details .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='add'] .selection-empty,
@@ -20803,6 +20812,39 @@ body.catalogue .catal-ex-item .catal-ex-item-content {
   }
 }
 
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons {
+  float: none;
+  margin-top: 2rem;
+}
+
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons .btn-primary,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons .btn-primary {
+  margin-left: 0;
+}
+
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='add'] .selection-empty,
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='remove'] .selection-full,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='add'] .selection-empty,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='remove'] .selection-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons .btn-primary .icon-catal,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons .btn-primary .icon-catal {
+  -webkit-box-ordinal-group: 100;
+  -ms-flex-order: 99;
+  order: 99;
+  margin-left: 1em;
+  margin-right: 0;
+  color: #F85C29;
+}
+
 body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title,
 body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title,
 body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title,
@@ -20825,13 +20867,6 @@ body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title 
     float: left;
     width: 40%;
   }
-}
-
-body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .catal-ex-item-buttons,
-body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-group-title .catal-ex-item-buttons,
-body.catalogue .catal-ex-item .catal-ex-item-content .msl-brand-group-title .catal-ex-item-buttons,
-body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-group-title .catal-ex-item-buttons {
-  display: none;
 }
 
 body.catalogue .catal-ex-item .msl-brand-content .msl-brand-group-title .msl-brand-title,
