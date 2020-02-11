@@ -1735,7 +1735,8 @@ body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .ev
 body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header, #cxpmClientAccountWidget .see-all-selection a, .app-easy-network__link, .local-agent__linkTo, .more-infos-contact .link-view-all, .propale .deadline__block--participate .btn-primary, .sial-network__link, .subheader__article__btn, .tiles-list__link, .video-list__link, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link,
-body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
+body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link, body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary,
+body.exhibitor-details .catal-ex-details .catal-ex-item-buttons .btn-primary, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1,
 body.front .block.article-title .article-intro .lien1,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1, body.front .exhibitors-slider + .block.edito .lien1, .exhibitors-slider .edito .link-view-all,
@@ -1776,7 +1777,8 @@ body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .ev
 body.page-events .exhibitor-search-form .esf-form-zone .evsf-advanced-search .esf-as-header:hover,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .evsf-as-header button:hover,
 body.page-events .exhibitor-search-form .esf-form-zone .esf-advanced-search .esf-as-header:hover, #cxpmClientAccountWidget .see-all-selection a:hover, .app-easy-network__link:hover, .local-agent__linkTo:hover, .more-infos-contact .link-view-all:hover, .propale .deadline__block--participate .btn-primary:hover, .sial-network__link:hover, .subheader__article__btn:hover, .tiles-list__link:hover, .video-list__link:hover, body.page-events.page-details .event-view-full .catal-ex-item-buttons .btn-primary:hover, body.exposant.fiche .mod-catal .catal-ed-activity .catal-ed-activity-link:hover,
-body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
+body.exhibitor-details .mod-catal .catal-ed-activity .catal-ed-activity-link:hover, body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary:hover,
+body.exhibitor-details .catal-ex-details .catal-ex-item-buttons .btn-primary:hover, body.page-rubric #zone4 .block.block-page.edito.edito-custom .article-intro .lien1:hover, body.page-rubric #zone4 .block.block-page.edito.article-title .article-intro .lien1:hover,
 body.front .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone2 > .article-wrapper > .block.article-title .article-intro .lien1:hover,
 body.page-rubric #zone4 > .block.article-title .article-intro .lien1:hover, body.front .exhibitors-slider + .block.edito .lien1:hover, .exhibitors-slider .edito .link-view-all:hover,
@@ -11872,6 +11874,7 @@ body.exhibitor-details .mod-catal .catal-ed-main-cat {
 body.exposant.fiche .mod-catal .catal-ed-main-address,
 body.exhibitor-details .mod-catal .catal-ed-main-address {
   float: none;
+  margin-bottom: 4rem;
 }
 
 body.exposant.fiche .mod-catal .catal-ed-main-cat,
@@ -12082,6 +12085,7 @@ body.exhibitor-details .mod-catal .catal-ed-main-stand-ref {
   position: relative;
   z-index: 2;
   margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 body.exposant.fiche .mod-catal .catal-ed-main-stand-ref::before,
@@ -12319,6 +12323,35 @@ body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-txt {
 body.exposant.fiche .mod-catal.catal-other-ex .catal-other-ex-actions,
 body.exhibitor-details .mod-catal.catal-other-ex .catal-other-ex-actions {
   display: none;
+}
+
+body.exposant.fiche .catal-ex-details .catal-ex-item-buttons,
+body.exhibitor-details .catal-ex-details .catal-ex-item-buttons {
+  float: left;
+  margin-top: -0.5rem;
+  margin-right: 3rem;
+}
+
+body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='add'] .selection-empty,
+body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='remove'] .selection-full,
+body.exhibitor-details .catal-ex-details .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='add'] .selection-empty,
+body.exhibitor-details .catal-ex-details .catal-ex-item-buttons .btn-primary.js-mySelection[data-action='remove'] .selection-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+body.exposant.fiche .catal-ex-details .catal-ex-item-buttons .btn-primary .icon-catal,
+body.exhibitor-details .catal-ex-details .catal-ex-item-buttons .btn-primary .icon-catal {
+  -webkit-box-ordinal-group: 100;
+  -ms-flex-order: 99;
+  order: 99;
+  margin-left: 1em;
+  margin-right: 0;
+  color: #F85C29;
 }
 
 .mod-catal.exhibitor-search-form .typeahead-section-name {

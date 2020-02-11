@@ -1,1 +1,1 @@
-!function(o){o(function(){var a=o("<div />").addClass("catalog-order__image");o(".block.catalog-order").find("img").eq(0).wrap(a)})}(jQuery);
+!function(e){e(function(){var a=e("<div />").addClass("catalog-order__image");e(".block.catalog-order").find("img").eq(0).wrap(a),e(".catal-ex-details .catal-ex-item-buttons").insertBefore(e(".exhibitor-details .catal-ex-details .catal-ed-main-url"))})}(jQuery);
