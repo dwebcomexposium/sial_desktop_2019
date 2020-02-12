@@ -12,3 +12,4 @@ vendor/swiper/swiper.min.js
 vendor/object-fit-images/ofi.min.js
 cookies-warning.min.js
 modules/*
+test.js
