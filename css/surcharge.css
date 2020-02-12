@@ -5376,7 +5376,7 @@ body.page-events .evsf-as-header .evsf-btn-search .evsf-btn-search-text {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   #cxpmClientAccountWidget {
     margin: 0.8rem 0;
   }
@@ -7352,7 +7352,7 @@ table.table1 td::after {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   .site-logo {
     padding: 2.6rem 3rem;
     border-right: 0.1rem solid rgba(200, 204, 215, 0.3);
@@ -7378,7 +7378,7 @@ table.table1 td::after {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   .site-logo__img {
     width: 10.5rem;
     height: 4.6rem;
@@ -7411,7 +7411,7 @@ table.table1 td::after {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   .site-logo__date {
     font-size: 1.9rem;
   }
@@ -7433,7 +7433,7 @@ table.table1 td::after {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   .site-logo__location {
     font-size: 1.4rem;
     margin-top: 0;
@@ -15014,7 +15014,7 @@ body.product-details.body-mobile .catal-prd-main {
   margin: 1.76rem 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   .site-banner .global-search-form {
     margin: 0.8rem 0;
   }
@@ -18109,7 +18109,7 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   border-left: 0.1rem solid rgba(200, 204, 215, 0.3);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   .lang-switcher {
     margin: 0.9rem 0;
   }
@@ -23970,7 +23970,7 @@ body.product-details .mod-catal.catal-other-prd .list-articles.block.block-page.
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1350px) {
   .site-banner::after {
     height: 3.7rem;
   }
@@ -24746,11 +24746,10 @@ body.node1316899 .quicklinks-cta--large {
 
 .top-quicklinks {
   float: right;
-  display: none;
   margin-top: 2rem;
 }
 
-@media screen and (min-width: 1331px) {
+@media screen and (min-width: 1350px) {
   .top-quicklinks {
     display: -webkit-box;
     display: -ms-flexbox;
