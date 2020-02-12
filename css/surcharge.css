@@ -3661,8 +3661,6 @@ body.sial-innovation .article-title > .inside .at-content .at-main-title, body.s
 @media screen and (min-width: 1280px) {
   body.sial-innovation .article-title > .inside .at-content .at-main-title, body.sial-innovation .article-title > .inside .at-content .block.edito-custom h2, .block.edito-custom body.sial-innovation .article-title > .inside .at-content h2, body.sial-innovation .article-title > .inside .at-content .block.article-title h2, .block.article-title body.sial-innovation .article-title > .inside .at-content h2 {
     width: calc(100% - 7.7rem);
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
