@@ -24963,6 +24963,7 @@ body.node1316899 .quicklinks-cta--large {
 
 .top-quicklinks > span {
   float: left;
+  display: none;
   margin-right: 0.7rem;
   font-size: 1.4rem;
   font-weight: 400;
