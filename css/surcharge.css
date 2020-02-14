@@ -24948,17 +24948,11 @@ body.node1316899 .quicklinks-cta--large {
 
 .top-quicklinks {
   float: right;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 2rem;
   margin-right: 2rem;
-}
-
-@media screen and (min-width: 1024px) {
-  .top-quicklinks {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -24973,6 +24967,12 @@ body.node1316899 .quicklinks-cta--large {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .top-quicklinks > span {
+    display: block;
+  }
 }
 
 .top-quicklinks .btn-primary {
