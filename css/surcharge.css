@@ -11923,8 +11923,19 @@ body.exhibitor-details .mod-catal .catal-ed-main-cat {
 
 body.exposant.fiche .mod-catal .catal-ed-main-cat-link,
 body.exhibitor-details .mod-catal .catal-ed-main-cat-link {
-  text-decoration: none;
   padding: 0 2em 0 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+  color: #383838;
+}
+
+body.exposant.fiche .mod-catal .catal-ed-main-cat-link:hover,
+body.exhibitor-details .mod-catal .catal-ed-main-cat-link:hover {
+  text-decoration: underline;
 }
 
 body.exposant.fiche .mod-catal .catal-ed-main-cat h2,
@@ -11948,8 +11959,8 @@ body.exhibitor-details .mod-catal .catal-ed-main-cat-link {
   font-weight: 500;
   letter-spacing: 0.104rem;
   line-height: 2.08;
-  text-transform: uppercase;
   text-align: left;
+  text-transform: uppercase;
   color: #383838;
 }
 
@@ -12471,7 +12482,15 @@ body.exhibitor-details .catal-ed-pr .btn-primary .txt-btn > span {
 }
 
 .mod-catal .catal-ex-item-cat-icon {
-  display: none;
+  width: auto;
+  height: auto;
+  margin: 0 -0.25em 0 0;
+  vertical-align: top;
+  background: none;
+}
+
+.mod-catal .catal-ex-item-cat-icon::before {
+  content: '#';
 }
 
 .mod-catal.exhibitor-search-form .typeahead-section-name {
@@ -20975,10 +20994,22 @@ body.catalogue .catal-ex-item .catal-ex-item-content {
 body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons,
 body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons {
   float: none;
-  position: relative;
+  position: absolute;
   top: auto;
+  bottom: 3rem;
   margin-top: 2rem;
   text-align: inherit;
+  opacity: 0;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons.js-moved,
+body.catalogue .catal-ex-item .catal-ex-item-content .catal-ex-item-buttons.js-moved {
+  position: relative;
+  bottom: auto;
+  opacity: 1;
 }
 
 body.catalogue .catal-ex-item .msl-brand-content .catal-ex-item-buttons .btn-primary,
