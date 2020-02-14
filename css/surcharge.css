@@ -11484,6 +11484,7 @@ body.exhibitor-details .mod-catal.block.edito::before {
 
 body.exposant.fiche .mod-catal.block.edito > h1,
 body.exhibitor-details .mod-catal.block.edito > h1 {
+  max-width: 58%;
   text-align: left;
 }
 
@@ -12023,6 +12024,7 @@ body.exhibitor-details .mod-catal .catal-ed-main .catal-ed-main-media {
   height: 24.4rem;
   width: 24.4rem;
   margin-bottom: 2rem;
+  background: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
@@ -12466,6 +12468,10 @@ body.exhibitor-details .catal-ed-pr .btn-primary .txt-btn > span {
 /** dirty quickfix **/
 .mod-catal .catal-ed-main-title {
   color: inherit;
+}
+
+.mod-catal .catal-ex-item-cat-icon {
+  display: none;
 }
 
 .mod-catal.exhibitor-search-form .typeahead-section-name {
