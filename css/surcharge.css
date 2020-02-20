@@ -15001,6 +15001,23 @@ body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-item > .icon-c
   display: none;
 }
 
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-link {
+  padding: 0;
+  color: currentColor;
+  background: none;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-link:focus, body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-link:hover {
+  color: currentColor;
+  background: none;
+  text-decoration: underline;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-link > span:first-child::before {
+  content: '#';
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1280px) {
   body.product-details .mod-catal .catal-prd-infos + .catal-prd-char {
     float: left;
