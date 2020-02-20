@@ -14997,8 +14997,17 @@ body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-group:last-chi
   border: 0;
 }
 
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-type-list {
+  text-align: right;
+}
+
+body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-item {
+  margin-right: 0;
+}
+
 body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-item > .icon-catal {
-  display: none;
+  font-size: 1.6rem;
+  color: #F85C29;
 }
 
 body.product-details .mod-catal .catal-prd-infos .catal-prd-infos-link {
