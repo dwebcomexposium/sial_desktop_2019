@@ -20941,6 +20941,10 @@ body.catalogue .exhibitor-search-form .esf-form-zone .esf-intro-title + .esf-sea
   margin-top: 3.4rem;
 }
 
+body.catalogue .exhibitor-search-form .esf-form-zone .esf-intro-text {
+  margin-bottom: 3.4rem;
+}
+
 body.catalogue .exhibitor-search-form .esf-form-zone .esf-search-line {
   margin: 0 auto;
   width: 100%;
