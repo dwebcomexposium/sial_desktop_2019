@@ -3333,6 +3333,22 @@ body.article .article-wrapper .article-content .btn-secondary {
   display: none;
 }
 
+ul.style1, li.style1 {
+  text-align: left;
+}
+
+ul.style2, li.style2 {
+  text-align: right;
+}
+
+ul.style3, li.style3 {
+  text-align: center;
+}
+
+ul.style4, li.style4 {
+  text-align: justify;
+}
+
 body.article .article-navigation {
   max-width: 85rem;
   margin: 3rem auto;
