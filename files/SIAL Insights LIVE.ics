@@ -1,0 +1,87 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 14.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20201008T132648Z
+DESCRIPTION:To participate\, log on our website\, our YouTube channel <http
+	s://www.youtube.com/user/SIALParis> \, our Facebook page <https://www.face
+	book.com/sial.paris>  or our Twitter account <https://twitter.com/sial_par
+	is>  on Thursday\, October 22nd at 10am.\n\nhttps://www.sialparis.com/The-
+	show/News/SIAL-Insights-the-best-of-SIAL-Paris-online\n\n
+DTEND;TZID="W. Europe Standard Time":20201022T123000
+DTSTAMP:20201008T132648Z
+DTSTART;TZID="W. Europe Standard Time":20201022T100000
+LAST-MODIFIED:20201008T132648Z
+LOCATION:LIVE Streaming on www.sialparis.com\, Facebook\, Twitter and Youtu
+	be
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=fr:SIAL Insights LIVE
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000080190654879DD601000000000000000
+	01000000042F11D440F80184A9E1F22DBE1F5AB0E
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 14.02.5004.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="fr"></SPAN><SPAN LANG="f
+	r"></SPAN><SPAN LANG="en-us"><FONT COLOR="#383838" FACE="Trebuchet MS">To 
+	participate\, log on our website\, our</FONT></SPAN><SPAN LANG="fr"></SPAN
+	><SPAN LANG="fr"></SPAN><SPAN LANG="en-us"><FONT COLOR="#383838" FACE="Tre
+	buchet MS"> </FONT></SPAN><SPAN LANG="fr"></SPAN><A HREF="https://www.you
+	tube.com/user/SIALParis"><SPAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN><SP
+	AN LANG="en-us"><FONT COLOR="#F85C29" FACE="Trebuchet MS">YouTube channel<
+	/FONT></SPAN><SPAN LANG="fr"></SPAN></A><SPAN LANG="fr"></SPAN><SPAN LANG=
+	"fr"></SPAN><SPAN LANG="en-us"><FONT COLOR="#383838" FACE="Trebuchet MS">\
+	, our</FONT></SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN><SPAN LAN
+	G="en-us"><FONT COLOR="#383838" FACE="Trebuchet MS"> </FONT></SPAN><SPAN 
+	LANG="fr"></SPAN><A HREF="https://www.facebook.com/sial.paris"><SPAN LANG=
+	"fr"></SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="en-us"><FONT COLOR="#F85C29
+	" FACE="Trebuchet MS">Facebook page</FONT></SPAN><SPAN LANG="fr"></SPAN></
+	A><SPAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="en-us"><FONT C
+	OLOR="#383838" FACE="Trebuchet MS"> or our</FONT></SPAN><SPAN LANG="fr"><
+	/SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="en-us"><FONT COLOR="#383838" FACE
+	="Trebuchet MS"> </FONT></SPAN><SPAN LANG="fr"></SPAN><A HREF="https://tw
+	itter.com/sial_paris"><SPAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN><SPAN 
+	LANG="en-us"><FONT COLOR="#F85C29" FACE="Trebuchet MS">Twitter account</FO
+	NT></SPAN><SPAN LANG="fr"></SPAN></A><SPAN LANG="fr"></SPAN><SPAN LANG="fr
+	"></SPAN><SPAN LANG="en-us"><FONT COLOR="#383838" FACE="Trebuchet MS"> on
+	 Thursday\, October 22nd at 10am</FONT></SPAN><SPAN LANG="fr"></SPAN><SPAN
+	 LANG="fr"></SPAN><SPAN LANG="en-us"><FONT COLOR="#383838" FACE="Trebuchet
+	 MS">.</FONT></SPAN><SPAN LANG="fr"></SPAN><SPAN LANG="fr"></SPAN><SPAN LA
+	NG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="fr"></SPAN><A HREF="https
+	://www.sialparis.com/The-show/News/SIAL-Insights-the-best-of-SIAL-Paris-on
+	line"><SPAN LANG="fr"><U></U></SPAN><U><SPAN LANG="en-us"><FONT COLOR="#00
+	00FF" FACE="Calibri">https://www.sialparis.com/The-show/News/SIAL-Insights
+	-the-best-of-SIAL-Paris-online</FONT></SPAN></U><SPAN LANG="fr"></SPAN></A
+	><SPAN LANG="fr"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN
+	 LANG="fr"></SPAN><SPAN LANG="en-us"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
