@@ -1,5 +1,7 @@
 name: Cloudflare purge
-on: push
+on:
+  repository_dispatch:
+    types: [CR7_score]
 
 jobs:
   deploy:
