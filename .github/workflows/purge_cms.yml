@@ -35,3 +35,8 @@ jobs:
         env:
           CMS_LOG: ${{ secrets.CMS_LOG }} 
           CMS_PASS: ${{ secrets.CMS_PASS }}
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.TOKEN_CR7 }}
+          event-type: CR7_score
