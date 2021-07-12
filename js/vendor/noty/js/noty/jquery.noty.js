@@ -8,7 +8,7 @@
  @license Licensed under the MIT licenses: http://www.opensource.org/licenses/mit-license.php
  */
 
-    if(typeof Object.create !== 'function') {
+ /*   if(typeof Object.create !== 'function') {
         Object.create = function(o) {
             function F() {
             }
@@ -543,3 +543,4 @@
     window.noty = function noty(options) {
         return $.notyRenderer.init(options);
     };
+*/
