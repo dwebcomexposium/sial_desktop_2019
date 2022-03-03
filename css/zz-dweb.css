@@ -3,3 +3,27 @@
     display: none;
 }
 */
+
+
+/* CSS Les seceturs */
+
+.intro-secteurs .block.article-title .cx-lazy-load {
+    display: block;
+    float: none;
+    width: auto;
+    margin-top: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+    order: 2;
+    padding: 0;
+    text-align: center;
+}
+
+.intro-secteurs .block.article-title .at-content {
+    display: block;
+    order: 1;
+    margin: 0;
+    margin-top: -434px;
+    text-align: center;
+    min-height: 500px;
+}
