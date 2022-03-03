@@ -7,7 +7,7 @@
 
 /* CSS Les seceturs */
 
-.intro-secteurs .block.article-title .cx-lazy-load {
+.block.article-title.intro-secteurs  .cx-lazy-load {
     display: block;
     float: none;
     width: auto;
@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.intro-secteurs .block.article-title .at-content {
+.block.article-title.intro-secteurs .at-content {
     display: block;
     order: 1;
     margin: 0;
