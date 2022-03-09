@@ -63,6 +63,12 @@ font-family: sial-icomoon!important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
        content: "🍚";
+    width: 6.3rem;
+    height: auto;
+    margin: 0 2.5rem 0 0;
+    font-size: 4.5rem;
+    color: #c8ccd7;
+    transform: none;
 }
 .detail-secteur li.style2::marker{
 font-family: sial-icomoon!important;
@@ -75,6 +81,12 @@ font-family: sial-icomoon!important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
        content: "☕";
+    width: 6.3rem;
+    height: auto;
+    margin: 0 2.5rem 0 0;
+    font-size: 4.5rem;
+    color: #c8ccd7;
+    transform: none;
 }
 .detail-secteur li.style3::marker{
 font-family: sial-icomoon!important;
@@ -86,5 +98,11 @@ font-family: sial-icomoon!important;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-       content: "🍵";
+    content: "🍵";
+    width: 6.3rem;
+    height: auto;
+    margin: 0 2.5rem 0 0;
+    font-size: 4.5rem;
+    color: #c8ccd7;
+    transform: none;
 }
