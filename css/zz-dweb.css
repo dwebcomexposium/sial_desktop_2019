@@ -107,6 +107,6 @@ font-family: sial-icomoon!important;
     transform: none;
 }
 
-.shareen cloudflare-app:last-child {
+.block.block-page.social-sharing.shareen cloudflare-app:last-child {
     display: none;
 }
