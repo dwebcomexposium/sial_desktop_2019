@@ -110,3 +110,7 @@ font-family: sial-icomoon!important;
 .block.block-page.social-sharing.shareen cloudflare-app:last-child {
     display: none;
 }
+
+body.node1316899 .article-content>p:nth-of-type(3) {
+    width: auto;
+}
