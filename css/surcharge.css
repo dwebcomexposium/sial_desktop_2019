@@ -26295,3 +26295,8 @@ body {
   color: #383838;
   background-color: #fff;
 }
+
+.partner {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
