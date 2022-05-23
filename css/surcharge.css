@@ -25474,17 +25474,17 @@ body.node1316899 .article-content > p:first-child {
   display: none;
 }
 
-body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-content > p:nth-of-type(8), body.node1316899 .article-content > p:nth-of-type(9), body.node1316899 .article-content > p:nth-of-type(10), body.node1316899 .article-content > p:nth-of-type(11) {
+body.node1316899 .article-content > p:nth-of-type(4), body.node1316899 .article-content > p:nth-of-type(5), body.node1316899 .article-content > p:nth-of-type(6), body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-content > p:nth-of-type(8) {
   font-size: 1.6rem;
   margin: 0;
   display: inline-block;
 }
 
-body.node1316899 .article-content > p:nth-of-type(7) {
+body.node1316899 .article-content > p:nth-of-type(4) {
   margin-top: 1.2rem;
 }
 
-body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-content > p:nth-of-type(9) {
+body.node1316899 .article-content > p:nth-of-type(4), body.node1316899 .article-content > p:nth-of-type(6) {
   text-transform: uppercase;
   font-family: "Avenir", "Nunito", Arial, sans-serif;
   font-size: 1.2rem;
@@ -25495,20 +25495,20 @@ body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-
   margin-top: 0.8rem;
 }
 
-body.node1316899 .article-content > p:nth-of-type(8), body.node1316899 .article-content > p:nth-of-type(10), body.node1316899 .article-content > p:nth-of-type(11) {
+body.node1316899 .article-content > p:nth-of-type(5), body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-content > p:nth-of-type(8) {
   margin-top: 1.2rem;
   width: calc(100% - 7.5rem);
   float: right;
 }
 
-body.node1316899 .article-content > p:nth-of-type(8)::after, body.node1316899 .article-content > p:nth-of-type(10)::after, body.node1316899 .article-content > p:nth-of-type(11)::after {
+body.node1316899 .article-content > p:nth-of-type(5)::after, body.node1316899 .article-content > p:nth-of-type(7)::after, body.node1316899 .article-content > p:nth-of-type(8)::after {
   clear: both;
   content: "";
   display: block;
 }
 
 @media screen and (min-width: 1280px) {
-  body.node1316899 .article-content > p:nth-of-type(8), body.node1316899 .article-content > p:nth-of-type(10), body.node1316899 .article-content > p:nth-of-type(11) {
+  body.node1316899 .article-content > p:nth-of-type(5), body.node1316899 .article-content > p:nth-of-type(7), body.node1316899 .article-content > p:nth-of-type(8) {
     width: 89%;
     float: none;
   }
