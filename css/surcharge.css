@@ -7819,7 +7819,7 @@ table.table3 td::after {
 .detail-secteur ul.detail-secteur__datas > li p .nth-line .line {
   position: relative;
   z-index: 1;
-  display: block;
+  display: inline-block;
 }
 
 .detail-secteur ul.detail-secteur__datas > li p .nth-line .line::before {
