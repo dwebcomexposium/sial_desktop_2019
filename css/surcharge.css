@@ -26320,9 +26320,11 @@ cloudflare-app {
   justify-content: center;
   border-radius: 100%;
   align-items: center;
+  cursor: pointer;
 }
 
 .back-to-top-button svg {
   height: 100%;
   width: 100%;
+  pointer-events: none;
 }
