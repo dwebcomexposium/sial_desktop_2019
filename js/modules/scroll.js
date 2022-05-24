@@ -35,8 +35,6 @@
   });
 }(jQuery));
 
-console.log('scroll loaded')
-
 const backToTop = () => {
   const body = document.body
   const el = document.createElement('div')
