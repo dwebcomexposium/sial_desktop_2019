@@ -26321,6 +26321,14 @@ cloudflare-app {
   border-radius: 100%;
   align-items: center;
   cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.back-to-top-button.visible {
+  opacity: 1;
+  pointer-events: all;
 }
 
 .back-to-top-button svg {
