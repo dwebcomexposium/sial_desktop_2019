@@ -26315,7 +26315,7 @@ cloudflare-app {
   position: fixed;
   bottom: 25px;
   right: 25px;
-  z-index: 2;
+  z-index: 5;
   display: flex;
   justify-content: center;
   border-radius: 100%;
