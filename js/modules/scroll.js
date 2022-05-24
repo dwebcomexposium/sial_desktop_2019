@@ -34,3 +34,5 @@
     $(this).blur();
   });
 }(jQuery));
+
+console.log('scroll loaded')
