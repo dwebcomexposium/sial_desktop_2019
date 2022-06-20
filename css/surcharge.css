@@ -22647,7 +22647,7 @@ body.catalogue.produit .catal-ex-item .catal-ex-item-content .catal-ex-item-cat 
 .partner .main-title-with-link .link-view-all {
   float: none;
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   left: 50%;
   margin-top: 0;
   white-space: nowrap;
