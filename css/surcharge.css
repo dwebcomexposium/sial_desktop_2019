@@ -26336,3 +26336,12 @@ cloudflare-app {
   width: 100%;
   pointer-events: none;
 }
+
+.content79495 h2 {
+  color: #000 !important;
+  font-size: 3.2rem !important;
+}
+
+.content79495 .pl-item {
+  border-top: none !important;
+}
