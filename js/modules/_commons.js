@@ -219,7 +219,6 @@ const backToTop = () => {
   const element = document.querySelector('.back-to-top-button')
 
   document.addEventListener('scroll', () => {
-    console.log(window.scrollY)
     if(window.scrollY > 400) {
       element.classList.add('visible')
     } else {
