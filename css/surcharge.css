@@ -26346,13 +26346,20 @@ cloudflare-app {
   border-top: none !important;
 }
 
+body.front .list-articles.home2 {
+  margin-bottom: 10rem;
+}
+
 body.front .list-articles.home2 .gla-item {
   width: calc(100% * 1/2 - 1em - 0.01px);
+  -webkit-box-shadow: none;
   box-shadow: none;
+  border-radius: 0;
 }
 
 body.front .list-articles.home2 .gla-item img {
-  border-radius: 0 !important;
+  border-radius: 0;
+  width: 42%;
 }
 
 body.front .list-articles.home2 .gla-item .gla-item-desc {
@@ -26369,8 +26376,13 @@ body.front .list-articles.home2 .gla-item > a {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 body.front .list-articles.home2 .gla-item .gla-item-content {
   min-height: 0;
+  padding-left: 2.5rem;
+  border-radius: 0;
 }
