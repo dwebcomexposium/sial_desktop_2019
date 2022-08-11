@@ -26379,6 +26379,11 @@ body.front .list-articles.home2 .gla-item > a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  border-radius: 0;
+}
+
+body.front .list-articles.home2 .gla-item > a:hover img {
+  transform: none;
 }
 
 body.front .list-articles.home2 .gla-item .gla-item-content {
