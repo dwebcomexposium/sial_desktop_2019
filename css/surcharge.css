@@ -26345,3 +26345,32 @@ cloudflare-app {
 .content794959 .pl-item {
   border-top: none !important;
 }
+
+body.front .list-articles.home2 .gla-item {
+  width: calc(100% * 1/2 - 1em - 0.01px);
+  box-shadow: none;
+}
+
+body.front .list-articles.home2 .gla-item img {
+  border-radius: 0 !important;
+}
+
+body.front .list-articles.home2 .gla-item .gla-item-desc {
+  margin-bottom: 1rem;
+}
+
+body.front .list-articles.home2 .gla-item .gla-item-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+body.front .list-articles.home2 .gla-item > a {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+body.front .list-articles.home2 .gla-item .gla-item-content {
+  min-height: 0;
+}
