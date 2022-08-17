@@ -26337,11 +26337,13 @@ cloudflare-app {
   pointer-events: none;
 }
 
+.partner h2,
 .content794959 h2 {
   color: #000 !important;
   font-size: 3.2rem !important;
 }
 
+.partner .pl-item,
 .content794959 .pl-item {
   border-top: none !important;
 }
