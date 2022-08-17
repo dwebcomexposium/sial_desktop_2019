@@ -3768,7 +3768,7 @@ body.article-program .article-wrapper .article-content {
   position: relative;
 }
 
-body.article-program .article-wrapper .article-content::before {
+/* body.article-program .article-wrapper .article-content::before {
   content: '';
   position: absolute;
   z-index: -1;
@@ -3788,7 +3788,7 @@ body.article-program .article-wrapper .article-content::before {
     height: 10rem;
     width: 125rem;
   }
-}
+} */
 
 body.article-program .article-wrapper .article-content iframe {
   display: block;
