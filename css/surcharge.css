@@ -2221,6 +2221,7 @@ body.node1310382 .blockquote, body.node1310382 .article-content blockquote:not(.
   top: 2rem;
   left: 2rem;
   font-size: 6rem;
+  z-index: -1;
 }
 
 @media screen and (min-width: 480px) {
