@@ -3493,8 +3493,8 @@ body.detail-actu .article-navigation .an-item-content {
   padding: 19.7rem 1.5rem 4.3rem;
   text-align: left;
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
 }
 
@@ -9394,8 +9394,8 @@ body.pourquoi-exposer .block.edito .inside > img {
     width: 42.6rem;
     height: 65.6rem;
     opacity: 0.5;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.55)));
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.55)));
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.55) 100%);
   }
 }
@@ -9896,8 +9896,8 @@ body.pourquoi-exposer #zone2 > h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.54)));
   background: -o-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.54)));
   background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
 }
 
@@ -10671,15 +10671,15 @@ body.pourquoi-exposer #zone2 > h2 {
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: -webkit-gradient(linear, right top, left top, from(rgba(36, 34, 29, 0)), color-stop(12.23%, rgba(36, 34, 29, 0.01)), to(rgba(35, 31, 27, 0.74)));
   background: -o-linear-gradient(right, rgba(36, 34, 29, 0) 0%, rgba(36, 34, 29, 0.01) 12.23%, rgba(35, 31, 27, 0.74) 100%);
+  background: -webkit-gradient(linear, right top, left top, from(rgba(36, 34, 29, 0)), color-stop(12.23%, rgba(36, 34, 29, 0.01)), to(rgba(35, 31, 27, 0.74)));
   background: linear-gradient(270deg, rgba(36, 34, 29, 0) 0%, rgba(36, 34, 29, 0.01) 12.23%, rgba(35, 31, 27, 0.74) 100%);
   pointer-events: none;
 }
 
 .front .tiles-list__item::before {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
 }
 
@@ -10925,8 +10925,8 @@ body.pourquoi-exposer #zone2 > h2 {
   left: 0;
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
 }
 
@@ -17912,8 +17912,8 @@ body.product-details .mod-catal.catal-other-prd .home-news .catal-other-prd-link
   top: 0;
   color: #fff;
   padding: 28.85246% 6.55738% 7.54098%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
 }
 
@@ -18497,6 +18497,14 @@ body.node1316971 .block.article-title .error-page h2,
   color: #fff;
 }
 
+.home-search-dark.home-search .gsf-input :-moz-placeholder-shown {
+  color: #fff;
+}
+
+.home-search-dark.home-search .gsf-input :-ms-input-placeholder {
+  color: #fff;
+}
+
 .home-search-dark.home-search .gsf-input ::placeholder,
 .home-search-dark.home-search .gsf-input :placeholder-shown {
   color: #fff;
@@ -18711,8 +18719,8 @@ body.page-rubric #zone2 > .home-sectors .quicklinks .ql-item {
   right: 0;
   bottom: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
 }
 
@@ -24674,8 +24682,8 @@ body.product-details .mod-catal.catal-other-prd .list-articles.block.block-page.
   -ms-flex-pack: end;
   justify-content: flex-end;
   color: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: -o-linear-gradient(top, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 34, 29, 0)), to(rgba(35, 31, 27, 0.66)));
   background: linear-gradient(180deg, rgba(36, 34, 29, 0) 0%, rgba(35, 31, 27, 0.66) 100%);
 }
 
@@ -26318,13 +26326,21 @@ cloudflare-app {
   bottom: 25px;
   right: 25px;
   z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 100%;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -26387,7 +26403,9 @@ body.front .list-articles.home2 .gla-item > a {
 }
 
 body.front .list-articles.home2 .gla-item > a:hover img {
-  transform: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
 }
 
 body.front .list-articles.home2 .gla-item .gla-item-content {
