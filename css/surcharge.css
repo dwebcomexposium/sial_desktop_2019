@@ -26443,3 +26443,15 @@ body.event .catal-ed-products .catal-edp-desc {
 body.event .social-sharing {
   display: none !important;
 }
+
+body.event .ac-add-to-calendar .ac-list{
+  background-color: white !important;
+}
+
+body.event .ac-add-to-calendar .ac-list a{
+  color: #292b2f !important;
+}
+
+body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
+  color: white !important;
+}
