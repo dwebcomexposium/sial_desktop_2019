@@ -26413,3 +26413,21 @@ body.front .list-articles.home2 .gla-item .gla-item-content {
   padding-left: 2.5rem;
   border-radius: 0;
 }
+
+body.event .catal-ed-group {
+  display: flex;
+  flex-direction: column;
+}
+
+body.event .catal-ed-agents-title::before {
+ border-color: #f85c29;
+}
+
+body.event .ac-js-switcher-remote {
+  background-color: #f85c29;
+  color: white;
+}
+
+body.event .ac-js-switcher-remote i {
+  color: white;
+}
