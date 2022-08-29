@@ -26458,10 +26458,20 @@ body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
   color: white !important;
 }
 
+body.event #persons .catal-edp-desc {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 body.event #persons p {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+body.event #persons .persons-event:before {
+  top: 0 !important;
 }
 
 body.event #persons p br,
