@@ -26424,10 +26424,22 @@ body.event .catal-ed-agents-title::before {
 }
 
 body.event .ac-js-switcher-remote {
-  background-color: #f85c29;
-  color: white;
+  background-color: #f85c29 !important;
+  color: white !important;
 }
 
 body.event .ac-js-switcher-remote i {
-  color: white;
+  color: white !important;
+}
+
+body.event .js-mySelection {
+  display: none !important;
+}
+
+body.event .catal-ed-products .catal-edp-desc {
+  width: 100% !important;
+}
+
+body.event .social-sharing {
+  display: none !important;
 }
