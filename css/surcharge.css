@@ -26446,6 +26446,8 @@ body.event .social-sharing {
 
 body.event .ac-add-to-calendar .ac-list{
   background-color: white !important;
+  border: 2px solid #F3F6FB;
+  border-radius: 5px;
 }
 
 body.event .ac-add-to-calendar .ac-list a{
