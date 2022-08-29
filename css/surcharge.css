@@ -26457,3 +26457,14 @@ body.event .ac-add-to-calendar .ac-list a{
 body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
   color: white !important;
 }
+
+body.event #persons p {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+body.event #persons p br,
+body.event #persons p br:after {
+  content: ''
+}
