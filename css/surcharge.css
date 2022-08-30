@@ -26498,3 +26498,7 @@ body.event #downloads .event-ed-pr-item{
   border: none !important;
   margin-left: 0 !important;
 }
+
+body.event #downloads .btn-primary-event{
+  background-color: #f85c29 !important;
+}
