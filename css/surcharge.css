@@ -26478,3 +26478,17 @@ body.event #persons p br,
 body.event #persons p br:after {
   content: ''
 }
+
+body.event #complement.catal-ed-products li:nth-of-type(2) {
+  display:none;
+}
+
+body.event #downloads {
+  border-color: #f85c29 !important;
+}
+
+body.event #downloads .event-ed-pr-item{
+  padding: 0 !important;
+  border: none !important;
+  margin-left: 0 !important;
+}
