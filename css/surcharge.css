@@ -26459,24 +26459,24 @@ body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
 }
 
 /* jhbdsqd */
-body.event .catal-edp-list .catal-edp-desc {
+body.event *:not(#complement) .catal-edp-list .catal-edp-desc {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-body.event .catal-edp-list p {
+body.event *:not(#complement) .catal-edp-list p {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-body.event .catal-edp-list .persons-event:before {
+body.event *:not(#complement) .catal-edp-list .persons-event:before {
   top: 0 !important;
 }
 
-body.event .catal-edp-list p br,
-body.event .catal-edp-list p br:after {
+body.event *:not(#complement) .catal-edp-list p br,
+body.event *:not(#complement) .catal-edp-list p br:after {
   content: ''
 }
 /* jhbdsqd */
