@@ -26458,33 +26458,35 @@ body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
   color: white !important;
 }
 
-body.event #persons .catal-edp-desc {
+/* jhbdsqd */
+body.event .catal-edp-list .catal-edp-desc {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-body.event #persons p {
+body.event .catal-edp-list p {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-body.event #persons .persons-event:before {
+body.event .catal-edp-list .persons-event:before {
   top: 0 !important;
 }
 
-body.event #persons p br,
-body.event #persons p br:after {
+body.event .catal-edp-list p br,
+body.event .catal-edp-list p br:after {
   content: ''
 }
+/* jhbdsqd */
 
 body.event #complement.catal-ed-products li:nth-of-type(2) {
   display:none;
 }
 
 body.event #downloads {
-  border-color: #f85c29 !important;
+  border-top-color: #f85c29 !important;
 }
 
 body.event #downloads .event-ed-pr-item{
