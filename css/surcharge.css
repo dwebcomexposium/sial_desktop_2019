@@ -26459,25 +26459,29 @@ body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
 }
 
 /* jhbdsqd */
-body.event .js-active-group:not(#complement) .catal-edp-list .catal-edp-desc {
+body.event .catal-edp-list .catal-edp-desc {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-body.event .js-active-group:not(#complement) .catal-edp-list p {
+body.event .catal-edp-list p {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-body.event .js-active-group:not(#complement) .catal-edp-list .persons-event:before {
+body.event .catal-edp-list .persons-event:before {
   top: 0 !important;
 }
 
-body.event .js-active-group:not(#complement) .catal-edp-list p br,
-body.event .js-active-group:not(#complement) .catal-edp-list p br:after {
+body.event .catal-edp-list p br,
+body.event .catal-edp-list p br:after {
   content: ''
+}
+
+body.event #complement .catal-edp-desc {
+  display: block;
 }
 /* jhbdsqd */
 
