@@ -26458,7 +26458,6 @@ body.event .ac-add-to-calendar .ac-list .ac-item a:hover {
   color: white !important;
 }
 
-/* jhbdsqd */
 body.event .catal-edp-list .catal-edp-desc {
   display: flex;
   align-items: center;
@@ -26483,7 +26482,6 @@ body.event .catal-edp-list p br:after {
 body.event #complement .catal-edp-desc {
   display: block;
 }
-/* jhbdsqd */
 
 body.event #complement.catal-ed-products li:nth-of-type(2) {
   display:none;
@@ -26501,4 +26499,5 @@ body.event #downloads .event-ed-pr-item{
 
 body.event #downloads .btn-primary-event{
   background-color: #f85c29 !important;
+  border-color: #f85c29!important;
 }
