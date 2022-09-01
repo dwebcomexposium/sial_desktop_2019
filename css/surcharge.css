@@ -26513,3 +26513,8 @@ body.event .catal-ex-details > .catal-ed-products#complement li {
 body.event .catal-ex-details > .catal-ed-products#complement li:last-of-type {
   border: none !important;
 }
+
+body.event #downloads,
+body.event #downloads .event-ed-group-title {
+  border-bottom: none !important;
+}
