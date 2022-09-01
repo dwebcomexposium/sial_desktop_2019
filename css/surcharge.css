@@ -26501,3 +26501,7 @@ body.event #downloads .btn-primary-event{
   background-color: #f85c29 !important;
   border-color: #f85c29!important;
 }
+
+body.event .catal-ex-details > .catal-ed-products li {
+  border: 0 !important;
+}
