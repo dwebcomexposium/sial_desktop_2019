@@ -26505,3 +26505,11 @@ body.event #downloads .btn-primary-event{
 body.event .catal-ex-details > .catal-ed-products li {
   border: 0 !important;
 }
+
+body.event .catal-ex-details > .catal-ed-products#complement li {
+  border-bottom: 0.1rem solid #e3e9ea !important;
+}
+
+body.event .catal-ex-details > .catal-ed-products#complement li:last-of-type {
+  border: none !important;
+}
