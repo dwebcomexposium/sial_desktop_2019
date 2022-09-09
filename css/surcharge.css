@@ -26520,7 +26520,7 @@ body.event #downloads .event-ed-group-title {
 }
 
 .sial-innovation .prix-inno {
-  width: 100%;
+  width: 100% !important;
 }
 
 .sial-innovation .prix-inno::before {
