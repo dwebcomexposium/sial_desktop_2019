@@ -26518,4 +26518,12 @@ body.event #downloads,
 body.event #downloads .event-ed-group-title {
   border-bottom: none !important;
 }
- 
+
+.sial-innovation .prix-inno {
+  width: 100%;
+}
+
+.sial-innovation .prix-inno::before {
+  right: 50% !important;
+  transform: translateX(50%) !important;
+}
