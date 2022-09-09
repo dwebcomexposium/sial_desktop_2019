@@ -26523,6 +26523,10 @@ body.event #downloads .event-ed-group-title {
   width: 100% !important;
 }
 
+.sial-innovation .prix-inno .grid-la-list {
+  max-width: 106rem !important;
+}
+
 .sial-innovation .prix-inno::before {
   right: 50% !important;
   transform: translateX(50%) !important;
