@@ -3103,6 +3103,7 @@ ins[data-revive-id] {
   display: block;
   margin: 3rem auto;
   text-align: center;
+  transform: translateX(50px);
 }
 
 body.article .article-wrapper .article-content h2 {
