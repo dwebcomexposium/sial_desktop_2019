@@ -120,3 +120,6 @@ body.node1316899 .article-content>p:nth-of-type(3) {
  }
 body.page-rubric #zone4>.block.article-title>.inside .at-content {
     margin-right: 2rem;}
+.jury td {
+    max-width: none;
+}
