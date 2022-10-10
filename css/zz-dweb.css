@@ -129,8 +129,8 @@ body.page-rubric #zone4>.block.article-title>.inside .at-content {
 }
 
 .site-logo__img {
-    background: url(/theme/sial_2019_desktop_git/img/patronage-FR.png) center center/contain no-repeat;
+    background: url(/theme/sial_2019_desktop_git/img/patronage-FR.jpg) center center/contain no-repeat;
 }
 .site-logo__img:lang(en){
-    background: url(/theme/sial_2019_desktop_git/img/patronage-UK.png) center center/contain no-repeat;
+    background: url(/theme/sial_2019_desktop_git/img/patronage-UK.jpg) center center/contain no-repeat;
 }
