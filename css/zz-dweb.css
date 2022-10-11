@@ -134,3 +134,6 @@ body.page-rubric #zone4>.block.article-title>.inside .at-content {
 .site-logo__img:lang(en){
     background: url(/theme/sial_2019_desktop_git/img/patronage-UK.jpg) center center/contain no-repeat;
 }
+.topic_sial_talks img {
+    max-width: initial;
+}
