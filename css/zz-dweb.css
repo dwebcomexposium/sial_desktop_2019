@@ -137,3 +137,9 @@ body.page-rubric #zone4>.block.article-title>.inside .at-content {
 .topic_sial_talks img {
     max-width: initial;
 }
+.home-quicklinks {
+    max-width: 70rem;
+}
+.home-quicklinks .ql-item{
+    width: 47.72727%;
+}
